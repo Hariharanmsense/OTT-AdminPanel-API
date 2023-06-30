@@ -1,0 +1,93 @@
+[2023-06-21 05:01:32] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 05:01:32] ChannelRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687321654,"exp":1687408054}}  
+[2023-06-21 05:01:32] ChannelRepository.ERROR: Error Code : 401Error Message : Channel Name required  
+[2023-06-21 05:01:32] ChannelRepository.ERROR: Error File : /var/www/projects/ottproduct/api/v1/src/Domain/Repository/Channel/ChannelRepository.phpError Line : 160  
+[2023-06-21 05:01:32] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 06:05:33] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 06:05:33] ChannelRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687321654,"exp":1687408054}}  
+[2023-06-21 06:05:33] ChannelRepository.ERROR: Error Code : 401Error Message : Channel Name required  
+[2023-06-21 06:05:33] ChannelRepository.ERROR: Error File : /var/www/projects/ottproduct/api/v1/src/Domain/Repository/Channel/ChannelRepository.phpError Line : 160  
+[2023-06-21 06:05:33] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 06:07:14] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 06:07:14] ChannelRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687321654,"exp":1687408054}}  
+[2023-06-21 06:07:14] ChannelRepository.ERROR: Error Code : 101Error Message : Channel Name required  
+[2023-06-21 06:07:14] ChannelRepository.ERROR: Error File : /var/www/projects/ottproduct/api/v1/src/Domain/Repository/Channel/ChannelRepository.phpError Line : 160  
+[2023-06-21 06:07:14] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 06:11:16] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 06:11:16] ChannelRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687321654,"exp":1687408054}}  
+[2023-06-21 06:11:16] ChannelRepository.ERROR: Error Code : 101Error Message : Channel Name required  
+[2023-06-21 06:11:16] ChannelRepository.ERROR: Error File : /var/www/projects/ottproduct/api/v1/src/Domain/Repository/Channel/ChannelRepository.phpError Line : 160  
+[2023-06-21 06:11:16] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 06:56:39] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 06:56:39] ChannelRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687321654,"exp":1687408054}}  
+[2023-06-21 06:56:39] ChannelRepository.ERROR: Error Code : 101Error Message : Channel Name required  
+[2023-06-21 06:56:39] ChannelRepository.ERROR: Error File : /var/www/projects/ottproduct/api/v1/src/Domain/Repository/Channel/ChannelRepository.phpError Line : 160  
+[2023-06-21 06:56:39] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 08:41:23] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 08:41:23] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 08:41:26] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 08:41:26] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 08:41:29] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 08:41:29] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 08:41:32] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 08:41:32] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 08:41:35] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 08:41:35] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 08:41:38] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 08:41:38] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 08:41:42] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 08:41:42] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 08:41:45] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 08:41:45] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 08:41:46] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 08:41:46] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 08:41:48] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 08:41:48] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 08:41:49] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 08:41:49] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 08:41:50] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 08:41:50] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 08:41:51] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 08:41:51] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 08:41:52] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 08:41:52] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 08:41:53] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 08:41:53] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 08:41:54] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 08:41:54] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 08:41:55] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 08:41:55] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 08:41:55] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 08:41:55] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 08:41:56] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 08:41:56] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 08:41:58] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 08:41:58] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 08:42:02] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 08:42:02] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 08:43:13] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 08:43:13] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 08:43:16] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 08:43:16] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 08:52:59] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 08:52:59] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 09:00:19] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 09:00:19] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 09:00:23] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 09:00:23] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 09:00:27] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 09:00:27] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 09:01:31] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 09:01:31] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 09:13:44] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 09:13:44] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 09:13:47] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 09:13:47] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 09:16:46] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 09:16:46] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 09:16:50] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 09:16:50] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 09:17:04] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 09:17:04] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-21 09:20:19] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 09:20:19] ChannelRepository.INFO: ======= End Channel Repository ================  

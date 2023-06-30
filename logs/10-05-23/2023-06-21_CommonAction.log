@@ -1,0 +1,5 @@
+[2023-06-21 04:59:37] CommonAction.INFO: ======= Start Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:59:37] CommonAction.INFO: method : GET  
+[2023-06-21 04:59:37] CommonAction.INFO: contentType : application/json  
+[2023-06-21 04:59:37] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687321654,"exp":1687408054}}  
+[2023-06-21 04:59:37] CommonAction.INFO: ======= END Common Action (getAllSideBarMenu) ================  

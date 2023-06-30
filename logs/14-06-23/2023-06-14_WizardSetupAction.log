@@ -1,0 +1,49 @@
+[2023-06-14 09:14:11] WizardSetupAction.INFO: ======= Start WizardSetup Action (Add Features to hotel) ================  
+[2023-06-14 09:14:11] WizardSetupAction.INFO: method : POST  
+[2023-06-14 09:14:11] WizardSetupAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"1","brandId":null,"iat":1686658819,"exp":1686745219}}  
+[2023-06-14 09:14:11] WizardSetupAction.INFO: ======= END WizardSetup Action (Add Features to hotel) ================  
+[2023-06-14 09:31:14] WizardSetupAction.INFO: ======= Start WizardSetup Action (Add Features to hotel) ================  
+[2023-06-14 09:31:14] WizardSetupAction.INFO: method : POST  
+[2023-06-14 09:31:14] WizardSetupAction.INFO: Input Data : {"menutitle":["Home","Internet"],"menulink":["menu.html","tes.html"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"1","brandId":null,"iat":1686658819,"exp":1686745219}}  
+[2023-06-14 09:31:14] WizardSetupAction.INFO: ======= END WizardSetup Action (Add Features to hotel) ================  
+[2023-06-14 09:32:58] WizardSetupAction.INFO: ======= Start WizardSetup Action (Add Features to hotel) ================  
+[2023-06-14 09:32:58] WizardSetupAction.INFO: method : POST  
+[2023-06-14 09:32:58] WizardSetupAction.INFO: Input Data : {"menutitle":["Home","Internet"],"menulink":["menu.html","tes.html"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"1","brandId":null,"iat":1686658819,"exp":1686745219}}  
+[2023-06-14 09:32:58] WizardSetupAction.INFO: ======= END WizardSetup Action (Add Features to hotel) ================  
+[2023-06-14 09:35:07] WizardSetupAction.INFO: ======= Start WizardSetup Action (Add Features to hotel) ================  
+[2023-06-14 09:35:07] WizardSetupAction.INFO: method : POST  
+[2023-06-14 09:35:07] WizardSetupAction.INFO: Input Data : {"menutitle":["Home","Internet"],"menulink":["menu.html","tes.html"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"1","brandId":null,"iat":1686658819,"exp":1686745219}}  
+[2023-06-14 09:35:07] WizardSetupAction.INFO: ======= END WizardSetup Action (Add Features to hotel) ================  
+[2023-06-14 09:35:11] WizardSetupAction.INFO: ======= Start WizardSetup Action (Add Features to hotel) ================  
+[2023-06-14 09:35:11] WizardSetupAction.INFO: method : POST  
+[2023-06-14 09:35:11] WizardSetupAction.INFO: Input Data : {"menutitle":["Home","Internet"],"menulink":["menu.html","tes.html"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"1","brandId":null,"iat":1686658819,"exp":1686745219}}  
+[2023-06-14 09:35:11] WizardSetupAction.INFO: ======= END WizardSetup Action (Add Features to hotel) ================  
+[2023-06-14 09:45:10] WizardSetupAction.INFO: ======= Start WizardSetup Action (Add Features to hotel) ================  
+[2023-06-14 09:45:10] WizardSetupAction.INFO: method : POST  
+[2023-06-14 09:45:10] WizardSetupAction.INFO: Input Data : {"menutitle":["Home Test1","Internet test1"],"menulink":["menu1.html","test1.html"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"1","brandId":null,"iat":1686658819,"exp":1686745219}}  
+[2023-06-14 09:45:10] WizardSetupAction.INFO: ======= END WizardSetup Action (Add Features to hotel) ================  
+[2023-06-14 10:23:38] WizardSetupAction.INFO: ======= Start WizardSetup Action (Add Features to hotel) ================  
+[2023-06-14 10:23:38] WizardSetupAction.INFO: method : POST  
+[2023-06-14 10:23:38] WizardSetupAction.INFO: Input Data : {"menutitle":["Home","Internet"],"menulink":["menu.html","tes.html"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"1","brandId":null,"iat":1686658819,"exp":1686745219}}  
+[2023-06-14 10:24:57] WizardSetupAction.INFO: ======= Start WizardSetup Action (Add Features to hotel) ================  
+[2023-06-14 10:24:57] WizardSetupAction.INFO: method : POST  
+[2023-06-14 10:24:57] WizardSetupAction.INFO: Input Data : {"menutitle":["Home","Internet"],"menulink":["menu.html","tes.html"],"hotelid":"4","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"1","brandId":null,"iat":1686658819,"exp":1686745219}}  
+[2023-06-14 10:25:31] WizardSetupAction.INFO: ======= Start WizardSetup Action (Add Features to hotel) ================  
+[2023-06-14 10:25:31] WizardSetupAction.INFO: method : POST  
+[2023-06-14 10:25:31] WizardSetupAction.INFO: Input Data : {"menutitle":["Home","Internet"],"menulink":["menu.html","tes.html"],"hotelid":"4","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"1","brandId":null,"iat":1686658819,"exp":1686745219}}  
+[2023-06-14 10:25:31] WizardSetupAction.INFO: ======= END WizardSetup Action (Add Features to hotel) ================  
+[2023-06-14 10:37:11] WizardSetupAction.INFO: ======= Start WizardSetup Action (Add Features to hotel) ================  
+[2023-06-14 10:37:11] WizardSetupAction.INFO: method : POST  
+[2023-06-14 10:37:11] WizardSetupAction.INFO: Input Data : {"menutitle":["Home","Internet"],"menulink":["menu.html","tes.html"],"hotelid":"4","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"1","brandId":null,"iat":1686658819,"exp":1686745219}}  
+[2023-06-14 10:37:11] WizardSetupAction.INFO: ======= END WizardSetup Action (Add Features to hotel) ================  
+[2023-06-14 11:07:29] WizardSetupAction.INFO: ======= Start WizardSetup Action (Add Features to hotel) ================  
+[2023-06-14 11:07:29] WizardSetupAction.INFO: method : POST  
+[2023-06-14 11:07:29] WizardSetupAction.INFO: Input Data : {"menutitle":["Home","Internet"],"menulink":["menu.html","tes.html"],"hotelid":"4","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"1","brandId":null,"iat":1686658819,"exp":1686745219}}  
+[2023-06-14 11:07:29] WizardSetupAction.INFO: ======= END WizardSetup Action (Add Features to hotel) ================  
+[2023-06-14 12:25:14] WizardSetupAction.INFO: ======= Start WizardSetup Action (Add Features to hotel) ================  
+[2023-06-14 12:25:14] WizardSetupAction.INFO: method : POST  
+[2023-06-14 12:25:14] WizardSetupAction.INFO: Input Data : {"menutitle":["Home","Internet"],"menulink":["menu.html","tes.html"],"hotelid":"4","tempid":"1","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"1","brandId":null,"iat":1686745501,"exp":1686831901}}  
+[2023-06-14 12:25:59] WizardSetupAction.INFO: ======= Start WizardSetup Action (Add Features to hotel) ================  
+[2023-06-14 12:25:59] WizardSetupAction.INFO: method : POST  
+[2023-06-14 12:25:59] WizardSetupAction.INFO: Input Data : {"menutitle":["Home","Internet"],"menulink":["menu.html","tes.html"],"hotelid":"4","tempid":"1","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"1","brandId":null,"iat":1686745501,"exp":1686831901}}  
+[2023-06-14 12:25:59] WizardSetupAction.INFO: ======= END WizardSetup Action (Add Features to hotel) ================  

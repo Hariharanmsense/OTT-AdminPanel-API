@@ -1,0 +1,68 @@
+[2023-06-12 04:32:57] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-12 04:32:57] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'TIMEZONEALL')  
+[2023-06-12 04:32:57] CommonModel.INFO: get All Assign Menu (count) : 1796  
+[2023-06-12 04:32:57] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-12 04:33:06] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-12 04:33:06] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'TIMEZONEALL')  
+[2023-06-12 04:33:06] CommonModel.INFO: get All Assign Menu (count) : 1796  
+[2023-06-12 04:33:06] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-12 04:52:05] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-12 04:52:05] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'TIMEZONEALL')  
+[2023-06-12 04:52:05] CommonModel.INFO: get All Assign Menu (count) : 1796  
+[2023-06-12 04:52:05] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-12 04:56:15] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-12 04:56:15] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'TIMEZONEALL')  
+[2023-06-12 04:56:15] CommonModel.INFO: get All Assign Menu (count) : 1796  
+[2023-06-12 04:56:15] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-12 04:57:30] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-12 04:57:30] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'TIMEZONEALL')  
+[2023-06-12 04:57:30] CommonModel.INFO: get All Assign Menu (count) : 1796  
+[2023-06-12 04:57:30] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-12 04:58:17] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-12 04:58:17] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'TIMEZONEALL')  
+[2023-06-12 04:58:17] CommonModel.INFO: get All Assign Menu (count) : 1796  
+[2023-06-12 04:58:17] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-12 05:20:57] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-12 05:20:57] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'TIMEZONEALL')  
+[2023-06-12 05:20:57] CommonModel.INFO: get All Assign Menu (count) : 1796  
+[2023-06-12 05:20:57] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-12 05:22:09] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-12 05:22:09] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'TIMEZONEALL')  
+[2023-06-12 05:22:09] CommonModel.INFO: get All Assign Menu (count) : 1796  
+[2023-06-12 05:22:09] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-12 05:22:24] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-12 05:22:24] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'TIMEZONEALL')  
+[2023-06-12 05:22:24] CommonModel.INFO: get All Assign Menu (count) : 1796  
+[2023-06-12 05:22:24] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-12 05:30:06] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-12 05:30:06] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'TIMEZONEALL')  
+[2023-06-12 05:30:06] CommonModel.INFO: get All Assign Menu (count) : 1796  
+[2023-06-12 05:30:06] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-12 06:00:45] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-12 06:00:45] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'TIMEZONEALL')  
+[2023-06-12 06:00:45] CommonModel.INFO: get All Assign Menu (count) : 1796  
+[2023-06-12 06:00:45] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-12 06:25:59] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-12 06:25:59] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'TIMEZONEALL')  
+[2023-06-12 06:25:59] CommonModel.INFO: get All Assign Menu (count) : 1796  
+[2023-06-12 06:25:59] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-12 06:26:01] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-12 06:26:01] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'TIMEZONEALL')  
+[2023-06-12 06:26:01] CommonModel.INFO: get All Assign Menu (count) : 1796  
+[2023-06-12 06:26:01] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-12 07:12:28] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-12 07:12:28] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'TIMEZONEALL')  
+[2023-06-12 07:12:28] CommonModel.INFO: get All Assign Menu (count) : 1796  
+[2023-06-12 07:12:28] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-12 07:12:47] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-12 07:12:47] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'TIMEZONEALL')  
+[2023-06-12 07:12:47] CommonModel.INFO: get All Assign Menu (count) : 1796  
+[2023-06-12 07:12:47] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-12 09:25:26] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-12 09:25:26] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'TIMEZONEALL')  
+[2023-06-12 09:25:26] CommonModel.INFO: get All Assign Menu (count) : 1796  
+[2023-06-12 09:25:26] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-12 10:53:16] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-12 10:53:16] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'TIMEZONEALL')  
+[2023-06-12 10:53:16] CommonModel.INFO: get All Assign Menu (count) : 1796  
+[2023-06-12 10:53:16] CommonRepository.INFO: ======= End Common Repository ================  

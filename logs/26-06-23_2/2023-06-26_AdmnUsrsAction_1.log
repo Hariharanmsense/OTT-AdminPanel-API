@@ -1,0 +1,21 @@
+[2023-06-26 05:16:59] AdmnUsrsRepository.INFO: ======= Start AdmnUsrs Repository ================  
+[2023-06-26 05:16:59] AdmnUsrsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687756602,"exp":1687843002}}  
+[2023-06-26 05:16:59] AdmnUsrModel.INFO: Query : CALL SP_AdmnUsrConfig('0', '0', 0, '', '', '', 0, 0, '','','', '', 
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-26 05:16:59] AdmnUsrModel.INFO: Admin User List Avaliable User list count : 10  
+[2023-06-26 05:16:59] AdmnUsrsRepository.INFO: ======= End AdmnUsrs Repository ================  
+[2023-06-26 05:17:23] AdmnUsrsRepository.INFO: ======= Start AdmnUsrs Repository ================  
+[2023-06-26 05:17:23] AdmnUsrsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687756602,"exp":1687843002}}  
+[2023-06-26 05:17:23] AdmnUsrModel.INFO: Query : CALL SP_AdmnUsrConfig('0', '0', 0, '', '', '', 0, 0, '','','', '', 
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-26 05:17:23] AdmnUsrModel.INFO: Admin User List Avaliable User list count : 10  
+[2023-06-26 05:17:23] AdmnUsrsRepository.INFO: ======= End AdmnUsrs Repository ================  
+[2023-06-26 05:24:34] AdmnUsrsRepository.INFO: ======= Start AdmnUsrs Repository ================  
+[2023-06-26 05:24:34] AdmnUsrsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687756602,"exp":1687843002}}  
+[2023-06-26 05:24:34] AdmnUsrModel.INFO: Query : CALL SP_AdmnUsrConfig('0', '0', 0, '', '', '', 0, 0, '','','', '', 
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-26 05:24:34] AdmnUsrModel.INFO: Admin User List Avaliable User list count : 10  
+[2023-06-26 05:24:34] AdmnUsrsRepository.INFO: ======= End AdmnUsrs Repository ================  

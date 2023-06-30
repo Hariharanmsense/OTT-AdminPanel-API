@@ -1,0 +1,8 @@
+{
+    "HomePageDetails": {
+        "logo": "public/uploads/Template/4/3/Logo.jpg",
+        "bg_img": "public/uploads/Template/4/3/Background.jpg",
+        "welcome": "",
+        "welcome_txt": "Test"
+    }
+}

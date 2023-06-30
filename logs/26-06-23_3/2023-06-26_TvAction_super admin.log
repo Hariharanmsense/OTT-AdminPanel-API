@@ -1,0 +1,864 @@
+[2023-06-26 09:36:15] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 09:36:15] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 09:36:15] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 09:36:15] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 09:36:15] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 09:36:15] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 09:36:15] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 09:36:15] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 09:36:15] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 09:36:15] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 09:36:15] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 09:36:15] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 09:41:11] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 09:41:11] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 09:41:11] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 09:41:11] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 09:41:11] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 09:41:11] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 09:41:11] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 09:41:11] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 09:41:11] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 09:41:11] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 09:41:11] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 09:41:11] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 09:47:15] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 09:47:15] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 09:47:15] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 09:47:15] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 09:47:15] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 09:47:15] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 09:47:15] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 09:47:15] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 09:47:15] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 09:47:15] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 09:47:15] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 09:47:15] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 09:56:52] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 09:56:52] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 09:56:52] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 09:56:52] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 09:56:52] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 09:56:52] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 09:56:52] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 09:56:52] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 09:56:52] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 09:56:52] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 09:56:52] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 09:56:52] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 09:57:29] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 09:57:29] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 09:57:29] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 09:57:29] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 09:57:29] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 09:57:29] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 09:57:29] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 09:57:29] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 09:57:29] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 09:57:29] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 09:57:29] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 09:57:29] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 09:57:31] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 09:57:31] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 09:57:31] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 09:57:31] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 09:57:31] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 09:57:31] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 09:57:31] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 09:57:31] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 09:57:31] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 09:57:31] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 09:57:31] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 09:57:31] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 10:01:32] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 10:01:32] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 10:01:32] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 10:01:32] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 10:01:32] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 10:01:32] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 10:01:32] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 10:01:32] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 10:01:32] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 10:01:32] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 10:01:32] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 10:01:32] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 10:06:12] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 10:06:12] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 10:06:12] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 10:06:12] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 10:06:12] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 10:06:12] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 10:06:12] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 10:06:12] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 10:06:12] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 10:06:12] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 10:06:12] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 10:06:12] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 10:17:02] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 10:17:02] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 10:17:02] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 10:17:02] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 10:17:02] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 10:17:02] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 10:17:02] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 10:17:02] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 10:17:02] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 10:17:02] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 10:17:02] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 10:17:02] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 10:18:54] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 10:18:54] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 10:18:54] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 10:18:54] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 10:18:54] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 10:18:54] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 10:18:54] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 10:18:54] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 10:18:55] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 10:18:55] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 10:18:55] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 10:18:55] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 10:19:57] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 10:19:57] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 10:19:57] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 10:19:57] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 10:19:57] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 10:19:57] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 10:19:57] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 10:19:57] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 10:19:57] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 10:19:57] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 10:19:57] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 10:19:57] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 10:23:05] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 10:23:05] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 10:23:05] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 10:23:05] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 10:23:05] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 10:23:05] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 10:23:05] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 10:23:05] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 10:23:05] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 10:23:05] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 10:23:05] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 10:23:05] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 10:25:34] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 10:25:34] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 10:25:34] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 10:25:34] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 10:25:34] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 10:25:34] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 10:25:34] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 10:25:34] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 10:25:34] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 10:25:34] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 10:25:34] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 10:25:34] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 10:26:44] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 10:26:44] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 10:26:44] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 10:26:44] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 10:26:44] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 10:26:44] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 10:26:44] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 10:26:44] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 10:26:44] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 10:26:44] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 10:26:44] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 10:26:44] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 10:28:35] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 10:28:35] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 10:28:35] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 10:28:35] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 10:28:35] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 10:28:35] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 10:28:35] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 10:28:35] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 10:28:35] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 10:28:35] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 10:28:35] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 10:28:35] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 10:30:59] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 10:30:59] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 10:30:59] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 10:30:59] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 10:30:59] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 10:30:59] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 10:30:59] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 10:30:59] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 10:30:59] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 10:30:59] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 10:30:59] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 10:30:59] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 10:31:05] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 10:31:05] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 10:31:05] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 10:31:05] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 10:31:05] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 10:31:05] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 10:31:05] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 10:31:05] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 10:31:05] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 10:31:05] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 10:31:05] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 10:31:05] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 10:55:59] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 10:55:59] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 10:55:59] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 10:55:59] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 10:55:59] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 10:55:59] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 10:55:59] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 10:55:59] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 10:55:59] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 10:55:59] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 10:55:59] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 10:55:59] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 10:56:26] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 10:56:26] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 10:56:26] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 10:56:26] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 10:56:26] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 10:56:26] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 10:56:26] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 10:56:26] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 10:56:26] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 10:56:26] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 10:56:26] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 10:56:26] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 10:56:32] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 10:56:32] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 10:56:32] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 10:56:32] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 10:56:32] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 10:56:32] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 10:56:32] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 10:56:32] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 10:56:32] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 10:56:32] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 10:56:32] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 10:56:32] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 10:58:01] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 10:58:01] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 10:58:01] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 10:58:01] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 10:58:01] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 10:58:01] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 10:58:01] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 10:58:01] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 10:58:01] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 10:58:01] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 10:58:01] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 10:58:01] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 10:58:10] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 10:58:10] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 10:58:10] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 10:58:10] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 10:58:10] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 10:58:10] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 10:58:10] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 10:58:10] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 10:58:10] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 10:58:10] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 10:58:10] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 10:58:10] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 10:59:03] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 10:59:03] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 10:59:03] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 10:59:03] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 10:59:03] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 10:59:03] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 10:59:03] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 10:59:03] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 10:59:03] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 10:59:03] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 10:59:03] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 10:59:03] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 10:59:33] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 10:59:33] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 10:59:33] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 10:59:33] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 10:59:33] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 10:59:33] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 10:59:33] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 10:59:33] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 10:59:33] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 10:59:33] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 10:59:33] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 10:59:33] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:00:46] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:00:46] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:00:46] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:00:46] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:00:46] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:00:46] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:00:46] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:00:46] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:00:46] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:00:46] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:00:46] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:00:46] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:09:42] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:09:42] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:09:42] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:09:42] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:09:42] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:09:42] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:09:42] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:09:42] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:09:42] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:09:42] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:09:42] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:09:42] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:09:54] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:09:54] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:09:54] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:09:54] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:09:54] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:09:54] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:09:54] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:09:54] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:09:54] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:09:54] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:09:54] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:09:54] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:11:55] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:11:55] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:11:55] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:11:55] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:11:55] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:11:55] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:11:55] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:11:55] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:11:55] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:11:55] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:11:55] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:11:55] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:12:08] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:12:08] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:12:08] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:12:08] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:12:08] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:12:08] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:12:08] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:12:08] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:12:08] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:12:08] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:12:08] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:12:08] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:12:19] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:12:19] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:12:19] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:12:19] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:12:19] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:12:19] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:12:19] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:12:19] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:12:19] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:12:19] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:12:19] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:12:19] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:12:28] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:12:28] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:12:28] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:12:28] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:12:28] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:12:28] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:12:28] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:12:28] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:12:28] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:12:28] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:12:28] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:12:28] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:12:47] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:12:47] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:12:47] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:12:47] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:12:47] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:12:47] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:12:47] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:12:47] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:12:47] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:12:47] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:12:47] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:12:47] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:13:51] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:13:51] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:13:51] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:13:51] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:13:51] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:13:51] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:13:51] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:13:51] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:13:51] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:13:51] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:13:51] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:13:51] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:13:51] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:13:51] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:13:51] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:13:51] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:13:51] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:13:51] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:13:51] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:13:51] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:13:51] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:13:51] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:13:51] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:13:51] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:15:00] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:15:00] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:15:00] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:15:00] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:15:00] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:15:00] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:15:00] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:15:00] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:15:00] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:15:00] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:15:00] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:15:00] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:15:27] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:15:27] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:15:27] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:15:27] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:15:27] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:15:27] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:15:27] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:15:27] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:15:27] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:15:27] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:15:27] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:15:27] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:15:53] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:15:53] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:15:53] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:15:53] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:15:53] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:15:53] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:15:53] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:15:53] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:15:53] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:15:53] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:15:53] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:15:53] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:16:30] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:16:30] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:16:30] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:16:30] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:16:30] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:16:30] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:16:30] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:16:30] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:16:30] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:16:30] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:16:30] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:16:30] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:16:35] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:16:35] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:16:35] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:16:35] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:16:35] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:16:35] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:16:35] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:16:35] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:16:35] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:16:35] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:16:35] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:16:35] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:16:38] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:16:38] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:16:38] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:16:38] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:16:38] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:16:38] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:16:38] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:16:38] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:16:38] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:16:38] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:16:38] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:16:38] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:16:41] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:16:41] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:16:41] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:16:41] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:16:41] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:16:41] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:16:41] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:16:41] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:16:41] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:16:41] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:16:41] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:16:41] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:16:50] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:16:50] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:16:50] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:16:50] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:16:50] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:16:50] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:16:50] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:16:50] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:16:50] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:16:50] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:16:50] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:16:50] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:17:00] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:17:00] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:17:00] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:17:00] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:17:00] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:17:00] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:17:00] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:17:00] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:17:00] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:17:00] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:17:00] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:17:00] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:17:04] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:17:04] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:17:04] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:17:04] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:17:04] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:17:04] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:17:04] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:17:04] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:17:04] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:17:04] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:17:04] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:17:04] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:17:07] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:17:07] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:17:07] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:17:07] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:17:07] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:17:07] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:17:07] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:17:07] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:17:07] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:17:07] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:17:07] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:17:07] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:22:43] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:22:43] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:22:43] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:22:43] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:22:43] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:22:43] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:22:43] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:22:43] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:22:43] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:22:43] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:22:43] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:22:43] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:23:44] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:23:44] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:23:44] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:23:44] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:23:44] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:23:44] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:23:44] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:23:44] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:23:44] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:23:44] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:23:44] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:23:44] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:23:58] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:23:58] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:23:58] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:23:58] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:23:58] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:23:58] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:23:58] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:23:58] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:23:58] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:23:58] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:23:58] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:23:58] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:24:01] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:24:01] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:24:01] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:24:01] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:24:01] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:24:01] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:24:01] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:24:01] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:24:01] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:24:01] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:24:01] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:24:01] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:24:12] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:24:12] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:24:12] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:24:12] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:24:12] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:24:12] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:24:12] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:24:12] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:24:12] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:24:12] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:24:12] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:24:12] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:25:47] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:25:47] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:25:47] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:25:47] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:25:47] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:25:47] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:25:47] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:25:47] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:25:47] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:25:47] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:25:47] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:25:47] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:27:49] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:27:49] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:27:49] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:27:49] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:27:49] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:27:49] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:27:49] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:27:49] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:27:49] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:27:49] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:27:49] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:27:49] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:31:04] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:31:04] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:31:04] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:31:04] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:31:04] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:31:04] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:31:04] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:31:04] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:31:04] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:31:04] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:31:04] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:31:04] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:32:50] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:32:50] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:32:50] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:32:50] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:32:50] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:32:50] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:32:50] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:32:50] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:32:50] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:32:50] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:32:50] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:32:50] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:32:56] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:32:56] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:32:56] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:32:56] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:32:56] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:32:56] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:32:56] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:32:56] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:32:56] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:32:56] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:32:56] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:32:56] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:33:12] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:33:12] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:33:12] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:33:12] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:33:12] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:33:12] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:33:12] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:33:12] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:33:12] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:33:12] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:33:12] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:33:12] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:33:30] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:33:30] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:33:30] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:33:30] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:33:30] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:33:30] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:33:30] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:33:30] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:33:30] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:33:30] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:33:30] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:33:30] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:34:20] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:34:20] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:34:20] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:34:20] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:34:20] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:34:20] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:34:20] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:34:20] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:34:20] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:34:20] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:34:20] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:34:20] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:38:14] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:38:14] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:38:14] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:38:14] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:38:14] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:38:14] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:38:14] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:38:14] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:38:14] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:38:14] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:38:14] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:38:14] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:38:35] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:38:35] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:38:35] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:38:35] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:38:35] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:38:35] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:38:35] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:38:35] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:38:35] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:38:35] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:38:35] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:38:35] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:38:49] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:38:49] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:38:49] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:38:49] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:38:49] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:38:49] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:38:49] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:38:49] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:38:49] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:38:49] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:38:49] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:38:49] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:40:26] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:40:26] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:40:26] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:40:26] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:40:26] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:40:26] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:40:26] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:40:26] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:40:26] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:40:26] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:40:26] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:40:26] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:42:37] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:42:37] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:42:37] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:42:37] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:42:37] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:42:37] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:42:37] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:42:37] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:42:37] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:42:37] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:42:37] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:42:37] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:44:13] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:44:13] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:44:13] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:44:13] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:44:13] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:44:13] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:44:13] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:44:13] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:44:13] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:44:13] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:44:13] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:44:13] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:46:18] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:46:18] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:46:18] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:46:18] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:46:18] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:46:18] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:46:18] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:46:18] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:46:18] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:46:18] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:46:18] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:46:18] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:47:15] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:47:15] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:47:15] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:47:15] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:47:15] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:47:15] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:47:15] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:47:15] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:47:15] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:47:15] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:47:15] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:47:15] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:47:29] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:47:29] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:47:29] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:47:29] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:47:29] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:47:29] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:47:29] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:47:29] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:47:29] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:47:29] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:47:29] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:47:29] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:47:45] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:47:45] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:47:45] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:47:45] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:47:45] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:47:45] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:47:45] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:47:45] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:47:45] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:47:45] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:47:45] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:47:45] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:47:54] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:47:54] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:47:54] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:47:54] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:47:54] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:47:54] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:47:54] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:47:54] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:47:54] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:47:54] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:47:54] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:47:54] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:51:05] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:51:05] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:51:05] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:51:05] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:51:05] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:51:05] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:51:05] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:51:05] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:51:05] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:51:05] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:51:05] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:51:05] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:53:02] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:53:02] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:53:02] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:53:02] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:53:02] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:53:02] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:53:02] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:53:02] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:53:02] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:53:02] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:53:02] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:53:02] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:55:36] TvtempRepository.INFO: ======= Start TV Repository (Get All Feature List)================  
+[2023-06-26 11:55:36] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('FEATURE')  
+[2023-06-26 11:55:36] TvtempRepository.INFO: ======= Start TV Repository (Get All Template List)================  
+[2023-06-26 11:55:36] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('LIST')  
+[2023-06-26 11:55:36] TvtempRepository.INFO: ======= Start TV Repository (Get All ChannelFeed List) ================  
+[2023-06-26 11:55:36] TvtempModel.INFO: Query : CALL SP_TvtemplateDetails('CHNLTYPE')  
+[2023-06-26 11:55:36] TvtempModel.INFO: get All Template (count) : 6  
+[2023-06-26 11:55:36] TvtempRepository.INFO: ======= End TV Repository (Get All Template List)================  
+[2023-06-26 11:55:36] TvtempModel.INFO: get All Template (count) : 7  
+[2023-06-26 11:55:36] TvtempRepository.INFO: ======= End TV Repository (Get All Feature List)================  
+[2023-06-26 11:55:36] TvtempModel.INFO: get All Template (count) : 3  
+[2023-06-26 11:55:36] TvtempRepository.INFO: ======= End TV Repository (Get All ChannelFeed List) ================  

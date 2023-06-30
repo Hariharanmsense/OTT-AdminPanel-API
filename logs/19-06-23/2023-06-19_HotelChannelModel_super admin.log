@@ -1,0 +1,20 @@
+[2023-06-19 12:05:04] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-19 12:05:04] HotelChannelAction.INFO: method : POST  
+[2023-06-19 12:05:04] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-19 12:05:04] HotelChannelAction.INFO: Input Data : {"hotelid":"1","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687176304,"exp":1687262704}}  
+[2023-06-19 12:05:04] HotelChannelAction.INFO: ======= END HotelChannel Action (Single One) ================  
+[2023-06-19 12:05:06] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-19 12:05:06] HotelChannelAction.INFO: method : POST  
+[2023-06-19 12:05:06] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-19 12:05:06] HotelChannelAction.INFO: Input Data : {"hotelid":"1","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687176306,"exp":1687262706}}  
+[2023-06-19 12:05:06] HotelChannelAction.INFO: ======= END HotelChannel Action (Single One) ================  
+[2023-06-19 12:05:08] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-19 12:05:08] HotelChannelAction.INFO: method : POST  
+[2023-06-19 12:05:08] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-19 12:05:08] HotelChannelAction.INFO: Input Data : {"hotelid":"1","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687176308,"exp":1687262708}}  
+[2023-06-19 12:05:08] HotelChannelAction.INFO: ======= END HotelChannel Action (Single One) ================  
+[2023-06-19 12:20:03] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-19 12:20:03] HotelChannelAction.INFO: method : POST  
+[2023-06-19 12:20:03] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-19 12:20:03] HotelChannelAction.INFO: Input Data : {"hotelid":"1","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687177203,"exp":1687263603}}  
+[2023-06-19 12:20:03] HotelChannelAction.INFO: ======= END HotelChannel Action (Single One) ================  

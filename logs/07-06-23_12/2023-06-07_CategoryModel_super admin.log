@@ -1,0 +1,18 @@
+[2023-06-07 08:52:08] CategoryAction.INFO: ======= Start Category Action (Create) ================  
+[2023-06-07 08:52:08] CategoryAction.INFO: method : POST  
+[2023-06-07 08:52:08] CategoryAction.INFO: contentType : application/json  
+[2023-06-07 08:52:08] CategoryAction.INFO: Input Data : {"hotelid":1,"categoryname":"Entertainment","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 08:52:08] ChannelModel.INFO: Query : call SP_AddandEditChannelcategory('ADD',1,'Entertainment' ,0 ,1)  
+[2023-06-07 08:52:08] CategoryAction.INFO: ======= END Channel Action (Create) ================  
+[2023-06-07 08:52:16] CategoryAction.INFO: ======= Start Category Action (Create) ================  
+[2023-06-07 08:52:16] CategoryAction.INFO: method : POST  
+[2023-06-07 08:52:16] CategoryAction.INFO: contentType : application/json  
+[2023-06-07 08:52:16] CategoryAction.INFO: Input Data : {"hotelid":1,"categoryname":"Sports","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 08:52:16] ChannelModel.INFO: Query : call SP_AddandEditChannelcategory('ADD',1,'Sports' ,0 ,1)  
+[2023-06-07 08:52:16] CategoryAction.INFO: ======= END Channel Action (Create) ================  
+[2023-06-07 08:52:18] CategoryAction.INFO: ======= Start Category Action (Create) ================  
+[2023-06-07 08:52:18] CategoryAction.INFO: method : POST  
+[2023-06-07 08:52:18] CategoryAction.INFO: contentType : application/json  
+[2023-06-07 08:52:18] CategoryAction.INFO: Input Data : {"hotelid":1,"categoryname":"Sports","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 08:52:18] ChannelModel.INFO: Query : call SP_AddandEditChannelcategory('ADD',1,'Sports' ,0 ,1)  
+[2023-06-07 08:52:18] CategoryAction.INFO: ======= END Channel Action (Create) ================  

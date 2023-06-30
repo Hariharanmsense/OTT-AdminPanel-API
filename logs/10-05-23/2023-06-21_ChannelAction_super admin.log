@@ -1,0 +1,5 @@
+[2023-06-21 04:59:58] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-21 04:59:58] ChannelRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687321654,"exp":1687408054}}  
+[2023-06-21 04:59:58] ChannelRepository.ERROR: Error Code : 401Error Message : Channel Name required  
+[2023-06-21 04:59:58] ChannelRepository.ERROR: Error File : /var/www/projects/ottproduct/api/v1/src/Domain/Repository/Channel/ChannelRepository.phpError Line : 160  
+[2023-06-21 04:59:58] ChannelRepository.INFO: ======= End Channel Repository ================  

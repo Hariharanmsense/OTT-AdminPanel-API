@@ -1,0 +1,4 @@
+[2023-06-19 12:05:04] HotelChannelModel.INFO: Query : call SP_AddandEdithotelChannelInfo('GETCHANNELLIST',0,'' ,0 ,0,0,0,1,1)  
+[2023-06-19 12:05:06] HotelChannelModel.INFO: Query : call SP_AddandEdithotelChannelInfo('GETCHANNELLIST',0,'' ,0 ,0,0,0,1,1)  
+[2023-06-19 12:05:08] HotelChannelModel.INFO: Query : call SP_AddandEdithotelChannelInfo('GETCHANNELLIST',0,'' ,0 ,0,0,0,1,1)  
+[2023-06-19 12:20:03] HotelChannelModel.INFO: Query : call SP_AddandEdithotelChannelInfo('GETCHANNELLIST',0,'' ,0 ,0,0,0,1,1)  

@@ -1,0 +1,68 @@
+[2023-06-06 10:13:02] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-06 10:13:02] ChannelAction.INFO: method : POST  
+[2023-06-06 10:13:02] ChannelAction.INFO: contentType : application/json  
+[2023-06-06 10:13:02] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1686026828,"exp":1686113228}}  
+[2023-06-06 10:13:02] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-06 10:15:01] ChannelAction.INFO: ======= Start Channel Action (CREATE) ================  
+[2023-06-06 10:15:01] ChannelAction.INFO: method : POST  
+[2023-06-06 10:15:01] ChannelAction.INFO: Input Data : {"channelname":"sri","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1686026828,"exp":1686113228}}  
+[2023-06-06 10:15:01] ChannelAction.INFO: Insert Status : {"msg":"Channel Added SuccessFully","status":"Success"}  
+[2023-06-06 10:15:01] ChannelAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-06 10:15:01] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-06 10:15:01] ChannelAction.INFO: method : POST  
+[2023-06-06 10:15:01] ChannelAction.INFO: contentType : application/json  
+[2023-06-06 10:15:01] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1686026828,"exp":1686113228}}  
+[2023-06-06 10:15:01] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-06 10:15:13] ChannelAction.INFO: ======= Start Channel Action (Single One) ================  
+[2023-06-06 10:15:13] ChannelAction.INFO: Input Type : string  
+[2023-06-06 10:15:13] ChannelAction.INFO: method : GET  
+[2023-06-06 10:15:13] ChannelAction.INFO: contentType : application/json  
+[2023-06-06 10:15:13] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1686026828,"exp":1686113228}}  
+[2023-06-06 10:15:13] ChannelAction.INFO: group id : 53  
+[2023-06-06 10:15:13] ChannelAction.INFO: ======= END Channel Action (Single One) ================  
+[2023-06-06 10:16:09] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-06 10:16:09] ChannelAction.INFO: method : POST  
+[2023-06-06 10:16:09] ChannelAction.INFO: contentType : application/json  
+[2023-06-06 10:16:09] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1686026828,"exp":1686113228}}  
+[2023-06-06 10:16:09] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-06 10:16:44] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-06 10:16:44] ChannelAction.INFO: method : POST  
+[2023-06-06 10:16:44] ChannelAction.INFO: contentType : application/json  
+[2023-06-06 10:16:44] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1686026828,"exp":1686113228}}  
+[2023-06-06 10:16:44] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-06 10:17:20] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-06 10:17:20] ChannelAction.INFO: method : POST  
+[2023-06-06 10:17:20] ChannelAction.INFO: contentType : application/json  
+[2023-06-06 10:17:20] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1686026828,"exp":1686113228}}  
+[2023-06-06 10:17:20] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-06 10:17:33] ChannelAction.INFO: ======= Start Channel Action (Single One) ================  
+[2023-06-06 10:17:33] ChannelAction.INFO: Input Type : string  
+[2023-06-06 10:17:33] ChannelAction.INFO: method : GET  
+[2023-06-06 10:17:33] ChannelAction.INFO: contentType : application/json  
+[2023-06-06 10:17:33] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1686026828,"exp":1686113228}}  
+[2023-06-06 10:17:33] ChannelAction.INFO: group id : 53  
+[2023-06-06 10:17:33] ChannelAction.INFO: ======= END Channel Action (Single One) ================  
+[2023-06-06 10:17:49] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-06 10:17:49] ChannelAction.INFO: method : POST  
+[2023-06-06 10:17:49] ChannelAction.INFO: contentType : application/json  
+[2023-06-06 10:17:49] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1686026828,"exp":1686113228}}  
+[2023-06-06 10:17:49] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-06 10:17:50] ChannelAction.INFO: ======= Start Channel Action (Single One) ================  
+[2023-06-06 10:17:50] ChannelAction.INFO: Input Type : string  
+[2023-06-06 10:17:50] ChannelAction.INFO: method : GET  
+[2023-06-06 10:17:50] ChannelAction.INFO: contentType : application/json  
+[2023-06-06 10:17:50] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1686026828,"exp":1686113228}}  
+[2023-06-06 10:17:50] ChannelAction.INFO: group id : 53  
+[2023-06-06 10:17:50] ChannelAction.INFO: ======= END Channel Action (Single One) ================  
+[2023-06-06 10:18:27] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-06 10:18:27] ChannelAction.INFO: method : POST  
+[2023-06-06 10:18:27] ChannelAction.INFO: contentType : application/json  
+[2023-06-06 10:18:27] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1686026828,"exp":1686113228}}  
+[2023-06-06 10:18:27] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-06 10:18:28] ChannelAction.INFO: ======= Start Channel Action (Single One) ================  
+[2023-06-06 10:18:28] ChannelAction.INFO: Input Type : string  
+[2023-06-06 10:18:28] ChannelAction.INFO: method : GET  
+[2023-06-06 10:18:28] ChannelAction.INFO: contentType : application/json  
+[2023-06-06 10:18:28] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1686026828,"exp":1686113228}}  
+[2023-06-06 10:18:28] ChannelAction.INFO: group id : 53  
+[2023-06-06 10:18:28] ChannelAction.INFO: ======= END Channel Action (Single One) ================  

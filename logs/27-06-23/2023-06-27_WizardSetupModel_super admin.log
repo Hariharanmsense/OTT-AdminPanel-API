@@ -1,0 +1,1859 @@
+[2023-06-27 01:06:00] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=12  
+[2023-06-27 01:06:00] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=12  
+[2023-06-27 01:06:00] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=12  
+[2023-06-27 01:06:11] WizardSetupModel.INFO: Query : CALL SP_WizardSetup('UPDATE',1,12,0,1)  
+[2023-06-27 01:06:52] WizardSetupModel.INFO: Query : insert into temphotelfeaturelist (hotelid,featureid) values(4,1)  
+[2023-06-27 01:06:52] WizardSetupModel.INFO: Query : CALL SP_WizardSetup('ADD',0,4,0,1)  
+[2023-06-27 01:07:02] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=12  
+[2023-06-27 01:07:02] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=12  
+[2023-06-27 01:07:02] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=12  
+[2023-06-27 01:07:12] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 01:07:12] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 01:07:12] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 01:07:12] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.jpg","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"fadsfd","menu":[]}}  
+[2023-06-27 04:45:27] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=12  
+[2023-06-27 04:45:27] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=12  
+[2023-06-27 04:45:27] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=12  
+[2023-06-27 04:45:37] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 04:45:37] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 04:45:37] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 04:45:37] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.jpg","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"fadsfd","menu":[]}}  
+[2023-06-27 04:59:33] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 04:59:33] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 04:59:33] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 04:59:33] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.jpg","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"fadsfd","menu":[]}}  
+[2023-06-27 05:12:00] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 05:12:00] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 05:12:00] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 05:12:00] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.jpg","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"fadsfd","menu":[]}}  
+[2023-06-27 05:12:36] WizardSetupModel.INFO: Query : insert into temphotelfeaturelist (hotelid,featureid) values(4,1)  
+[2023-06-27 05:12:36] WizardSetupModel.INFO: Query : insert into temphotelfeaturelist (hotelid,featureid) values(4,2)  
+[2023-06-27 05:12:36] WizardSetupModel.INFO: Query : CALL SP_WizardSetup('ADD',0,4,0,1)  
+[2023-06-27 05:24:39] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 05:24:39] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 05:24:39] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 05:24:39] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"testet","menu":[]}}  
+[2023-06-27 05:29:36] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 05:29:36] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 05:29:36] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 05:29:36] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"testet","menu":[]}}  
+[2023-06-27 05:31:13] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 05:31:13] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 05:31:13] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 05:31:13] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"testet","menu":[]}}  
+[2023-06-27 05:33:20] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 05:33:20] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 05:33:20] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 05:33:20] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"testet","menu":[]}}  
+[2023-06-27 05:34:32] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 05:34:32] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 05:34:32] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 05:34:32] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"testet","menu":[]}}  
+[2023-06-27 05:34:59] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 05:34:59] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 05:34:59] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 05:34:59] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"testet","menu":[]}}  
+[2023-06-27 05:35:06] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 05:35:06] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 05:35:06] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 05:35:06] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"testet","menu":[]}}  
+[2023-06-27 05:35:28] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 05:35:28] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 05:35:28] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 05:35:28] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"testet","menu":[]}}  
+[2023-06-27 05:35:48] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 05:35:48] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 05:35:48] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 05:35:48] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"testet","menu":[]}}  
+[2023-06-27 05:35:54] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 05:35:54] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 05:35:54] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 05:35:54] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"testet","menu":[]}}  
+[2023-06-27 05:37:40] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 05:37:40] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 05:37:40] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 05:37:40] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"testet","menu":[]}}  
+[2023-06-27 05:40:37] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 05:40:37] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 05:40:37] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 05:40:37] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"testet","menu":[]}}  
+[2023-06-27 05:40:44] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 05:40:44] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 05:40:44] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 05:40:44] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"testet","menu":[]}}  
+[2023-06-27 05:41:52] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 05:41:52] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 05:41:52] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 05:41:52] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"testet","menu":[]}}  
+[2023-06-27 05:42:40] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 05:42:40] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 05:42:40] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 05:42:40] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"testet","menu":[]}}  
+[2023-06-27 05:42:45] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 05:42:45] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 05:42:45] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 05:42:45] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"testet","menu":[]}}  
+[2023-06-27 05:45:31] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 05:45:31] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 05:45:31] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 05:45:31] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"testet","menu":[]}}  
+[2023-06-27 05:45:55] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 05:45:55] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 05:45:55] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 05:45:55] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"testet","menu":[]}}  
+[2023-06-27 05:48:07] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 05:48:07] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 05:48:07] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 05:48:07] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"testet","menu":[]}}  
+[2023-06-27 05:48:13] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 05:48:13] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 05:48:13] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 05:48:13] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"testet","menu":[]}}  
+[2023-06-27 05:48:36] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 05:48:36] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 05:48:36] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 05:48:36] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"testet","menu":[]}}  
+[2023-06-27 05:48:41] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 05:48:41] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 05:48:41] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 05:48:41] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"testet","menu":[]}}  
+[2023-06-27 05:48:52] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 05:48:52] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 05:48:52] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 05:48:52] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"testet","menu":[]}}  
+[2023-06-27 05:49:50] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 05:49:50] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 05:49:50] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 05:49:50] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"testet","menu":[]}}  
+[2023-06-27 06:25:13] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 06:25:13] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 06:25:13] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 06:25:13] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"testet","menu":[]}}  
+[2023-06-27 06:29:52] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 06:29:52] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 06:29:52] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 06:29:52] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"testet","menu":[]}}  
+[2023-06-27 06:30:15] WizardSetupModel.INFO: Query : insert into temphotelfeaturelist (hotelid,featureid) values(4,1)  
+[2023-06-27 06:30:15] WizardSetupModel.INFO: Query : insert into temphotelfeaturelist (hotelid,featureid) values(4,2)  
+[2023-06-27 06:30:15] WizardSetupModel.INFO: Query : CALL SP_WizardSetup('ADD',0,4,0,1)  
+[2023-06-27 06:32:15] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 06:32:15] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 06:32:15] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 06:32:15] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"afddsfad","menu":[]}}  
+[2023-06-27 06:32:26] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 06:32:26] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 06:32:26] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 06:32:26] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"afddsfad","menu":[]}}  
+[2023-06-27 06:37:04] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 06:37:04] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 06:37:04] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 06:37:04] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"afddsfad","menu":[]}}  
+[2023-06-27 06:42:31] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 06:42:31] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 06:42:31] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 06:42:31] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"afddsfad","menu":[]}}  
+[2023-06-27 06:43:55] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 06:43:55] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 06:43:55] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 06:43:55] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"afddsfad","menu":[]}}  
+[2023-06-27 06:44:50] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 06:44:50] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 06:44:50] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 06:44:50] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"fadsfds","menu":[]}}  
+[2023-06-27 06:50:18] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 06:50:18] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 06:50:18] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 06:50:18] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"fadsfds","menu":[]}}  
+[2023-06-27 06:52:32] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 06:52:32] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 06:52:32] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 06:52:32] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"fadsfdsfds","menu":[]}}  
+[2023-06-27 07:01:23] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 07:01:23] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 07:01:23] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 07:01:23] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"fadsfdsfds","menu":[]}}  
+[2023-06-27 07:04:57] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 07:04:57] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 07:04:57] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 07:04:57] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"fadsfdsfds","menu":[]}}  
+[2023-06-27 07:10:39] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 07:10:39] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 07:10:39] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 07:10:39] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"fsadfds","menu":[]}}  
+[2023-06-27 07:13:41] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 07:13:41] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 07:13:41] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 07:13:41] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"fsadfds","menu":[]}}  
+[2023-06-27 07:17:28] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 07:17:28] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 07:17:28] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 07:17:28] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"fsadfds","menu":[]}}  
+[2023-06-27 07:18:16] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 07:18:16] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 07:18:16] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 07:18:16] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"dfadsfds","menu":[]}}  
+[2023-06-27 07:18:19] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 07:18:19] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 07:18:19] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 07:18:19] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"dfadsfds","menu":[]}}  
+[2023-06-27 07:22:29] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 07:22:29] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 07:22:29] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 07:22:29] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"fasdfds","menu":[]}}  
+[2023-06-27 07:27:19] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 07:27:19] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 07:27:19] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 07:27:19] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"fasdfds","menu":[]}}  
+[2023-06-27 08:36:39] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 08:36:39] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 08:36:39] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 08:36:39] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"fasdfds","menu":[]}}  
+[2023-06-27 08:38:47] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 08:38:47] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 08:38:47] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 08:38:47] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"teste","menu":[]}}  
+[2023-06-27 08:39:02] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 08:39:02] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 08:39:02] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 08:39:02] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"teste","menu":[]}}  
+[2023-06-27 08:39:45] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 08:39:45] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 08:39:45] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 08:39:45] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"teste","menu":[]}}  
+[2023-06-27 08:39:52] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 08:39:52] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 08:39:52] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 08:39:52] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"teste","menu":[]}}  
+[2023-06-27 08:39:56] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 08:39:56] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 08:39:56] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 08:39:56] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"teste","menu":[]}}  
+[2023-06-27 08:42:19] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 08:42:19] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 08:42:19] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 08:42:19] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"fadsfdsf","menu":[]}}  
+[2023-06-27 08:42:23] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 08:42:23] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 08:42:23] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 08:42:23] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"fadsfdsf","menu":[]}}  
+[2023-06-27 08:45:24] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 08:45:24] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 08:45:24] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 08:45:24] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"fdsafds","menu":[]}}  
+[2023-06-27 08:46:37] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 08:46:37] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 08:46:37] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 08:46:37] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"fdsafds","menu":[]}}  
+[2023-06-27 08:48:15] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 08:48:15] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 08:48:15] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 08:48:15] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"fdsafds","menu":[]}}  
+[2023-06-27 08:49:08] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 08:49:08] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 08:49:08] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 08:49:08] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"fdsafds","menu":[]}}  
+[2023-06-27 08:52:20] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 08:52:20] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 08:52:20] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 08:52:20] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"fdsafds","menu":[]}}  
+[2023-06-27 08:54:18] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 08:54:18] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 08:54:18] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 08:54:18] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"fdsafds","menu":[]}}  
+[2023-06-27 08:56:09] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 08:56:09] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 08:56:09] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 08:56:09] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"fdsafds","menu":[]}}  
+[2023-06-27 08:58:22] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 08:58:22] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 08:58:22] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 08:58:22] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"fdsafds","menu":[]}}  
+[2023-06-27 09:01:11] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 09:01:11] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 09:01:11] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 09:01:11] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"fdsafds","menu":[]}}  
+[2023-06-27 09:04:49] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 09:04:49] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 09:04:49] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 09:04:49] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"fdsafds","menu":[]}}  
+[2023-06-27 09:04:58] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 09:04:58] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 09:04:58] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 09:04:58] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"fdsafds","menu":[]}}  
+[2023-06-27 09:15:05] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 09:15:05] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 09:15:05] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 09:15:05] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"af","menu":[]}}  
+[2023-06-27 09:15:13] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 09:15:13] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 09:15:13] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 09:15:13] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"af","menu":[]}}  
+[2023-06-27 09:15:24] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 09:15:24] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 09:15:24] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 09:15:25] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"af","menu":[]}}  
+[2023-06-27 09:22:07] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=12  
+[2023-06-27 09:22:07] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=12  
+[2023-06-27 09:22:07] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=12  
+[2023-06-27 09:22:09] WizardSetupModel.INFO: Query : CALL SP_WizardSetup('UPDATE',3,12,0,1)  
+[2023-06-27 09:22:26] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 09:22:26] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 09:22:26] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 09:22:26] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"af","menu":[]}}  
+[2023-06-27 09:22:37] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 09:22:37] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 09:22:37] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 09:22:37] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"af","menu":[]}}  
+[2023-06-27 09:26:31] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 09:26:31] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 09:26:31] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 09:26:31] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"af","menu":[]}}  
+[2023-06-27 09:28:53] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 09:28:53] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 09:28:53] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 09:28:53] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"af","menu":[]}}  
+[2023-06-27 09:29:51] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 09:29:51] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 09:29:51] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 09:29:51] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"af","menu":[]}}  
+[2023-06-27 09:32:03] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 09:32:03] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 09:32:03] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 09:32:03] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"af","menu":[]}}  
+[2023-06-27 09:33:12] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 09:33:12] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 09:33:12] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 09:33:12] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"af","menu":[]}}  
+[2023-06-27 09:34:56] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 09:34:56] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 09:34:56] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 09:34:56] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"af","menu":[]}}  
+[2023-06-27 09:36:33] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 09:36:33] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 09:36:33] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 09:36:33] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"af","menu":[]}}  
+[2023-06-27 09:38:03] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 09:38:03] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 09:38:03] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 09:38:03] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"af","menu":[]}}  
+[2023-06-27 09:41:01] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 09:41:01] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 09:41:01] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 09:41:01] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"af","menu":[]}}  
+[2023-06-27 09:42:58] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 09:42:58] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 09:42:58] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 09:42:58] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"af","menu":[]}}  
+[2023-06-27 09:50:05] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 09:50:05] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 09:50:05] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 09:50:05] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"af","menu":[]}}  
+[2023-06-27 09:52:02] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 09:52:02] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 09:52:02] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 09:52:02] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"af","menu":[]}}  
+[2023-06-27 09:52:09] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 09:52:09] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 09:52:09] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 09:52:09] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"af","menu":[]}}  
+[2023-06-27 09:52:57] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 09:52:57] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 09:52:57] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 09:52:57] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"af","menu":[]}}  
+[2023-06-27 10:05:16] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 10:05:16] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 10:05:16] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 10:05:16] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"fadsfds","menu":[]}}  
+[2023-06-27 10:05:41] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 10:05:41] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 10:05:41] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 10:05:41] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"fadsfds","menu":[]}}  
+[2023-06-27 10:07:05] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 10:07:05] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 10:07:05] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 10:07:05] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"fadsfds","menu":[]}}  
+[2023-06-27 10:14:27] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 10:14:27] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 10:14:27] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 10:14:27] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"fadsfds","menu":[]}}  
+[2023-06-27 10:16:55] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 10:16:55] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 10:16:55] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 10:16:55] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"dafdfds","menu":[]}}  
+[2023-06-27 10:16:59] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 10:16:59] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 10:16:59] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 10:16:59] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"dafdfds","menu":[]}}  
+[2023-06-27 10:17:45] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 10:17:45] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 10:17:45] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 10:17:45] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"dafdfds","menu":[]}}  
+[2023-06-27 10:19:51] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 10:19:51] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 10:19:51] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 10:19:51] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"dafdfds","menu":[]}}  
+[2023-06-27 10:19:58] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 10:19:58] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 10:19:58] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 10:19:58] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"dafdfds","menu":[]}}  
+[2023-06-27 10:25:37] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 10:25:37] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 10:25:37] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 10:25:37] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"dafdfds","menu":[]}}  
+[2023-06-27 10:27:18] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 10:27:18] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 10:27:18] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 10:27:18] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"dafdfds","menu":[]}}  
+[2023-06-27 10:27:28] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 10:27:28] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 10:27:28] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 10:27:28] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"dafdfds","menu":[]}}  
+[2023-06-27 10:30:30] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 10:30:30] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 10:30:30] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 10:30:30] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"dafdfds","menu":[]}}  
+[2023-06-27 10:32:41] WizardSetupModel.INFO: Query : insert into temphotelfeaturelist (hotelid,featureid) values(4,Guest Messaging)  
+[2023-06-27 11:08:56] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=6  
+[2023-06-27 11:08:56] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=6  
+[2023-06-27 11:08:56] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=6  
+[2023-06-27 11:09:08] WizardSetupModel.INFO: Query : CALL SP_WizardSetup('UPDATE',6,6,0,1)  
+[2023-06-27 11:17:12] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=6  
+[2023-06-27 11:17:12] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=6  
+[2023-06-27 11:17:12] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=6  
+[2023-06-27 11:18:39] WizardSetupModel.INFO: Query : CALL SP_WizardSetup('UPDATE',6,6,0,1)  
+[2023-06-27 11:19:01] WizardSetupModel.INFO: Query : insert into temphotelfeaturelist (hotelid,featureid) values(6,Channels)  
+[2023-06-27 11:23:15] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=6  
+[2023-06-27 11:23:15] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=6  
+[2023-06-27 11:23:15] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=6  
+[2023-06-27 11:23:18] WizardSetupModel.INFO: Query : CALL SP_WizardSetup('UPDATE',5,6,0,1)  
+[2023-06-27 11:23:43] WizardSetupModel.INFO: Query : insert into temphotelfeaturelist (hotelid,featureid) values(6,Channels)  
+[2023-06-27 11:24:43] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=6  
+[2023-06-27 11:24:43] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=6  
+[2023-06-27 11:24:43] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=6  
+[2023-06-27 11:25:31] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=6  
+[2023-06-27 11:25:31] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=6  
+[2023-06-27 11:25:31] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=6  
+[2023-06-27 11:25:33] WizardSetupModel.INFO: Query : CALL SP_WizardSetup('UPDATE',2,6,0,1)  
+[2023-06-27 11:25:49] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=6  
+[2023-06-27 11:25:49] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=6  
+[2023-06-27 11:25:49] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=6  
+[2023-06-27 11:26:35] WizardSetupModel.INFO: Query : CALL SP_WizardSetup('UPDATE',3,6,0,1)  
+[2023-06-27 13:13:50] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=12  
+[2023-06-27 13:13:50] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=12  
+[2023-06-27 13:13:50] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=12  
+[2023-06-27 13:16:06] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 13:16:06] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 13:16:06] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 13:16:06] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/1\/Logo.png","bg_img":"public\/uploads\/Template\/4\/1\/Background.png","welcome":"","welcome_txt":"jhh","menu":[]}}  
+[2023-06-27 13:16:31] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 13:16:31] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 13:16:31] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 13:16:31] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/1\/Logo.png","bg_img":"public\/uploads\/Template\/4\/1\/Background.png","welcome":"","welcome_txt":"jhh","menu":[]}}  
+[2023-06-27 13:39:26] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=12  
+[2023-06-27 13:39:26] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=12  
+[2023-06-27 13:39:26] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=12  
+[2023-06-27 13:40:46] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=12  
+[2023-06-27 13:40:46] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=12  
+[2023-06-27 13:40:46] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=12  
+[2023-06-27 13:41:40] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=12  
+[2023-06-27 13:41:40] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=12  
+[2023-06-27 13:41:40] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=12  
+[2023-06-27 13:42:35] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=12  
+[2023-06-27 13:42:35] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=12  
+[2023-06-27 13:42:35] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=12  
+[2023-06-27 13:42:49] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=12  
+[2023-06-27 13:42:49] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=12  
+[2023-06-27 13:42:49] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=12  
+[2023-06-27 13:44:03] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=12  
+[2023-06-27 13:44:03] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=12  
+[2023-06-27 13:44:03] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=12  
+[2023-06-27 13:46:25] WizardSetupRepository.INFO:  -- filePath : ../public/uploads/bulkupload/channel  
+[2023-06-27 13:46:25] WizardSetupRepository.INFO:  -- fileName : sample_channels.xlsx  
+[2023-06-27 13:47:13] WizardSetupRepository.INFO:  -- filePath : ../public/uploads/bulkupload/channel  
+[2023-06-27 13:47:13] WizardSetupRepository.INFO:  -- fileName : sample_channels.xlsx  
+[2023-06-27 13:47:15] WizardSetupRepository.INFO:  -- filePath : ../public/uploads/bulkupload/channel  
+[2023-06-27 13:47:15] WizardSetupRepository.INFO:  -- fileName : sample_channels.xlsx  
+[2023-06-27 13:47:48] WizardSetupRepository.INFO:  -- filePath : ../public/uploads/bulkupload/channel  
+[2023-06-27 13:47:48] WizardSetupRepository.INFO:  -- fileName : sample_channels.xlsx  
+[2023-06-27 13:47:49] WizardSetupRepository.INFO:  -- filePath : ../public/uploads/bulkupload/channel  
+[2023-06-27 13:47:49] WizardSetupRepository.INFO:  -- fileName : sample_channels.xlsx  
+[2023-06-27 13:49:41] WizardSetupRepository.INFO:  -- filePath : ../public/uploads/bulkupload/channel  
+[2023-06-27 13:49:41] WizardSetupRepository.INFO:  -- fileName : sample_channels.xlsx  
+[2023-06-27 13:49:42] WizardSetupRepository.INFO:  -- filePath : ../public/uploads/bulkupload/channel  
+[2023-06-27 13:49:42] WizardSetupRepository.INFO:  -- fileName : sample_channels.xlsx  
+[2023-06-27 13:50:19] WizardSetupRepository.INFO:  -- filePath : ../public/uploads/bulkupload/channel  
+[2023-06-27 13:50:19] WizardSetupRepository.INFO:  -- fileName : sample_channels.xlsx  
+[2023-06-27 13:50:21] WizardSetupRepository.INFO:  -- filePath : ../public/uploads/bulkupload/channel  
+[2023-06-27 13:50:21] WizardSetupRepository.INFO:  -- fileName : sample_channels.xlsx  
+[2023-06-27 13:50:22] WizardSetupRepository.INFO:  -- filePath : ../public/uploads/bulkupload/channel  
+[2023-06-27 13:50:22] WizardSetupRepository.INFO:  -- fileName : sample_channels.xlsx  
+[2023-06-27 13:52:35] WizardSetupRepository.INFO:  -- filePath : ../public/uploads/bulkupload/Channel  
+[2023-06-27 13:52:35] WizardSetupRepository.INFO:  -- fileName : sample_channels.xlsx  
+[2023-06-27 13:52:35] WizardSetupModel.INFO: DelQuery : DELETE FROM tempchnlbulkupload  
+[2023-06-27 13:52:35] WizardSetupModel.INFO: delete reslut : success  
+[2023-06-27 13:52:36] WizardSetupModel.INFO: insQuery : INSERT INTO tempchnlbulkupload(channelno,channelname,channelcategory, portno, multicastip, 
+                    channelfrequency,hotelname, createdOn, createdBy)
+                    VALUES(1, 'SUNTV', 'Entertainment', '', '', 
+                    '', '', SYSDATE(), 1)  
+[2023-06-27 13:53:22] WizardSetupRepository.INFO:  -- filePath : ../public/uploads/bulkupload/Channel  
+[2023-06-27 13:53:22] WizardSetupRepository.INFO:  -- fileName : sample_channels.xlsx  
+[2023-06-27 13:53:22] WizardSetupModel.INFO: DelQuery : DELETE FROM tempchnlbulkupload  
+[2023-06-27 13:53:22] WizardSetupModel.INFO: delete reslut : success  
+[2023-06-27 13:53:22] WizardSetupModel.INFO: insQuery : INSERT INTO tempchnlbulkupload(channelno,channelname,channelcategory, portno, multicastip, 
+                    channelfrequency,hotelname, createdOn, createdBy)
+                    VALUES(1, 'SUNTV', 'Entertainment', '', '', 
+                    '', 4, SYSDATE(), 1)  
+[2023-06-27 13:55:42] WizardSetupRepository.INFO:  -- filePath : ../public/uploads/bulkupload/Channel  
+[2023-06-27 13:55:42] WizardSetupRepository.INFO:  -- fileName : sample_channels.xlsx  
+[2023-06-27 13:55:42] WizardSetupModel.INFO: DelQuery : DELETE FROM tempchnlbulkupload  
+[2023-06-27 13:55:42] WizardSetupModel.INFO: delete reslut : success  
+[2023-06-27 13:55:42] WizardSetupModel.INFO: insQuery : INSERT INTO tempchnlbulkupload(channelno,channelname,channelcategory, portno, multicastip, 
+                    channelfrequency,hotelname, createdOn, createdBy)
+                    VALUES(1, 'SUNTV', 'Entertainment', '', '', 
+                    '', 4, SYSDATE(), 1)  
+[2023-06-27 14:14:49] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=12  
+[2023-06-27 14:14:49] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=12  
+[2023-06-27 14:14:49] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=12  
+[2023-06-27 14:15:08] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=6  
+[2023-06-27 14:15:08] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=6  
+[2023-06-27 14:15:08] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=6  
+[2023-06-27 14:15:10] WizardSetupModel.INFO: Query : CALL SP_WizardSetup('UPDATE',2,6,0,1)  
+[2023-06-27 14:16:39] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=6  
+[2023-06-27 14:16:39] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=6  
+[2023-06-27 14:16:39] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=6  
+[2023-06-27 14:16:55] WizardSetupModel.INFO: Query : CALL SP_WizardSetup('UPDATE',5,6,0,1)  
+[2023-06-27 14:35:06] WizardSetupModel.INFO: Query : select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
+            lc.location,lc.mobileno,lc.spocname,lc.address,lc.tempid,lc.channelfeedtype,tm.templatename,cf.channeltype
+             FROM locations as lc 
+             left join template as tm on tm.id = lc.tempid 
+             left join channelfeed as cf on cf.id=lc.channelfeedtype where lc.id=4  
+[2023-06-27 14:35:06] WizardSetupModel.INFO: Query : select fl.id,fl.name  from  hotelfeaturelist as hf  left join featurelist as fl on fl.id = hf.featureid
+             where hf.hotelid=4  
+[2023-06-27 14:35:06] WizardSetupModel.INFO: Query : select tvc.channelno,tvl.channelname,tvl.channellogo,tvc.channelip,tvc.channelport
+            ,if(cg.categoryid is null,0,cg.categoryid) categoryid,if(cgc.categoryname is null,'Unknown',cgc.categoryname) 
+            categoryname from tvchannels as tvc 
+            left join tvchannelslist as tvl on tvc.channellistid = tvl.id
+            left join channelgroup as cg on   cg.channelid=tvl.id and cg.hotelid = tvc.hotelid
+            left join channelcategory as cgc on cgc.id = cg.categoryid
+            where tvc.hotelid=4  
+[2023-06-27 14:35:06] WizardSetupModel.INFO: Json Data : {"HomePageDetails":{"logo":"public\/uploads\/Template\/4\/2\/Logo.png","bg_img":"public\/uploads\/Template\/4\/2\/Background.png","welcome":"","welcome_txt":"Welcome","menu":[{"title":"Guest Messaging","img":""},{"title":"Guest Services","img":""}]}}  

@@ -1,0 +1,23 @@
+[2023-06-06 06:01:36] AdmnUsrModel.INFO: Query : CALL SP_AdmnUsrConfig('', '', 5, '', 'RG5RV2NRV2o2NXBMSXNSVW9nVWZnUT09', '', 0, 0, '','','','',
+            5, '', 0, '', 0, '', '', 'RESETPASSWORDUPDATE')  
+[2023-06-06 06:29:11] AdmnUsrModel.INFO: Query : CALL SP_AdmnUsrConfig('', '', 5, '', 'RG5RV2NRV2o2NXBMSXNSVW9nVWZnUT09', '', 0, 0, '','','','',
+            5, '', 0, '', 0, '', '', 'RESETPASSWORDUPDATE')  
+[2023-06-06 06:29:53] AdmnUsrModel.INFO: Query : CALL SP_AdmnUsrConfig('', '', 5, '', 'RG5RV2NRV2o2NXBMSXNSVW9nVWZnUT09', '', 0, 0, '','','','',
+            5, '', 0, '', 0, '', '', 'RESETPASSWORDUPDATE')  
+[2023-06-06 06:29:53] AdmnUsrModel.INFO: Update Return : {"ErrorCode":"1146","Result":"Table 'ottproduct.password_log' doesn't exist"}  
+[2023-06-06 06:29:53] AdmnUsrModel.ERROR: Error Code : 401Error Message : Table 'ottproduct.password_log' doesn't exist  
+[2023-06-06 06:29:53] AdmnUsrModel.ERROR: Error File : /var/www/projects/ottproduct/api/v1/src/Model/AdmnUsrModel.phpError Line : 99  
+[2023-06-06 06:31:04] AdmnUsrModel.INFO: Query : CALL SP_AdmnUsrConfig('', '', 5, '', 'RG5RV2NRV2o2NXBMSXNSVW9nVWZnUT09', '', 0, 0, '','','','',
+            5, '', 0, '', 0, '', '', 'RESETPASSWORDUPDATE')  
+[2023-06-06 06:31:04] AdmnUsrModel.INFO: Update Return : {"ErrorCode":"1054","Result":"Unknown column 'reset_password_link' in 'field list'"}  
+[2023-06-06 06:31:04] AdmnUsrModel.ERROR: Error Code : 401Error Message : Unknown column 'reset_password_link' in 'field list'  
+[2023-06-06 06:31:04] AdmnUsrModel.ERROR: Error File : /var/www/projects/ottproduct/api/v1/src/Model/AdmnUsrModel.phpError Line : 99  
+[2023-06-06 06:32:30] AdmnUsrModel.INFO: Query : CALL SP_AdmnUsrConfig('', '', 5, '', 'RG5RV2NRV2o2NXBMSXNSVW9nVWZnUT09', '', 0, 0, '','','','',
+            5, '', 0, '', 0, '', '', 'RESETPASSWORDUPDATE')  
+[2023-06-06 06:32:30] AdmnUsrModel.INFO: Update Return : {"ErrorCode":"00","Result":"SUCCESS"}  
+[2023-06-06 06:34:21] AdmnUsrModel.INFO: Query : CALL SP_AdmnUsrConfig('', '', 5, '', 'RG5RV2NRV2o2NXBMSXNSVW9nVWZnUT09', '', 0, 0, '','','','',
+            5, '', 0, '', 0, '', '', 'RESETPASSWORDUPDATE')  
+[2023-06-06 06:34:21] AdmnUsrModel.INFO: Update Return : {"ErrorCode":"00","Result":"SUCCESS"}  
+[2023-06-06 06:34:43] AdmnUsrModel.INFO: Query : CALL SP_AdmnUsrConfig('', '', 5, '', 'RG5RV2NRV2o2NXBMSXNSVW9nVWZnUT09', '', 0, 0, '','','','',
+            5, '', 0, '', 0, '', '', 'RESETPASSWORDUPDATE')  
+[2023-06-06 06:34:44] AdmnUsrModel.INFO: Update Return : {"ErrorCode":"00","Result":"SUCCESS"}  

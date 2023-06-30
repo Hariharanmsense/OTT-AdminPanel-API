@@ -1,0 +1,5 @@
+[2023-06-06 10:15:01] ChannelModel.INFO: Query : call SP_AddandEditChannelInfo('ADD','sri','public/uploads/Channels/sri.jpg' ,0 ,1)  
+[2023-06-06 10:15:13] ChannelModel.INFO: Query : call SP_AddandEditChannelInfo('GETONE','', '', 53,1)  
+[2023-06-06 10:17:33] ChannelModel.INFO: Query : call SP_AddandEditChannelInfo('GETONE','', '', 53,1)  
+[2023-06-06 10:17:50] ChannelModel.INFO: Query : call SP_AddandEditChannelInfo('GETONE','', '', 53,1)  
+[2023-06-06 10:18:28] ChannelModel.INFO: Query : call SP_AddandEditChannelInfo('GETONE','', '', 53,1)  

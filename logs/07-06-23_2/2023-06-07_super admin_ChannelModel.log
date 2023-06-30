@@ -1,0 +1,6 @@
+[2023-06-07 09:32:18] ChannelModel.INFO: Query : call SP_AddandEditChannelcategory('VIEW',0,'', 0, 0)  
+[2023-06-07 09:32:18] ChannelModel.INFO: Query : call SP_AddandEditChannelInfo('VIEW','','', 0, 0)  
+[2023-06-07 09:32:32] ChannelModel.INFO: Query : call SP_AddandEditChannelInfo('VIEW','','', 0, 0)  
+[2023-06-07 09:35:42] ChannelModel.INFO: Query : call SP_AddandEditChannelInfo('VIEW','','', 0, 0)  
+[2023-06-07 09:36:19] ChannelModel.INFO: Query : call SP_AddandEditChannelInfo('VIEW','','', 0, 0)  
+[2023-06-07 09:37:17] ChannelModel.INFO: Query : call SP_AddandEditChannelInfo('VIEW','','', 0, 0)  

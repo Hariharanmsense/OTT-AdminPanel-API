@@ -1,0 +1,43 @@
+[2023-06-26 04:29:40] DBModel.INFO:  Result : No Records Found  
+[2023-06-26 04:29:40] DBModel.INFO:  Result : No Records Found  
+[2023-06-26 04:31:53] DBModel.INFO:  Result : No Records Found  
+[2023-06-26 04:31:53] DBModel.INFO:  Result : No Records Found  
+[2023-06-26 04:32:15] DBModel.INFO: ======= START DBError ================  
+[2023-06-26 04:32:15] DBModel.ERROR: Error Code : 401Error Message : No Records Found  
+[2023-06-26 04:32:15] DBModel.ERROR: Error File : /var/www/projects/ottproduct/api/v1/src/Model/DB.phpError Line : 108  
+[2023-06-26 04:32:15] DBModel.ERROR: Error Trace String : #0 /var/www/projects/ottproduct/api/v1/src/Model/HotelChannelModel.php(310): App\Model\DB->getMultiDatasByObjects()
+#1 /var/www/projects/ottproduct/api/v1/src/Domain/Repository/Channel/HotelChannelRepository.php(292): App\Model\HotelChannelModel->getchannellistModel()
+#2 /var/www/projects/ottproduct/api/v1/src/Application/Actions/Channel/HotelChannelAction.php(334): App\Domain\Repository\Channel\HotelChannelRepository->getOverallchannellist()
+#3 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(38): App\Application\Actions\Channel\HotelChannelAction->getOverallchannellist()
+#4 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Routing/Route.php(358): Slim\Handlers\Strategies\RequestResponse->__invoke()
+#5 /var/www/projects/ottproduct/api/v1/src/Application/Middleware/AuthMiddleware.php(60): Slim\Routing\Route->handle()
+#6 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): App\Application\Middleware\AuthMiddleware->process()
+#7 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#8 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Slim\MiddlewareDispatcher->handle()
+#9 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Routing/Route.php(315): Slim\MiddlewareDispatcher->handle()
+#10 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Routing/RouteRunner.php(68): Slim\Routing\Route->run()
+#11 /var/www/projects/ottproduct/api/v1/src/Application/Middleware/SessionMiddleware.php(26): Slim\Routing\RouteRunner->handle()
+#12 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(168): App\Application\Middleware\SessionMiddleware->process()
+#13 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Middleware/RoutingMiddleware.php(45): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#14 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Slim\Middleware\RoutingMiddleware->process()
+#15 /var/www/projects/ottproduct/api/v1/vendor/selective/basepath/src/BasePathMiddleware.php(52): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#16 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Selective\BasePath\BasePathMiddleware->process()
+#17 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Middleware/BodyParsingMiddleware.php(64): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#18 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Slim\Middleware\BodyParsingMiddleware->process()
+#19 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Middleware/ErrorMiddleware.php(76): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#20 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Slim\Middleware\ErrorMiddleware->process()
+#21 /var/www/projects/ottproduct/api/v1/vendor/tuupola/cors-middleware/src/CorsMiddleware.php(158): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#22 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Tuupola\Middleware\CorsMiddleware->process()
+#23 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#24 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/App.php(199): Slim\MiddlewareDispatcher->handle()
+#25 /var/www/projects/ottproduct/api/v1/public/index.php(94): Slim\App->handle()
+#26 {main}  
+[2023-06-26 04:32:15] DBModel.INFO: ======= END DBError ================  
+[2023-06-26 04:34:16] DBModel.INFO:  Result : No Records Found  
+[2023-06-26 04:34:16] DBModel.INFO:  Result : No Records Found  
+[2023-06-26 04:34:52] DBModel.INFO:  Result : No Records Found  
+[2023-06-26 04:34:52] DBModel.INFO:  Result : No Records Found  
+[2023-06-26 04:35:59] DBModel.INFO:  Result : No Records Found  
+[2023-06-26 04:35:59] DBModel.INFO:  Result : No Records Found  
+[2023-06-26 04:37:56] DBModel.INFO:  Result : No Records Found  
+[2023-06-26 04:37:56] DBModel.INFO:  Result : No Records Found  

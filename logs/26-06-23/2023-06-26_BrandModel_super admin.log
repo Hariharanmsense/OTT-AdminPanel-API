@@ -1,0 +1,174 @@
+[2023-06-26 12:07:46] BrandAction.INFO: ======= Start Brand Action (VIEW)================  
+[2023-06-26 12:07:46] BrandAction.INFO: method : POST  
+[2023-06-26 12:07:46] BrandAction.INFO: contentType : application/json  
+[2023-06-26 12:07:46] BrandAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687754417,"exp":1687840817}}  
+[2023-06-26 12:07:46] BrandModel.INFO: Query : call SP_AddandEditBrand('VIEW','','',0,0)  
+[2023-06-26 12:07:46] BrandAction.INFO: ======= END Brand Action (VIEW)================  
+[2023-06-26 12:12:38] BrandAction.INFO: ======= Start Brand Action (VIEW)================  
+[2023-06-26 12:12:38] BrandAction.INFO: method : POST  
+[2023-06-26 12:12:38] BrandAction.INFO: contentType : application/json  
+[2023-06-26 12:12:38] BrandAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687754417,"exp":1687840817}}  
+[2023-06-26 12:12:38] BrandModel.INFO: Query : call SP_AddandEditBrand('VIEW','','',0,0)  
+[2023-06-26 12:12:38] BrandAction.INFO: ======= END Brand Action (VIEW)================  
+[2023-06-26 12:12:59] BrandAction.INFO: ======= Start Brand Action (VIEW)================  
+[2023-06-26 12:12:59] BrandAction.INFO: method : POST  
+[2023-06-26 12:12:59] BrandAction.INFO: contentType : application/json  
+[2023-06-26 12:12:59] BrandAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687754417,"exp":1687840817}}  
+[2023-06-26 12:12:59] BrandModel.INFO: Query : call SP_AddandEditBrand('VIEW','','',0,0)  
+[2023-06-26 12:12:59] BrandAction.INFO: ======= END Brand Action (VIEW)================  
+[2023-06-26 12:15:24] BrandAction.INFO: ======= Start Brand Action (VIEW)================  
+[2023-06-26 12:15:24] BrandAction.INFO: method : POST  
+[2023-06-26 12:15:24] BrandAction.INFO: contentType : application/json  
+[2023-06-26 12:15:24] BrandAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687754417,"exp":1687840817}}  
+[2023-06-26 12:15:24] BrandModel.INFO: Query : call SP_AddandEditBrand('VIEW','','',0,0)  
+[2023-06-26 12:15:24] BrandAction.INFO: ======= END Brand Action (VIEW)================  
+[2023-06-26 12:16:49] BrandAction.INFO: ======= Start Brand Action (VIEW)================  
+[2023-06-26 12:16:49] BrandAction.INFO: method : POST  
+[2023-06-26 12:16:49] BrandAction.INFO: contentType : application/json  
+[2023-06-26 12:16:49] BrandAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687754417,"exp":1687840817}}  
+[2023-06-26 12:16:49] BrandModel.INFO: Query : call SP_AddandEditBrand('VIEW','','',0,0)  
+[2023-06-26 12:16:49] BrandAction.INFO: ======= END Brand Action (VIEW)================  
+[2023-06-26 12:17:28] BrandAction.INFO: ======= Start Brand Action (VIEW)================  
+[2023-06-26 12:17:28] BrandAction.INFO: method : POST  
+[2023-06-26 12:17:28] BrandAction.INFO: contentType : application/json  
+[2023-06-26 12:17:28] BrandAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687754417,"exp":1687840817}}  
+[2023-06-26 12:17:28] BrandModel.INFO: Query : call SP_AddandEditBrand('VIEW','','',0,0)  
+[2023-06-26 12:17:28] BrandAction.INFO: ======= END Brand Action (VIEW)================  
+[2023-06-26 12:17:53] BrandAction.INFO: ======= Start Brand Action (VIEW)================  
+[2023-06-26 12:17:53] BrandAction.INFO: method : POST  
+[2023-06-26 12:17:53] BrandAction.INFO: contentType : application/json  
+[2023-06-26 12:17:53] BrandAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687754417,"exp":1687840817}}  
+[2023-06-26 12:17:53] BrandModel.INFO: Query : call SP_AddandEditBrand('VIEW','','',0,0)  
+[2023-06-26 12:17:53] BrandAction.INFO: ======= END Brand Action (VIEW)================  
+[2023-06-26 12:19:07] BrandAction.INFO: ======= Start Brand Action (VIEW)================  
+[2023-06-26 12:19:07] BrandAction.INFO: method : POST  
+[2023-06-26 12:19:07] BrandAction.INFO: contentType : application/json  
+[2023-06-26 12:19:07] BrandAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687754417,"exp":1687840817}}  
+[2023-06-26 12:19:07] BrandModel.INFO: Query : call SP_AddandEditBrand('VIEW','','',0,0)  
+[2023-06-26 12:19:07] BrandAction.INFO: ======= END Brand Action (VIEW)================  
+[2023-06-26 12:19:50] BrandAction.INFO: ======= Start Brand Action (VIEW)================  
+[2023-06-26 12:19:50] BrandAction.INFO: method : POST  
+[2023-06-26 12:19:50] BrandAction.INFO: contentType : application/json  
+[2023-06-26 12:19:50] BrandAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687754417,"exp":1687840817}}  
+[2023-06-26 12:19:50] BrandModel.INFO: Query : call SP_AddandEditBrand('VIEW','','',0,0)  
+[2023-06-26 12:19:50] BrandAction.INFO: ======= END Brand Action (VIEW)================  
+[2023-06-26 12:19:57] BrandAction.INFO: ======= Start Brand Action (VIEW)================  
+[2023-06-26 12:19:57] BrandAction.INFO: method : POST  
+[2023-06-26 12:19:57] BrandAction.INFO: contentType : application/json  
+[2023-06-26 12:19:57] BrandAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687754417,"exp":1687840817}}  
+[2023-06-26 12:19:57] BrandModel.INFO: Query : call SP_AddandEditBrand('VIEW','','',0,0)  
+[2023-06-26 12:19:57] BrandAction.INFO: ======= END Brand Action (VIEW)================  
+[2023-06-26 12:22:05] BrandAction.INFO: ======= Start Brand Action (VIEW)================  
+[2023-06-26 12:22:05] BrandAction.INFO: method : POST  
+[2023-06-26 12:22:05] BrandAction.INFO: contentType : application/json  
+[2023-06-26 12:22:05] BrandAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687754417,"exp":1687840817}}  
+[2023-06-26 12:22:05] BrandModel.INFO: Query : call SP_AddandEditBrand('VIEW','','',0,0)  
+[2023-06-26 12:22:05] BrandAction.INFO: ======= END Brand Action (VIEW)================  
+[2023-06-26 12:23:01] BrandAction.INFO: ======= Start Brand Action (VIEW)================  
+[2023-06-26 12:23:01] BrandAction.INFO: method : POST  
+[2023-06-26 12:23:01] BrandAction.INFO: contentType : application/json  
+[2023-06-26 12:23:01] BrandAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687754417,"exp":1687840817}}  
+[2023-06-26 12:23:01] BrandModel.INFO: Query : call SP_AddandEditBrand('VIEW','','',0,0)  
+[2023-06-26 12:23:01] BrandAction.INFO: ======= END Brand Action (VIEW)================  
+[2023-06-26 12:23:27] BrandAction.INFO: ======= Start Brand Action (VIEW)================  
+[2023-06-26 12:23:27] BrandAction.INFO: method : POST  
+[2023-06-26 12:23:27] BrandAction.INFO: contentType : application/json  
+[2023-06-26 12:23:27] BrandAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687754417,"exp":1687840817}}  
+[2023-06-26 12:23:27] BrandModel.INFO: Query : call SP_AddandEditBrand('VIEW','','',0,0)  
+[2023-06-26 12:23:27] BrandAction.INFO: ======= END Brand Action (VIEW)================  
+[2023-06-26 12:23:47] BrandAction.INFO: ======= Start Brand Action (VIEW)================  
+[2023-06-26 12:23:47] BrandAction.INFO: method : POST  
+[2023-06-26 12:23:47] BrandAction.INFO: contentType : application/json  
+[2023-06-26 12:23:47] BrandAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687754417,"exp":1687840817}}  
+[2023-06-26 12:23:47] BrandModel.INFO: Query : call SP_AddandEditBrand('VIEW','','',0,0)  
+[2023-06-26 12:23:47] BrandAction.INFO: ======= END Brand Action (VIEW)================  
+[2023-06-26 12:24:11] BrandAction.INFO: ======= Start Brand Action (VIEW)================  
+[2023-06-26 12:24:11] BrandAction.INFO: method : POST  
+[2023-06-26 12:24:11] BrandAction.INFO: contentType : application/json  
+[2023-06-26 12:24:11] BrandAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687754417,"exp":1687840817}}  
+[2023-06-26 12:24:11] BrandModel.INFO: Query : call SP_AddandEditBrand('VIEW','','',0,0)  
+[2023-06-26 12:24:11] BrandAction.INFO: ======= END Brand Action (VIEW)================  
+[2023-06-26 12:24:56] BrandAction.INFO: ======= Start Brand Action (VIEW)================  
+[2023-06-26 12:24:56] BrandAction.INFO: method : POST  
+[2023-06-26 12:24:56] BrandAction.INFO: contentType : application/json  
+[2023-06-26 12:24:56] BrandAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687754417,"exp":1687840817}}  
+[2023-06-26 12:24:56] BrandModel.INFO: Query : call SP_AddandEditBrand('VIEW','','',0,0)  
+[2023-06-26 12:24:56] BrandAction.INFO: ======= END Brand Action (VIEW)================  
+[2023-06-26 12:25:05] BrandAction.INFO: ======= Start Brand Action (VIEW)================  
+[2023-06-26 12:25:05] BrandAction.INFO: method : POST  
+[2023-06-26 12:25:05] BrandAction.INFO: contentType : application/json  
+[2023-06-26 12:25:05] BrandAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687754417,"exp":1687840817}}  
+[2023-06-26 12:25:05] BrandModel.INFO: Query : call SP_AddandEditBrand('VIEW','','',0,0)  
+[2023-06-26 12:25:05] BrandAction.INFO: ======= END Brand Action (VIEW)================  
+[2023-06-26 12:25:28] BrandAction.INFO: ======= Start Brand Action (VIEW)================  
+[2023-06-26 12:25:28] BrandAction.INFO: method : POST  
+[2023-06-26 12:25:28] BrandAction.INFO: contentType : application/json  
+[2023-06-26 12:25:28] BrandAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687754417,"exp":1687840817}}  
+[2023-06-26 12:25:28] BrandModel.INFO: Query : call SP_AddandEditBrand('VIEW','','',0,0)  
+[2023-06-26 12:25:28] BrandAction.INFO: ======= END Brand Action (VIEW)================  
+[2023-06-26 12:25:47] BrandAction.INFO: ======= Start Brand Action (VIEW)================  
+[2023-06-26 12:25:47] BrandAction.INFO: method : POST  
+[2023-06-26 12:25:47] BrandAction.INFO: contentType : application/json  
+[2023-06-26 12:25:47] BrandAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687754417,"exp":1687840817}}  
+[2023-06-26 12:25:47] BrandModel.INFO: Query : call SP_AddandEditBrand('VIEW','','',0,0)  
+[2023-06-26 12:25:47] BrandAction.INFO: ======= END Brand Action (VIEW)================  
+[2023-06-26 12:26:56] BrandAction.INFO: ======= Start Brand Action (VIEW)================  
+[2023-06-26 12:26:56] BrandAction.INFO: method : POST  
+[2023-06-26 12:26:56] BrandAction.INFO: contentType : application/json  
+[2023-06-26 12:26:56] BrandAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687754417,"exp":1687840817}}  
+[2023-06-26 12:26:56] BrandModel.INFO: Query : call SP_AddandEditBrand('VIEW','','',0,0)  
+[2023-06-26 12:26:56] BrandAction.INFO: ======= END Brand Action (VIEW)================  
+[2023-06-26 12:28:42] BrandAction.INFO: ======= Start Brand Action (VIEW)================  
+[2023-06-26 12:28:42] BrandAction.INFO: method : POST  
+[2023-06-26 12:28:42] BrandAction.INFO: contentType : application/json  
+[2023-06-26 12:28:42] BrandAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687754417,"exp":1687840817}}  
+[2023-06-26 12:28:42] BrandModel.INFO: Query : call SP_AddandEditBrand('VIEW','','',0,0)  
+[2023-06-26 12:28:42] BrandAction.INFO: ======= END Brand Action (VIEW)================  
+[2023-06-26 12:32:00] BrandAction.INFO: ======= Start Brand Action (VIEW)================  
+[2023-06-26 12:32:00] BrandAction.INFO: method : POST  
+[2023-06-26 12:32:00] BrandAction.INFO: contentType : application/json  
+[2023-06-26 12:32:00] BrandAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687754417,"exp":1687840817}}  
+[2023-06-26 12:32:00] BrandModel.INFO: Query : call SP_AddandEditBrand('VIEW','','',0,0)  
+[2023-06-26 12:32:00] BrandAction.INFO: ======= END Brand Action (VIEW)================  
+[2023-06-26 12:40:26] BrandAction.INFO: ======= Start Brand Action (VIEW)================  
+[2023-06-26 12:40:26] BrandAction.INFO: method : POST  
+[2023-06-26 12:40:26] BrandAction.INFO: contentType : application/json  
+[2023-06-26 12:40:26] BrandAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687754417,"exp":1687840817}}  
+[2023-06-26 12:40:26] BrandModel.INFO: Query : call SP_AddandEditBrand('VIEW','','',0,0)  
+[2023-06-26 12:40:26] BrandAction.INFO: ======= END Brand Action (VIEW)================  
+[2023-06-26 12:45:29] BrandAction.INFO: ======= Start Brand Action (VIEW)================  
+[2023-06-26 12:45:29] BrandAction.INFO: method : POST  
+[2023-06-26 12:45:29] BrandAction.INFO: contentType : application/json  
+[2023-06-26 12:45:29] BrandAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687754417,"exp":1687840817}}  
+[2023-06-26 12:45:29] BrandModel.INFO: Query : call SP_AddandEditBrand('VIEW','','',0,0)  
+[2023-06-26 12:45:29] BrandAction.INFO: ======= END Brand Action (VIEW)================  
+[2023-06-26 13:06:25] BrandAction.INFO: ======= Start Brand Action (VIEW)================  
+[2023-06-26 13:06:25] BrandAction.INFO: method : POST  
+[2023-06-26 13:06:25] BrandAction.INFO: contentType : application/json  
+[2023-06-26 13:06:25] BrandAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687754417,"exp":1687840817}}  
+[2023-06-26 13:06:25] BrandModel.INFO: Query : call SP_AddandEditBrand('VIEW','','',0,0)  
+[2023-06-26 13:06:25] BrandAction.INFO: ======= END Brand Action (VIEW)================  
+[2023-06-26 13:09:41] BrandAction.INFO: ======= Start Brand Action (VIEW)================  
+[2023-06-26 13:09:41] BrandAction.INFO: method : POST  
+[2023-06-26 13:09:41] BrandAction.INFO: contentType : application/json  
+[2023-06-26 13:09:41] BrandAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687754417,"exp":1687840817}}  
+[2023-06-26 13:09:41] BrandModel.INFO: Query : call SP_AddandEditBrand('VIEW','','',0,0)  
+[2023-06-26 13:09:41] BrandAction.INFO: ======= END Brand Action (VIEW)================  
+[2023-06-26 13:18:33] BrandAction.INFO: ======= Start Brand Action (VIEW)================  
+[2023-06-26 13:18:33] BrandAction.INFO: method : POST  
+[2023-06-26 13:18:33] BrandAction.INFO: contentType : application/json  
+[2023-06-26 13:18:33] BrandAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687754417,"exp":1687840817}}  
+[2023-06-26 13:18:33] BrandModel.INFO: Query : call SP_AddandEditBrand('VIEW','','',0,0)  
+[2023-06-26 13:18:33] BrandAction.INFO: ======= END Brand Action (VIEW)================  
+[2023-06-26 13:35:33] BrandAction.INFO: ======= Start Brand Action (VIEW)================  
+[2023-06-26 13:35:33] BrandAction.INFO: method : POST  
+[2023-06-26 13:35:33] BrandAction.INFO: contentType : application/json  
+[2023-06-26 13:35:33] BrandAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687786530,"exp":1687872930}}  
+[2023-06-26 13:35:33] BrandModel.INFO: Query : call SP_AddandEditBrand('VIEW','','',0,0)  
+[2023-06-26 13:35:33] BrandAction.INFO: ======= END Brand Action (VIEW)================  
+[2023-06-26 13:36:15] BrandAction.INFO: ======= Start Brand Action (VIEW)================  
+[2023-06-26 13:36:15] BrandAction.INFO: method : POST  
+[2023-06-26 13:36:15] BrandAction.INFO: contentType : application/json  
+[2023-06-26 13:36:15] BrandAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687786530,"exp":1687872930}}  
+[2023-06-26 13:36:15] BrandModel.INFO: Query : call SP_AddandEditBrand('VIEW','','',0,0)  
+[2023-06-26 13:36:15] BrandAction.INFO: ======= END Brand Action (VIEW)================  

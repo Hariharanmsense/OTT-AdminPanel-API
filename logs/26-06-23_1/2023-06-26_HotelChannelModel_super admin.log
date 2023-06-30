@@ -1,0 +1,4 @@
+[2023-06-26 04:32:15] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-26 04:32:15] HotelChannelAction.INFO: method : POST  
+[2023-06-26 04:32:15] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-26 04:32:15] HotelChannelAction.INFO: Input Data : {"hotelid":"1","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687753935,"exp":1687840335}}  

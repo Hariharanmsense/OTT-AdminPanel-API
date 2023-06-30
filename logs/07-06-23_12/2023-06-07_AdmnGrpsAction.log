@@ -1,0 +1,45 @@
+[2023-06-07 04:42:00] AdmnGrpsAction.INFO: ======= Start AdmnGrps Action (List) ================  
+[2023-06-07 04:42:00] AdmnGrpsAction.INFO: method : POST  
+[2023-06-07 04:42:00] AdmnGrpsAction.INFO: contentType : application/json  
+[2023-06-07 04:42:00] AdmnGrpsAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686112295,"exp":1686198695}}  
+[2023-06-07 04:42:00] AdmnGrpsAction.INFO: ======= END AdmnGrps Action (List) ================  
+[2023-06-07 05:02:40] AdmnGrpsAction.INFO: ======= Start AdmnGrps Action (List) ================  
+[2023-06-07 05:02:40] AdmnGrpsAction.INFO: method : POST  
+[2023-06-07 05:02:40] AdmnGrpsAction.INFO: contentType : application/json  
+[2023-06-07 05:02:40] AdmnGrpsAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686112295,"exp":1686198695}}  
+[2023-06-07 05:02:40] AdmnGrpsAction.INFO: ======= END AdmnGrps Action (List) ================  
+[2023-06-07 05:49:52] AdmnGrpsAction.INFO: ======= Start AdmnGrps Action (List) ================  
+[2023-06-07 05:49:52] AdmnGrpsAction.INFO: method : POST  
+[2023-06-07 05:49:52] AdmnGrpsAction.INFO: contentType : application/json  
+[2023-06-07 05:49:52] AdmnGrpsAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686116986,"exp":1686203386}}  
+[2023-06-07 05:49:52] AdmnGrpsAction.INFO: ======= END AdmnGrps Action (List) ================  
+[2023-06-07 05:49:56] AdmnGrpsAction.INFO: ======= Start AdmnGrps Action (List) ================  
+[2023-06-07 05:49:56] AdmnGrpsAction.INFO: method : POST  
+[2023-06-07 05:49:56] AdmnGrpsAction.INFO: contentType : application/json  
+[2023-06-07 05:49:56] AdmnGrpsAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686116986,"exp":1686203386}}  
+[2023-06-07 05:49:56] AdmnGrpsAction.INFO: ======= END AdmnGrps Action (List) ================  
+[2023-06-07 05:49:57] AdmnGrpsAction.INFO: ======= Start AdmnGrps Action (List) ================  
+[2023-06-07 05:49:57] AdmnGrpsAction.INFO: method : POST  
+[2023-06-07 05:49:57] AdmnGrpsAction.INFO: contentType : application/json  
+[2023-06-07 05:49:57] AdmnGrpsAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686116986,"exp":1686203386}}  
+[2023-06-07 05:49:57] AdmnGrpsAction.INFO: ======= END AdmnGrps Action (List) ================  
+[2023-06-07 05:50:30] AdmnGrpsAction.INFO: ======= Start AdmnGrps Action (List) ================  
+[2023-06-07 05:50:30] AdmnGrpsAction.INFO: method : POST  
+[2023-06-07 05:50:30] AdmnGrpsAction.INFO: contentType : application/json  
+[2023-06-07 05:50:30] AdmnGrpsAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686116986,"exp":1686203386}}  
+[2023-06-07 05:50:30] AdmnGrpsAction.INFO: ======= END AdmnGrps Action (List) ================  
+[2023-06-07 05:50:58] AdmnGrpsAction.INFO: ======= Start AdmnGrps Action (List) ================  
+[2023-06-07 05:50:58] AdmnGrpsAction.INFO: method : POST  
+[2023-06-07 05:50:58] AdmnGrpsAction.INFO: contentType : application/json  
+[2023-06-07 05:50:58] AdmnGrpsAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686116986,"exp":1686203386}}  
+[2023-06-07 05:50:58] AdmnGrpsAction.INFO: ======= END AdmnGrps Action (List) ================  
+[2023-06-07 08:37:06] AdmnGrpsAction.INFO: ======= Start AdmnGrps Action (List) ================  
+[2023-06-07 08:37:06] AdmnGrpsAction.INFO: method : POST  
+[2023-06-07 08:37:06] AdmnGrpsAction.INFO: contentType : application/json  
+[2023-06-07 08:37:06] AdmnGrpsAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686120629,"exp":1686207029}}  
+[2023-06-07 08:37:06] AdmnGrpsAction.INFO: ======= END AdmnGrps Action (List) ================  
+[2023-06-07 08:38:30] AdmnGrpsAction.INFO: ======= Start AdmnGrps Action (List) ================  
+[2023-06-07 08:38:30] AdmnGrpsAction.INFO: method : POST  
+[2023-06-07 08:38:30] AdmnGrpsAction.INFO: contentType : application/json  
+[2023-06-07 08:38:30] AdmnGrpsAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686120629,"exp":1686207029}}  
+[2023-06-07 08:38:30] AdmnGrpsAction.INFO: ======= END AdmnGrps Action (List) ================  

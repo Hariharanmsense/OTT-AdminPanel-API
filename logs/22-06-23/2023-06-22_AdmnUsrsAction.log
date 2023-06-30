@@ -1,0 +1,45 @@
+[2023-06-22 04:09:29] AdmnUsrsAction.INFO: ======= Start AdmnUsrs Action (List) ================  
+[2023-06-22 04:09:29] AdmnUsrsAction.INFO: method : POST  
+[2023-06-22 04:09:29] AdmnUsrsAction.INFO: contentType : application/json  
+[2023-06-22 04:09:29] AdmnUsrsAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687406177,"exp":1687492577}}  
+[2023-06-22 04:09:29] AdmnUsrsAction.INFO: ======= END AdmnUsrs Action (List) ================  
+[2023-06-22 06:04:09] AdmnUsrsAction.INFO: ======= Start AdmnUsrs Action (List) ================  
+[2023-06-22 06:04:09] AdmnUsrsAction.INFO: method : POST  
+[2023-06-22 06:04:09] AdmnUsrsAction.INFO: contentType : application/json  
+[2023-06-22 06:04:09] AdmnUsrsAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687413838,"exp":1687500238}}  
+[2023-06-22 06:04:09] AdmnUsrsAction.INFO: ======= END AdmnUsrs Action (List) ================  
+[2023-06-22 08:21:30] AdmnUsrsAction.INFO: ======= Start AdmnUsrs Action (List) ================  
+[2023-06-22 08:21:30] AdmnUsrsAction.INFO: method : POST  
+[2023-06-22 08:21:30] AdmnUsrsAction.INFO: contentType : application/json  
+[2023-06-22 08:21:30] AdmnUsrsAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687413838,"exp":1687500238}}  
+[2023-06-22 08:21:30] AdmnUsrsAction.INFO: ======= END AdmnUsrs Action (List) ================  
+[2023-06-22 08:21:33] AdmnUsrsAction.INFO: ======= Start AdmnUsrs Action (List) ================  
+[2023-06-22 08:21:33] AdmnUsrsAction.INFO: method : POST  
+[2023-06-22 08:21:33] AdmnUsrsAction.INFO: contentType : application/json  
+[2023-06-22 08:21:33] AdmnUsrsAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687413838,"exp":1687500238}}  
+[2023-06-22 08:21:33] AdmnUsrsAction.INFO: ======= END AdmnUsrs Action (List) ================  
+[2023-06-22 08:21:35] AdmnUsrsAction.INFO: ======= Start AdmnUsrs Action (List) ================  
+[2023-06-22 08:21:35] AdmnUsrsAction.INFO: method : POST  
+[2023-06-22 08:21:35] AdmnUsrsAction.INFO: contentType : application/json  
+[2023-06-22 08:21:35] AdmnUsrsAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687413838,"exp":1687500238}}  
+[2023-06-22 08:21:35] AdmnUsrsAction.INFO: ======= END AdmnUsrs Action (List) ================  
+[2023-06-22 08:21:37] AdmnUsrsAction.INFO: ======= Start AdmnUsrs Action (List) ================  
+[2023-06-22 08:21:37] AdmnUsrsAction.INFO: method : POST  
+[2023-06-22 08:21:37] AdmnUsrsAction.INFO: contentType : application/json  
+[2023-06-22 08:21:37] AdmnUsrsAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687413838,"exp":1687500238}}  
+[2023-06-22 08:21:37] AdmnUsrsAction.INFO: ======= END AdmnUsrs Action (List) ================  
+[2023-06-22 08:21:40] AdmnUsrsAction.INFO: ======= Start AdmnUsrs Action (List) ================  
+[2023-06-22 08:21:40] AdmnUsrsAction.INFO: method : POST  
+[2023-06-22 08:21:40] AdmnUsrsAction.INFO: contentType : application/json  
+[2023-06-22 08:21:40] AdmnUsrsAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687413838,"exp":1687500238}}  
+[2023-06-22 08:21:40] AdmnUsrsAction.INFO: ======= END AdmnUsrs Action (List) ================  
+[2023-06-22 08:21:41] AdmnUsrsAction.INFO: ======= Start AdmnUsrs Action (List) ================  
+[2023-06-22 08:21:41] AdmnUsrsAction.INFO: method : POST  
+[2023-06-22 08:21:41] AdmnUsrsAction.INFO: contentType : application/json  
+[2023-06-22 08:21:41] AdmnUsrsAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687413838,"exp":1687500238}}  
+[2023-06-22 08:21:42] AdmnUsrsAction.INFO: ======= END AdmnUsrs Action (List) ================  
+[2023-06-22 16:19:16] AdmnUsrsAction.INFO: ======= Start AdmnUsrs Action (List) ================  
+[2023-06-22 16:19:16] AdmnUsrsAction.INFO: method : POST  
+[2023-06-22 16:19:16] AdmnUsrsAction.INFO: contentType : application/json  
+[2023-06-22 16:19:16] AdmnUsrsAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687450745,"exp":1687537145}}  
+[2023-06-22 16:19:16] AdmnUsrsAction.INFO: ======= END AdmnUsrs Action (List) ================  

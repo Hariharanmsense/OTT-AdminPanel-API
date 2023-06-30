@@ -1,0 +1,8 @@
+[2023-06-05 13:45:04] HotelRepository.INFO: ======= Start Hotel Repository ================  
+[2023-06-05 13:45:04] HotelRepository.INFO: ======= End Hotel Repository ================  
+[2023-06-05 13:45:46] HotelRepository.INFO: ======= Start Hotel Repository ================  
+[2023-06-05 13:45:46] HotelRepository.INFO: ======= End Hotel Repository ================  
+[2023-06-05 13:45:50] HotelRepository.INFO: ======= Start Hotel Repository ================  
+[2023-06-05 13:45:50] HotelRepository.INFO: Input Data : {"brandid":"7","hotelname":"t5t5","location":"tenkasi","spocname":"krish","email":"s@f.com","mobileno":"234458","address":"junction","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685972693,"exp":1686059093}}  
+[2023-06-05 13:45:50] HotelRepository.INFO: Insert Status : {"msg":"Customer Updated SuccessFully","status":"Success"}  
+[2023-06-05 13:45:50] HotelRepository.INFO: ======= End Hotel Repository ================  

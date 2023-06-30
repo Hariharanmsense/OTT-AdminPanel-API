@@ -1,0 +1,35 @@
+[2023-06-30 04:24:54] HotelAction.INFO: ======= Start Hotel Action (List) ================  
+[2023-06-30 04:24:54] HotelAction.INFO: method : POST  
+[2023-06-30 04:24:54] HotelAction.INFO: contentType : application/json  
+[2023-06-30 04:24:54] HotelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688099091,"exp":1688185491}}  
+[2023-06-30 04:24:54] HotelAction.INFO: ======= END Hotel Action (List) ================  
+[2023-06-30 04:25:40] HotelAction.INFO: ======= Start Hotel Action (List) ================  
+[2023-06-30 04:25:40] HotelAction.INFO: method : POST  
+[2023-06-30 04:25:40] HotelAction.INFO: contentType : application/json  
+[2023-06-30 04:25:40] HotelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688099091,"exp":1688185491}}  
+[2023-06-30 04:25:40] HotelAction.INFO: ======= END Hotel Action (List) ================  
+[2023-06-30 04:36:41] HotelAction.INFO: ======= Start Hotel Action (List) ================  
+[2023-06-30 04:36:41] HotelAction.INFO: method : POST  
+[2023-06-30 04:36:41] HotelAction.INFO: contentType : application/json  
+[2023-06-30 04:36:41] HotelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688099798,"exp":1688186198}}  
+[2023-06-30 04:36:41] HotelAction.INFO: ======= END Hotel Action (List) ================  
+[2023-06-30 04:36:47] HotelAction.INFO: ======= Start Hotel Action (List) ================  
+[2023-06-30 04:36:47] HotelAction.INFO: method : POST  
+[2023-06-30 04:36:47] HotelAction.INFO: contentType : application/json  
+[2023-06-30 04:36:47] HotelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688099798,"exp":1688186198}}  
+[2023-06-30 04:36:47] HotelAction.INFO: ======= END Hotel Action (List) ================  
+[2023-06-30 04:58:31] HotelAction.INFO: ======= Start Hotel Action (List) ================  
+[2023-06-30 04:58:31] HotelAction.INFO: method : POST  
+[2023-06-30 04:58:31] HotelAction.INFO: contentType : application/json  
+[2023-06-30 04:58:31] HotelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688101109,"exp":1688187509}}  
+[2023-06-30 04:58:31] HotelAction.INFO: ======= END Hotel Action (List) ================  
+[2023-06-30 05:00:18] HotelAction.INFO: ======= Start Hotel Action (List) ================  
+[2023-06-30 05:00:18] HotelAction.INFO: method : POST  
+[2023-06-30 05:00:18] HotelAction.INFO: contentType : application/json  
+[2023-06-30 05:00:18] HotelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688101109,"exp":1688187509}}  
+[2023-06-30 05:00:18] HotelAction.INFO: ======= END Hotel Action (List) ================  
+[2023-06-30 05:00:23] HotelAction.INFO: ======= Start Hotel Action (List) ================  
+[2023-06-30 05:00:23] HotelAction.INFO: method : POST  
+[2023-06-30 05:00:23] HotelAction.INFO: contentType : application/json  
+[2023-06-30 05:00:23] HotelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688101109,"exp":1688187509}}  
+[2023-06-30 05:00:23] HotelAction.INFO: ======= END Hotel Action (List) ================  

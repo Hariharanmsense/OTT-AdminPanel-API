@@ -1,0 +1,61 @@
+[2023-06-05 13:42:30] HotelAction.INFO: ======= Start Hotel Action (List) ================  
+[2023-06-05 13:42:30] HotelAction.INFO: method : POST  
+[2023-06-05 13:42:30] HotelAction.INFO: contentType : application/json  
+[2023-06-05 13:42:30] HotelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685941470,"exp":1686027870}}  
+[2023-06-05 13:42:30] HotelAction.INFO: ======= END Hotel Action (List) ================  
+[2023-06-05 13:44:56] HotelAction.INFO: ======= Start Hotel Action (List) ================  
+[2023-06-05 13:44:56] HotelAction.INFO: method : POST  
+[2023-06-05 13:44:56] HotelAction.INFO: contentType : application/json  
+[2023-06-05 13:44:56] HotelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685972693,"exp":1686059093}}  
+[2023-06-05 13:44:56] HotelAction.INFO: ======= END Hotel Action (List) ================  
+[2023-06-05 13:45:04] HotelAction.INFO: ======= Start Hotel Action (DELETE) ================  
+[2023-06-05 13:45:04] HotelAction.INFO: method : DELETE  
+[2023-06-05 13:45:04] HotelAction.INFO: contentType : application/json  
+[2023-06-05 13:45:04] HotelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685972693,"exp":1686059093}}  
+[2023-06-05 13:45:04] HotelAction.INFO: group id : 3  
+[2023-06-05 13:45:04] HotelAction.INFO: Insert Status : {"msg":"Customer Removed Successfully","status":"Success"}  
+[2023-06-05 13:45:04] HotelAction.INFO: ======= END Hotel Action (DELETE) ================  
+[2023-06-05 13:45:04] HotelAction.INFO: ======= Start Hotel Action (List) ================  
+[2023-06-05 13:45:04] HotelAction.INFO: method : POST  
+[2023-06-05 13:45:04] HotelAction.INFO: contentType : application/json  
+[2023-06-05 13:45:04] HotelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685972693,"exp":1686059093}}  
+[2023-06-05 13:45:04] HotelAction.INFO: ======= END Hotel Action (List) ================  
+[2023-06-05 13:45:44] HotelAction.INFO: ======= Start Hotel Action (CREATE) ================  
+[2023-06-05 13:45:44] HotelAction.INFO: method : POST  
+[2023-06-05 13:45:44] HotelAction.INFO: contentType : application/json  
+[2023-06-05 13:45:44] HotelAction.INFO: Input Data : {"brandid":"7","hotelname":"t5t5","location":"tenkasi","spocname":"krish","email":"s@f.com","mobileno":"23445","address":"junction","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685972693,"exp":1686059093}}  
+[2023-06-05 13:45:44] HotelAction.INFO: Insert Status : {"msg":"Customer Added SuccessFully","status":"Success"}  
+[2023-06-05 13:45:44] HotelAction.INFO: ======= END Hotel Action (CREATE) ================  
+[2023-06-05 13:45:44] HotelAction.INFO: ======= Start Hotel Action (List) ================  
+[2023-06-05 13:45:44] HotelAction.INFO: method : POST  
+[2023-06-05 13:45:44] HotelAction.INFO: contentType : application/json  
+[2023-06-05 13:45:44] HotelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685972693,"exp":1686059093}}  
+[2023-06-05 13:45:44] HotelAction.INFO: ======= END Hotel Action (List) ================  
+[2023-06-05 13:45:46] HotelAction.INFO: ======= Start Hotel Action (Single One) ================  
+[2023-06-05 13:45:46] HotelAction.INFO: method : GET  
+[2023-06-05 13:45:46] HotelAction.INFO: contentType : application/json  
+[2023-06-05 13:45:46] HotelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685972693,"exp":1686059093}}  
+[2023-06-05 13:45:46] HotelAction.INFO: group id : 12  
+[2023-06-05 13:45:46] HotelAction.INFO: ======= END Hotel Action (Single One) ================  
+[2023-06-05 13:45:50] HotelAction.INFO: ======= Start Hotel Action (UPDATE) ================  
+[2023-06-05 13:45:50] HotelAction.INFO: method : PUT  
+[2023-06-05 13:45:50] HotelAction.INFO: contentType : application/json  
+[2023-06-05 13:45:50] HotelAction.INFO: Input Data : {"brandid":"7","hotelname":"t5t5","location":"tenkasi","spocname":"krish","email":"s@f.com","mobileno":"234458","address":"junction","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685972693,"exp":1686059093}}  
+[2023-06-05 13:45:50] HotelAction.INFO: group id : 12  
+[2023-06-05 13:45:50] HotelAction.INFO: Insert Status : {"msg":"Customer Updated SuccessFully","status":"Success"}  
+[2023-06-05 13:45:50] HotelAction.INFO: ======= END Hotel Action (UPDATE) ================  
+[2023-06-05 13:45:50] HotelAction.INFO: ======= Start Hotel Action (List) ================  
+[2023-06-05 13:45:50] HotelAction.INFO: method : POST  
+[2023-06-05 13:45:50] HotelAction.INFO: contentType : application/json  
+[2023-06-05 13:45:50] HotelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685972693,"exp":1686059093}}  
+[2023-06-05 13:45:50] HotelAction.INFO: ======= END Hotel Action (List) ================  
+[2023-06-05 13:52:46] HotelAction.INFO: ======= Start Hotel Action (List) ================  
+[2023-06-05 13:52:46] HotelAction.INFO: method : POST  
+[2023-06-05 13:52:46] HotelAction.INFO: contentType : application/json  
+[2023-06-05 13:52:46] HotelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685972693,"exp":1686059093}}  
+[2023-06-05 13:52:46] HotelAction.INFO: ======= END Hotel Action (List) ================  
+[2023-06-05 13:52:49] HotelAction.INFO: ======= Start Hotel Action (List) ================  
+[2023-06-05 13:52:49] HotelAction.INFO: method : POST  
+[2023-06-05 13:52:49] HotelAction.INFO: contentType : application/json  
+[2023-06-05 13:52:49] HotelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685972693,"exp":1686059093}}  
+[2023-06-05 13:52:49] HotelAction.INFO: ======= END Hotel Action (List) ================  

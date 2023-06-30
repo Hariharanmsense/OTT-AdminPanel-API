@@ -1,0 +1,349 @@
+[2023-06-07 09:46:51] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 09:46:51] HotelChannelAction.INFO: method : GET  
+[2023-06-07 09:46:51] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 09:46:51] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 09:47:09] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 09:47:09] HotelChannelAction.INFO: method : GET  
+[2023-06-07 09:47:09] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 09:47:09] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 09:47:22] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 09:47:22] HotelChannelAction.INFO: method : POST  
+[2023-06-07 09:47:58] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 09:47:58] HotelChannelAction.INFO: method : POST  
+[2023-06-07 09:47:58] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 09:47:58] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 09:48:41] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 09:48:41] HotelChannelAction.INFO: method : POST  
+[2023-06-07 09:48:41] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 09:48:41] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 09:49:40] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 09:49:40] HotelChannelAction.INFO: method : GET  
+[2023-06-07 09:49:40] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 09:49:40] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 09:51:02] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 09:51:02] HotelChannelAction.INFO: method : GET  
+[2023-06-07 09:51:02] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 09:51:02] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 09:51:06] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 09:51:06] HotelChannelAction.INFO: method : POST  
+[2023-06-07 09:51:06] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 09:51:06] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 09:51:06] HotelChannelAction.INFO: ======= END HotelChannel Action (Single One) ================  
+[2023-06-07 09:56:18] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 09:56:18] HotelChannelAction.INFO: method : POST  
+[2023-06-07 09:56:18] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 09:56:18] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 09:56:18] HotelChannelAction.INFO: ======= END HotelChannel Action (Single One) ================  
+[2023-06-07 09:57:52] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 09:57:52] HotelChannelAction.INFO: method : POST  
+[2023-06-07 09:57:52] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 09:57:52] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 09:57:52] HotelChannelAction.INFO: ======= END HotelChannel Action (Single One) ================  
+[2023-06-07 09:57:57] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 09:57:57] HotelChannelAction.INFO: method : POST  
+[2023-06-07 09:57:57] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 09:57:57] HotelChannelAction.INFO: Input Data : {"hoteli1d":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 09:57:57] HotelChannelRepository.ERROR: Error Code : 401Error Message : HotelId Required  
+[2023-06-07 09:57:57] HotelChannelRepository.ERROR: Error File : /var/www/projects/ottproduct/api/v1/src/Domain/Repository/Channel/HotelChannelRepository.phpError Line : 288  
+[2023-06-07 09:57:57] HotelChannelRepository.ERROR: Error Trace String : #0 /var/www/projects/ottproduct/api/v1/src/Application/Actions/Channel/HotelChannelAction.php(334): App\Domain\Repository\Channel\HotelChannelRepository->getOverallchannellist()
+#1 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(38): App\Application\Actions\Channel\HotelChannelAction->getOverallchannellist()
+#2 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Routing/Route.php(358): Slim\Handlers\Strategies\RequestResponse->__invoke()
+#3 /var/www/projects/ottproduct/api/v1/src/Application/Middleware/AuthMiddleware.php(33): Slim\Routing\Route->handle()
+#4 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): App\Application\Middleware\AuthMiddleware->process()
+#5 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#6 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Slim\MiddlewareDispatcher->handle()
+#7 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Routing/Route.php(315): Slim\MiddlewareDispatcher->handle()
+#8 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Routing/RouteRunner.php(68): Slim\Routing\Route->run()
+#9 /var/www/projects/ottproduct/api/v1/src/Application/Middleware/SessionMiddleware.php(26): Slim\Routing\RouteRunner->handle()
+#10 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(168): App\Application\Middleware\SessionMiddleware->process()
+#11 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Middleware/RoutingMiddleware.php(45): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#12 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Slim\Middleware\RoutingMiddleware->process()
+#13 /var/www/projects/ottproduct/api/v1/vendor/selective/basepath/src/BasePathMiddleware.php(52): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#14 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Selective\BasePath\BasePathMiddleware->process()
+#15 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Middleware/BodyParsingMiddleware.php(64): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#16 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Slim\Middleware\BodyParsingMiddleware->process()
+#17 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Middleware/ErrorMiddleware.php(76): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#18 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Slim\Middleware\ErrorMiddleware->process()
+#19 /var/www/projects/ottproduct/api/v1/vendor/tuupola/cors-middleware/src/CorsMiddleware.php(155): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#20 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Tuupola\Middleware\CorsMiddleware->process()
+#21 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#22 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/App.php(199): Slim\MiddlewareDispatcher->handle()
+#23 /var/www/projects/ottproduct/api/v1/public/index.php(93): Slim\App->handle()
+#24 {main}  
+[2023-06-07 09:57:58] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 09:57:58] HotelChannelAction.INFO: method : POST  
+[2023-06-07 09:57:58] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 09:57:58] HotelChannelAction.INFO: Input Data : {"hoteli1d":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 09:57:58] HotelChannelRepository.ERROR: Error Code : 401Error Message : HotelId Required  
+[2023-06-07 09:57:58] HotelChannelRepository.ERROR: Error File : /var/www/projects/ottproduct/api/v1/src/Domain/Repository/Channel/HotelChannelRepository.phpError Line : 288  
+[2023-06-07 09:57:58] HotelChannelRepository.ERROR: Error Trace String : #0 /var/www/projects/ottproduct/api/v1/src/Application/Actions/Channel/HotelChannelAction.php(334): App\Domain\Repository\Channel\HotelChannelRepository->getOverallchannellist()
+#1 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(38): App\Application\Actions\Channel\HotelChannelAction->getOverallchannellist()
+#2 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Routing/Route.php(358): Slim\Handlers\Strategies\RequestResponse->__invoke()
+#3 /var/www/projects/ottproduct/api/v1/src/Application/Middleware/AuthMiddleware.php(33): Slim\Routing\Route->handle()
+#4 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): App\Application\Middleware\AuthMiddleware->process()
+#5 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#6 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Slim\MiddlewareDispatcher->handle()
+#7 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Routing/Route.php(315): Slim\MiddlewareDispatcher->handle()
+#8 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Routing/RouteRunner.php(68): Slim\Routing\Route->run()
+#9 /var/www/projects/ottproduct/api/v1/src/Application/Middleware/SessionMiddleware.php(26): Slim\Routing\RouteRunner->handle()
+#10 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(168): App\Application\Middleware\SessionMiddleware->process()
+#11 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Middleware/RoutingMiddleware.php(45): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#12 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Slim\Middleware\RoutingMiddleware->process()
+#13 /var/www/projects/ottproduct/api/v1/vendor/selective/basepath/src/BasePathMiddleware.php(52): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#14 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Selective\BasePath\BasePathMiddleware->process()
+#15 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Middleware/BodyParsingMiddleware.php(64): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#16 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Slim\Middleware\BodyParsingMiddleware->process()
+#17 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Middleware/ErrorMiddleware.php(76): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#18 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Slim\Middleware\ErrorMiddleware->process()
+#19 /var/www/projects/ottproduct/api/v1/vendor/tuupola/cors-middleware/src/CorsMiddleware.php(155): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#20 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Tuupola\Middleware\CorsMiddleware->process()
+#21 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#22 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/App.php(199): Slim\MiddlewareDispatcher->handle()
+#23 /var/www/projects/ottproduct/api/v1/public/index.php(93): Slim\App->handle()
+#24 {main}  
+[2023-06-07 09:58:03] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 09:58:03] HotelChannelAction.INFO: method : POST  
+[2023-06-07 09:58:03] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 09:58:03] HotelChannelAction.INFO: Input Data : {"hoteli1d":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 09:58:03] HotelChannelRepository.ERROR: Error Code : 401Error Message : Hotel Id Required  
+[2023-06-07 09:58:03] HotelChannelRepository.ERROR: Error File : /var/www/projects/ottproduct/api/v1/src/Domain/Repository/Channel/HotelChannelRepository.phpError Line : 288  
+[2023-06-07 09:58:03] HotelChannelRepository.ERROR: Error Trace String : #0 /var/www/projects/ottproduct/api/v1/src/Application/Actions/Channel/HotelChannelAction.php(334): App\Domain\Repository\Channel\HotelChannelRepository->getOverallchannellist()
+#1 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(38): App\Application\Actions\Channel\HotelChannelAction->getOverallchannellist()
+#2 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Routing/Route.php(358): Slim\Handlers\Strategies\RequestResponse->__invoke()
+#3 /var/www/projects/ottproduct/api/v1/src/Application/Middleware/AuthMiddleware.php(33): Slim\Routing\Route->handle()
+#4 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): App\Application\Middleware\AuthMiddleware->process()
+#5 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#6 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Slim\MiddlewareDispatcher->handle()
+#7 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Routing/Route.php(315): Slim\MiddlewareDispatcher->handle()
+#8 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Routing/RouteRunner.php(68): Slim\Routing\Route->run()
+#9 /var/www/projects/ottproduct/api/v1/src/Application/Middleware/SessionMiddleware.php(26): Slim\Routing\RouteRunner->handle()
+#10 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(168): App\Application\Middleware\SessionMiddleware->process()
+#11 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Middleware/RoutingMiddleware.php(45): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#12 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Slim\Middleware\RoutingMiddleware->process()
+#13 /var/www/projects/ottproduct/api/v1/vendor/selective/basepath/src/BasePathMiddleware.php(52): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#14 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Selective\BasePath\BasePathMiddleware->process()
+#15 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Middleware/BodyParsingMiddleware.php(64): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#16 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Slim\Middleware\BodyParsingMiddleware->process()
+#17 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Middleware/ErrorMiddleware.php(76): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#18 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Slim\Middleware\ErrorMiddleware->process()
+#19 /var/www/projects/ottproduct/api/v1/vendor/tuupola/cors-middleware/src/CorsMiddleware.php(155): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#20 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Tuupola\Middleware\CorsMiddleware->process()
+#21 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#22 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/App.php(199): Slim\MiddlewareDispatcher->handle()
+#23 /var/www/projects/ottproduct/api/v1/public/index.php(93): Slim\App->handle()
+#24 {main}  
+[2023-06-07 09:58:13] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 09:58:13] HotelChannelAction.INFO: method : POST  
+[2023-06-07 09:58:13] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 09:58:13] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 09:58:13] HotelChannelAction.INFO: ======= END HotelChannel Action (Single One) ================  
+[2023-06-07 11:41:04] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 11:41:04] HotelChannelAction.INFO: method : POST  
+[2023-06-07 11:41:04] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 11:41:04] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 11:45:04] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 11:45:04] HotelChannelAction.INFO: method : POST  
+[2023-06-07 11:45:04] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 11:45:04] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 11:45:53] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 11:45:53] HotelChannelAction.INFO: method : POST  
+[2023-06-07 11:45:53] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 11:45:53] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 11:46:09] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 11:46:09] HotelChannelAction.INFO: method : POST  
+[2023-06-07 11:46:09] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 11:46:09] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 11:46:19] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 11:46:19] HotelChannelAction.INFO: method : POST  
+[2023-06-07 11:46:19] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 11:46:19] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 11:46:29] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 11:46:29] HotelChannelAction.INFO: method : POST  
+[2023-06-07 11:46:29] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 11:46:29] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 11:47:29] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 11:47:29] HotelChannelAction.INFO: method : POST  
+[2023-06-07 11:47:29] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 11:47:29] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 11:47:29] HotelChannelAction.INFO: ======= END HotelChannel Action (Single One) ================  
+[2023-06-07 11:49:41] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 11:49:41] HotelChannelAction.INFO: method : POST  
+[2023-06-07 11:49:41] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 11:49:41] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 11:49:41] HotelChannelAction.INFO: ======= END HotelChannel Action (Single One) ================  
+[2023-06-07 11:50:57] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 11:50:57] HotelChannelAction.INFO: method : POST  
+[2023-06-07 11:50:57] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 11:50:57] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 11:51:14] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 11:51:14] HotelChannelAction.INFO: method : POST  
+[2023-06-07 11:51:14] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 11:51:14] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 11:51:14] HotelChannelAction.INFO: ======= END HotelChannel Action (Single One) ================  
+[2023-06-07 11:51:27] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 11:51:27] HotelChannelAction.INFO: method : POST  
+[2023-06-07 11:51:27] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 11:51:27] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 11:51:27] HotelChannelAction.INFO: ======= END HotelChannel Action (Single One) ================  
+[2023-06-07 11:54:40] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 11:54:40] HotelChannelAction.INFO: method : POST  
+[2023-06-07 11:54:40] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 11:54:40] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 11:54:40] HotelChannelAction.INFO: ======= END HotelChannel Action (Single One) ================  
+[2023-06-07 11:55:00] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 11:55:00] HotelChannelAction.INFO: method : POST  
+[2023-06-07 11:55:00] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 11:55:00] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 11:55:00] HotelChannelAction.INFO: ======= END HotelChannel Action (Single One) ================  
+[2023-06-07 11:55:19] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 11:55:19] HotelChannelAction.INFO: method : POST  
+[2023-06-07 11:55:19] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 11:55:19] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 11:55:19] HotelChannelAction.INFO: ======= END HotelChannel Action (Single One) ================  
+[2023-06-07 11:55:26] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 11:55:26] HotelChannelAction.INFO: method : POST  
+[2023-06-07 11:55:26] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 11:55:26] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 11:55:26] HotelChannelAction.INFO: ======= END HotelChannel Action (Single One) ================  
+[2023-06-07 11:56:07] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 11:56:07] HotelChannelAction.INFO: method : POST  
+[2023-06-07 11:56:07] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 11:56:07] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 11:56:07] HotelChannelAction.INFO: ======= END HotelChannel Action (Single One) ================  
+[2023-06-07 11:56:17] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 11:56:17] HotelChannelAction.INFO: method : POST  
+[2023-06-07 11:56:17] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 11:56:17] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 11:56:39] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 11:56:39] HotelChannelAction.INFO: method : POST  
+[2023-06-07 11:56:39] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 11:56:39] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 11:56:50] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 11:56:50] HotelChannelAction.INFO: method : POST  
+[2023-06-07 11:56:50] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 11:56:50] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 12:04:00] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 12:04:00] HotelChannelAction.INFO: method : POST  
+[2023-06-07 12:04:00] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 12:04:00] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 12:07:20] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 12:07:20] HotelChannelAction.INFO: method : POST  
+[2023-06-07 12:07:20] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 12:07:20] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 12:07:55] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 12:07:55] HotelChannelAction.INFO: method : POST  
+[2023-06-07 12:07:55] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 12:07:55] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 12:08:23] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 12:08:23] HotelChannelAction.INFO: method : POST  
+[2023-06-07 12:08:23] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 12:08:23] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 12:08:24] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 12:08:24] HotelChannelAction.INFO: method : POST  
+[2023-06-07 12:08:24] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 12:08:24] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 12:09:59] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 12:09:59] HotelChannelAction.INFO: method : POST  
+[2023-06-07 12:09:59] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 12:09:59] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 12:09:59] HotelChannelAction.INFO: ======= END HotelChannel Action (Single One) ================  
+[2023-06-07 12:10:25] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 12:10:25] HotelChannelAction.INFO: method : POST  
+[2023-06-07 12:10:25] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 12:10:25] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 12:10:25] HotelChannelAction.INFO: ======= END HotelChannel Action (Single One) ================  
+[2023-06-07 12:14:33] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 12:14:33] HotelChannelAction.INFO: method : POST  
+[2023-06-07 12:14:33] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 12:14:33] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 12:14:33] HotelChannelAction.INFO: ======= END HotelChannel Action (Single One) ================  
+[2023-06-07 12:15:07] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 12:15:07] HotelChannelAction.INFO: method : POST  
+[2023-06-07 12:15:07] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 12:15:07] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 12:15:07] HotelChannelAction.INFO: ======= END HotelChannel Action (Single One) ================  
+[2023-06-07 12:15:33] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 12:15:33] HotelChannelAction.INFO: method : POST  
+[2023-06-07 12:15:33] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 12:15:33] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 12:16:05] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 12:16:05] HotelChannelAction.INFO: method : POST  
+[2023-06-07 12:16:05] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 12:16:05] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 12:16:05] HotelChannelAction.INFO: ======= END HotelChannel Action (Single One) ================  
+[2023-06-07 12:16:43] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 12:16:43] HotelChannelAction.INFO: method : POST  
+[2023-06-07 12:16:43] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 12:16:43] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 12:18:07] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 12:18:07] HotelChannelAction.INFO: method : POST  
+[2023-06-07 12:18:07] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 12:18:07] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 12:18:07] HotelChannelAction.INFO: ======= END HotelChannel Action (Single One) ================  
+[2023-06-07 12:19:04] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 12:19:04] HotelChannelAction.INFO: method : POST  
+[2023-06-07 12:19:04] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 12:19:04] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 12:19:04] HotelChannelAction.INFO: ======= END HotelChannel Action (Single One) ================  
+[2023-06-07 12:19:37] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 12:19:37] HotelChannelAction.INFO: method : POST  
+[2023-06-07 12:19:37] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 12:19:37] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 12:20:40] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 12:20:40] HotelChannelAction.INFO: method : POST  
+[2023-06-07 12:20:40] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 12:20:40] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 12:20:47] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 12:20:47] HotelChannelAction.INFO: method : POST  
+[2023-06-07 12:20:47] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 12:20:47] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 12:20:47] HotelChannelAction.INFO: ======= END HotelChannel Action (Single One) ================  
+[2023-06-07 12:21:45] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 12:21:45] HotelChannelAction.INFO: method : POST  
+[2023-06-07 12:21:45] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 12:21:45] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 12:22:18] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 12:22:18] HotelChannelAction.INFO: method : POST  
+[2023-06-07 12:22:18] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 12:22:18] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 12:22:18] HotelChannelAction.INFO: ======= END HotelChannel Action (Single One) ================  
+[2023-06-07 12:33:35] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 12:33:35] HotelChannelAction.INFO: method : POST  
+[2023-06-07 12:33:35] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 12:33:35] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 12:33:35] HotelChannelAction.INFO: ======= END HotelChannel Action (Single One) ================  
+[2023-06-07 12:34:25] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 12:34:25] HotelChannelAction.INFO: method : POST  
+[2023-06-07 12:34:25] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 12:34:25] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 12:34:25] HotelChannelAction.INFO: ======= END HotelChannel Action (Single One) ================  
+[2023-06-07 12:35:07] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 12:35:07] HotelChannelAction.INFO: method : POST  
+[2023-06-07 12:35:07] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 12:35:07] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 12:35:07] HotelChannelAction.INFO: ======= END HotelChannel Action (Single One) ================  
+[2023-06-07 12:36:17] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 12:36:17] HotelChannelAction.INFO: method : POST  
+[2023-06-07 12:36:17] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 12:36:17] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 12:36:17] HotelChannelAction.INFO: ======= END HotelChannel Action (Single One) ================  
+[2023-06-07 12:37:27] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 12:37:27] HotelChannelAction.INFO: method : POST  
+[2023-06-07 12:37:27] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 12:37:27] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 12:37:27] HotelChannelAction.INFO: ======= END HotelChannel Action (Single One) ================  
+[2023-06-07 12:39:49] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 12:39:49] HotelChannelAction.INFO: method : POST  
+[2023-06-07 12:39:49] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 12:39:49] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 12:39:49] HotelChannelAction.INFO: ======= END HotelChannel Action (Single One) ================  
+[2023-06-07 12:40:01] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 12:40:01] HotelChannelAction.INFO: method : POST  
+[2023-06-07 12:40:01] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 12:40:01] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 12:40:01] HotelChannelAction.INFO: ======= END HotelChannel Action (Single One) ================  
+[2023-06-07 12:40:37] HotelChannelAction.INFO: ======= Start HotelChannel Action (Single One) ================  
+[2023-06-07 12:40:37] HotelChannelAction.INFO: method : POST  
+[2023-06-07 12:40:37] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-07 12:40:37] HotelChannelAction.INFO: Input Data : {"hotelid":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 12:40:37] HotelChannelAction.INFO: ======= END HotelChannel Action (Single One) ================  

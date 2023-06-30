@@ -1,0 +1,361 @@
+[2023-06-30 04:24:58] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-30 04:24:58] ChannelAction.INFO: method : POST  
+[2023-06-30 04:24:58] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 04:24:58] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688099091,"exp":1688185491}}  
+[2023-06-30 04:24:58] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-30 04:25:34] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-30 04:25:34] ChannelAction.INFO: method : POST  
+[2023-06-30 04:25:34] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 04:25:34] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688099091,"exp":1688185491}}  
+[2023-06-30 04:25:34] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-30 04:37:27] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-30 04:37:27] ChannelAction.INFO: method : POST  
+[2023-06-30 04:37:27] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 04:37:27] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688099798,"exp":1688186198}}  
+[2023-06-30 04:37:27] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-30 04:37:33] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-30 04:37:33] ChannelAction.INFO: method : POST  
+[2023-06-30 04:37:33] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 04:37:33] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688099798,"exp":1688186198}}  
+[2023-06-30 04:37:33] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-30 04:41:51] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-30 04:41:51] ChannelAction.INFO: method : POST  
+[2023-06-30 04:41:51] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 04:41:51] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688099798,"exp":1688186198}}  
+[2023-06-30 04:41:51] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-30 04:43:36] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-30 04:43:36] ChannelAction.INFO: method : POST  
+[2023-06-30 04:43:36] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 04:43:36] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688099798,"exp":1688186198}}  
+[2023-06-30 04:43:36] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-30 04:44:58] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-30 04:44:58] ChannelAction.INFO: method : POST  
+[2023-06-30 04:44:58] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 04:44:58] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688099798,"exp":1688186198}}  
+[2023-06-30 04:44:58] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-30 04:46:41] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-30 04:46:41] ChannelAction.INFO: method : POST  
+[2023-06-30 04:46:41] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 04:46:41] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688099798,"exp":1688186198}}  
+[2023-06-30 04:46:41] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-30 04:47:59] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-30 04:47:59] ChannelAction.INFO: method : POST  
+[2023-06-30 04:47:59] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 04:47:59] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688099798,"exp":1688186198}}  
+[2023-06-30 04:47:59] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-30 04:48:53] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-30 04:48:53] ChannelAction.INFO: method : POST  
+[2023-06-30 04:48:53] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 04:48:53] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688099798,"exp":1688186198}}  
+[2023-06-30 04:48:53] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-30 04:49:23] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-30 04:49:23] ChannelAction.INFO: method : POST  
+[2023-06-30 04:49:23] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 04:49:23] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688099798,"exp":1688186198}}  
+[2023-06-30 04:49:23] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-30 04:53:11] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-30 04:53:11] ChannelAction.INFO: method : POST  
+[2023-06-30 04:53:11] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 04:53:11] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688099798,"exp":1688186198}}  
+[2023-06-30 04:53:11] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-30 04:53:21] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-30 04:53:21] ChannelAction.INFO: method : POST  
+[2023-06-30 04:53:21] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 04:53:21] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688099798,"exp":1688186198}}  
+[2023-06-30 04:53:21] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-30 04:55:07] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-30 04:55:07] ChannelAction.INFO: method : POST  
+[2023-06-30 04:55:07] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 04:55:07] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688099798,"exp":1688186198}}  
+[2023-06-30 04:55:07] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-30 04:56:04] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-30 04:56:04] ChannelAction.INFO: method : POST  
+[2023-06-30 04:56:04] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 04:56:04] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688099798,"exp":1688186198}}  
+[2023-06-30 04:56:04] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-30 05:00:26] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-30 05:00:26] ChannelAction.INFO: method : POST  
+[2023-06-30 05:00:26] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 05:00:26] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688101109,"exp":1688187509}}  
+[2023-06-30 05:00:26] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-30 05:00:45] ChannelAction.INFO: ======= Start Channel Action (CREATE) ================  
+[2023-06-30 05:00:45] ChannelAction.INFO: method : POST  
+[2023-06-30 05:00:45] ChannelAction.INFO: Input Data : {"channelname":["werwe"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688101109,"exp":1688187509}}  
+[2023-06-30 05:00:45] ChannelAction.INFO: Insert Status : {"msg":"Channel Added SuccessFully","status":"Success","lastinsertId":"213"}  
+[2023-06-30 05:00:45] ChannelAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-30 05:00:45] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-30 05:00:45] ChannelAction.INFO: method : POST  
+[2023-06-30 05:00:45] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 05:00:45] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688101109,"exp":1688187509}}  
+[2023-06-30 05:00:45] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-30 05:00:45] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-30 05:00:45] ChannelAction.INFO: method : POST  
+[2023-06-30 05:00:45] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 05:00:45] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688101109,"exp":1688187509}}  
+[2023-06-30 05:00:45] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-30 05:01:21] ChannelAction.INFO: ======= Start Channel Action (CREATE) ================  
+[2023-06-30 05:01:21] ChannelAction.INFO: method : POST  
+[2023-06-30 05:01:21] ChannelAction.INFO: Input Data : {"channelname":["werwe"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688101109,"exp":1688187509}}  
+[2023-06-30 05:01:21] ChannelAction.INFO: Insert Status : {"msg":"Channel Name Already Available","status":"FAILURE"}  
+[2023-06-30 05:01:21] ChannelAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-30 05:01:24] ChannelAction.INFO: ======= Start Channel Action (CREATE) ================  
+[2023-06-30 05:01:24] ChannelAction.INFO: method : POST  
+[2023-06-30 05:01:24] ChannelAction.INFO: Input Data : {"channelname":["werwe"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688101109,"exp":1688187509}}  
+[2023-06-30 05:01:24] ChannelAction.INFO: Insert Status : {"msg":"Channel Name Already Available","status":"FAILURE"}  
+[2023-06-30 05:01:24] ChannelAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-30 05:01:25] ChannelAction.INFO: ======= Start Channel Action (CREATE) ================  
+[2023-06-30 05:01:25] ChannelAction.INFO: method : POST  
+[2023-06-30 05:01:25] ChannelAction.INFO: Input Data : {"channelname":["werwe"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688101109,"exp":1688187509}}  
+[2023-06-30 05:01:25] ChannelAction.INFO: Insert Status : {"msg":"Channel Name Already Available","status":"FAILURE"}  
+[2023-06-30 05:01:25] ChannelAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-30 05:01:25] ChannelAction.INFO: ======= Start Channel Action (CREATE) ================  
+[2023-06-30 05:01:25] ChannelAction.INFO: method : POST  
+[2023-06-30 05:01:25] ChannelAction.INFO: Input Data : {"channelname":["werwe"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688101109,"exp":1688187509}}  
+[2023-06-30 05:01:25] ChannelAction.INFO: Insert Status : {"msg":"Channel Name Already Available","status":"FAILURE"}  
+[2023-06-30 05:01:25] ChannelAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-30 05:01:26] ChannelAction.INFO: ======= Start Channel Action (CREATE) ================  
+[2023-06-30 05:01:26] ChannelAction.INFO: method : POST  
+[2023-06-30 05:01:26] ChannelAction.INFO: Input Data : {"channelname":["werwe"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688101109,"exp":1688187509}}  
+[2023-06-30 05:01:26] ChannelAction.INFO: Insert Status : {"msg":"Channel Name Already Available","status":"FAILURE"}  
+[2023-06-30 05:01:26] ChannelAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-30 05:01:26] ChannelAction.INFO: ======= Start Channel Action (CREATE) ================  
+[2023-06-30 05:01:26] ChannelAction.INFO: method : POST  
+[2023-06-30 05:01:26] ChannelAction.INFO: Input Data : {"channelname":["werwe"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688101109,"exp":1688187509}}  
+[2023-06-30 05:01:26] ChannelAction.INFO: Insert Status : {"msg":"Channel Name Already Available","status":"FAILURE"}  
+[2023-06-30 05:01:26] ChannelAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-30 05:01:26] ChannelAction.INFO: ======= Start Channel Action (CREATE) ================  
+[2023-06-30 05:01:26] ChannelAction.INFO: method : POST  
+[2023-06-30 05:01:26] ChannelAction.INFO: Input Data : {"channelname":["werwe"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688101109,"exp":1688187509}}  
+[2023-06-30 05:01:26] ChannelAction.INFO: Insert Status : {"msg":"Channel Name Already Available","status":"FAILURE"}  
+[2023-06-30 05:01:26] ChannelAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-30 05:01:26] ChannelAction.INFO: ======= Start Channel Action (CREATE) ================  
+[2023-06-30 05:01:26] ChannelAction.INFO: method : POST  
+[2023-06-30 05:01:26] ChannelAction.INFO: Input Data : {"channelname":["werwe"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688101109,"exp":1688187509}}  
+[2023-06-30 05:01:26] ChannelAction.INFO: Insert Status : {"msg":"Channel Name Already Available","status":"FAILURE"}  
+[2023-06-30 05:01:26] ChannelAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-30 05:01:28] ChannelAction.INFO: ======= Start Channel Action (CREATE) ================  
+[2023-06-30 05:01:28] ChannelAction.INFO: method : POST  
+[2023-06-30 05:01:28] ChannelAction.INFO: Input Data : {"channelname":["werwe"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688101109,"exp":1688187509}}  
+[2023-06-30 05:01:28] ChannelAction.INFO: Insert Status : {"msg":"Channel Name Already Available","status":"FAILURE"}  
+[2023-06-30 05:01:28] ChannelAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-30 05:01:28] ChannelAction.INFO: ======= Start Channel Action (CREATE) ================  
+[2023-06-30 05:01:28] ChannelAction.INFO: method : POST  
+[2023-06-30 05:01:28] ChannelAction.INFO: Input Data : {"channelname":["werwe"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688101109,"exp":1688187509}}  
+[2023-06-30 05:01:28] ChannelAction.INFO: Insert Status : {"msg":"Channel Name Already Available","status":"FAILURE"}  
+[2023-06-30 05:01:28] ChannelAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-30 05:01:29] ChannelAction.INFO: ======= Start Channel Action (CREATE) ================  
+[2023-06-30 05:01:29] ChannelAction.INFO: method : POST  
+[2023-06-30 05:01:29] ChannelAction.INFO: Input Data : {"channelname":["werwe"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688101109,"exp":1688187509}}  
+[2023-06-30 05:01:29] ChannelAction.INFO: Insert Status : {"msg":"Channel Name Already Available","status":"FAILURE"}  
+[2023-06-30 05:01:29] ChannelAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-30 05:01:29] ChannelAction.INFO: ======= Start Channel Action (CREATE) ================  
+[2023-06-30 05:01:29] ChannelAction.INFO: method : POST  
+[2023-06-30 05:01:29] ChannelAction.INFO: Input Data : {"channelname":["werwe"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688101109,"exp":1688187509}}  
+[2023-06-30 05:01:29] ChannelAction.INFO: Insert Status : {"msg":"Channel Name Already Available","status":"FAILURE"}  
+[2023-06-30 05:01:29] ChannelAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-30 05:01:29] ChannelAction.INFO: ======= Start Channel Action (CREATE) ================  
+[2023-06-30 05:01:29] ChannelAction.INFO: method : POST  
+[2023-06-30 05:01:29] ChannelAction.INFO: Input Data : {"channelname":["werwe"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688101109,"exp":1688187509}}  
+[2023-06-30 05:01:29] ChannelAction.INFO: Insert Status : {"msg":"Channel Name Already Available","status":"FAILURE"}  
+[2023-06-30 05:01:29] ChannelAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-30 05:01:30] ChannelAction.INFO: ======= Start Channel Action (CREATE) ================  
+[2023-06-30 05:01:30] ChannelAction.INFO: method : POST  
+[2023-06-30 05:01:30] ChannelAction.INFO: Input Data : {"channelname":["werwe"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688101109,"exp":1688187509}}  
+[2023-06-30 05:01:30] ChannelAction.INFO: Insert Status : {"msg":"Channel Name Already Available","status":"FAILURE"}  
+[2023-06-30 05:01:30] ChannelAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-30 05:01:30] ChannelAction.INFO: ======= Start Channel Action (CREATE) ================  
+[2023-06-30 05:01:30] ChannelAction.INFO: method : POST  
+[2023-06-30 05:01:30] ChannelAction.INFO: Input Data : {"channelname":["werwe"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688101109,"exp":1688187509}}  
+[2023-06-30 05:01:30] ChannelAction.INFO: Insert Status : {"msg":"Channel Name Already Available","status":"FAILURE"}  
+[2023-06-30 05:01:30] ChannelAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-30 05:01:30] ChannelAction.INFO: ======= Start Channel Action (CREATE) ================  
+[2023-06-30 05:01:30] ChannelAction.INFO: method : POST  
+[2023-06-30 05:01:30] ChannelAction.INFO: Input Data : {"channelname":["werwe"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688101109,"exp":1688187509}}  
+[2023-06-30 05:01:30] ChannelAction.INFO: Insert Status : {"msg":"Channel Name Already Available","status":"FAILURE"}  
+[2023-06-30 05:01:30] ChannelAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-30 05:01:31] ChannelAction.INFO: ======= Start Channel Action (CREATE) ================  
+[2023-06-30 05:01:31] ChannelAction.INFO: method : POST  
+[2023-06-30 05:01:31] ChannelAction.INFO: Input Data : {"channelname":["werwe"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688101109,"exp":1688187509}}  
+[2023-06-30 05:01:31] ChannelAction.INFO: Insert Status : {"msg":"Channel Name Already Available","status":"FAILURE"}  
+[2023-06-30 05:01:31] ChannelAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-30 05:01:31] ChannelAction.INFO: ======= Start Channel Action (CREATE) ================  
+[2023-06-30 05:01:31] ChannelAction.INFO: method : POST  
+[2023-06-30 05:01:31] ChannelAction.INFO: Input Data : {"channelname":["werwe"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688101109,"exp":1688187509}}  
+[2023-06-30 05:01:31] ChannelAction.INFO: Insert Status : {"msg":"Channel Name Already Available","status":"FAILURE"}  
+[2023-06-30 05:01:31] ChannelAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-30 05:01:31] ChannelAction.INFO: ======= Start Channel Action (CREATE) ================  
+[2023-06-30 05:01:31] ChannelAction.INFO: method : POST  
+[2023-06-30 05:01:31] ChannelAction.INFO: Input Data : {"channelname":["werwe"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688101109,"exp":1688187509}}  
+[2023-06-30 05:01:31] ChannelAction.INFO: Insert Status : {"msg":"Channel Name Already Available","status":"FAILURE"}  
+[2023-06-30 05:01:31] ChannelAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-30 05:01:32] ChannelAction.INFO: ======= Start Channel Action (CREATE) ================  
+[2023-06-30 05:01:32] ChannelAction.INFO: method : POST  
+[2023-06-30 05:01:32] ChannelAction.INFO: Input Data : {"channelname":["werwe"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688101109,"exp":1688187509}}  
+[2023-06-30 05:01:32] ChannelAction.INFO: Insert Status : {"msg":"Channel Name Already Available","status":"FAILURE"}  
+[2023-06-30 05:01:32] ChannelAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-30 05:01:32] ChannelAction.INFO: ======= Start Channel Action (CREATE) ================  
+[2023-06-30 05:01:32] ChannelAction.INFO: method : POST  
+[2023-06-30 05:01:32] ChannelAction.INFO: Input Data : {"channelname":["werwe"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688101109,"exp":1688187509}}  
+[2023-06-30 05:01:32] ChannelAction.INFO: Insert Status : {"msg":"Channel Name Already Available","status":"FAILURE"}  
+[2023-06-30 05:01:32] ChannelAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-30 05:01:32] ChannelAction.INFO: ======= Start Channel Action (CREATE) ================  
+[2023-06-30 05:01:32] ChannelAction.INFO: method : POST  
+[2023-06-30 05:01:32] ChannelAction.INFO: Input Data : {"channelname":["werwe"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688101109,"exp":1688187509}}  
+[2023-06-30 05:01:32] ChannelAction.INFO: Insert Status : {"msg":"Channel Name Already Available","status":"FAILURE"}  
+[2023-06-30 05:01:32] ChannelAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-30 05:01:33] ChannelAction.INFO: ======= Start Channel Action (CREATE) ================  
+[2023-06-30 05:01:33] ChannelAction.INFO: method : POST  
+[2023-06-30 05:01:33] ChannelAction.INFO: Input Data : {"channelname":["werwe"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688101109,"exp":1688187509}}  
+[2023-06-30 05:01:33] ChannelAction.INFO: Insert Status : {"msg":"Channel Name Already Available","status":"FAILURE"}  
+[2023-06-30 05:01:33] ChannelAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-30 05:01:33] ChannelAction.INFO: ======= Start Channel Action (CREATE) ================  
+[2023-06-30 05:01:33] ChannelAction.INFO: method : POST  
+[2023-06-30 05:01:33] ChannelAction.INFO: Input Data : {"channelname":["werwe"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688101109,"exp":1688187509}}  
+[2023-06-30 05:01:33] ChannelAction.INFO: Insert Status : {"msg":"Channel Name Already Available","status":"FAILURE"}  
+[2023-06-30 05:01:33] ChannelAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-30 05:01:33] ChannelAction.INFO: ======= Start Channel Action (CREATE) ================  
+[2023-06-30 05:01:33] ChannelAction.INFO: method : POST  
+[2023-06-30 05:01:33] ChannelAction.INFO: Input Data : {"channelname":["werwe"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688101109,"exp":1688187509}}  
+[2023-06-30 05:01:33] ChannelAction.INFO: Insert Status : {"msg":"Channel Name Already Available","status":"FAILURE"}  
+[2023-06-30 05:01:33] ChannelAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-30 05:01:34] ChannelAction.INFO: ======= Start Channel Action (CREATE) ================  
+[2023-06-30 05:01:34] ChannelAction.INFO: method : POST  
+[2023-06-30 05:01:34] ChannelAction.INFO: Input Data : {"channelname":["werwe"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688101109,"exp":1688187509}}  
+[2023-06-30 05:01:34] ChannelAction.INFO: Insert Status : {"msg":"Channel Name Already Available","status":"FAILURE"}  
+[2023-06-30 05:01:34] ChannelAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-30 05:01:34] ChannelAction.INFO: ======= Start Channel Action (CREATE) ================  
+[2023-06-30 05:01:34] ChannelAction.INFO: method : POST  
+[2023-06-30 05:01:34] ChannelAction.INFO: Input Data : {"channelname":["werwe"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688101109,"exp":1688187509}}  
+[2023-06-30 05:01:34] ChannelAction.INFO: Insert Status : {"msg":"Channel Name Already Available","status":"FAILURE"}  
+[2023-06-30 05:01:34] ChannelAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-30 05:20:48] ChannelAction.INFO: ======= Start Channel Action (CREATE) ================  
+[2023-06-30 05:20:48] ChannelAction.INFO: method : POST  
+[2023-06-30 05:20:48] ChannelAction.INFO: Input Data : {"channelname":["News18Kerala","News18Kannada","SunNews","CnNews","BbcWorldNews","Thandhi"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688102270,"exp":1688188670}}  
+[2023-06-30 05:20:48] ChannelAction.ERROR: Error Code : 401Error Message : Channel image required  
+[2023-06-30 05:20:48] ChannelAction.ERROR: Error File : /var/www/projects/ottproduct/api/v1/src/Domain/Repository/Channel/ChannelRepository.phpError Line : 101  
+[2023-06-30 05:20:48] ChannelAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-30 05:21:37] ChannelAction.INFO: ======= Start Channel Action (CREATE) ================  
+[2023-06-30 05:21:37] ChannelAction.INFO: method : POST  
+[2023-06-30 05:21:37] ChannelAction.INFO: Input Data : {"channelname":["Welcome","Text"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688102270,"exp":1688188670}}  
+[2023-06-30 05:21:37] ChannelAction.INFO: Insert Status : {"msg":"Channel Added SuccessFully","status":"Success","lastinsertId":"236"}  
+[2023-06-30 05:21:37] ChannelAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-30 05:21:48] ChannelAction.INFO: ======= Start Channel Action (CREATE) ================  
+[2023-06-30 05:21:48] ChannelAction.INFO: method : POST  
+[2023-06-30 05:21:48] ChannelAction.INFO: Input Data : {"channelname":["Welcome","Text"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688102270,"exp":1688188670}}  
+[2023-06-30 05:21:48] ChannelAction.INFO: Insert Status : {"msg":"Channel Name Already Available","status":"FAILURE"}  
+[2023-06-30 05:21:48] ChannelAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-30 05:22:27] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-30 05:22:27] ChannelAction.INFO: method : POST  
+[2023-06-30 05:22:27] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 05:22:27] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688102542,"exp":1688188942}}  
+[2023-06-30 05:22:27] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-30 05:22:51] ChannelAction.INFO: ======= Start Edit Brand Action ================  
+[2023-06-30 05:22:51] ChannelAction.INFO: method : DELETE  
+[2023-06-30 05:22:51] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 05:22:51] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688102542,"exp":1688188942}}  
+[2023-06-30 05:22:51] ChannelAction.INFO: ======= END Edit Brand Action ================  
+[2023-06-30 05:22:51] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-30 05:22:51] ChannelAction.INFO: method : POST  
+[2023-06-30 05:22:51] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 05:22:51] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688102542,"exp":1688188942}}  
+[2023-06-30 05:22:51] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-30 05:22:54] ChannelAction.INFO: ======= Start Edit Brand Action ================  
+[2023-06-30 05:22:54] ChannelAction.INFO: method : DELETE  
+[2023-06-30 05:22:54] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 05:22:54] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688102542,"exp":1688188942}}  
+[2023-06-30 05:22:54] ChannelAction.INFO: ======= END Edit Brand Action ================  
+[2023-06-30 05:22:54] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-30 05:22:54] ChannelAction.INFO: method : POST  
+[2023-06-30 05:22:54] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 05:22:54] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688102542,"exp":1688188942}}  
+[2023-06-30 05:22:54] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-30 05:22:56] ChannelAction.INFO: ======= Start Edit Brand Action ================  
+[2023-06-30 05:22:56] ChannelAction.INFO: method : DELETE  
+[2023-06-30 05:22:56] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 05:22:56] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688102542,"exp":1688188942}}  
+[2023-06-30 05:22:56] ChannelAction.INFO: ======= END Edit Brand Action ================  
+[2023-06-30 05:22:56] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-30 05:22:56] ChannelAction.INFO: method : POST  
+[2023-06-30 05:22:56] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 05:22:56] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688102542,"exp":1688188942}}  
+[2023-06-30 05:22:56] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-30 05:23:16] ChannelAction.INFO: ======= Start Edit Brand Action ================  
+[2023-06-30 05:23:16] ChannelAction.INFO: method : DELETE  
+[2023-06-30 05:23:16] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 05:23:16] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688102542,"exp":1688188942}}  
+[2023-06-30 05:23:16] ChannelAction.INFO: ======= END Edit Brand Action ================  
+[2023-06-30 05:23:16] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-30 05:23:16] ChannelAction.INFO: method : POST  
+[2023-06-30 05:23:16] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 05:23:16] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688102542,"exp":1688188942}}  
+[2023-06-30 05:23:16] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-30 05:23:20] ChannelAction.INFO: ======= Start Edit Brand Action ================  
+[2023-06-30 05:23:20] ChannelAction.INFO: method : DELETE  
+[2023-06-30 05:23:20] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 05:23:20] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688102542,"exp":1688188942}}  
+[2023-06-30 05:23:20] ChannelAction.INFO: ======= END Edit Brand Action ================  
+[2023-06-30 05:23:20] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-30 05:23:20] ChannelAction.INFO: method : POST  
+[2023-06-30 05:23:20] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 05:23:20] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688102542,"exp":1688188942}}  
+[2023-06-30 05:23:20] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-30 05:24:09] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-30 05:24:09] ChannelAction.INFO: method : POST  
+[2023-06-30 05:24:09] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 05:24:09] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688102542,"exp":1688188942}}  
+[2023-06-30 05:24:09] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-30 05:24:13] ChannelAction.INFO: ======= Start Channel Action (CREATE) ================  
+[2023-06-30 05:24:13] ChannelAction.INFO: method : POST  
+[2023-06-30 05:24:13] ChannelAction.INFO: Input Data : {"channelname":["Welcome","Text"],"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688102270,"exp":1688188670}}  
+[2023-06-30 05:24:13] ChannelAction.INFO: Insert Status : {"msg":"Channel Added SuccessFully","status":"Success","lastinsertId":"238"}  
+[2023-06-30 05:24:13] ChannelAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-30 05:24:15] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-30 05:24:15] ChannelAction.INFO: method : POST  
+[2023-06-30 05:24:15] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 05:24:15] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688102542,"exp":1688188942}}  
+[2023-06-30 05:24:15] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-30 05:24:25] ChannelAction.INFO: ======= Start Channel Action (UPDATE) ================  
+[2023-06-30 05:24:25] ChannelAction.INFO: method : POST  
+[2023-06-30 05:24:25] ChannelAction.INFO: Channel id : 238  
+[2023-06-30 05:24:25] ChannelAction.INFO: Insert Status : {"msg":"Channel Updated SuccessFully","status":"Success"}  
+[2023-06-30 05:24:25] ChannelAction.INFO: ======= END Channel Action (UPDATE) ================  
+[2023-06-30 05:24:25] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-30 05:24:25] ChannelAction.INFO: method : POST  
+[2023-06-30 05:24:25] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 05:24:25] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688102542,"exp":1688188942}}  
+[2023-06-30 05:24:25] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-30 05:24:25] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-30 05:24:25] ChannelAction.INFO: method : POST  
+[2023-06-30 05:24:25] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 05:24:25] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688102542,"exp":1688188942}}  
+[2023-06-30 05:24:25] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-30 05:24:29] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-30 05:24:29] ChannelAction.INFO: method : POST  
+[2023-06-30 05:24:29] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 05:24:29] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688102542,"exp":1688188942}}  
+[2023-06-30 05:24:29] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-30 05:24:36] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-30 05:24:36] ChannelAction.INFO: method : POST  
+[2023-06-30 05:24:36] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 05:24:36] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688102542,"exp":1688188942}}  
+[2023-06-30 05:24:36] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-30 05:24:42] ChannelAction.INFO: ======= Start Channel Action (UPDATE) ================  
+[2023-06-30 05:24:42] ChannelAction.INFO: method : POST  
+[2023-06-30 05:24:42] ChannelAction.INFO: Channel id : 238  
+[2023-06-30 05:24:43] ChannelAction.INFO: Insert Status : {"msg":"Channel Updated SuccessFully","status":"Success"}  
+[2023-06-30 05:24:43] ChannelAction.INFO: ======= END Channel Action (UPDATE) ================  
+[2023-06-30 05:24:43] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-30 05:24:43] ChannelAction.INFO: method : POST  
+[2023-06-30 05:24:43] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 05:24:43] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688102542,"exp":1688188942}}  
+[2023-06-30 05:24:43] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-30 05:24:43] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-30 05:24:43] ChannelAction.INFO: method : POST  
+[2023-06-30 05:24:43] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 05:24:43] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688102542,"exp":1688188942}}  
+[2023-06-30 05:24:43] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-30 05:24:46] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-30 05:24:46] ChannelAction.INFO: method : POST  
+[2023-06-30 05:24:46] ChannelAction.INFO: contentType : application/json  
+[2023-06-30 05:24:46] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688102542,"exp":1688188942}}  
+[2023-06-30 05:24:46] ChannelAction.INFO: ======= END Channel Action (List) ================  

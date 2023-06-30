@@ -1,0 +1,38 @@
+[2023-06-21 09:22:15] CategoryAction.INFO: ======= Start Category Action (Single One) ================  
+[2023-06-21 09:22:15] CategoryAction.INFO: method : POST  
+[2023-06-21 09:22:15] CategoryAction.INFO: contentType : application/json  
+[2023-06-21 09:22:15] CategoryAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687337570,"exp":1687423970}}  
+[2023-06-21 09:22:15] CategoryAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-21 09:43:21] CategoryAction.INFO: ======= Start Category Action (Create) ================  
+[2023-06-21 09:43:21] CategoryAction.INFO: method : POST  
+[2023-06-21 09:43:21] CategoryAction.INFO: contentType : application/json  
+[2023-06-21 09:43:21] CategoryAction.INFO: Input Data : {"hotelid":4,"categoryname":"Kannadam","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687327794,"exp":1687414194}}  
+[2023-06-21 09:43:21] ChannelModel.INFO: Query : call SP_AddandEditChannelcategory('ADD',4,'Kannadam' ,0 ,1)  
+[2023-06-21 09:43:21] CategoryAction.INFO: ======= END Channel Action (Create) ================  
+[2023-06-21 10:02:53] CategoryAction.INFO: ======= Start Category Action (Create) ================  
+[2023-06-21 10:02:53] CategoryAction.INFO: method : POST  
+[2023-06-21 10:02:53] CategoryAction.INFO: contentType : application/json  
+[2023-06-21 10:02:53] CategoryAction.INFO: Input Data : {"hotelid":4,"categoryname":"News","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687327794,"exp":1687414194}}  
+[2023-06-21 10:02:53] ChannelModel.INFO: Query : call SP_AddandEditChannelcategory('ADD',4,'News' ,0 ,1)  
+[2023-06-21 10:02:53] CategoryAction.INFO: ======= END Channel Action (Create) ================  
+[2023-06-21 10:03:00] CategoryAction.INFO: ======= Start Category Action (Single One) ================  
+[2023-06-21 10:03:00] CategoryAction.INFO: method : POST  
+[2023-06-21 10:03:00] CategoryAction.INFO: contentType : application/json  
+[2023-06-21 10:03:00] CategoryAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687337570,"exp":1687423970}}  
+[2023-06-21 10:03:00] CategoryAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-21 10:05:49] CategoryAction.INFO: ======= Start Category Action (Create) ================  
+[2023-06-21 10:05:49] CategoryAction.INFO: method : POST  
+[2023-06-21 10:05:49] CategoryAction.INFO: contentType : application/json  
+[2023-06-21 10:05:49] CategoryAction.INFO: Input Data : {"hotelid":4,"categoryname":"Hindi","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687327794,"exp":1687414194}}  
+[2023-06-21 10:05:49] ChannelModel.INFO: Query : call SP_AddandEditChannelcategory('ADD',4,'Hindi' ,0 ,1)  
+[2023-06-21 10:05:49] CategoryAction.INFO: ======= END Channel Action (Create) ================  
+[2023-06-21 11:17:48] CategoryAction.INFO: ======= Start Category Action (Single One) ================  
+[2023-06-21 11:17:48] CategoryAction.INFO: method : POST  
+[2023-06-21 11:17:48] CategoryAction.INFO: contentType : application/json  
+[2023-06-21 11:17:48] CategoryAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687345957,"exp":1687432357}}  
+[2023-06-21 11:17:48] CategoryAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-21 12:55:28] CategoryAction.INFO: ======= Start Category Action (Single One) ================  
+[2023-06-21 12:55:28] CategoryAction.INFO: method : POST  
+[2023-06-21 12:55:28] CategoryAction.INFO: contentType : application/json  
+[2023-06-21 12:55:28] CategoryAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687321654,"exp":1687408054}}  
+[2023-06-21 12:55:28] CategoryAction.INFO: ======= END Channel Action (CREATE) ================  

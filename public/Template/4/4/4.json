@@ -1,0 +1,15 @@
+{
+    "HomePageDetails": {
+        "logo": "public/uploads/Template/4/4/Logo.png",
+        "bg_img": "public/uploads/Template/4/4/Background.png",
+        "welcome": "afds",
+        "welcome_txt": "fasdf",
+        "menu": [
+            {
+                "title": "fasd",
+                "img": "public/uploads/Template/4/4/fasd.jpeg",
+                "pagelink": "fsadfd"
+            }
+        ]
+    }
+}

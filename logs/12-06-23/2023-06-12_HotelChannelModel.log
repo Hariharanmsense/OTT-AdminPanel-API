@@ -1,0 +1,24 @@
+[2023-06-12 11:49:01] HotelChannelAction.INFO: ======= Start HotelChannel Action (ASSIGN MENUS) ================  
+[2023-06-12 11:49:01] HotelChannelAction.INFO: method : POST  
+[2023-06-12 11:49:01] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-12 11:49:01] HotelChannelAction.INFO: Input Data : {"hotelid":1,"addlist":"8,9","removelist":"","channelcategory":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"1","brandId":null,"iat":1686561556,"exp":1686647956}}  
+[2023-06-12 11:49:01] HotelChannelAction.INFO: Insert Status : SUCCESS  
+[2023-06-12 11:49:01] HotelChannelAction.INFO: ======= END HotelChannel Action (ASSING MENUS) ================  
+[2023-06-12 11:49:29] HotelChannelAction.INFO: ======= Start HotelChannel Action (ASSIGN MENUS) ================  
+[2023-06-12 11:49:29] HotelChannelAction.INFO: method : POST  
+[2023-06-12 11:49:29] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-12 11:49:29] HotelChannelAction.INFO: Input Data : {"hotelid":1,"addlist":"14,15","removelist":"","channelcategory":3,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"1","brandId":null,"iat":1686561556,"exp":1686647956}}  
+[2023-06-12 11:49:29] HotelChannelAction.INFO: Insert Status : SUCCESS  
+[2023-06-12 11:49:29] HotelChannelAction.INFO: ======= END HotelChannel Action (ASSING MENUS) ================  
+[2023-06-12 11:49:50] HotelChannelAction.INFO: ======= Start HotelChannel Action (ASSIGN MENUS) ================  
+[2023-06-12 11:49:50] HotelChannelAction.INFO: method : POST  
+[2023-06-12 11:49:50] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-12 11:49:50] HotelChannelAction.INFO: Input Data : {"hotelid":1,"addlist":"10,11","removelist":"","channelcategory":4,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"1","brandId":null,"iat":1686561556,"exp":1686647956}}  
+[2023-06-12 11:49:50] HotelChannelAction.INFO: Insert Status : SUCCESS  
+[2023-06-12 11:49:50] HotelChannelAction.INFO: ======= END HotelChannel Action (ASSING MENUS) ================  
+[2023-06-12 11:50:11] HotelChannelAction.INFO: ======= Start HotelChannel Action (ASSIGN MENUS) ================  
+[2023-06-12 11:50:11] HotelChannelAction.INFO: method : POST  
+[2023-06-12 11:50:11] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-12 11:50:11] HotelChannelAction.INFO: Input Data : {"hotelid":1,"addlist":"12,13","removelist":"","channelcategory":2,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"1","brandId":null,"iat":1686561556,"exp":1686647956}}  
+[2023-06-12 11:50:11] HotelChannelAction.INFO: Insert Status : SUCCESS  
+[2023-06-12 11:50:11] HotelChannelAction.INFO: ======= END HotelChannel Action (ASSING MENUS) ================  

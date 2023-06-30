@@ -1,0 +1,21 @@
+[2023-06-14 05:15:27] AdmnUsrsRepository.INFO: ======= Start AdmnUsrs Repository ================  
+[2023-06-14 05:15:27] AdmnUsrsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"1","brandId":null,"iat":1686719681,"exp":1686806081}}  
+[2023-06-14 05:15:27] AdmnUsrModel.INFO: Query : CALL SP_AdmnUsrConfig('0', '0', 0, '', '', '', 0, 0, '','','', '', 
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-14 05:15:27] AdmnUsrModel.INFO: Admin User List Avaliable User list count : 10  
+[2023-06-14 05:15:27] AdmnUsrsRepository.INFO: ======= End AdmnUsrs Repository ================  
+[2023-06-14 05:15:31] AdmnUsrsRepository.INFO: ======= Start AdmnUsrs Repository ================  
+[2023-06-14 05:15:31] AdmnUsrsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"1","brandId":null,"iat":1686719681,"exp":1686806081}}  
+[2023-06-14 05:15:31] AdmnUsrModel.INFO: Query : CALL SP_AdmnUsrConfig('0', '0', 0, '', '', '', 0, 0, '','','', '', 
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-14 05:15:31] AdmnUsrModel.INFO: Admin User List Avaliable User list count : 10  
+[2023-06-14 05:15:31] AdmnUsrsRepository.INFO: ======= End AdmnUsrs Repository ================  
+[2023-06-14 05:15:48] AdmnUsrsRepository.INFO: ======= Start AdmnUsrs Repository ================  
+[2023-06-14 05:15:48] AdmnUsrsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"1","brandId":null,"iat":1686719681,"exp":1686806081}}  
+[2023-06-14 05:15:48] AdmnUsrModel.INFO: Query : CALL SP_AdmnUsrConfig('0', '0', 0, '', '', '', 0, 0, '','','', '', 
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-14 05:15:48] AdmnUsrModel.INFO: Admin User List Avaliable User list count : 10  
+[2023-06-14 05:15:48] AdmnUsrsRepository.INFO: ======= End AdmnUsrs Repository ================  

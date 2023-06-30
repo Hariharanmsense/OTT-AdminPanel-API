@@ -1,0 +1,14 @@
+URL:http://localhost:8080/wizardsetup/homescreen
+Method :POST,
+Data send Method = formdata,
+input =
+	logo:'',
+	bgimg:'',
+	menuicon[]:'',
+	menutitle[]:'Test',
+	menulink[]:'home.html',
+	hotelid : 4,
+	tempid :1,
+	welcome_head:'Hai im A header',
+	welcome_body:'Ha im A body'
+	

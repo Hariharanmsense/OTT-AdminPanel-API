@@ -1,0 +1,36 @@
+[2023-06-21 09:28:47] HotelChannelRepository.INFO: ======= Start HotelChannel Repository ================  
+[2023-06-21 09:28:47] HotelChannelRepository.INFO: Input Data : {"hotelid":4,"addlist":"30,31,32,33,34,35,38,75,77,78","removelist":"","channelcategory":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687327794,"exp":1687414194}}  
+[2023-06-21 09:28:47] HotelChannelRepository.INFO: Insert Status : SUCCESS  
+[2023-06-21 09:28:47] HotelChannelRepository.INFO: ======= End HotelChannel Repository ================  
+[2023-06-21 09:29:02] HotelChannelRepository.INFO: ======= Start HotelChannel Repository ================  
+[2023-06-21 09:29:02] HotelChannelRepository.INFO: Input Data : {"hotelid":4,"addlist":"38,39,40,41,42,43,53","removelist":"","channelcategory":3,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687327794,"exp":1687414194}}  
+[2023-06-21 09:29:02] HotelChannelRepository.INFO: Insert Status : SUCCESS  
+[2023-06-21 09:29:02] HotelChannelRepository.INFO: ======= End HotelChannel Repository ================  
+[2023-06-21 09:29:13] HotelChannelRepository.INFO: ======= Start HotelChannel Repository ================  
+[2023-06-21 09:29:13] HotelChannelRepository.INFO: Input Data : {"hotelid":4,"addlist":"65,66,67,68,69,70,73,74,76,77","removelist":"","channelcategory":4,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687327794,"exp":1687414194}}  
+[2023-06-21 09:29:13] HotelChannelRepository.INFO: Insert Status : SUCCESS  
+[2023-06-21 09:29:13] HotelChannelRepository.INFO: ======= End HotelChannel Repository ================  
+[2023-06-21 09:29:24] HotelChannelRepository.INFO: ======= Start HotelChannel Repository ================  
+[2023-06-21 09:29:24] HotelChannelRepository.INFO: Input Data : {"hotelid":4,"addlist":"30,32,33,34,35,38,39","removelist":"","channelcategory":5,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687327794,"exp":1687414194}}  
+[2023-06-21 09:29:24] HotelChannelRepository.INFO: Insert Status : SUCCESS  
+[2023-06-21 09:29:24] HotelChannelRepository.INFO: ======= End HotelChannel Repository ================  
+[2023-06-21 09:29:36] HotelChannelRepository.INFO: ======= Start HotelChannel Repository ================  
+[2023-06-21 09:29:36] HotelChannelRepository.INFO: Input Data : {"hotelid":4,"addlist":"48,49,50,51,52,53","removelist":"","channelcategory":6,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687327794,"exp":1687414194}}  
+[2023-06-21 09:29:36] HotelChannelRepository.INFO: Insert Status : SUCCESS  
+[2023-06-21 09:29:36] HotelChannelRepository.INFO: ======= End HotelChannel Repository ================  
+[2023-06-21 09:29:46] HotelChannelRepository.INFO: ======= Start HotelChannel Repository ================  
+[2023-06-21 09:29:46] HotelChannelRepository.INFO: Input Data : {"hotelid":4,"addlist":"54,55,56,57,58,59","removelist":"","channelcategory":7,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687327794,"exp":1687414194}}  
+[2023-06-21 09:29:46] HotelChannelRepository.INFO: Insert Status : SUCCESS  
+[2023-06-21 09:29:46] HotelChannelRepository.INFO: ======= End HotelChannel Repository ================  
+[2023-06-21 10:07:22] HotelChannelRepository.INFO: ======= Start HotelChannel Repository ================  
+[2023-06-21 10:07:22] HotelChannelRepository.INFO: Input Data : {"hotelid":4,"addlist":"95,96,97,98,99,100,101,102,103","removelist":"","channelcategory":2,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687327794,"exp":1687414194}}  
+[2023-06-21 10:07:22] HotelChannelRepository.INFO: Insert Status : SUCCESS  
+[2023-06-21 10:07:22] HotelChannelRepository.INFO: ======= End HotelChannel Repository ================  
+[2023-06-21 10:07:37] HotelChannelRepository.INFO: ======= Start HotelChannel Repository ================  
+[2023-06-21 10:07:37] HotelChannelRepository.INFO: Input Data : {"hotelid":4,"addlist":"104,105,106,107,108","removelist":"","channelcategory":9,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687327794,"exp":1687414194}}  
+[2023-06-21 10:07:37] HotelChannelRepository.INFO: Insert Status : SUCCESS  
+[2023-06-21 10:07:37] HotelChannelRepository.INFO: ======= End HotelChannel Repository ================  
+[2023-06-21 10:07:47] HotelChannelRepository.INFO: ======= Start HotelChannel Repository ================  
+[2023-06-21 10:07:47] HotelChannelRepository.INFO: Input Data : {"hotelid":4,"addlist":"85,86,87,88,89,90,91,92,93,94","removelist":"","channelcategory":10,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687327794,"exp":1687414194}}  
+[2023-06-21 10:07:47] HotelChannelRepository.INFO: Insert Status : SUCCESS  
+[2023-06-21 10:07:47] HotelChannelRepository.INFO: ======= End HotelChannel Repository ================  

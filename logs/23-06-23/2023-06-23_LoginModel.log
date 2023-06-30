@@ -1,0 +1,60 @@
+[2023-06-23 11:36:53] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-23 11:36:53] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"1234567"}  
+[2023-06-23 11:36:53] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','QUwxT0hwRExsV2g4VXpFNkdocllPQT09')  
+[2023-06-23 11:36:53] LoginModel.INFO: User Data : {"username":"super admin","userGroup":"1","loginid":"1","email":"superadmin@msense.in","mobileno":"9677889090","designation":"Manage_rCate","hotelId":"4","brandId":"7"}  
+[2023-06-23 11:36:53] LoginAction.INFO: ======= END Login Action ================  
+[2023-06-23 11:38:50] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-23 11:38:50] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"1234567"}  
+[2023-06-23 11:38:50] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','QUwxT0hwRExsV2g4VXpFNkdocllPQT09')  
+[2023-06-23 11:38:50] LoginModel.INFO: User Data : {"username":"super admin","userGroup":"1","loginid":"1","email":"superadmin@msense.in","mobileno":"9677889090","designation":"Manage_rCate","hotelId":"4","brandId":"7"}  
+[2023-06-23 11:38:50] LoginAction.INFO: ======= END Login Action ================  
+[2023-06-23 11:39:16] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-23 11:39:16] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"1234567"}  
+[2023-06-23 11:39:16] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','QUwxT0hwRExsV2g4VXpFNkdocllPQT09')  
+[2023-06-23 11:39:16] LoginModel.INFO: User Data : {"username":"super admin","userGroup":"1","loginid":"1","email":"superadmin@msense.in","mobileno":"9677889090","designation":"Manage_rCate","hotelId":"4","brandId":"7"}  
+[2023-06-23 11:39:16] LoginAction.INFO: ======= END Login Action ================  
+[2023-06-23 11:50:11] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-23 11:50:11] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"1234567"}  
+[2023-06-23 11:50:11] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','QUwxT0hwRExsV2g4VXpFNkdocllPQT09')  
+[2023-06-23 11:50:11] LoginModel.INFO: User Data : {"username":"super admin","userGroup":"1","loginid":"1","email":"superadmin@msense.in","mobileno":"9677889090","designation":"Manage_rCate","hotelId":"4","brandId":"7"}  
+[2023-06-23 11:50:11] LoginAction.INFO: ======= END Login Action ================  
+[2023-06-23 12:10:09] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-23 12:10:09] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"1234567"}  
+[2023-06-23 12:10:09] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','QUwxT0hwRExsV2g4VXpFNkdocllPQT09')  
+[2023-06-23 12:10:09] LoginModel.INFO: User Data : {"username":"super admin","userGroup":"1","loginid":"1","email":"superadmin@msense.in","mobileno":"9677889090","designation":"Manage_rCate","hotelId":"4","brandId":"7"}  
+[2023-06-23 12:10:09] LoginAction.INFO: ======= END Login Action ================  
+[2023-06-23 12:10:11] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-23 12:10:11] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"1234567"}  
+[2023-06-23 12:10:11] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','QUwxT0hwRExsV2g4VXpFNkdocllPQT09')  
+[2023-06-23 12:10:11] LoginModel.INFO: User Data : {"username":"super admin","userGroup":"1","loginid":"1","email":"superadmin@msense.in","mobileno":"9677889090","designation":"Manage_rCate","hotelId":"4","brandId":"7"}  
+[2023-06-23 12:10:11] LoginAction.INFO: ======= END Login Action ================  
+[2023-06-23 12:10:12] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-23 12:10:12] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"1234567"}  
+[2023-06-23 12:10:12] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','QUwxT0hwRExsV2g4VXpFNkdocllPQT09')  
+[2023-06-23 12:10:12] LoginModel.INFO: User Data : {"username":"super admin","userGroup":"1","loginid":"1","email":"superadmin@msense.in","mobileno":"9677889090","designation":"Manage_rCate","hotelId":"4","brandId":"7"}  
+[2023-06-23 12:10:12] LoginAction.INFO: ======= END Login Action ================  
+[2023-06-23 12:10:13] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-23 12:10:13] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"1234567"}  
+[2023-06-23 12:10:13] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','QUwxT0hwRExsV2g4VXpFNkdocllPQT09')  
+[2023-06-23 12:10:13] LoginModel.INFO: User Data : {"username":"super admin","userGroup":"1","loginid":"1","email":"superadmin@msense.in","mobileno":"9677889090","designation":"Manage_rCate","hotelId":"4","brandId":"7"}  
+[2023-06-23 12:10:13] LoginAction.INFO: ======= END Login Action ================  
+[2023-06-23 13:03:20] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-23 13:03:20] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"1234567"}  
+[2023-06-23 13:03:20] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','QUwxT0hwRExsV2g4VXpFNkdocllPQT09')  
+[2023-06-23 13:03:20] LoginModel.INFO: User Data : {"username":"super admin","userGroup":"1","loginid":"1","email":"superadmin@msense.in","mobileno":"9677889090","designation":"Manage_rCate","hotelId":"4","brandId":"7"}  
+[2023-06-23 13:03:20] LoginAction.INFO: ======= END Login Action ================  
+[2023-06-23 13:10:14] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-23 13:10:14] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"1234567"}  
+[2023-06-23 13:10:14] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','QUwxT0hwRExsV2g4VXpFNkdocllPQT09')  
+[2023-06-23 13:10:14] LoginModel.INFO: User Data : {"username":"super admin","userGroup":"1","loginid":"1","email":"superadmin@msense.in","mobileno":"9677889090","designation":"Manage_rCate","hotelId":"4","brandId":"7"}  
+[2023-06-23 13:10:14] LoginAction.INFO: ======= END Login Action ================  
+[2023-06-23 13:11:26] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-23 13:11:26] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"1234567"}  
+[2023-06-23 13:11:26] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','QUwxT0hwRExsV2g4VXpFNkdocllPQT09')  
+[2023-06-23 13:11:26] LoginModel.INFO: User Data : {"username":"super admin","userGroup":"1","loginid":"1","email":"superadmin@msense.in","mobileno":"9677889090","designation":"Manage_rCate","hotelId":"4","brandId":"7"}  
+[2023-06-23 13:11:26] LoginAction.INFO: ======= END Login Action ================  
+[2023-06-23 13:45:00] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-23 13:45:00] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"1234567"}  
+[2023-06-23 13:45:00] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','QUwxT0hwRExsV2g4VXpFNkdocllPQT09')  
+[2023-06-23 13:45:00] LoginModel.INFO: User Data : {"username":"super admin","userGroup":"1","loginid":"1","email":"superadmin@msense.in","mobileno":"9677889090","designation":"Manage_rCate","hotelId":"4","brandId":"7"}  
+[2023-06-23 13:45:00] LoginAction.INFO: ======= END Login Action ================  

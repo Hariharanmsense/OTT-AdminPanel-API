@@ -1,0 +1,5 @@
+[2023-06-08 07:18:38] BrandAction.INFO: ======= Start Room Action  (GETONE) ================  
+[2023-06-08 07:18:38] BrandAction.INFO: method : GET  
+[2023-06-08 07:18:38] BrandAction.INFO: contentType : application/json  
+[2023-06-08 07:18:38] BrandAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"1","brandId":null,"iat":1686208472,"exp":1686294872}}  
+[2023-06-08 07:18:38] RoomModel.INFO: Query : call SP_AddandEditRoom('GETONE',0,0,0,'list',1)  

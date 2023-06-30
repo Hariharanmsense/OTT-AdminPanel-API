@@ -1,0 +1,915 @@
+[2023-06-28 04:40:34] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 04:40:34] TVtempAction.INFO: method : GET  
+[2023-06-28 04:40:34] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 04:40:34] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 04:40:34] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 04:40:34] TVtempAction.INFO: method : GET  
+[2023-06-28 04:40:34] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 04:40:34] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 04:40:34] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 04:40:34] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 04:40:34] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 04:40:34] TVtempAction.INFO: method : GET  
+[2023-06-28 04:40:34] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 04:40:34] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 04:40:34] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 04:46:12] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 04:46:12] TVtempAction.INFO: method : GET  
+[2023-06-28 04:46:12] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 04:46:12] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 04:46:12] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 04:46:12] TVtempAction.INFO: method : GET  
+[2023-06-28 04:46:12] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 04:46:12] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 04:46:12] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 04:46:12] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 04:46:12] TVtempAction.INFO: method : GET  
+[2023-06-28 04:46:12] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 04:46:12] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 04:46:12] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 04:46:12] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 04:48:55] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 04:48:55] TVtempAction.INFO: method : GET  
+[2023-06-28 04:48:55] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 04:48:55] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 04:48:55] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 04:48:55] TVtempAction.INFO: method : GET  
+[2023-06-28 04:48:55] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 04:48:55] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 04:48:55] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 04:48:55] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 04:48:55] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 04:48:55] TVtempAction.INFO: method : GET  
+[2023-06-28 04:48:55] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 04:48:55] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 04:48:55] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:03:27] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 05:03:27] TVtempAction.INFO: method : GET  
+[2023-06-28 05:03:27] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:03:27] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:03:27] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:03:27] TVtempAction.INFO: method : GET  
+[2023-06-28 05:03:27] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:03:27] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:03:27] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:03:27] TVtempAction.INFO: method : GET  
+[2023-06-28 05:03:27] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:03:27] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:03:27] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:03:27] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 05:03:27] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:04:58] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:04:58] TVtempAction.INFO: method : GET  
+[2023-06-28 05:04:58] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:04:58] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:04:58] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 05:04:58] TVtempAction.INFO: method : GET  
+[2023-06-28 05:04:58] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:04:58] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:04:58] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:04:58] TVtempAction.INFO: method : GET  
+[2023-06-28 05:04:58] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:04:58] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:04:58] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:04:58] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 05:04:58] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:06:21] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:06:21] TVtempAction.INFO: method : GET  
+[2023-06-28 05:06:21] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:06:21] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:06:21] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:06:21] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 05:06:21] TVtempAction.INFO: method : GET  
+[2023-06-28 05:06:21] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:06:21] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:06:21] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 05:06:21] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:06:21] TVtempAction.INFO: method : GET  
+[2023-06-28 05:06:21] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:06:21] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:06:21] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:10:20] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:10:20] TVtempAction.INFO: method : GET  
+[2023-06-28 05:10:20] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:10:20] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:10:20] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:10:20] TVtempAction.INFO: method : GET  
+[2023-06-28 05:10:20] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:10:20] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:10:20] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:10:20] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 05:10:20] TVtempAction.INFO: method : GET  
+[2023-06-28 05:10:20] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:10:20] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:10:20] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 05:10:20] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:10:27] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:10:27] TVtempAction.INFO: method : GET  
+[2023-06-28 05:10:27] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:10:27] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:10:27] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 05:10:27] TVtempAction.INFO: method : GET  
+[2023-06-28 05:10:27] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:10:27] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:10:27] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:10:27] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 05:10:27] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:10:27] TVtempAction.INFO: method : GET  
+[2023-06-28 05:10:27] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:10:27] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:10:27] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:12:58] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:12:58] TVtempAction.INFO: method : GET  
+[2023-06-28 05:12:58] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:12:58] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:12:58] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 05:12:58] TVtempAction.INFO: method : GET  
+[2023-06-28 05:12:58] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:12:58] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:12:58] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:12:58] TVtempAction.INFO: method : GET  
+[2023-06-28 05:12:58] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:12:58] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:12:58] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 05:12:58] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:12:58] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:25:31] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:25:31] TVtempAction.INFO: method : GET  
+[2023-06-28 05:25:31] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:25:31] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:25:31] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:25:31] TVtempAction.INFO: method : GET  
+[2023-06-28 05:25:31] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:25:31] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:25:31] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 05:25:31] TVtempAction.INFO: method : GET  
+[2023-06-28 05:25:31] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:25:31] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:25:31] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:25:31] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:25:31] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 05:26:47] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:26:47] TVtempAction.INFO: method : GET  
+[2023-06-28 05:26:47] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:26:47] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687930001,"exp":1688016401}}  
+[2023-06-28 05:26:47] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:26:47] TVtempAction.INFO: method : GET  
+[2023-06-28 05:26:47] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:26:47] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687930001,"exp":1688016401}}  
+[2023-06-28 05:26:47] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:26:47] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:26:48] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 05:26:48] TVtempAction.INFO: method : GET  
+[2023-06-28 05:26:48] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:26:48] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687930001,"exp":1688016401}}  
+[2023-06-28 05:26:48] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 05:27:07] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:27:07] TVtempAction.INFO: method : GET  
+[2023-06-28 05:27:07] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:27:07] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 05:27:07] TVtempAction.INFO: method : GET  
+[2023-06-28 05:27:07] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:27:07] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687930001,"exp":1688016401}}  
+[2023-06-28 05:27:07] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687930001,"exp":1688016401}}  
+[2023-06-28 05:27:07] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:27:07] TVtempAction.INFO: method : GET  
+[2023-06-28 05:27:07] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:27:07] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687930001,"exp":1688016401}}  
+[2023-06-28 05:27:07] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 05:27:07] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:27:07] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:33:35] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:33:35] TVtempAction.INFO: method : GET  
+[2023-06-28 05:33:35] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:33:35] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687930001,"exp":1688016401}}  
+[2023-06-28 05:33:35] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:33:35] TVtempAction.INFO: method : GET  
+[2023-06-28 05:33:35] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:33:35] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687930001,"exp":1688016401}}  
+[2023-06-28 05:33:35] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 05:33:35] TVtempAction.INFO: method : GET  
+[2023-06-28 05:33:35] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:33:35] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687930001,"exp":1688016401}}  
+[2023-06-28 05:33:35] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:33:35] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:33:35] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 05:37:28] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 05:37:28] TVtempAction.INFO: method : GET  
+[2023-06-28 05:37:28] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:37:28] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:37:28] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:37:28] TVtempAction.INFO: method : GET  
+[2023-06-28 05:37:28] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:37:28] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:37:28] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:37:28] TVtempAction.INFO: method : GET  
+[2023-06-28 05:37:28] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:37:28] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:37:28] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 05:37:28] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:37:28] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:40:22] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:40:22] TVtempAction.INFO: method : GET  
+[2023-06-28 05:40:22] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:40:22] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:40:22] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:40:22] TVtempAction.INFO: method : GET  
+[2023-06-28 05:40:22] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:40:22] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:40:22] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 05:40:22] TVtempAction.INFO: method : GET  
+[2023-06-28 05:40:22] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:40:22] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:40:22] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:40:22] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 05:40:22] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:40:31] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 05:40:31] TVtempAction.INFO: method : GET  
+[2023-06-28 05:40:31] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:40:31] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:40:31] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:40:31] TVtempAction.INFO: method : GET  
+[2023-06-28 05:40:31] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:40:31] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:40:31] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:40:31] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 05:40:31] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:40:31] TVtempAction.INFO: method : GET  
+[2023-06-28 05:40:31] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:40:31] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:40:31] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:42:02] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:42:02] TVtempAction.INFO: method : GET  
+[2023-06-28 05:42:02] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:42:02] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:42:02] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:42:02] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 05:42:02] TVtempAction.INFO: method : GET  
+[2023-06-28 05:42:02] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:42:02] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:42:02] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:42:02] TVtempAction.INFO: method : GET  
+[2023-06-28 05:42:02] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:42:02] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:42:02] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 05:42:02] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:43:07] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:43:07] TVtempAction.INFO: method : GET  
+[2023-06-28 05:43:07] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:43:07] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:43:07] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:43:07] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 05:43:07] TVtempAction.INFO: method : GET  
+[2023-06-28 05:43:07] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:43:07] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:43:07] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:43:07] TVtempAction.INFO: method : GET  
+[2023-06-28 05:43:07] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:43:07] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:43:07] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:43:07] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 05:45:59] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:45:59] TVtempAction.INFO: method : GET  
+[2023-06-28 05:45:59] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:45:59] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:45:59] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:45:59] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 05:45:59] TVtempAction.INFO: method : GET  
+[2023-06-28 05:45:59] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:45:59] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:45:59] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:45:59] TVtempAction.INFO: method : GET  
+[2023-06-28 05:45:59] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:45:59] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:45:59] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 05:45:59] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:47:06] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:47:06] TVtempAction.INFO: method : GET  
+[2023-06-28 05:47:06] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:47:06] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:47:06] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:47:06] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 05:47:06] TVtempAction.INFO: method : GET  
+[2023-06-28 05:47:06] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:47:06] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:47:06] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:47:06] TVtempAction.INFO: method : GET  
+[2023-06-28 05:47:06] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:47:06] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:47:06] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:47:06] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 05:47:12] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:47:12] TVtempAction.INFO: method : GET  
+[2023-06-28 05:47:12] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:47:12] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:47:12] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:47:12] TVtempAction.INFO: method : GET  
+[2023-06-28 05:47:12] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:47:12] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:47:12] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 05:47:12] TVtempAction.INFO: method : GET  
+[2023-06-28 05:47:12] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:47:12] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:47:12] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:47:12] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:47:12] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 05:49:49] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:49:49] TVtempAction.INFO: method : GET  
+[2023-06-28 05:49:49] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:49:49] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:49:49] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 05:49:49] TVtempAction.INFO: method : GET  
+[2023-06-28 05:49:49] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:49:49] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:49:49] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:49:49] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 05:49:49] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 05:49:49] TVtempAction.INFO: method : GET  
+[2023-06-28 05:49:49] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 05:49:49] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687927216,"exp":1688013616}}  
+[2023-06-28 05:49:49] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 06:22:54] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 06:22:54] TVtempAction.INFO: method : GET  
+[2023-06-28 06:22:54] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:22:54] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:22:54] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 06:22:54] TVtempAction.INFO: method : GET  
+[2023-06-28 06:22:54] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:22:54] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:22:54] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 06:22:54] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 06:22:54] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 06:22:54] TVtempAction.INFO: method : GET  
+[2023-06-28 06:22:54] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:22:54] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:22:54] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 06:24:10] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 06:24:10] TVtempAction.INFO: method : GET  
+[2023-06-28 06:24:10] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:24:10] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:24:10] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 06:24:10] TVtempAction.INFO: method : GET  
+[2023-06-28 06:24:10] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:24:10] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:24:10] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 06:24:10] TVtempAction.INFO: method : GET  
+[2023-06-28 06:24:10] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:24:10] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:24:10] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 06:24:10] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 06:24:10] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 06:26:48] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 06:26:48] TVtempAction.INFO: method : GET  
+[2023-06-28 06:26:48] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:26:48] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:26:48] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 06:26:48] TVtempAction.INFO: method : GET  
+[2023-06-28 06:26:48] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:26:48] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:26:48] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 06:26:48] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 06:26:48] TVtempAction.INFO: method : GET  
+[2023-06-28 06:26:48] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:26:48] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:26:48] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 06:26:48] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 06:29:15] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 06:29:15] TVtempAction.INFO: method : GET  
+[2023-06-28 06:29:15] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:29:15] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:29:15] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 06:29:15] TVtempAction.INFO: method : GET  
+[2023-06-28 06:29:15] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:29:15] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:29:15] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 06:29:15] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 06:29:15] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 06:29:15] TVtempAction.INFO: method : GET  
+[2023-06-28 06:29:15] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:29:15] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:29:15] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 06:29:58] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 06:29:58] TVtempAction.INFO: method : GET  
+[2023-06-28 06:29:58] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:29:58] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:29:58] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 06:29:58] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 06:29:58] TVtempAction.INFO: method : GET  
+[2023-06-28 06:29:58] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:29:58] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:29:58] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 06:29:58] TVtempAction.INFO: method : GET  
+[2023-06-28 06:29:58] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:29:58] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:29:58] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 06:29:58] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 06:30:23] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 06:30:23] TVtempAction.INFO: method : GET  
+[2023-06-28 06:30:23] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:30:23] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:30:23] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 06:30:23] TVtempAction.INFO: method : GET  
+[2023-06-28 06:30:23] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:30:23] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:30:23] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 06:30:23] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 06:30:23] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 06:30:23] TVtempAction.INFO: method : GET  
+[2023-06-28 06:30:23] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:30:23] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:30:23] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 06:33:32] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 06:33:32] TVtempAction.INFO: method : GET  
+[2023-06-28 06:33:32] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:33:32] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:33:32] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 06:33:32] TVtempAction.INFO: method : GET  
+[2023-06-28 06:33:32] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:33:32] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:33:32] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 06:33:32] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 06:33:32] TVtempAction.INFO: method : GET  
+[2023-06-28 06:33:32] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:33:32] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:33:32] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 06:33:32] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 06:35:00] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 06:35:00] TVtempAction.INFO: method : GET  
+[2023-06-28 06:35:00] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:35:00] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:35:00] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 06:35:00] TVtempAction.INFO: method : GET  
+[2023-06-28 06:35:00] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:35:00] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:35:00] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 06:35:00] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 06:35:00] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 06:35:00] TVtempAction.INFO: method : GET  
+[2023-06-28 06:35:00] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:35:00] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:35:00] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 06:42:15] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 06:42:15] TVtempAction.INFO: method : GET  
+[2023-06-28 06:42:15] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:42:15] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:42:15] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 06:42:15] TVtempAction.INFO: method : GET  
+[2023-06-28 06:42:15] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:42:15] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:42:15] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 06:42:15] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 06:42:15] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 06:42:15] TVtempAction.INFO: method : GET  
+[2023-06-28 06:42:15] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:42:15] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:42:15] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 06:43:45] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 06:43:45] TVtempAction.INFO: method : GET  
+[2023-06-28 06:43:45] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:43:45] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:43:45] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 06:43:45] TVtempAction.INFO: method : GET  
+[2023-06-28 06:43:45] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:43:45] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:43:45] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 06:43:45] TVtempAction.INFO: method : GET  
+[2023-06-28 06:43:45] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:43:45] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:43:45] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 06:43:45] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 06:43:45] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 06:48:36] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 06:48:36] TVtempAction.INFO: method : GET  
+[2023-06-28 06:48:36] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:48:36] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:48:36] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 06:48:36] TVtempAction.INFO: method : GET  
+[2023-06-28 06:48:36] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:48:36] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:48:36] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 06:48:36] TVtempAction.INFO: method : GET  
+[2023-06-28 06:48:36] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:48:36] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:48:36] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 06:48:36] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 06:48:36] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 06:50:30] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 06:50:30] TVtempAction.INFO: method : GET  
+[2023-06-28 06:50:30] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:50:30] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:50:30] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 06:50:30] TVtempAction.INFO: method : GET  
+[2023-06-28 06:50:30] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:50:30] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:50:30] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 06:50:30] TVtempAction.INFO: method : GET  
+[2023-06-28 06:50:30] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:50:30] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:50:30] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 06:50:30] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 06:50:30] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 06:52:42] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 06:52:42] TVtempAction.INFO: method : GET  
+[2023-06-28 06:52:42] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:52:42] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:52:42] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 06:52:42] TVtempAction.INFO: method : GET  
+[2023-06-28 06:52:42] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:52:42] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:52:42] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 06:52:42] TVtempAction.INFO: method : GET  
+[2023-06-28 06:52:42] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:52:42] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:52:42] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 06:52:42] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 06:52:42] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 06:53:25] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 06:53:25] TVtempAction.INFO: method : GET  
+[2023-06-28 06:53:25] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:53:25] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687934949,"exp":1688021349}}  
+[2023-06-28 06:53:25] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 06:53:25] TVtempAction.INFO: method : GET  
+[2023-06-28 06:53:25] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:53:25] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687934949,"exp":1688021349}}  
+[2023-06-28 06:53:25] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 06:53:25] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 06:53:25] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 06:53:25] TVtempAction.INFO: method : GET  
+[2023-06-28 06:53:25] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:53:25] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687934949,"exp":1688021349}}  
+[2023-06-28 06:53:25] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 06:53:41] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 06:53:41] TVtempAction.INFO: method : GET  
+[2023-06-28 06:53:41] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:53:41] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687934949,"exp":1688021349}}  
+[2023-06-28 06:53:41] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 06:53:41] TVtempAction.INFO: method : GET  
+[2023-06-28 06:53:41] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:53:41] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687934949,"exp":1688021349}}  
+[2023-06-28 06:53:41] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 06:53:41] TVtempAction.INFO: method : GET  
+[2023-06-28 06:53:41] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:53:41] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687934949,"exp":1688021349}}  
+[2023-06-28 06:53:41] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 06:53:41] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 06:53:41] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 06:54:32] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 06:54:32] TVtempAction.INFO: method : GET  
+[2023-06-28 06:54:32] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:54:32] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:54:32] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 06:54:32] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 06:54:32] TVtempAction.INFO: method : GET  
+[2023-06-28 06:54:32] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:54:32] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:54:32] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 06:54:32] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 06:54:32] TVtempAction.INFO: method : GET  
+[2023-06-28 06:54:32] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:54:32] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:54:32] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 06:58:41] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 06:58:41] TVtempAction.INFO: method : GET  
+[2023-06-28 06:58:41] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:58:41] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:58:41] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 06:58:41] TVtempAction.INFO: method : GET  
+[2023-06-28 06:58:41] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:58:41] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:58:41] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 06:58:41] TVtempAction.INFO: method : GET  
+[2023-06-28 06:58:41] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 06:58:41] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 06:58:41] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 06:58:41] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 06:58:41] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 07:00:09] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 07:00:09] TVtempAction.INFO: method : GET  
+[2023-06-28 07:00:09] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 07:00:09] TVtempAction.INFO: method : GET  
+[2023-06-28 07:00:09] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 07:00:09] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 07:00:09] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 07:00:09] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 07:00:09] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 07:00:09] TVtempAction.INFO: method : GET  
+[2023-06-28 07:00:09] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 07:00:09] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 07:00:09] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 07:00:09] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 07:00:09] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 07:03:28] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 07:03:28] TVtempAction.INFO: method : GET  
+[2023-06-28 07:03:28] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 07:03:28] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 07:03:29] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 07:03:29] TVtempAction.INFO: method : GET  
+[2023-06-28 07:03:29] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 07:03:29] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 07:03:29] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 07:03:29] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 07:03:29] TVtempAction.INFO: method : GET  
+[2023-06-28 07:03:29] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 07:03:29] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 07:03:29] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 07:03:29] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 07:08:02] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 07:08:02] TVtempAction.INFO: method : GET  
+[2023-06-28 07:08:02] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 07:08:02] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 07:08:02] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 07:08:02] TVtempAction.INFO: method : GET  
+[2023-06-28 07:08:02] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 07:08:02] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 07:08:02] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 07:08:02] TVtempAction.INFO: method : GET  
+[2023-06-28 07:08:02] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 07:08:02] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 07:08:02] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 07:08:02] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 07:08:02] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 07:12:27] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 07:12:27] TVtempAction.INFO: method : GET  
+[2023-06-28 07:12:27] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 07:12:27] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 07:12:27] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 07:12:27] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 07:12:27] TVtempAction.INFO: method : GET  
+[2023-06-28 07:12:27] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 07:12:27] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 07:12:27] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 07:12:27] TVtempAction.INFO: method : GET  
+[2023-06-28 07:12:27] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 07:12:27] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 07:12:27] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 07:12:27] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 07:13:29] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 07:13:29] TVtempAction.INFO: method : GET  
+[2023-06-28 07:13:29] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 07:13:29] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 07:13:29] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 07:13:29] TVtempAction.INFO: method : GET  
+[2023-06-28 07:13:29] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 07:13:29] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 07:13:29] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 07:13:29] TVtempAction.INFO: method : GET  
+[2023-06-28 07:13:29] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 07:13:29] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 07:13:29] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 07:13:29] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 07:13:29] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 07:16:16] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 07:16:16] TVtempAction.INFO: method : GET  
+[2023-06-28 07:16:16] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 07:16:16] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 07:16:16] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 07:16:16] TVtempAction.INFO: method : GET  
+[2023-06-28 07:16:16] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 07:16:16] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 07:16:16] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 07:16:16] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 07:16:16] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 07:16:16] TVtempAction.INFO: method : GET  
+[2023-06-28 07:16:16] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 07:16:16] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 07:16:16] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 07:23:39] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 07:23:39] TVtempAction.INFO: method : GET  
+[2023-06-28 07:23:39] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 07:23:39] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 07:23:39] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 07:23:39] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 07:23:39] TVtempAction.INFO: method : GET  
+[2023-06-28 07:23:39] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 07:23:39] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 07:23:40] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 07:23:40] TVtempAction.INFO: method : GET  
+[2023-06-28 07:23:40] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 07:23:40] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 07:23:40] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 07:23:40] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 07:26:16] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 07:26:16] TVtempAction.INFO: method : GET  
+[2023-06-28 07:26:16] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 07:26:16] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 07:26:16] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 07:26:16] TVtempAction.INFO: method : GET  
+[2023-06-28 07:26:16] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 07:26:16] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 07:26:16] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 07:26:16] TVtempAction.INFO: method : GET  
+[2023-06-28 07:26:16] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 07:26:16] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 07:26:16] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 07:26:16] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 07:26:16] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 07:29:34] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 07:29:34] TVtempAction.INFO: method : GET  
+[2023-06-28 07:29:34] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 07:29:34] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 07:29:34] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 07:29:34] TVtempAction.INFO: method : GET  
+[2023-06-28 07:29:34] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 07:29:34] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 07:29:34] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 07:29:34] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 07:29:34] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 07:29:34] TVtempAction.INFO: method : GET  
+[2023-06-28 07:29:34] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 07:29:34] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 07:29:34] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 07:32:56] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 07:32:56] TVtempAction.INFO: method : GET  
+[2023-06-28 07:32:56] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 07:32:56] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 07:32:56] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 07:32:56] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 07:32:56] TVtempAction.INFO: method : GET  
+[2023-06-28 07:32:56] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 07:32:56] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 07:32:56] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 07:32:56] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 07:32:56] TVtempAction.INFO: method : GET  
+[2023-06-28 07:32:56] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 07:32:56] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687933043,"exp":1688019443}}  
+[2023-06-28 07:32:56] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 08:37:58] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 08:37:58] TVtempAction.INFO: method : GET  
+[2023-06-28 08:37:58] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 08:37:58] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687941471,"exp":1688027871}}  
+[2023-06-28 08:37:58] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 08:37:58] TVtempAction.INFO: method : GET  
+[2023-06-28 08:37:58] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 08:37:58] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687941471,"exp":1688027871}}  
+[2023-06-28 08:37:58] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 08:37:58] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 08:37:58] TVtempAction.INFO: method : GET  
+[2023-06-28 08:37:58] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 08:37:58] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687941471,"exp":1688027871}}  
+[2023-06-28 08:37:58] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 08:37:58] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 08:43:00] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 08:43:00] TVtempAction.INFO: method : GET  
+[2023-06-28 08:43:00] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 08:43:00] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687941471,"exp":1688027871}}  
+[2023-06-28 08:43:00] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 08:43:00] TVtempAction.INFO: method : GET  
+[2023-06-28 08:43:00] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 08:43:00] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687941471,"exp":1688027871}}  
+[2023-06-28 08:43:00] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 08:43:00] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 08:43:00] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 08:43:00] TVtempAction.INFO: method : GET  
+[2023-06-28 08:43:00] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 08:43:00] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687941471,"exp":1688027871}}  
+[2023-06-28 08:43:00] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 08:44:09] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 08:44:09] TVtempAction.INFO: method : GET  
+[2023-06-28 08:44:09] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 08:44:09] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687941471,"exp":1688027871}}  
+[2023-06-28 08:44:09] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 08:44:09] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 08:44:09] TVtempAction.INFO: method : GET  
+[2023-06-28 08:44:09] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 08:44:09] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687941471,"exp":1688027871}}  
+[2023-06-28 08:44:09] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 08:44:09] TVtempAction.INFO: method : GET  
+[2023-06-28 08:44:09] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 08:44:09] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687941471,"exp":1688027871}}  
+[2023-06-28 08:44:09] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 08:44:09] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 08:46:30] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 08:46:30] TVtempAction.INFO: method : GET  
+[2023-06-28 08:46:30] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 08:46:30] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687941471,"exp":1688027871}}  
+[2023-06-28 08:46:30] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 08:46:30] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 08:46:30] TVtempAction.INFO: method : GET  
+[2023-06-28 08:46:30] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 08:46:30] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687941471,"exp":1688027871}}  
+[2023-06-28 08:46:30] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 08:46:30] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 08:46:30] TVtempAction.INFO: method : GET  
+[2023-06-28 08:46:30] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 08:46:30] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687941471,"exp":1688027871}}  
+[2023-06-28 08:46:30] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 08:46:35] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 08:46:35] TVtempAction.INFO: method : GET  
+[2023-06-28 08:46:35] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 08:46:35] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687941471,"exp":1688027871}}  
+[2023-06-28 08:46:35] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 08:46:35] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 08:46:35] TVtempAction.INFO: method : GET  
+[2023-06-28 08:46:35] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 08:46:35] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687941471,"exp":1688027871}}  
+[2023-06-28 08:46:35] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 08:46:35] TVtempAction.INFO: method : GET  
+[2023-06-28 08:46:35] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 08:46:35] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687941471,"exp":1688027871}}  
+[2023-06-28 08:46:35] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 08:46:35] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 08:54:48] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 08:54:48] TVtempAction.INFO: method : GET  
+[2023-06-28 08:54:48] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 08:54:48] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687941471,"exp":1688027871}}  
+[2023-06-28 08:54:48] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 08:54:48] TVtempAction.INFO: method : GET  
+[2023-06-28 08:54:48] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 08:54:48] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687941471,"exp":1688027871}}  
+[2023-06-28 08:54:48] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 08:54:48] TVtempAction.INFO: method : GET  
+[2023-06-28 08:54:48] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 08:54:48] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687941471,"exp":1688027871}}  
+[2023-06-28 08:54:48] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 08:54:48] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 08:54:48] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 08:59:46] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 08:59:46] TVtempAction.INFO: method : GET  
+[2023-06-28 08:59:46] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 08:59:46] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687941471,"exp":1688027871}}  
+[2023-06-28 08:59:46] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 08:59:46] TVtempAction.INFO: method : GET  
+[2023-06-28 08:59:46] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 08:59:46] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687941471,"exp":1688027871}}  
+[2023-06-28 08:59:46] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 08:59:46] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 08:59:46] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 08:59:46] TVtempAction.INFO: method : GET  
+[2023-06-28 08:59:46] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 08:59:46] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687941471,"exp":1688027871}}  
+[2023-06-28 08:59:46] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 09:02:21] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 09:02:21] TVtempAction.INFO: method : GET  
+[2023-06-28 09:02:21] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 09:02:21] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687941471,"exp":1688027871}}  
+[2023-06-28 09:02:21] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 09:02:21] TVtempAction.INFO: method : GET  
+[2023-06-28 09:02:21] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 09:02:21] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687941471,"exp":1688027871}}  
+[2023-06-28 09:02:21] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 09:02:21] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 09:02:21] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 09:02:21] TVtempAction.INFO: method : GET  
+[2023-06-28 09:02:21] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 09:02:21] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687941471,"exp":1688027871}}  
+[2023-06-28 09:02:21] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 09:02:29] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 09:02:29] TVtempAction.INFO: method : GET  
+[2023-06-28 09:02:29] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 09:02:29] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687941471,"exp":1688027871}}  
+[2023-06-28 09:02:29] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 09:02:29] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 09:02:29] TVtempAction.INFO: method : GET  
+[2023-06-28 09:02:29] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 09:02:29] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687941471,"exp":1688027871}}  
+[2023-06-28 09:02:29] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 09:02:29] TVtempAction.INFO: method : GET  
+[2023-06-28 09:02:29] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 09:02:29] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687941471,"exp":1688027871}}  
+[2023-06-28 09:02:29] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 09:02:29] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 09:07:57] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 09:07:57] TVtempAction.INFO: method : GET  
+[2023-06-28 09:07:57] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 09:07:57] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687941471,"exp":1688027871}}  
+[2023-06-28 09:07:57] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 09:07:57] TVtempAction.INFO: method : GET  
+[2023-06-28 09:07:57] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 09:07:57] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687941471,"exp":1688027871}}  
+[2023-06-28 09:07:57] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 09:07:57] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 09:07:57] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 09:07:57] TVtempAction.INFO: method : GET  
+[2023-06-28 09:07:57] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 09:07:57] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687941471,"exp":1688027871}}  
+[2023-06-28 09:07:57] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 09:08:49] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 09:08:49] TVtempAction.INFO: method : GET  
+[2023-06-28 09:08:49] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 09:08:49] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 09:08:49] TVtempAction.INFO: method : GET  
+[2023-06-28 09:08:49] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 09:08:49] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687941471,"exp":1688027871}}  
+[2023-06-28 09:08:49] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 09:08:49] TVtempAction.INFO: method : GET  
+[2023-06-28 09:08:49] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 09:08:49] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687941471,"exp":1688027871}}  
+[2023-06-28 09:08:49] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687941471,"exp":1688027871}}  
+[2023-06-28 09:08:49] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 09:08:49] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 09:08:49] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 09:10:20] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 09:10:20] TVtempAction.INFO: method : GET  
+[2023-06-28 09:10:20] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 09:10:20] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687941471,"exp":1688027871}}  
+[2023-06-28 09:10:20] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  
+[2023-06-28 09:10:20] TVtempAction.INFO: ======= Start Tv Action (Get All Feature List) ================  
+[2023-06-28 09:10:20] TVtempAction.INFO: method : GET  
+[2023-06-28 09:10:20] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 09:10:20] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687941471,"exp":1688027871}}  
+[2023-06-28 09:10:20] TVtempAction.INFO: ======= END Tv Action (Get All Feature List) ================  
+[2023-06-28 09:10:20] TVtempAction.INFO: ======= Start Tv Action (Get All Template List) ================  
+[2023-06-28 09:10:20] TVtempAction.INFO: method : GET  
+[2023-06-28 09:10:20] TVtempAction.INFO: contentType : application/json  
+[2023-06-28 09:10:20] TVtempAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687941471,"exp":1688027871}}  
+[2023-06-28 09:10:20] TVtempAction.INFO: ======= END Tv Action (Get All Template List) ================  

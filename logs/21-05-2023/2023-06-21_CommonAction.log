@@ -1,0 +1,140 @@
+[2023-06-21 04:27:34] CommonAction.INFO: ======= Start Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:27:34] CommonAction.INFO: method : GET  
+[2023-06-21 04:27:34] CommonAction.INFO: contentType : application/json  
+[2023-06-21 04:27:34] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687321654,"exp":1687408054}}  
+[2023-06-21 04:27:34] CommonAction.INFO: ======= END Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:28:07] CommonAction.INFO: ======= Start Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:28:07] CommonAction.INFO: method : GET  
+[2023-06-21 04:28:07] CommonAction.INFO: contentType : application/json  
+[2023-06-21 04:28:07] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687321687,"exp":1687408087}}  
+[2023-06-21 04:28:07] CommonAction.INFO: ======= END Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:29:41] CommonAction.INFO: ======= Start Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:29:41] CommonAction.INFO: method : GET  
+[2023-06-21 04:29:41] CommonAction.INFO: contentType : application/json  
+[2023-06-21 04:29:41] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687321654,"exp":1687408054}}  
+[2023-06-21 04:29:41] CommonAction.INFO: ======= END Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:30:50] CommonAction.INFO: ======= Start Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:30:50] CommonAction.INFO: method : GET  
+[2023-06-21 04:30:50] CommonAction.INFO: contentType : application/json  
+[2023-06-21 04:30:50] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687321654,"exp":1687408054}}  
+[2023-06-21 04:30:51] CommonAction.INFO: ======= END Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:31:13] CommonAction.INFO: ======= Start Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:31:13] CommonAction.INFO: method : GET  
+[2023-06-21 04:31:13] CommonAction.INFO: contentType : application/json  
+[2023-06-21 04:31:13] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687321654,"exp":1687408054}}  
+[2023-06-21 04:31:13] CommonAction.INFO: ======= END Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:32:02] CommonAction.INFO: ======= Start Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:32:02] CommonAction.INFO: method : GET  
+[2023-06-21 04:32:02] CommonAction.INFO: contentType : application/json  
+[2023-06-21 04:32:02] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687321654,"exp":1687408054}}  
+[2023-06-21 04:32:02] CommonAction.INFO: ======= END Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:32:53] CommonAction.INFO: ======= Start Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:32:53] CommonAction.INFO: method : GET  
+[2023-06-21 04:32:53] CommonAction.INFO: contentType : application/json  
+[2023-06-21 04:32:53] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687321654,"exp":1687408054}}  
+[2023-06-21 04:32:53] CommonAction.INFO: ======= END Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:33:41] CommonAction.INFO: ======= Start Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:33:41] CommonAction.INFO: method : GET  
+[2023-06-21 04:33:41] CommonAction.INFO: contentType : application/json  
+[2023-06-21 04:33:41] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687321654,"exp":1687408054}}  
+[2023-06-21 04:33:41] CommonAction.INFO: ======= END Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:34:09] CommonAction.INFO: ======= Start Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:34:09] CommonAction.INFO: method : GET  
+[2023-06-21 04:34:09] CommonAction.INFO: contentType : application/json  
+[2023-06-21 04:34:09] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687321654,"exp":1687408054}}  
+[2023-06-21 04:34:09] CommonAction.INFO: ======= END Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:34:56] CommonAction.INFO: ======= Start Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:34:56] CommonAction.INFO: method : GET  
+[2023-06-21 04:34:56] CommonAction.INFO: contentType : application/json  
+[2023-06-21 04:34:56] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687321654,"exp":1687408054}}  
+[2023-06-21 04:34:56] CommonAction.INFO: ======= END Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:39:01] CommonAction.INFO: ======= Start Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:39:01] CommonAction.INFO: method : GET  
+[2023-06-21 04:39:01] CommonAction.INFO: contentType : application/json  
+[2023-06-21 04:39:01] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687321654,"exp":1687408054}}  
+[2023-06-21 04:39:02] CommonAction.INFO: ======= END Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:41:15] CommonAction.INFO: ======= Start Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:41:15] CommonAction.INFO: method : GET  
+[2023-06-21 04:41:15] CommonAction.INFO: contentType : application/json  
+[2023-06-21 04:41:15] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687321654,"exp":1687408054}}  
+[2023-06-21 04:41:15] CommonAction.INFO: ======= END Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:41:35] CommonAction.INFO: ======= Start Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:41:35] CommonAction.INFO: method : GET  
+[2023-06-21 04:41:35] CommonAction.INFO: contentType : application/json  
+[2023-06-21 04:41:35] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687321654,"exp":1687408054}}  
+[2023-06-21 04:41:35] CommonAction.INFO: ======= END Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:41:49] CommonAction.INFO: ======= Start Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:41:49] CommonAction.INFO: method : GET  
+[2023-06-21 04:41:49] CommonAction.INFO: contentType : application/json  
+[2023-06-21 04:41:49] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687321654,"exp":1687408054}}  
+[2023-06-21 04:41:49] CommonAction.INFO: ======= END Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:46:15] CommonAction.INFO: ======= Start Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:46:15] CommonAction.INFO: method : GET  
+[2023-06-21 04:46:15] CommonAction.INFO: contentType : application/json  
+[2023-06-21 04:46:15] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687321654,"exp":1687408054}}  
+[2023-06-21 04:46:15] CommonAction.INFO: ======= END Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:47:19] CommonAction.INFO: ======= Start Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:47:19] CommonAction.INFO: method : GET  
+[2023-06-21 04:47:19] CommonAction.INFO: contentType : application/json  
+[2023-06-21 04:47:19] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687321654,"exp":1687408054}}  
+[2023-06-21 04:47:19] CommonAction.INFO: ======= END Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:48:43] CommonAction.INFO: ======= Start Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:48:43] CommonAction.INFO: method : GET  
+[2023-06-21 04:48:43] CommonAction.INFO: contentType : application/json  
+[2023-06-21 04:48:43] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687321654,"exp":1687408054}}  
+[2023-06-21 04:48:43] CommonAction.INFO: ======= END Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:48:54] CommonAction.INFO: ======= Start Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:48:54] CommonAction.INFO: method : GET  
+[2023-06-21 04:48:54] CommonAction.INFO: contentType : application/json  
+[2023-06-21 04:48:54] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687321654,"exp":1687408054}}  
+[2023-06-21 04:48:54] CommonAction.INFO: ======= END Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:51:21] CommonAction.INFO: ======= Start Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:51:21] CommonAction.INFO: method : GET  
+[2023-06-21 04:51:21] CommonAction.INFO: contentType : application/json  
+[2023-06-21 04:51:21] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687321654,"exp":1687408054}}  
+[2023-06-21 04:51:21] CommonAction.INFO: ======= END Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:53:09] CommonAction.INFO: ======= Start Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:53:09] CommonAction.INFO: method : GET  
+[2023-06-21 04:53:09] CommonAction.INFO: contentType : application/json  
+[2023-06-21 04:53:09] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687321654,"exp":1687408054}}  
+[2023-06-21 04:53:09] CommonAction.INFO: ======= END Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:53:38] CommonAction.INFO: ======= Start Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:53:38] CommonAction.INFO: method : GET  
+[2023-06-21 04:53:38] CommonAction.INFO: contentType : application/json  
+[2023-06-21 04:53:38] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687321654,"exp":1687408054}}  
+[2023-06-21 04:53:38] CommonAction.INFO: ======= END Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:53:51] CommonAction.INFO: ======= Start Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:53:51] CommonAction.INFO: method : GET  
+[2023-06-21 04:53:51] CommonAction.INFO: contentType : application/json  
+[2023-06-21 04:53:51] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687321654,"exp":1687408054}}  
+[2023-06-21 04:53:51] CommonAction.INFO: ======= END Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:54:37] CommonAction.INFO: ======= Start Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:54:37] CommonAction.INFO: method : GET  
+[2023-06-21 04:54:37] CommonAction.INFO: contentType : application/json  
+[2023-06-21 04:54:37] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687321654,"exp":1687408054}}  
+[2023-06-21 04:54:37] CommonAction.INFO: ======= END Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:55:44] CommonAction.INFO: ======= Start Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:55:44] CommonAction.INFO: method : GET  
+[2023-06-21 04:55:44] CommonAction.INFO: contentType : application/json  
+[2023-06-21 04:55:44] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687321654,"exp":1687408054}}  
+[2023-06-21 04:55:44] CommonAction.INFO: ======= END Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:56:42] CommonAction.INFO: ======= Start Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:56:42] CommonAction.INFO: method : GET  
+[2023-06-21 04:56:42] CommonAction.INFO: contentType : application/json  
+[2023-06-21 04:56:42] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687321654,"exp":1687408054}}  
+[2023-06-21 04:56:42] CommonAction.INFO: ======= END Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:57:32] CommonAction.INFO: ======= Start Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:57:32] CommonAction.INFO: method : GET  
+[2023-06-21 04:57:32] CommonAction.INFO: contentType : application/json  
+[2023-06-21 04:57:32] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687321654,"exp":1687408054}}  
+[2023-06-21 04:57:32] CommonAction.INFO: ======= END Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:57:42] CommonAction.INFO: ======= Start Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:57:42] CommonAction.INFO: method : GET  
+[2023-06-21 04:57:42] CommonAction.INFO: contentType : application/json  
+[2023-06-21 04:57:42] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687321654,"exp":1687408054}}  
+[2023-06-21 04:57:42] CommonAction.INFO: ======= END Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:58:22] CommonAction.INFO: ======= Start Common Action (getAllSideBarMenu) ================  
+[2023-06-21 04:58:22] CommonAction.INFO: method : GET  
+[2023-06-21 04:58:22] CommonAction.INFO: contentType : application/json  
+[2023-06-21 04:58:22] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687321654,"exp":1687408054}}  
+[2023-06-21 04:58:22] CommonAction.INFO: ======= END Common Action (getAllSideBarMenu) ================  

@@ -1,0 +1,16 @@
+[2023-06-05 13:12:49] HotelChannelRepository.INFO: ======= Start HotelChannel Repository ================  
+[2023-06-05 13:12:49] HotelChannelRepository.INFO: Input Data : {"hotelid":1,"channelid":"1,2,3,4,5","channelcategory":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685955936,"exp":1686042336}}  
+[2023-06-05 13:12:49] HotelChannelRepository.INFO: Insert Status : SUCCESS  
+[2023-06-05 13:12:49] HotelChannelRepository.INFO: ======= End HotelChannel Repository ================  
+[2023-06-05 13:14:15] HotelChannelRepository.INFO: ======= Start HotelChannel Repository ================  
+[2023-06-05 13:14:15] HotelChannelRepository.INFO: Input Data : {"hotelid":1,"channelid":"1,2,3,4,5","channelcategory":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685955936,"exp":1686042336}}  
+[2023-06-05 13:14:15] HotelChannelRepository.INFO: Insert Status : SUCCESS  
+[2023-06-05 13:14:15] HotelChannelRepository.INFO: ======= End HotelChannel Repository ================  
+[2023-06-05 13:14:40] HotelChannelRepository.INFO: ======= Start HotelChannel Repository ================  
+[2023-06-05 13:14:40] HotelChannelRepository.INFO: Input Data : {"hotelid":1,"channelid":"1,2,3,4,5","channelcategory":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685955936,"exp":1686042336}}  
+[2023-06-05 13:14:40] HotelChannelRepository.INFO: Insert Status : SUCCESS  
+[2023-06-05 13:14:40] HotelChannelRepository.INFO: ======= End HotelChannel Repository ================  
+[2023-06-05 13:30:50] HotelChannelRepository.INFO: ======= Start HotelChannel Repository ================  
+[2023-06-05 13:30:50] HotelChannelRepository.INFO: Input Data : {"hotelid":1,"channelid":"1,2,3,4,5","channelcategory":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685955936,"exp":1686042336}}  
+[2023-06-05 13:30:50] HotelChannelRepository.INFO: Insert Status : SUCCESS  
+[2023-06-05 13:30:50] HotelChannelRepository.INFO: ======= End HotelChannel Repository ================  

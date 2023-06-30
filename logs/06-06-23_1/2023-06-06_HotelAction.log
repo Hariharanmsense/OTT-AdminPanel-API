@@ -1,0 +1,5 @@
+[2023-06-06 06:30:09] HotelAction.INFO: ======= Start Hotel Action (List) ================  
+[2023-06-06 06:30:09] HotelAction.INFO: method : POST  
+[2023-06-06 06:30:09] HotelAction.INFO: contentType : application/json  
+[2023-06-06 06:30:09] HotelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1686026828,"exp":1686113228}}  
+[2023-06-06 06:30:09] HotelAction.INFO: ======= END Hotel Action (List) ================  

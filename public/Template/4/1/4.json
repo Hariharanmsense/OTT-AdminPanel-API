@@ -1,0 +1,20 @@
+{
+    "HomePageDetails": {
+        "logo": "public/uploads/Template/4/1/Logo.png",
+        "bg_img": "public/uploads/Template/4/1/Background.png",
+        "welcome": "",
+        "welcome_txt": "hello its work well",
+        "menu": [
+            {
+                "title": "Home",
+                "img": "public/uploads/Template/4/1/Home.png",
+                "pagelink": "menu.html"
+            },
+            {
+                "title": "Internet",
+                "img": "public/uploads/Template/4/1/Internet.png",
+                "pagelink": "tes.html"
+            }
+        ]
+    }
+}

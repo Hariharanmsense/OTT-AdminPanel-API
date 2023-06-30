@@ -1,0 +1,20 @@
+{
+    "HomePageDetails": {
+        "logo": "public/uploads/Template/4/2/Logo.png",
+        "bg_img": "public/uploads/Template/4/2/Background.png",
+        "welcome": "",
+        "welcome_txt": "fadsfadsf",
+        "menu": [
+            {
+                "title": "Channels",
+                "img": "",
+                "pagelink": ""
+            },
+            {
+                "title": "Bill View",
+                "img": "",
+                "pagelink": ""
+            }
+        ]
+    }
+}

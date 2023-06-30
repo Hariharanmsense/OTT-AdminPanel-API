@@ -1,0 +1,5 @@
+[2023-06-30 05:02:21] CategoryAction.INFO: ======= Start Category Action (Single One) ================  
+[2023-06-30 05:02:21] CategoryAction.INFO: method : POST  
+[2023-06-30 05:02:21] CategoryAction.INFO: contentType : application/json  
+[2023-06-30 05:02:21] CategoryAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688101109,"exp":1688187509}}  
+[2023-06-30 05:02:21] CategoryAction.INFO: ======= END Channel Action (CREATE) ================  

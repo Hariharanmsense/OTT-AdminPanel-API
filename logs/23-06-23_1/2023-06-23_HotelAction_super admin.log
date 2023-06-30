@@ -1,0 +1,12 @@
+[2023-06-23 05:38:03] HotelRepository.INFO: ======= Start Hotel Repository ================  
+[2023-06-23 05:38:03] HotelRepository.INFO: ======= End Hotel Repository ================  
+[2023-06-23 08:33:04] HotelRepository.INFO: ======= Start Hotel Repository ================  
+[2023-06-23 08:33:04] HotelRepository.INFO: ======= End Hotel Repository ================  
+[2023-06-23 08:33:23] HotelRepository.INFO: ======= Start Hotel Repository ================  
+[2023-06-23 08:33:23] HotelRepository.INFO: Input Data : {"brandid":"7","hotelname":"test","location":"tests","spocname":"teste","email":"tt@tt.com","mobileno":"90","address":"test","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687509156,"exp":1687595556}}  
+[2023-06-23 08:33:23] HotelRepository.INFO: Insert Status : {"msg":"Customer Updated SuccessFully","status":"Success"}  
+[2023-06-23 08:33:23] HotelRepository.INFO: ======= End Hotel Repository ================  
+[2023-06-23 08:33:26] HotelRepository.INFO: ======= Start Hotel Repository ================  
+[2023-06-23 08:33:26] HotelRepository.INFO: ======= End Hotel Repository ================  
+[2023-06-23 08:33:34] HotelRepository.INFO: ======= Start Hotel Repository ================  
+[2023-06-23 08:33:34] HotelRepository.INFO: ======= End Hotel Repository ================  

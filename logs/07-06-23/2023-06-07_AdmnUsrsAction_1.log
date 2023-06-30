@@ -1,0 +1,14 @@
+[2023-06-07 10:04:05] AdmnUsrsRepository.INFO: ======= Start AdmnUsrs Repository ================  
+[2023-06-07 10:04:05] AdmnUsrsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"1","brandId":null,"iat":1686132152,"exp":1686218552}}  
+[2023-06-07 10:04:05] AdmnUsrModel.INFO: Query : CALL SP_AdmnUsrConfig('0', '0', 0, '', '', '', 0, 0, '','','', '', 
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-07 10:04:05] AdmnUsrModel.INFO: Admin User List Avaliable User list count : 10  
+[2023-06-07 10:04:05] AdmnUsrsRepository.INFO: ======= End AdmnUsrs Repository ================  
+[2023-06-07 11:41:12] AdmnUsrsRepository.INFO: ======= Start AdmnUsrs Repository ================  
+[2023-06-07 11:41:12] AdmnUsrsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686120629,"exp":1686207029}}  
+[2023-06-07 11:41:12] AdmnUsrModel.INFO: Query : CALL SP_AdmnUsrConfig('0', '0', 0, '', '', '', 0, 0, '','','', '', 
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-07 11:41:12] AdmnUsrModel.INFO: Admin User List Avaliable User list count : 10  
+[2023-06-07 11:41:12] AdmnUsrsRepository.INFO: ======= End AdmnUsrs Repository ================  

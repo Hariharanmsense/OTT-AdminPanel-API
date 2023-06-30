@@ -1,0 +1,2 @@
+[2023-06-08 09:55:33] ChannelModel.INFO: Query : call SP_AddandEditChannelInfo('VIEW','','', 0, 0)  
+[2023-06-08 09:55:34] ChannelModel.INFO: Query : call SP_AddandEditChannelcategory('VIEW',0,'', 0, 0)  

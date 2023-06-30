@@ -1,0 +1,49 @@
+[2023-06-05 11:41:23] AdmnUsrsRepository.INFO: ======= Start AdmnUsrs Repository ================  
+[2023-06-05 11:41:23] AdmnUsrsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685941470,"exp":1686027870}}  
+[2023-06-05 11:41:23] AdmnUsrModel.INFO: Query : CALL SP_AdmnUsrConfig('0', '0', 0, '', '', '', 0, 0, '','','',
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-05 11:41:23] AdmnUsrModel.INFO: Admin User List Avaliable User list count : 10  
+[2023-06-05 11:41:23] AdmnUsrsRepository.INFO: ======= End AdmnUsrs Repository ================  
+[2023-06-05 11:42:13] AdmnUsrsRepository.INFO: ======= Start AdmnUsrs Repository ================  
+[2023-06-05 11:42:13] AdmnUsrsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685941470,"exp":1686027870}}  
+[2023-06-05 11:42:13] AdmnUsrModel.INFO: Query : CALL SP_AdmnUsrConfig('0', '0', 0, '', '', '', 0, 0, '','','',
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-05 11:42:13] AdmnUsrModel.INFO: Admin User List Avaliable User list count : 10  
+[2023-06-05 11:42:13] AdmnUsrsRepository.INFO: ======= End AdmnUsrs Repository ================  
+[2023-06-05 11:42:19] AdmnUsrsRepository.INFO: ======= Start AdmnUsrs Repository ================  
+[2023-06-05 11:42:19] AdmnUsrsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685941470,"exp":1686027870}}  
+[2023-06-05 11:42:19] AdmnUsrModel.INFO: Query : CALL SP_AdmnUsrConfig('0', '0', 0, '', '', '', 0, 0, '','','',
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-05 11:42:19] AdmnUsrModel.INFO: Admin User List Avaliable User list count : 10  
+[2023-06-05 11:42:19] AdmnUsrsRepository.INFO: ======= End AdmnUsrs Repository ================  
+[2023-06-05 11:42:25] AdmnUsrsRepository.INFO: ======= Start AdmnUsrs Repository ================  
+[2023-06-05 11:42:25] AdmnUsrsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685941470,"exp":1686027870}}  
+[2023-06-05 11:42:25] AdmnUsrModel.INFO: Query : CALL SP_AdmnUsrConfig('0', '0', 0, '', '', '', 0, 0, '','','',
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-05 11:42:25] AdmnUsrModel.INFO: Admin User List Avaliable User list count : 10  
+[2023-06-05 11:42:25] AdmnUsrsRepository.INFO: ======= End AdmnUsrs Repository ================  
+[2023-06-05 11:42:47] AdmnUsrsRepository.INFO: ======= Start AdmnUsrs Repository ================  
+[2023-06-05 11:42:47] AdmnUsrsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685941470,"exp":1686027870}}  
+[2023-06-05 11:42:47] AdmnUsrModel.INFO: Query : CALL SP_AdmnUsrConfig('0', '0', 0, '', '', '', 0, 0, '','','',
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-05 11:42:47] AdmnUsrModel.INFO: Admin User List Avaliable User list count : 10  
+[2023-06-05 11:42:47] AdmnUsrsRepository.INFO: ======= End AdmnUsrs Repository ================  
+[2023-06-05 11:42:58] AdmnUsrsRepository.INFO: ======= Start AdmnUsrs Repository ================  
+[2023-06-05 11:42:58] AdmnUsrsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685941470,"exp":1686027870}}  
+[2023-06-05 11:42:58] AdmnUsrModel.INFO: Query : CALL SP_AdmnUsrConfig('0', '0', 0, '', '', '', 0, 0, '','','',
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-05 11:42:58] AdmnUsrModel.INFO: Admin User List Avaliable User list count : 10  
+[2023-06-05 11:42:58] AdmnUsrsRepository.INFO: ======= End AdmnUsrs Repository ================  
+[2023-06-05 11:43:05] AdmnUsrsRepository.INFO: ======= Start AdmnUsrs Repository ================  
+[2023-06-05 11:43:05] AdmnUsrsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685941470,"exp":1686027870}}  
+[2023-06-05 11:43:05] AdmnUsrModel.INFO: Query : CALL SP_AdmnUsrConfig('0', '0', 0, '', '', '', 0, 0, '','','',
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-05 11:43:05] AdmnUsrModel.INFO: Admin User List Avaliable User list count : 10  
+[2023-06-05 11:43:05] AdmnUsrsRepository.INFO: ======= End AdmnUsrs Repository ================  

@@ -1,0 +1,65 @@
+[2023-06-07 05:12:16] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-07 05:12:16] ChannelAction.INFO: method : POST  
+[2023-06-07 05:12:16] ChannelAction.INFO: contentType : application/json  
+[2023-06-07 05:12:16] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686112295,"exp":1686198695}}  
+[2023-06-07 05:12:16] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-07 05:16:51] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-07 05:16:51] ChannelAction.INFO: method : POST  
+[2023-06-07 05:16:51] ChannelAction.INFO: contentType : application/json  
+[2023-06-07 05:16:51] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686112295,"exp":1686198695}}  
+[2023-06-07 05:16:51] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-07 05:30:24] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-07 05:30:24] ChannelAction.INFO: method : POST  
+[2023-06-07 05:30:24] ChannelAction.INFO: contentType : application/json  
+[2023-06-07 05:30:24] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686112295,"exp":1686198695}}  
+[2023-06-07 05:30:24] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-07 05:33:34] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-07 05:33:34] ChannelAction.INFO: method : POST  
+[2023-06-07 05:33:34] ChannelAction.INFO: contentType : application/json  
+[2023-06-07 05:33:34] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686112295,"exp":1686198695}}  
+[2023-06-07 05:33:34] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-07 05:37:34] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-07 05:37:34] ChannelAction.INFO: method : POST  
+[2023-06-07 05:37:34] ChannelAction.INFO: contentType : application/json  
+[2023-06-07 05:37:34] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686112295,"exp":1686198695}}  
+[2023-06-07 05:37:34] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-07 05:38:09] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-07 05:38:09] ChannelAction.INFO: method : POST  
+[2023-06-07 05:38:09] ChannelAction.INFO: contentType : application/json  
+[2023-06-07 05:38:09] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686112295,"exp":1686198695}}  
+[2023-06-07 05:38:09] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-07 05:50:18] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-07 05:50:18] ChannelAction.INFO: method : POST  
+[2023-06-07 05:50:18] ChannelAction.INFO: contentType : application/json  
+[2023-06-07 05:50:18] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686116986,"exp":1686203386}}  
+[2023-06-07 05:50:18] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-07 06:57:12] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-07 06:57:12] ChannelAction.INFO: method : POST  
+[2023-06-07 06:57:12] ChannelAction.INFO: contentType : application/json  
+[2023-06-07 06:57:12] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 06:57:12] ChannelAction.INFO: ======= END Channel Action (List) ================  
+[2023-06-07 08:49:26] ChannelAction.INFO: ======= Start Channel Action (CREATE) ================  
+[2023-06-07 08:49:26] ChannelAction.INFO: method : POST  
+[2023-06-07 08:49:26] ChannelAction.INFO: Input Data : {"channelid":"1","channelname":"SunTv","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 08:49:26] ChannelAction.INFO: Insert Status : {"msg":"Channel Added SuccessFully","status":"Success"}  
+[2023-06-07 08:49:26] ChannelAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-07 08:49:46] ChannelAction.INFO: ======= Start Channel Action (CREATE) ================  
+[2023-06-07 08:49:46] ChannelAction.INFO: method : POST  
+[2023-06-07 08:49:46] ChannelAction.INFO: Input Data : {"channelid":"2","channelname":"KTv","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 08:49:46] ChannelAction.INFO: Insert Status : {"msg":"Channel Added SuccessFully","status":"Success"}  
+[2023-06-07 08:49:46] ChannelAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-07 08:50:26] ChannelAction.INFO: ======= Start Channel Action (CREATE) ================  
+[2023-06-07 08:50:26] ChannelAction.INFO: method : POST  
+[2023-06-07 08:50:26] ChannelAction.INFO: Input Data : {"channelid":"3","channelname":"Star_Sports","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 08:50:26] ChannelAction.INFO: Insert Status : {"msg":"Channel Added SuccessFully","status":"Success"}  
+[2023-06-07 08:50:26] ChannelAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-07 08:51:11] ChannelAction.INFO: ======= Start Channel Action (CREATE) ================  
+[2023-06-07 08:51:11] ChannelAction.INFO: method : POST  
+[2023-06-07 08:51:11] ChannelAction.INFO: Input Data : {"channelid":"4","channelname":"Ten_Sports","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 08:51:11] ChannelAction.INFO: Insert Status : {"msg":"Channel Added SuccessFully","status":"Success"}  
+[2023-06-07 08:51:11] ChannelAction.INFO: ======= END Channel Action (CREATE) ================  
+[2023-06-07 08:51:17] ChannelAction.INFO: ======= Start Channel Action (List) ================  
+[2023-06-07 08:51:17] ChannelAction.INFO: method : POST  
+[2023-06-07 08:51:17] ChannelAction.INFO: contentType : application/json  
+[2023-06-07 08:51:17] ChannelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686121021,"exp":1686207421}}  
+[2023-06-07 08:51:17] ChannelAction.INFO: ======= END Channel Action (List) ================  

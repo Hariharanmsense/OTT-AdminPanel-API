@@ -1,0 +1,49 @@
+[2023-06-26 04:29:44] WizardSetupAction.INFO: ======= Start WizardSetup Action (Get Template Details for hotel) ================  
+[2023-06-26 04:29:44] WizardSetupAction.INFO: method : POST  
+[2023-06-26 04:29:44] WizardSetupAction.INFO: Input Data : {"hotelid":"4","tempid":"6","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687753779,"exp":1687840179}}  
+[2023-06-26 04:29:44] WizardSetupAction.INFO: ======= END WizardSetup Action (Get Template Details for hotel) ================  
+[2023-06-26 04:29:46] WizardSetupAction.INFO: ======= Start WizardSetup Action (Update Template) ================  
+[2023-06-26 04:29:46] WizardSetupAction.INFO: method : PUT  
+[2023-06-26 04:29:46] WizardSetupAction.INFO: contentType : application/json  
+[2023-06-26 04:29:46] WizardSetupAction.INFO: Input Data : {"templateid":"2","hotelid":"4","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687753779,"exp":1687840179}}  
+[2023-06-26 04:29:46] WizardSetupAction.INFO: ======= END WizardSetup Action (Update Template) ================  
+[2023-06-26 04:31:53] WizardSetupAction.INFO: ======= Start WizardSetup Action (Get Template Details for hotel) ================  
+[2023-06-26 04:31:53] WizardSetupAction.INFO: method : POST  
+[2023-06-26 04:31:53] WizardSetupAction.INFO: Input Data : {"hotelid":"4","tempid":"6","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687753779,"exp":1687840179}}  
+[2023-06-26 04:31:53] WizardSetupAction.INFO: ======= END WizardSetup Action (Get Template Details for hotel) ================  
+[2023-06-26 04:34:16] WizardSetupAction.INFO: ======= Start WizardSetup Action (Get Template Details for hotel) ================  
+[2023-06-26 04:34:16] WizardSetupAction.INFO: method : POST  
+[2023-06-26 04:34:16] WizardSetupAction.INFO: Input Data : {"hotelid":"4","tempid":"6","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687753779,"exp":1687840179}}  
+[2023-06-26 04:34:16] WizardSetupAction.INFO: ======= END WizardSetup Action (Get Template Details for hotel) ================  
+[2023-06-26 04:34:19] WizardSetupAction.INFO: ======= Start WizardSetup Action (Update Template) ================  
+[2023-06-26 04:34:19] WizardSetupAction.INFO: method : PUT  
+[2023-06-26 04:34:19] WizardSetupAction.INFO: contentType : application/json  
+[2023-06-26 04:34:19] WizardSetupAction.INFO: Input Data : {"templateid":"2","hotelid":"4","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687753779,"exp":1687840179}}  
+[2023-06-26 04:34:19] WizardSetupAction.INFO: ======= END WizardSetup Action (Update Template) ================  
+[2023-06-26 04:34:52] WizardSetupAction.INFO: ======= Start WizardSetup Action (Get Template Details for hotel) ================  
+[2023-06-26 04:34:52] WizardSetupAction.INFO: method : POST  
+[2023-06-26 04:34:52] WizardSetupAction.INFO: Input Data : {"hotelid":"4","tempid":"6","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687753779,"exp":1687840179}}  
+[2023-06-26 04:34:52] WizardSetupAction.INFO: ======= END WizardSetup Action (Get Template Details for hotel) ================  
+[2023-06-26 04:34:54] WizardSetupAction.INFO: ======= Start WizardSetup Action (Update Template) ================  
+[2023-06-26 04:34:54] WizardSetupAction.INFO: method : PUT  
+[2023-06-26 04:34:54] WizardSetupAction.INFO: contentType : application/json  
+[2023-06-26 04:34:54] WizardSetupAction.INFO: Input Data : {"templateid":"5","hotelid":"4","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687753779,"exp":1687840179}}  
+[2023-06-26 04:34:54] WizardSetupAction.INFO: ======= END WizardSetup Action (Update Template) ================  
+[2023-06-26 04:35:59] WizardSetupAction.INFO: ======= Start WizardSetup Action (Get Template Details for hotel) ================  
+[2023-06-26 04:35:59] WizardSetupAction.INFO: method : POST  
+[2023-06-26 04:35:59] WizardSetupAction.INFO: Input Data : {"hotelid":"4","tempid":"6","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687753779,"exp":1687840179}}  
+[2023-06-26 04:35:59] WizardSetupAction.INFO: ======= END WizardSetup Action (Get Template Details for hotel) ================  
+[2023-06-26 04:36:04] WizardSetupAction.INFO: ======= Start WizardSetup Action (Update Template) ================  
+[2023-06-26 04:36:04] WizardSetupAction.INFO: method : PUT  
+[2023-06-26 04:36:04] WizardSetupAction.INFO: contentType : application/json  
+[2023-06-26 04:36:04] WizardSetupAction.INFO: Input Data : {"templateid":"1","hotelid":"4","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687753779,"exp":1687840179}}  
+[2023-06-26 04:36:04] WizardSetupAction.INFO: ======= END WizardSetup Action (Update Template) ================  
+[2023-06-26 04:37:56] WizardSetupAction.INFO: ======= Start WizardSetup Action (Get Template Details for hotel) ================  
+[2023-06-26 04:37:56] WizardSetupAction.INFO: method : POST  
+[2023-06-26 04:37:56] WizardSetupAction.INFO: Input Data : {"hotelid":"4","tempid":"6","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687753779,"exp":1687840179}}  
+[2023-06-26 04:37:56] WizardSetupAction.INFO: ======= END WizardSetup Action (Get Template Details for hotel) ================  
+[2023-06-26 04:38:02] WizardSetupAction.INFO: ======= Start WizardSetup Action (Update Template) ================  
+[2023-06-26 04:38:02] WizardSetupAction.INFO: method : PUT  
+[2023-06-26 04:38:02] WizardSetupAction.INFO: contentType : application/json  
+[2023-06-26 04:38:02] WizardSetupAction.INFO: Input Data : {"templateid":"1","hotelid":"4","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687753779,"exp":1687840179}}  
+[2023-06-26 04:38:02] WizardSetupAction.INFO: ======= END WizardSetup Action (Update Template) ================  

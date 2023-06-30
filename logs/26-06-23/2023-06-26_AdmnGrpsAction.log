@@ -1,0 +1,5 @@
+[2023-06-26 13:36:21] AdmnGrpsAction.INFO: ======= Start AdmnGrps Action (List) ================  
+[2023-06-26 13:36:21] AdmnGrpsAction.INFO: method : POST  
+[2023-06-26 13:36:21] AdmnGrpsAction.INFO: contentType : application/json  
+[2023-06-26 13:36:21] AdmnGrpsAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687786530,"exp":1687872930}}  
+[2023-06-26 13:36:21] AdmnGrpsAction.INFO: ======= END AdmnGrps Action (List) ================  

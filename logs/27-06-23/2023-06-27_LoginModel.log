@@ -1,0 +1,340 @@
+[2023-06-27 01:04:51] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-27 01:04:51] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"1234567"}  
+[2023-06-27 01:04:51] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','QUwxT0hwRExsV2g4VXpFNkdocllPQT09')  
+[2023-06-27 01:04:51] LoginModel.INFO: User Data : {"username":"super admin","userGroup":"1","loginid":"1","email":"superadmin@msense.in","mobileno":"9677889090","designation":"Manage_rCate","hotelId":"4","brandId":"7"}  
+[2023-06-27 01:04:51] LoginAction.INFO: ======= END Login Action ================  
+[2023-06-27 04:26:17] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-27 04:26:17] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"1234567"}  
+[2023-06-27 04:26:17] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','QUwxT0hwRExsV2g4VXpFNkdocllPQT09')  
+[2023-06-27 04:26:17] LoginModel.INFO: User Data : {"username":"super admin","userGroup":"1","loginid":"1","email":"superadmin@msense.in","mobileno":"9677889090","designation":"Manage_rCate","hotelId":"4","brandId":"7"}  
+[2023-06-27 04:26:17] LoginAction.INFO: ======= END Login Action ================  
+[2023-06-27 04:38:29] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-27 04:38:29] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"1234567"}  
+[2023-06-27 04:38:29] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','QUwxT0hwRExsV2g4VXpFNkdocllPQT09')  
+[2023-06-27 04:38:29] LoginModel.INFO: User Data : {"username":"super admin","userGroup":"1","loginid":"1","email":"superadmin@msense.in","mobileno":"9677889090","designation":"Manage_rCate","hotelId":"4","brandId":"7"}  
+[2023-06-27 04:38:29] LoginAction.INFO: ======= END Login Action ================  
+[2023-06-27 04:46:01] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-27 04:46:01] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"1234567"}  
+[2023-06-27 04:46:01] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','QUwxT0hwRExsV2g4VXpFNkdocllPQT09')  
+[2023-06-27 04:46:01] LoginModel.INFO: User Data : {"username":"super admin","userGroup":"1","loginid":"1","email":"superadmin@msense.in","mobileno":"9677889090","designation":"Manage_rCate","hotelId":"4","brandId":"7"}  
+[2023-06-27 04:46:01] LoginAction.INFO: ======= END Login Action ================  
+[2023-06-27 04:47:16] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-27 04:47:16] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"1234567"}  
+[2023-06-27 04:47:16] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','QUwxT0hwRExsV2g4VXpFNkdocllPQT09')  
+[2023-06-27 04:47:16] LoginModel.INFO: User Data : {"username":"super admin","userGroup":"1","loginid":"1","email":"superadmin@msense.in","mobileno":"9677889090","designation":"Manage_rCate","hotelId":"4","brandId":"7"}  
+[2023-06-27 04:47:16] LoginAction.INFO: ======= END Login Action ================  
+[2023-06-27 04:52:24] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-27 04:52:24] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"1234567"}  
+[2023-06-27 04:52:24] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','QUwxT0hwRExsV2g4VXpFNkdocllPQT09')  
+[2023-06-27 04:52:24] LoginModel.INFO: User Data : {"username":"super admin","userGroup":"1","loginid":"1","email":"superadmin@msense.in","mobileno":"9677889090","designation":"Manage_rCate","hotelId":"4","brandId":"7"}  
+[2023-06-27 04:52:24] LoginAction.INFO: ======= END Login Action ================  
+[2023-06-27 05:05:00] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-27 05:05:00] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"1234567"}  
+[2023-06-27 05:05:00] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','QUwxT0hwRExsV2g4VXpFNkdocllPQT09')  
+[2023-06-27 05:05:00] LoginModel.INFO: User Data : {"username":"super admin","userGroup":"1","loginid":"1","email":"superadmin@msense.in","mobileno":"9677889090","designation":"Manage_rCate","hotelId":"4","brandId":"7"}  
+[2023-06-27 05:05:00] LoginAction.INFO: ======= END Login Action ================  
+[2023-06-27 05:08:19] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-27 05:08:19] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"1234567"}  
+[2023-06-27 05:08:19] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','QUwxT0hwRExsV2g4VXpFNkdocllPQT09')  
+[2023-06-27 05:08:19] LoginModel.INFO: User Data : {"username":"super admin","userGroup":"1","loginid":"1","email":"superadmin@msense.in","mobileno":"9677889090","designation":"Manage_rCate","hotelId":"4","brandId":"7"}  
+[2023-06-27 05:08:19] LoginAction.INFO: ======= END Login Action ================  
+[2023-06-27 05:24:32] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-27 05:24:32] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"1234567"}  
+[2023-06-27 05:24:32] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','QUwxT0hwRExsV2g4VXpFNkdocllPQT09')  
+[2023-06-27 05:24:32] LoginModel.INFO: User Data : {"username":"super admin","userGroup":"1","loginid":"1","email":"superadmin@msense.in","mobileno":"9677889090","designation":"Manage_rCate","hotelId":"4","brandId":"7"}  
+[2023-06-27 05:24:32] LoginAction.INFO: ======= END Login Action ================  
+[2023-06-27 05:57:00] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-27 05:57:00] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"1234567"}  
+[2023-06-27 05:57:00] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','QUwxT0hwRExsV2g4VXpFNkdocllPQT09')  
+[2023-06-27 05:57:00] LoginModel.INFO: User Data : {"username":"super admin","userGroup":"1","loginid":"1","email":"superadmin@msense.in","mobileno":"9677889090","designation":"Manage_rCate","hotelId":"4","brandId":"7"}  
+[2023-06-27 05:57:00] LoginAction.INFO: ======= END Login Action ================  
+[2023-06-27 06:20:48] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-27 06:20:48] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"12345677"}  
+[2023-06-27 06:20:48] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','WlIwejZIbDVCSWRDOVFiRzJWa0ZGUT09')  
+[2023-06-27 06:20:48] LoginModel.ERROR: Error Code : 401Error Message : Invalid Password  
+[2023-06-27 06:20:48] LoginModel.ERROR: Error File : /var/www/projects/ottproduct/api/v1/src/Model/LoginModel.phpError Line : 39  
+[2023-06-27 06:20:48] LoginModel.ERROR: Error Trace String : #0 /var/www/projects/ottproduct/api/v1/src/Domain/Repository/Login/LoginRepository.php(47): App\Model\LoginModel->validateLogin()
+#1 /var/www/projects/ottproduct/api/v1/src/Application/Actions/Login/LoginAction.php(54): App\Domain\Repository\Login\LoginRepository->doAuth()
+#2 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(38): App\Application\Actions\Login\LoginAction->__invoke()
+#3 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Routing/Route.php(358): Slim\Handlers\Strategies\RequestResponse->__invoke()
+#4 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Slim\Routing\Route->handle()
+#5 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Slim\MiddlewareDispatcher->handle()
+#6 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Routing/Route.php(315): Slim\MiddlewareDispatcher->handle()
+#7 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Routing/RouteRunner.php(68): Slim\Routing\Route->run()
+#8 /var/www/projects/ottproduct/api/v1/src/Application/Middleware/SessionMiddleware.php(26): Slim\Routing\RouteRunner->handle()
+#9 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(168): App\Application\Middleware\SessionMiddleware->process()
+#10 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Middleware/RoutingMiddleware.php(45): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#11 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Slim\Middleware\RoutingMiddleware->process()
+#12 /var/www/projects/ottproduct/api/v1/vendor/selective/basepath/src/BasePathMiddleware.php(52): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#13 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Selective\BasePath\BasePathMiddleware->process()
+#14 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Middleware/BodyParsingMiddleware.php(64): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#15 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Slim\Middleware\BodyParsingMiddleware->process()
+#16 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Middleware/ErrorMiddleware.php(76): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#17 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Slim\Middleware\ErrorMiddleware->process()
+#18 /var/www/projects/ottproduct/api/v1/vendor/tuupola/cors-middleware/src/CorsMiddleware.php(158): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#19 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Tuupola\Middleware\CorsMiddleware->process()
+#20 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#21 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/App.php(199): Slim\MiddlewareDispatcher->handle()
+#22 /var/www/projects/ottproduct/api/v1/public/index.php(94): Slim\App->handle()
+#23 {main}  
+[2023-06-27 06:20:48] LoginRepository.ERROR: Error Code : 401Error Message : Invalid Password  
+[2023-06-27 06:20:48] LoginRepository.ERROR: Error File : /var/www/projects/ottproduct/api/v1/src/Model/LoginModel.phpError Line : 68  
+[2023-06-27 06:20:48] LoginRepository.ERROR: Error Trace String : #0 /var/www/projects/ottproduct/api/v1/src/Domain/Repository/Login/LoginRepository.php(47): App\Model\LoginModel->validateLogin()
+#1 /var/www/projects/ottproduct/api/v1/src/Application/Actions/Login/LoginAction.php(54): App\Domain\Repository\Login\LoginRepository->doAuth()
+#2 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(38): App\Application\Actions\Login\LoginAction->__invoke()
+#3 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Routing/Route.php(358): Slim\Handlers\Strategies\RequestResponse->__invoke()
+#4 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Slim\Routing\Route->handle()
+#5 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Slim\MiddlewareDispatcher->handle()
+#6 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Routing/Route.php(315): Slim\MiddlewareDispatcher->handle()
+#7 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Routing/RouteRunner.php(68): Slim\Routing\Route->run()
+#8 /var/www/projects/ottproduct/api/v1/src/Application/Middleware/SessionMiddleware.php(26): Slim\Routing\RouteRunner->handle()
+#9 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(168): App\Application\Middleware\SessionMiddleware->process()
+#10 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Middleware/RoutingMiddleware.php(45): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#11 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Slim\Middleware\RoutingMiddleware->process()
+#12 /var/www/projects/ottproduct/api/v1/vendor/selective/basepath/src/BasePathMiddleware.php(52): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#13 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Selective\BasePath\BasePathMiddleware->process()
+#14 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Middleware/BodyParsingMiddleware.php(64): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#15 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Slim\Middleware\BodyParsingMiddleware->process()
+#16 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Middleware/ErrorMiddleware.php(76): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#17 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Slim\Middleware\ErrorMiddleware->process()
+#18 /var/www/projects/ottproduct/api/v1/vendor/tuupola/cors-middleware/src/CorsMiddleware.php(158): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#19 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Tuupola\Middleware\CorsMiddleware->process()
+#20 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#21 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/App.php(199): Slim\MiddlewareDispatcher->handle()
+#22 /var/www/projects/ottproduct/api/v1/public/index.php(94): Slim\App->handle()
+#23 {main}  
+[2023-06-27 06:21:04] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-27 06:21:04] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"1234567"}  
+[2023-06-27 06:21:04] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','QUwxT0hwRExsV2g4VXpFNkdocllPQT09')  
+[2023-06-27 06:21:04] LoginModel.INFO: User Data : {"username":"super admin","userGroup":"1","loginid":"1","email":"superadmin@msense.in","mobileno":"9677889090","designation":"Manage_rCate","hotelId":"4","brandId":"7"}  
+[2023-06-27 06:21:04] LoginAction.INFO: ======= END Login Action ================  
+[2023-06-27 06:21:48] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-27 06:21:48] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"1234567"}  
+[2023-06-27 06:21:48] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','QUwxT0hwRExsV2g4VXpFNkdocllPQT09')  
+[2023-06-27 06:21:48] LoginModel.INFO: User Data : {"username":"super admin","userGroup":"1","loginid":"1","email":"superadmin@msense.in","mobileno":"9677889090","designation":"Manage_rCate","hotelId":"4","brandId":"7"}  
+[2023-06-27 06:21:48] LoginAction.INFO: ======= END Login Action ================  
+[2023-06-27 09:24:27] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-27 09:24:27] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"1234567"}  
+[2023-06-27 09:24:27] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','QUwxT0hwRExsV2g4VXpFNkdocllPQT09')  
+[2023-06-27 09:24:27] LoginModel.INFO: User Data : {"username":"super admin","userGroup":"1","loginid":"1","email":"superadmin@msense.in","mobileno":"9677889090","designation":"Manage_rCate","hotelId":"4","brandId":"7"}  
+[2023-06-27 09:24:27] LoginAction.INFO: ======= END Login Action ================  
+[2023-06-27 09:26:17] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-27 09:26:17] LoginAction.INFO: Input Data : {"email":"superadmin@example.com","password":"1234567"}  
+[2023-06-27 09:26:17] LoginModel.INFO: Query : call SP_Doauth('superadmin@example.com','QUwxT0hwRExsV2g4VXpFNkdocllPQT09')  
+[2023-06-27 09:26:17] LoginModel.ERROR: Error Code : 401Error Message : Invalid Email  
+[2023-06-27 09:26:17] LoginModel.ERROR: Error File : /var/www/projects/ottproduct/api/v1/src/Model/LoginModel.phpError Line : 39  
+[2023-06-27 09:26:17] LoginModel.ERROR: Error Trace String : #0 /var/www/projects/ottproduct/api/v1/src/Domain/Repository/Login/LoginRepository.php(47): App\Model\LoginModel->validateLogin()
+#1 /var/www/projects/ottproduct/api/v1/src/Application/Actions/Login/LoginAction.php(54): App\Domain\Repository\Login\LoginRepository->doAuth()
+#2 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(38): App\Application\Actions\Login\LoginAction->__invoke()
+#3 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Routing/Route.php(358): Slim\Handlers\Strategies\RequestResponse->__invoke()
+#4 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Slim\Routing\Route->handle()
+#5 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Slim\MiddlewareDispatcher->handle()
+#6 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Routing/Route.php(315): Slim\MiddlewareDispatcher->handle()
+#7 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Routing/RouteRunner.php(68): Slim\Routing\Route->run()
+#8 /var/www/projects/ottproduct/api/v1/src/Application/Middleware/SessionMiddleware.php(26): Slim\Routing\RouteRunner->handle()
+#9 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(168): App\Application\Middleware\SessionMiddleware->process()
+#10 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Middleware/RoutingMiddleware.php(45): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#11 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Slim\Middleware\RoutingMiddleware->process()
+#12 /var/www/projects/ottproduct/api/v1/vendor/selective/basepath/src/BasePathMiddleware.php(52): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#13 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Selective\BasePath\BasePathMiddleware->process()
+#14 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Middleware/BodyParsingMiddleware.php(64): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#15 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Slim\Middleware\BodyParsingMiddleware->process()
+#16 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Middleware/ErrorMiddleware.php(76): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#17 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Slim\Middleware\ErrorMiddleware->process()
+#18 /var/www/projects/ottproduct/api/v1/vendor/tuupola/cors-middleware/src/CorsMiddleware.php(158): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#19 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Tuupola\Middleware\CorsMiddleware->process()
+#20 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#21 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/App.php(199): Slim\MiddlewareDispatcher->handle()
+#22 /var/www/projects/ottproduct/api/v1/public/index.php(94): Slim\App->handle()
+#23 {main}  
+[2023-06-27 09:26:17] LoginRepository.ERROR: Error Code : 401Error Message : Invalid Email  
+[2023-06-27 09:26:17] LoginRepository.ERROR: Error File : /var/www/projects/ottproduct/api/v1/src/Model/LoginModel.phpError Line : 68  
+[2023-06-27 09:26:17] LoginRepository.ERROR: Error Trace String : #0 /var/www/projects/ottproduct/api/v1/src/Domain/Repository/Login/LoginRepository.php(47): App\Model\LoginModel->validateLogin()
+#1 /var/www/projects/ottproduct/api/v1/src/Application/Actions/Login/LoginAction.php(54): App\Domain\Repository\Login\LoginRepository->doAuth()
+#2 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(38): App\Application\Actions\Login\LoginAction->__invoke()
+#3 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Routing/Route.php(358): Slim\Handlers\Strategies\RequestResponse->__invoke()
+#4 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Slim\Routing\Route->handle()
+#5 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Slim\MiddlewareDispatcher->handle()
+#6 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Routing/Route.php(315): Slim\MiddlewareDispatcher->handle()
+#7 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Routing/RouteRunner.php(68): Slim\Routing\Route->run()
+#8 /var/www/projects/ottproduct/api/v1/src/Application/Middleware/SessionMiddleware.php(26): Slim\Routing\RouteRunner->handle()
+#9 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(168): App\Application\Middleware\SessionMiddleware->process()
+#10 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Middleware/RoutingMiddleware.php(45): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#11 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Slim\Middleware\RoutingMiddleware->process()
+#12 /var/www/projects/ottproduct/api/v1/vendor/selective/basepath/src/BasePathMiddleware.php(52): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#13 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Selective\BasePath\BasePathMiddleware->process()
+#14 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Middleware/BodyParsingMiddleware.php(64): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#15 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Slim\Middleware\BodyParsingMiddleware->process()
+#16 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Middleware/ErrorMiddleware.php(76): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#17 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Slim\Middleware\ErrorMiddleware->process()
+#18 /var/www/projects/ottproduct/api/v1/vendor/tuupola/cors-middleware/src/CorsMiddleware.php(158): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#19 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Tuupola\Middleware\CorsMiddleware->process()
+#20 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#21 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/App.php(199): Slim\MiddlewareDispatcher->handle()
+#22 /var/www/projects/ottproduct/api/v1/public/index.php(94): Slim\App->handle()
+#23 {main}  
+[2023-06-27 09:26:26] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-27 09:26:26] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"1234567"}  
+[2023-06-27 09:26:26] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','QUwxT0hwRExsV2g4VXpFNkdocllPQT09')  
+[2023-06-27 09:26:26] LoginModel.INFO: User Data : {"username":"super admin","userGroup":"1","loginid":"1","email":"superadmin@msense.in","mobileno":"9677889090","designation":"Manage_rCate","hotelId":"4","brandId":"7"}  
+[2023-06-27 09:26:26] LoginAction.INFO: ======= END Login Action ================  
+[2023-06-27 10:30:24] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-27 10:30:24] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"1234567"}  
+[2023-06-27 10:30:24] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','QUwxT0hwRExsV2g4VXpFNkdocllPQT09')  
+[2023-06-27 10:30:24] LoginModel.INFO: User Data : {"username":"super admin","userGroup":"1","loginid":"1","email":"superadmin@msense.in","mobileno":"9677889090","designation":"Manage_rCate","hotelId":"4","brandId":"7"}  
+[2023-06-27 10:30:24] LoginAction.INFO: ======= END Login Action ================  
+[2023-06-27 11:08:39] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-27 11:08:39] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"1234567"}  
+[2023-06-27 11:08:39] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','QUwxT0hwRExsV2g4VXpFNkdocllPQT09')  
+[2023-06-27 11:08:39] LoginModel.INFO: User Data : {"username":"super admin","userGroup":"1","loginid":"1","email":"superadmin@msense.in","mobileno":"9677889090","designation":"Manage_rCate","hotelId":"4","brandId":"7"}  
+[2023-06-27 11:08:39] LoginAction.INFO: ======= END Login Action ================  
+[2023-06-27 12:19:19] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-27 12:19:19] LoginAction.INFO: Input Data : {"email":"superadmin@example.com","password":"Nms@123$"}  
+[2023-06-27 12:19:19] LoginModel.INFO: Query : call SP_Doauth('superadmin@example.com','ZTJKWGJiQTZ2S2JOeVhSRUF1MWoyUT09')  
+[2023-06-27 12:19:19] LoginModel.ERROR: Error Code : 401Error Message : Invalid Email  
+[2023-06-27 12:19:19] LoginModel.ERROR: Error File : /var/www/projects/ottproduct/api/v1/src/Model/LoginModel.phpError Line : 39  
+[2023-06-27 12:19:19] LoginModel.ERROR: Error Trace String : #0 /var/www/projects/ottproduct/api/v1/src/Domain/Repository/Login/LoginRepository.php(47): App\Model\LoginModel->validateLogin()
+#1 /var/www/projects/ottproduct/api/v1/src/Application/Actions/Login/LoginAction.php(54): App\Domain\Repository\Login\LoginRepository->doAuth()
+#2 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(38): App\Application\Actions\Login\LoginAction->__invoke()
+#3 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Routing/Route.php(358): Slim\Handlers\Strategies\RequestResponse->__invoke()
+#4 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Slim\Routing\Route->handle()
+#5 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Slim\MiddlewareDispatcher->handle()
+#6 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Routing/Route.php(315): Slim\MiddlewareDispatcher->handle()
+#7 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Routing/RouteRunner.php(68): Slim\Routing\Route->run()
+#8 /var/www/projects/ottproduct/api/v1/src/Application/Middleware/SessionMiddleware.php(26): Slim\Routing\RouteRunner->handle()
+#9 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(168): App\Application\Middleware\SessionMiddleware->process()
+#10 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Middleware/RoutingMiddleware.php(45): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#11 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Slim\Middleware\RoutingMiddleware->process()
+#12 /var/www/projects/ottproduct/api/v1/vendor/selective/basepath/src/BasePathMiddleware.php(52): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#13 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Selective\BasePath\BasePathMiddleware->process()
+#14 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Middleware/BodyParsingMiddleware.php(64): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#15 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Slim\Middleware\BodyParsingMiddleware->process()
+#16 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Middleware/ErrorMiddleware.php(76): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#17 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Slim\Middleware\ErrorMiddleware->process()
+#18 /var/www/projects/ottproduct/api/v1/vendor/tuupola/cors-middleware/src/CorsMiddleware.php(158): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#19 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Tuupola\Middleware\CorsMiddleware->process()
+#20 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#21 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/App.php(199): Slim\MiddlewareDispatcher->handle()
+#22 /var/www/projects/ottproduct/api/v1/public/index.php(94): Slim\App->handle()
+#23 {main}  
+[2023-06-27 12:19:19] LoginRepository.ERROR: Error Code : 401Error Message : Invalid Email  
+[2023-06-27 12:19:19] LoginRepository.ERROR: Error File : /var/www/projects/ottproduct/api/v1/src/Model/LoginModel.phpError Line : 68  
+[2023-06-27 12:19:19] LoginRepository.ERROR: Error Trace String : #0 /var/www/projects/ottproduct/api/v1/src/Domain/Repository/Login/LoginRepository.php(47): App\Model\LoginModel->validateLogin()
+#1 /var/www/projects/ottproduct/api/v1/src/Application/Actions/Login/LoginAction.php(54): App\Domain\Repository\Login\LoginRepository->doAuth()
+#2 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(38): App\Application\Actions\Login\LoginAction->__invoke()
+#3 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Routing/Route.php(358): Slim\Handlers\Strategies\RequestResponse->__invoke()
+#4 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Slim\Routing\Route->handle()
+#5 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Slim\MiddlewareDispatcher->handle()
+#6 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Routing/Route.php(315): Slim\MiddlewareDispatcher->handle()
+#7 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Routing/RouteRunner.php(68): Slim\Routing\Route->run()
+#8 /var/www/projects/ottproduct/api/v1/src/Application/Middleware/SessionMiddleware.php(26): Slim\Routing\RouteRunner->handle()
+#9 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(168): App\Application\Middleware\SessionMiddleware->process()
+#10 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Middleware/RoutingMiddleware.php(45): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#11 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Slim\Middleware\RoutingMiddleware->process()
+#12 /var/www/projects/ottproduct/api/v1/vendor/selective/basepath/src/BasePathMiddleware.php(52): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#13 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Selective\BasePath\BasePathMiddleware->process()
+#14 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Middleware/BodyParsingMiddleware.php(64): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#15 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Slim\Middleware\BodyParsingMiddleware->process()
+#16 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Middleware/ErrorMiddleware.php(76): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#17 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Slim\Middleware\ErrorMiddleware->process()
+#18 /var/www/projects/ottproduct/api/v1/vendor/tuupola/cors-middleware/src/CorsMiddleware.php(158): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#19 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Tuupola\Middleware\CorsMiddleware->process()
+#20 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#21 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/App.php(199): Slim\MiddlewareDispatcher->handle()
+#22 /var/www/projects/ottproduct/api/v1/public/index.php(94): Slim\App->handle()
+#23 {main}  
+[2023-06-27 12:19:32] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-27 12:19:32] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"1234567"}  
+[2023-06-27 12:19:32] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','QUwxT0hwRExsV2g4VXpFNkdocllPQT09')  
+[2023-06-27 12:19:32] LoginModel.INFO: User Data : {"username":"super admin","userGroup":"1","loginid":"1","email":"superadmin@msense.in","mobileno":"9677889090","designation":"Manage_rCate","hotelId":"4","brandId":"7"}  
+[2023-06-27 12:19:32] LoginAction.INFO: ======= END Login Action ================  
+[2023-06-27 12:29:43] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-27 12:29:43] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"1234567"}  
+[2023-06-27 12:29:43] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','QUwxT0hwRExsV2g4VXpFNkdocllPQT09')  
+[2023-06-27 12:29:43] LoginModel.INFO: User Data : {"username":"super admin","userGroup":"1","loginid":"1","email":"superadmin@msense.in","mobileno":"9677889090","designation":"Manage_rCate","hotelId":"4","brandId":"7"}  
+[2023-06-27 12:29:43] LoginAction.INFO: ======= END Login Action ================  
+[2023-06-27 12:46:08] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-27 12:46:08] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"1234567"}  
+[2023-06-27 12:46:08] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','QUwxT0hwRExsV2g4VXpFNkdocllPQT09')  
+[2023-06-27 12:46:08] LoginModel.INFO: User Data : {"username":"super admin","userGroup":"1","loginid":"1","email":"superadmin@msense.in","mobileno":"9677889090","designation":"Manage_rCate","hotelId":"4","brandId":"7"}  
+[2023-06-27 12:46:08] LoginAction.INFO: ======= END Login Action ================  
+[2023-06-27 13:03:09] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-27 13:03:09] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"1234567"}  
+[2023-06-27 13:03:09] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','QUwxT0hwRExsV2g4VXpFNkdocllPQT09')  
+[2023-06-27 13:03:09] LoginModel.INFO: User Data : {"username":"super admin","userGroup":"1","loginid":"1","email":"superadmin@msense.in","mobileno":"9677889090","designation":"Manage_rCate","hotelId":"4","brandId":"7"}  
+[2023-06-27 13:03:09] LoginAction.INFO: ======= END Login Action ================  
+[2023-06-27 13:03:23] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-27 13:03:23] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"1234567"}  
+[2023-06-27 13:03:23] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','QUwxT0hwRExsV2g4VXpFNkdocllPQT09')  
+[2023-06-27 13:03:23] LoginModel.INFO: User Data : {"username":"super admin","userGroup":"1","loginid":"1","email":"superadmin@msense.in","mobileno":"9677889090","designation":"Manage_rCate","hotelId":"4","brandId":"7"}  
+[2023-06-27 13:03:23] LoginAction.INFO: ======= END Login Action ================  
+[2023-06-27 14:07:02] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-27 14:07:02] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"1234567"}  
+[2023-06-27 14:07:02] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','QUwxT0hwRExsV2g4VXpFNkdocllPQT09')  
+[2023-06-27 14:07:02] LoginModel.INFO: User Data : {"username":"super admin","userGroup":"1","loginid":"1","email":"superadmin@msense.in","mobileno":"9677889090","designation":"Manage_rCate","hotelId":"4","brandId":"7"}  
+[2023-06-27 14:07:02] LoginAction.INFO: ======= END Login Action ================  
+[2023-06-27 14:17:08] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-27 14:17:08] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"1234567"}  
+[2023-06-27 14:17:08] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','QUwxT0hwRExsV2g4VXpFNkdocllPQT09')  
+[2023-06-27 14:17:08] LoginModel.INFO: User Data : {"username":"super admin","userGroup":"1","loginid":"1","email":"superadmin@msense.in","mobileno":"9677889090","designation":"Manage_rCate","hotelId":"4","brandId":"7"}  
+[2023-06-27 14:17:08] LoginAction.INFO: ======= END Login Action ================  
+[2023-06-27 14:20:04] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-27 14:20:04] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"123567"}  
+[2023-06-27 14:20:04] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','ZUpyUW9lUk5wUnZqNkg2NXpNYTZqZz09')  
+[2023-06-27 14:20:04] LoginModel.ERROR: Error Code : 401Error Message : Invalid Password  
+[2023-06-27 14:20:04] LoginModel.ERROR: Error File : /var/www/projects/ottproduct/api/v1/src/Model/LoginModel.phpError Line : 39  
+[2023-06-27 14:20:04] LoginModel.ERROR: Error Trace String : #0 /var/www/projects/ottproduct/api/v1/src/Domain/Repository/Login/LoginRepository.php(47): App\Model\LoginModel->validateLogin()
+#1 /var/www/projects/ottproduct/api/v1/src/Application/Actions/Login/LoginAction.php(54): App\Domain\Repository\Login\LoginRepository->doAuth()
+#2 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(38): App\Application\Actions\Login\LoginAction->__invoke()
+#3 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Routing/Route.php(358): Slim\Handlers\Strategies\RequestResponse->__invoke()
+#4 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Slim\Routing\Route->handle()
+#5 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Slim\MiddlewareDispatcher->handle()
+#6 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Routing/Route.php(315): Slim\MiddlewareDispatcher->handle()
+#7 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Routing/RouteRunner.php(68): Slim\Routing\Route->run()
+#8 /var/www/projects/ottproduct/api/v1/src/Application/Middleware/SessionMiddleware.php(26): Slim\Routing\RouteRunner->handle()
+#9 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(168): App\Application\Middleware\SessionMiddleware->process()
+#10 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Middleware/RoutingMiddleware.php(45): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#11 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Slim\Middleware\RoutingMiddleware->process()
+#12 /var/www/projects/ottproduct/api/v1/vendor/selective/basepath/src/BasePathMiddleware.php(52): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#13 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Selective\BasePath\BasePathMiddleware->process()
+#14 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Middleware/BodyParsingMiddleware.php(64): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#15 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Slim\Middleware\BodyParsingMiddleware->process()
+#16 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Middleware/ErrorMiddleware.php(76): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#17 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Slim\Middleware\ErrorMiddleware->process()
+#18 /var/www/projects/ottproduct/api/v1/vendor/tuupola/cors-middleware/src/CorsMiddleware.php(158): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#19 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Tuupola\Middleware\CorsMiddleware->process()
+#20 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#21 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/App.php(199): Slim\MiddlewareDispatcher->handle()
+#22 /var/www/projects/ottproduct/api/v1/public/index.php(94): Slim\App->handle()
+#23 {main}  
+[2023-06-27 14:20:04] LoginRepository.ERROR: Error Code : 401Error Message : Invalid Password  
+[2023-06-27 14:20:04] LoginRepository.ERROR: Error File : /var/www/projects/ottproduct/api/v1/src/Model/LoginModel.phpError Line : 68  
+[2023-06-27 14:20:04] LoginRepository.ERROR: Error Trace String : #0 /var/www/projects/ottproduct/api/v1/src/Domain/Repository/Login/LoginRepository.php(47): App\Model\LoginModel->validateLogin()
+#1 /var/www/projects/ottproduct/api/v1/src/Application/Actions/Login/LoginAction.php(54): App\Domain\Repository\Login\LoginRepository->doAuth()
+#2 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(38): App\Application\Actions\Login\LoginAction->__invoke()
+#3 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Routing/Route.php(358): Slim\Handlers\Strategies\RequestResponse->__invoke()
+#4 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Slim\Routing\Route->handle()
+#5 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Slim\MiddlewareDispatcher->handle()
+#6 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Routing/Route.php(315): Slim\MiddlewareDispatcher->handle()
+#7 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Routing/RouteRunner.php(68): Slim\Routing\Route->run()
+#8 /var/www/projects/ottproduct/api/v1/src/Application/Middleware/SessionMiddleware.php(26): Slim\Routing\RouteRunner->handle()
+#9 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(168): App\Application\Middleware\SessionMiddleware->process()
+#10 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Middleware/RoutingMiddleware.php(45): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#11 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Slim\Middleware\RoutingMiddleware->process()
+#12 /var/www/projects/ottproduct/api/v1/vendor/selective/basepath/src/BasePathMiddleware.php(52): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#13 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Selective\BasePath\BasePathMiddleware->process()
+#14 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Middleware/BodyParsingMiddleware.php(64): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#15 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Slim\Middleware\BodyParsingMiddleware->process()
+#16 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/Middleware/ErrorMiddleware.php(76): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#17 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Slim\Middleware\ErrorMiddleware->process()
+#18 /var/www/projects/ottproduct/api/v1/vendor/tuupola/cors-middleware/src/CorsMiddleware.php(158): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#19 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): Tuupola\Middleware\CorsMiddleware->process()
+#20 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Psr\Http\Server\RequestHandlerInterface@anonymous->handle()
+#21 /var/www/projects/ottproduct/api/v1/vendor/slim/slim/Slim/App.php(199): Slim\MiddlewareDispatcher->handle()
+#22 /var/www/projects/ottproduct/api/v1/public/index.php(94): Slim\App->handle()
+#23 {main}  
+[2023-06-27 14:20:11] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-27 14:20:11] LoginAction.INFO: Input Data : {"email":"superadmin@msense.in","password":"1234567"}  
+[2023-06-27 14:20:11] LoginModel.INFO: Query : call SP_Doauth('superadmin@msense.in','QUwxT0hwRExsV2g4VXpFNkdocllPQT09')  
+[2023-06-27 14:20:11] LoginModel.INFO: User Data : {"username":"super admin","userGroup":"1","loginid":"1","email":"superadmin@msense.in","mobileno":"9677889090","designation":"Manage_rCate","hotelId":"4","brandId":"7"}  
+[2023-06-27 14:20:11] LoginAction.INFO: ======= END Login Action ================  

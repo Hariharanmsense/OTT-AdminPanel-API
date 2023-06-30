@@ -1,0 +1,120 @@
+{
+    "code": 200,
+    "status": true,
+    "message": "Success",
+    "result": {
+        "CustomerDetails": {
+            "brandid": "7",
+            "brandname": "Microsoft",
+            "hotelname": "Taj",
+            "custmail": "test@gmail.com",
+            "location": "Chengalpatt",
+            "mobileno": "9789902123",
+            "spocname": "Raguvaran",
+            "address": "Kovalam beach,kasimedu's way. thendral colony",
+            "tempid": "1",
+            "channelfeedtype": null,
+            "channeltype": null
+        },
+        "TemplateDetails": {
+            "id": "1",
+            "name": "Marriot"
+        },
+        "FeatureDetails": [
+            {
+                "id": "2",
+                "name": "Screen Casting"
+            },
+            {
+                "id": "1",
+                "name": "Bill-View"
+            }
+        ],
+        "HomeScreen": {
+            "HomePageDetails": {
+                "logo": "",
+                "bg_img": "",
+                "welcome": "hai this is me",
+                "welcome_txt": "hello its work well",
+                "menu": [
+                    {
+                        "title": "Home",
+                        "img": "",
+                        "pagelink": "menu.html"
+                    },
+                    {
+                        "title": "Internet",
+                        "img": "",
+                        "pagelink": "tes.html"
+                    }
+                ]
+            }
+        },
+        "ChannelDeatails": {
+            "Entertainment": [
+                {
+                    "channelname": "SunTv",
+                    "channellogo": "public/uploads/Channels/SunTv.png",
+                    "channelno": "1",
+                    "channelip": "128.123.121.123",
+                    "channelport": "2031"
+                },
+                {
+                    "channelname": "KTV",
+                    "channellogo": "public/uploads/Channels/KTV.png",
+                    "channelno": "2",
+                    "channelip": "128.123.12.124",
+                    "channelport": "2031"
+                }
+            ],
+            "Kids": [
+                {
+                    "channelname": "CN",
+                    "channellogo": "public/uploads/Channels/CN.png",
+                    "channelno": "6",
+                    "channelip": "128.123.10.11",
+                    "channelport": "2031"
+                },
+                {
+                    "channelname": "Pogo",
+                    "channellogo": "public/uploads/Channels/Pogo.png",
+                    "channelno": "7",
+                    "channelip": "128.123.10.03",
+                    "channelport": "2031"
+                }
+            ],
+            "English": [
+                {
+                    "channelname": "HBO",
+                    "channellogo": "public/uploads/Channels/HBO.png",
+                    "channelno": "3",
+                    "channelip": "128.123.12.12",
+                    "channelport": "2031"
+                },
+                {
+                    "channelname": "MoviesNow",
+                    "channellogo": "public/uploads/Channels/MoviesNow.png",
+                    "channelno": "4",
+                    "channelip": "128.123.12.15",
+                    "channelport": "2031"
+                }
+            ],
+            "Sports": [
+                {
+                    "channelname": "TenSports",
+                    "channellogo": "public/uploads/Channels/TenSports.png",
+                    "channelno": "5",
+                    "channelip": "128.123.10.13",
+                    "channelport": "2031"
+                },
+                {
+                    "channelname": "StarSports2",
+                    "channellogo": "public/uploads/Channels/StarSports2.png",
+                    "channelno": "8",
+                    "channelip": "128.123.08.03",
+                    "channelport": "2031"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,7 @@
+[2023-06-16 04:25:32] AdmnUsrsRepository.INFO: ======= Start AdmnUsrs Repository ================  
+[2023-06-16 04:25:32] AdmnUsrsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1686889381,"exp":1686975781}}  
+[2023-06-16 04:25:32] AdmnUsrModel.INFO: Query : CALL SP_AdmnUsrConfig('0', '0', 0, '', '', '', 0, 0, '','','', '', 
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-16 04:25:32] AdmnUsrModel.INFO: Admin User List Avaliable User list count : 10  
+[2023-06-16 04:25:32] AdmnUsrsRepository.INFO: ======= End AdmnUsrs Repository ================  

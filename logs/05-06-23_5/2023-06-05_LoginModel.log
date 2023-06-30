@@ -1,0 +1,5 @@
+[2023-06-05 13:44:53] LoginAction.INFO: ======= Start Login Action ================  
+[2023-06-05 13:44:53] LoginAction.INFO: Input Data : {"email":"superadmin@example.com","password":"Nms@123$"}  
+[2023-06-05 13:44:53] LoginModel.INFO: Query : call SP_Doauth('superadmin@example.com','ZTJKWGJiQTZ2S2JOeVhSRUF1MWoyUT09')  
+[2023-06-05 13:44:53] LoginModel.INFO: User Data : {"username":"super admin","userGroup":"1","loginid":"1","email":"superadmin@example.com","mobileno":"9677889090","designation":"Manage_rCate","hotelId":"1","brandId":null}  
+[2023-06-05 13:44:53] LoginAction.INFO: ======= END Login Action ================  

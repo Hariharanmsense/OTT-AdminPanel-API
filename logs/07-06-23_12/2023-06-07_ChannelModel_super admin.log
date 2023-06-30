@@ -1,0 +1,4 @@
+[2023-06-07 08:49:26] ChannelModel.INFO: Query : call SP_AddandEditChannelInfo('ADD','SunTv','public/uploads/Channels/SunTv.jpeg' ,0 ,1)  
+[2023-06-07 08:49:46] ChannelModel.INFO: Query : call SP_AddandEditChannelInfo('ADD','KTv','public/uploads/Channels/KTv.jpg' ,0 ,1)  
+[2023-06-07 08:50:26] ChannelModel.INFO: Query : call SP_AddandEditChannelInfo('ADD','Star_Sports','public/uploads/Channels/Star_Sports.jpeg' ,0 ,1)  
+[2023-06-07 08:51:11] ChannelModel.INFO: Query : call SP_AddandEditChannelInfo('ADD','Ten_Sports','public/uploads/Channels/Ten_Sports.png' ,0 ,1)  

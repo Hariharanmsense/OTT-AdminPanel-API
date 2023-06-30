@@ -1,0 +1,60 @@
+[2023-06-05 11:41:23] CommonAction.INFO: ======= Start Common Action (getAllBrand) ================  
+[2023-06-05 11:41:23] CommonAction.INFO: method : GET  
+[2023-06-05 11:41:23] CommonAction.INFO: contentType : application/json  
+[2023-06-05 11:41:23] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685941470,"exp":1686027870}}  
+[2023-06-05 11:41:23] CommonAction.INFO: ======= END Common Action (getAllBrand) ================  
+[2023-06-05 11:42:13] CommonAction.INFO: ======= Start Common Action (getAllBrand) ================  
+[2023-06-05 11:42:13] CommonAction.INFO: method : GET  
+[2023-06-05 11:42:13] CommonAction.INFO: contentType : application/json  
+[2023-06-05 11:42:13] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685941470,"exp":1686027870}}  
+[2023-06-05 11:42:13] CommonAction.INFO: ======= END Common Action (getAllBrand) ================  
+[2023-06-05 11:42:19] CommonAction.INFO: ======= Start Common Action (getAllBrand) ================  
+[2023-06-05 11:42:19] CommonAction.INFO: method : GET  
+[2023-06-05 11:42:19] CommonAction.INFO: contentType : application/json  
+[2023-06-05 11:42:19] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685941470,"exp":1686027870}}  
+[2023-06-05 11:42:19] CommonAction.INFO: ======= END Common Action (getAllBrand) ================  
+[2023-06-05 11:42:25] CommonAction.INFO: ======= Start Common Action (getAllBrand) ================  
+[2023-06-05 11:42:25] CommonAction.INFO: method : GET  
+[2023-06-05 11:42:25] CommonAction.INFO: contentType : application/json  
+[2023-06-05 11:42:25] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685941470,"exp":1686027870}}  
+[2023-06-05 11:42:25] CommonAction.INFO: ======= END Common Action (getAllBrand) ================  
+[2023-06-05 11:42:47] CommonAction.INFO: ======= Start Common Action (getAllBrand) ================  
+[2023-06-05 11:42:47] CommonAction.INFO: method : GET  
+[2023-06-05 11:42:47] CommonAction.INFO: contentType : application/json  
+[2023-06-05 11:42:47] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685941470,"exp":1686027870}}  
+[2023-06-05 11:42:47] CommonAction.INFO: ======= END Common Action (getAllBrand) ================  
+[2023-06-05 11:42:58] CommonAction.INFO: ======= Start Common Action (getAllBrand) ================  
+[2023-06-05 11:42:58] CommonAction.INFO: method : GET  
+[2023-06-05 11:42:58] CommonAction.INFO: contentType : application/json  
+[2023-06-05 11:42:58] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685941470,"exp":1686027870}}  
+[2023-06-05 11:42:58] CommonAction.INFO: ======= END Common Action (getAllBrand) ================  
+[2023-06-05 11:43:05] CommonAction.INFO: ======= Start Common Action (getAllBrand) ================  
+[2023-06-05 11:43:05] CommonAction.INFO: method : GET  
+[2023-06-05 11:43:05] CommonAction.INFO: contentType : application/json  
+[2023-06-05 11:43:05] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685941470,"exp":1686027870}}  
+[2023-06-05 11:43:05] CommonAction.INFO: ======= END Common Action (getAllBrand) ================  
+[2023-06-05 11:50:59] CommonAction.INFO: ======= Start Common Action (getAllBrand) ================  
+[2023-06-05 11:50:59] CommonAction.INFO: method : GET  
+[2023-06-05 11:50:59] CommonAction.INFO: contentType : application/json  
+[2023-06-05 11:50:59] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685941470,"exp":1686027870}}  
+[2023-06-05 11:50:59] CommonAction.INFO: ======= END Common Action (getAllBrand) ================  
+[2023-06-05 11:51:06] CommonAction.INFO: ======= Start Common Action (getAllBrand) ================  
+[2023-06-05 11:51:06] CommonAction.INFO: method : GET  
+[2023-06-05 11:51:06] CommonAction.INFO: contentType : application/json  
+[2023-06-05 11:51:06] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685941470,"exp":1686027870}}  
+[2023-06-05 11:51:06] CommonAction.INFO: ======= END Common Action (getAllBrand) ================  
+[2023-06-05 12:32:05] CommonAction.INFO: ======= Start Common Action (getAllBrand) ================  
+[2023-06-05 12:32:05] CommonAction.INFO: method : GET  
+[2023-06-05 12:32:05] CommonAction.INFO: contentType : application/json  
+[2023-06-05 12:32:05] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685941470,"exp":1686027870}}  
+[2023-06-05 12:32:05] CommonAction.INFO: ======= END Common Action (getAllBrand) ================  
+[2023-06-05 12:33:36] CommonAction.INFO: ======= Start Common Action (getAllBrand) ================  
+[2023-06-05 12:33:36] CommonAction.INFO: method : GET  
+[2023-06-05 12:33:36] CommonAction.INFO: contentType : application/json  
+[2023-06-05 12:33:36] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685941470,"exp":1686027870}}  
+[2023-06-05 12:33:36] CommonAction.INFO: ======= END Common Action (getAllBrand) ================  
+[2023-06-05 12:33:49] CommonAction.INFO: ======= Start Common Action (getAllBrand) ================  
+[2023-06-05 12:33:49] CommonAction.INFO: method : GET  
+[2023-06-05 12:33:49] CommonAction.INFO: contentType : application/json  
+[2023-06-05 12:33:49] CommonAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685941470,"exp":1686027870}}  
+[2023-06-05 12:33:49] CommonAction.INFO: ======= END Common Action (getAllBrand) ================  

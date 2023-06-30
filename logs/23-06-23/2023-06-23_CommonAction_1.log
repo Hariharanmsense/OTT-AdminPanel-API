@@ -1,0 +1,928 @@
+[2023-06-23 11:38:50] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 11:38:50] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 11:38:50] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 11:38:50] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:38:50] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:38:50] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 11:38:50] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:38:50] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:38:50] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 11:38:50] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:38:50] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:38:50] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 11:38:50] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 11:38:50] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:38:50] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:38:50] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:38:50] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:38:50] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:38:50] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:38:50] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:38:50] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:38:50] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 11:39:16] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 11:39:16] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 11:39:16] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 11:39:16] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:39:16] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:39:16] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 11:39:16] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:39:16] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:39:16] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 11:39:16] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:39:16] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:39:16] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 11:39:16] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 11:39:16] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:39:16] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:39:16] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:39:16] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:39:16] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:39:16] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:39:16] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:39:16] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:39:16] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 11:39:23] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 11:39:23] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 11:39:23] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 11:39:23] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:39:23] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:39:23] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 11:39:23] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:39:23] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:39:23] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 11:39:23] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:39:23] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:39:23] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 11:39:23] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 11:39:23] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:39:23] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:39:23] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:39:23] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:39:23] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:39:23] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:39:23] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:39:23] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:39:23] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 11:44:17] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 11:44:17] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 11:44:17] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 11:44:17] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:44:17] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:44:17] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 11:44:17] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:44:17] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:44:17] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 11:44:17] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:44:17] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:44:17] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 11:44:17] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 11:44:17] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:44:17] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:44:17] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:44:17] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:44:17] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:44:17] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:44:17] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:44:17] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:44:17] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 11:50:11] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 11:50:11] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 11:50:11] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 11:50:11] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:50:11] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:50:11] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 11:50:11] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:50:11] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:50:11] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 11:50:11] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:50:11] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:50:11] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 11:50:11] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 11:50:11] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:50:11] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:50:11] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:50:11] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:50:11] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:50:11] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:50:11] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:50:11] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:50:11] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 11:53:35] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 11:53:35] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 11:53:35] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 11:53:35] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:53:35] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:53:35] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 11:53:35] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:53:35] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:53:35] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 11:53:35] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:53:35] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:53:35] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 11:53:35] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 11:53:35] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:53:35] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:53:35] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:53:35] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:53:35] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:53:35] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:53:35] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:53:35] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:53:35] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 11:54:39] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 11:54:39] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 11:54:39] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 11:54:39] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:54:39] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:54:39] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 11:54:39] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:54:39] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:54:39] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 11:54:39] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:54:39] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:54:39] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 11:54:39] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 11:54:39] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:54:39] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:54:39] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:54:39] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:54:39] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:54:39] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:54:39] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:54:39] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:54:39] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 11:55:20] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 11:55:20] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 11:55:20] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 11:55:20] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:55:20] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:55:20] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 11:55:20] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:55:20] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:55:20] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 11:55:20] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:55:20] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:55:20] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 11:55:20] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 11:55:20] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:55:20] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:55:20] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:55:20] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:55:20] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:55:20] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:55:20] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:55:20] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:55:20] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 11:56:47] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 11:56:47] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 11:56:47] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 11:56:47] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:56:47] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:56:47] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 11:56:47] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:56:47] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:56:47] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 11:56:47] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:56:47] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:56:47] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 11:56:47] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 11:56:47] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:56:47] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:56:47] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:56:47] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:56:47] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:56:47] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:56:47] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:56:47] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:56:47] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 11:57:49] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 11:57:49] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 11:57:49] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 11:57:49] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:57:49] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:57:49] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 11:57:49] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:57:49] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:57:49] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 11:57:49] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:57:49] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:57:49] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 11:57:49] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 11:57:49] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:57:49] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:57:49] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:57:49] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:57:49] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:57:49] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:57:49] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:57:49] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:57:49] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 11:59:46] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 11:59:46] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 11:59:46] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 11:59:46] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:59:46] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:59:46] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 11:59:46] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:59:46] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:59:46] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 11:59:46] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:59:46] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:59:46] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 11:59:46] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 11:59:46] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:59:46] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:59:46] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:59:46] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:59:46] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:59:46] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:59:46] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 11:59:46] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 11:59:46] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 12:00:41] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 12:00:41] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 12:00:41] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 12:00:41] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:00:41] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:00:41] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:00:41] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:00:41] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:00:41] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:00:41] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:00:41] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:00:41] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:00:41] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 12:00:41] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:00:41] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:00:41] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:00:41] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:00:41] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:00:41] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:00:41] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:00:41] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:00:41] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 12:01:18] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 12:01:18] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 12:01:18] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 12:01:18] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:01:18] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:01:18] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:01:18] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:01:18] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:01:18] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:01:18] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:01:18] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:01:18] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:01:18] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 12:01:18] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:01:18] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:01:18] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:01:18] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:01:18] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:01:18] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:01:18] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:01:18] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:01:18] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 12:01:50] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 12:01:50] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 12:01:50] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 12:01:50] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:01:50] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:01:50] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:01:50] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:01:50] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:01:50] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:01:50] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:01:50] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:01:50] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:01:50] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 12:01:50] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:01:50] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:01:50] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:01:50] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:01:50] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:01:50] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:01:50] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:01:50] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:01:50] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 12:06:04] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 12:06:04] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 12:06:04] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 12:06:04] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:06:04] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:06:04] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:06:04] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:06:04] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:06:04] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:06:04] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:06:04] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:06:04] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:06:04] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 12:06:04] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:06:04] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:06:04] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:06:04] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:06:04] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:06:04] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:06:04] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:06:04] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:06:04] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 12:07:39] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 12:07:39] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 12:07:39] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 12:07:39] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:07:39] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:07:39] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:07:39] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:07:39] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:07:39] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:07:39] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:07:39] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:07:39] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:07:39] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 12:07:39] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:07:39] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:07:39] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:07:39] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:07:39] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:07:39] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:07:39] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:07:39] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:07:39] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 12:10:04] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 12:10:04] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 12:10:04] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 12:10:04] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:10:04] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:10:04] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:10:04] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:10:04] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:10:04] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:10:04] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:10:04] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:10:04] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:10:04] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 12:10:04] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:10:04] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:10:04] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:10:04] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:10:04] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:10:04] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:10:04] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:10:04] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:10:04] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 12:10:49] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 12:10:49] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 12:10:49] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 12:10:49] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:10:49] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:10:49] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:10:49] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:10:49] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:10:49] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:10:49] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:10:49] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:10:49] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:10:49] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 12:10:49] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:10:49] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:10:49] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:10:49] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:10:49] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:10:49] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:10:49] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:10:49] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:10:49] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 12:13:17] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 12:13:17] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 12:13:17] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 12:13:17] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:13:17] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:13:17] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:13:17] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:13:17] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:13:17] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:13:17] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:13:17] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:13:17] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:13:17] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 12:13:17] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:13:17] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:13:17] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:13:17] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:13:17] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:13:17] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:13:17] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:13:17] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:13:17] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 12:17:18] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 12:17:18] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 12:17:18] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 12:17:18] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:17:18] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:17:18] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:17:18] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:17:18] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:17:18] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:17:18] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:17:18] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:17:18] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:17:18] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 12:17:18] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:17:18] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:17:18] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:17:18] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:17:18] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:17:18] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:17:18] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:17:18] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:17:18] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 12:18:22] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 12:18:22] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 12:18:22] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 12:18:22] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:18:22] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:18:22] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:18:22] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:18:22] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:18:22] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:18:22] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:18:22] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:18:22] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:18:22] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 12:18:22] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:18:22] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:18:22] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:18:22] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:18:22] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:18:22] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:18:22] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:18:22] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:18:22] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 12:19:13] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 12:19:13] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 12:19:13] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 12:19:13] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:19:13] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:19:13] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:19:13] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:19:13] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:19:13] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:19:13] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:19:13] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:19:13] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:19:13] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 12:19:13] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:19:13] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:19:13] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:19:13] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:19:13] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:19:13] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:19:13] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:19:13] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:19:13] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 12:19:41] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 12:19:41] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 12:19:41] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 12:19:41] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:19:41] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:19:41] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:19:41] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:19:41] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:19:41] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:19:41] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:19:41] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:19:41] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:19:41] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 12:19:41] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:19:41] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:19:41] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:19:41] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:19:41] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:19:41] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:19:41] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:19:41] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:19:41] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 12:20:18] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 12:20:18] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 12:20:18] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 12:20:18] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:20:18] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:20:18] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:20:18] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:20:18] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:20:18] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:20:18] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:20:18] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:20:18] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:20:18] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 12:20:18] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:20:18] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:20:18] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:20:18] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:20:18] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:20:18] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:20:18] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:20:18] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:20:18] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 12:20:41] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 12:20:41] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 12:20:41] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 12:20:41] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:20:41] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:20:41] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:20:41] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:20:41] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:20:41] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:20:41] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:20:41] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:20:41] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:20:41] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 12:20:41] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:20:41] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:20:41] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:20:41] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:20:41] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:20:41] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:20:41] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:20:41] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:20:41] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 12:20:49] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 12:20:49] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 12:20:49] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 12:20:49] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:20:49] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:20:49] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:20:49] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:20:49] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:20:49] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:20:49] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:20:49] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:20:49] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:20:49] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 12:20:49] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:20:49] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:20:49] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:20:49] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:20:49] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:20:49] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:20:49] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:20:49] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:20:49] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 12:21:29] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 12:21:29] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 12:21:29] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 12:21:29] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:21:29] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:21:29] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:21:29] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:21:29] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:21:29] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:21:29] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:21:29] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:21:29] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:21:29] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 12:21:29] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:21:29] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:21:29] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:21:29] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:21:29] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:21:29] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:21:29] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:21:29] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:21:29] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 12:22:17] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 12:22:17] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 12:22:17] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 12:22:17] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:22:17] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:22:17] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:22:17] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:22:17] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:22:17] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:22:18] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:22:18] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:22:18] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:22:18] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 12:22:18] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:22:18] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:22:18] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:22:18] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:22:18] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:22:18] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:22:18] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:22:18] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:22:18] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 12:24:27] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 12:24:27] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 12:24:27] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 12:24:27] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:24:27] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:24:27] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:24:27] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:24:27] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:24:27] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:24:27] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:24:27] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:24:27] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:24:27] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 12:24:27] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:24:27] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:24:27] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:24:27] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:24:27] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:24:27] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:24:27] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:24:27] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:24:27] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 12:24:52] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 12:24:52] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 12:24:52] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 12:24:52] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:24:52] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:24:52] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:24:52] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:24:52] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:24:52] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:24:52] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:24:52] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:24:52] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:24:52] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 12:24:52] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:24:52] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:24:52] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:24:52] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:24:52] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:24:52] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:24:52] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:24:52] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:24:52] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 12:37:38] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 12:37:38] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 12:37:38] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 12:37:38] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:37:38] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:37:38] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:37:38] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:37:38] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:37:38] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:37:38] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:37:38] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:37:38] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:37:38] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 12:37:38] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:37:38] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:37:38] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:37:38] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:37:38] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:37:38] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:37:38] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:37:38] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:37:38] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 12:38:27] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 12:38:27] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 12:38:27] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 12:38:27] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:38:27] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:38:27] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:38:27] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:38:27] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:38:27] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:38:27] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:38:27] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:38:27] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 12:38:27] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 12:38:27] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:38:27] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:38:27] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:38:27] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:38:27] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:38:27] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:38:27] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 12:38:27] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 12:38:27] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 13:03:20] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 13:03:20] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 13:03:20] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 13:03:20] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:03:20] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:03:20] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 13:03:20] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:03:20] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:03:20] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 13:03:20] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:03:20] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:03:20] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 13:03:20] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 13:03:20] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:03:20] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:03:20] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:03:20] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:03:20] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:03:20] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:03:20] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:03:20] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:03:20] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 13:06:05] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 13:06:05] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 13:06:05] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 13:06:05] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:06:05] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:06:05] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 13:06:05] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:06:05] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:06:05] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 13:06:05] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:06:05] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:06:05] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 13:06:05] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 13:06:05] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:06:05] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:06:05] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:06:05] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:06:05] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:06:05] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:06:05] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:06:05] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:06:05] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 13:10:14] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 13:10:14] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 13:10:14] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 13:10:14] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:10:14] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:10:14] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 13:10:14] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:10:14] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:10:14] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 13:10:14] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:10:14] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:10:14] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 13:10:14] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 13:10:14] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:10:14] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:10:14] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:10:14] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:10:14] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:10:14] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:10:14] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:10:14] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:10:14] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 13:10:17] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 13:10:17] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'TIMEZONEALL')  
+[2023-06-23 13:10:23] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 13:10:23] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 13:10:23] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 13:10:23] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:10:23] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:10:23] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 13:10:23] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:10:23] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:10:23] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 13:10:23] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:10:23] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:10:23] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 13:10:23] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 13:10:23] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:10:23] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:10:23] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:10:23] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:10:23] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:10:23] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:10:23] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:10:23] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:10:23] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 13:10:26] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 13:10:26] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 13:10:26] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 13:10:26] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:10:26] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:10:26] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 13:10:26] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:10:26] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:10:26] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 13:10:26] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:10:26] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:10:26] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 13:10:26] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 13:10:26] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:10:26] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:10:26] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:10:26] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:10:26] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:10:26] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:10:26] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:10:26] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:10:26] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 13:10:39] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 13:10:39] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 13:10:39] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 13:10:39] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:10:39] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:10:39] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 13:10:39] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:10:39] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:10:39] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 13:10:39] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:10:39] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:10:39] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 13:10:39] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 13:10:39] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:10:39] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:10:39] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:10:39] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:10:39] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:10:39] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:10:39] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:10:39] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:10:39] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 13:11:26] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 13:11:26] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 13:11:26] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 13:11:26] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:11:26] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:11:26] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 13:11:26] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:11:26] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:11:26] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 13:11:26] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:11:26] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:11:26] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 13:11:26] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 13:11:26] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:11:26] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:11:26] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:11:26] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:11:26] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:11:26] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:11:26] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:11:26] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:11:26] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 13:45:00] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 13:45:00] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 13:45:00] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 13:45:00] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:45:00] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:45:00] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 13:45:00] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:45:00] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:45:00] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 13:45:00] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:45:00] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:45:00] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 13:45:00] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 13:45:00] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:45:00] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:45:00] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:45:00] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:45:00] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:45:00] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:45:00] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:45:00] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:45:00] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 13:45:46] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 13:45:46] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'TIMEZONEALL')  
+[2023-06-23 13:46:30] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 13:46:30] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 13:46:30] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 13:46:30] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:46:30] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:46:30] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 13:46:30] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:46:30] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:46:30] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 13:46:30] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:46:30] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:46:30] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 13:46:30] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 13:46:30] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:46:30] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:46:30] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:46:30] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:46:30] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:46:30] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:46:30] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:46:30] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:46:30] CommonRepository.INFO: ======= End Common Repository ================  
+[2023-06-23 13:46:34] CommonRepository.INFO: ======= Start Common Repository ================  
+[2023-06-23 13:46:34] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'SIDEBARMENUPARENTALL')  
+[2023-06-23 13:46:34] CommonModel.INFO: getAllListDataZeroRecords (count) : 3  
+[2023-06-23 13:46:34] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:46:34] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:46:34] CommonModel.INFO: Query : CALL SP_OttLookUp(1, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 13:46:34] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:46:34] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:46:34] CommonModel.INFO: Query : CALL SP_OttLookUp(2, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 13:46:34] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:46:34] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:46:34] CommonModel.INFO: Query : CALL SP_OttLookUp(3, 1, 'SIDEBARSUBMENUALL')  
+[2023-06-23 13:46:34] CommonModel.INFO: getAllListDataZeroRecords (count) : 4  
+[2023-06-23 13:46:34] CommonModel.INFO: Query : CALL SP_OttLookUp(4, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:46:34] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:46:34] CommonModel.INFO: Query : CALL SP_OttLookUp(5, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:46:34] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:46:34] CommonModel.INFO: Query : CALL SP_OttLookUp(6, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:46:34] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:46:34] CommonModel.INFO: Query : CALL SP_OttLookUp(7, 1, 'MENUACCESSDETAILS')  
+[2023-06-23 13:46:34] CommonModel.INFO: getAllListDataZeroRecords (count) : 1  
+[2023-06-23 13:46:34] CommonRepository.INFO: ======= End Common Repository ================  

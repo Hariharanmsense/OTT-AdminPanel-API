@@ -1,0 +1,37 @@
+Login Page:
+
+{
+    "userid": "superadmin",
+    "password": "admin"
+}
+
+Customer Management :
+
+Add customer :
+
+{
+    "brandid": 1,
+    "hotelid": 1,
+    "locationid":12,
+    "userid" : 1,
+    "spocname" : "Raguvaran",
+    "email"  : "test@gmail.com",
+    "phone" : "9789902123",
+    "address" : "Kovalam beach,kasimedu way. thendral colony",
+}
+
+Edit Customer :
+    {
+    "brandid": 1,
+    "brandname": "TCS",
+    "hotelid": 1,
+    "hotelname" : "ITC",
+    "locationid":12,
+    "locationname":"Taj",
+    "userid" : 1,
+    "userType" : "Super Admin",
+    "spocname" : "Raguvaran",
+    "email"  : "test@gmail.com",
+    "phone" : "9789902123",
+    "address" : "Kovalam beach,kasimedu way. thendral colony",
+}

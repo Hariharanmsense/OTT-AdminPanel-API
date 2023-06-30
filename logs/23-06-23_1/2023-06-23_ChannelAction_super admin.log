@@ -1,0 +1,161 @@
+[2023-06-23 05:39:35] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-23 05:39:35] ChannelRepository.INFO: Input Data : {"channelname":"fadsds","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687498276,"exp":1687584676}}  
+[2023-06-23 05:39:35] ChannelRepository.INFO: Insert Status : {"msg":"Channel Updated SuccessFully","status":"Success"}  
+[2023-06-23 05:39:35] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-23 05:46:36] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-23 05:46:36] ChannelRepository.INFO: Input Data : {"channelname":"Did","channelimg":"","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687498942,"exp":1687585342}}  
+[2023-06-23 05:46:36] ChannelRepository.ERROR: Error Code : 301Error Message : Channel image required  
+[2023-06-23 05:46:36] ChannelRepository.ERROR: Error File : /var/www/projects/ottproduct/api/v1/src/Domain/Repository/Channel/ChannelRepository.phpError Line : 164  
+[2023-06-23 05:46:36] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-23 05:47:11] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-23 05:47:11] ChannelRepository.INFO: Input Data : {"channelname":"Did","channelimg":"","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687498942,"exp":1687585342}}  
+[2023-06-23 05:47:11] ChannelRepository.ERROR: Error Code : 301Error Message : Channel image required  
+[2023-06-23 05:47:11] ChannelRepository.ERROR: Error File : /var/www/projects/ottproduct/api/v1/src/Domain/Repository/Channel/ChannelRepository.phpError Line : 164  
+[2023-06-23 05:47:11] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-23 05:48:02] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-23 05:48:02] ChannelRepository.INFO: Input Data : {"channelname":"Did","channelimg":"","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687498942,"exp":1687585342}}  
+[2023-06-23 05:48:02] ChannelRepository.INFO: Insert Status : {"msg":"Channel image Required","status":"FAILURE"}  
+[2023-06-23 05:48:02] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-23 05:49:48] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-23 05:49:48] ChannelRepository.INFO: Input Data : {"channelname":"Did","channelimg":"","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687498942,"exp":1687585342}}  
+[2023-06-23 05:52:56] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-23 05:52:56] ChannelRepository.INFO: Input Data : {"channelname":"Did","channelimg":"","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687498942,"exp":1687585342}}  
+[2023-06-23 05:52:56] ChannelRepository.INFO: Insert Status : {"msg":"Channel image Required","status":"FAILURE"}  
+[2023-06-23 05:52:56] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-23 05:53:10] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-23 05:53:10] ChannelRepository.INFO: Input Data : {"channelname":"Did","channelimg":"","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687498942,"exp":1687585342}}  
+[2023-06-23 05:53:10] ChannelRepository.INFO: Insert Status : {"msg":"Channel image Required","status":"FAILURE"}  
+[2023-06-23 05:53:10] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-23 05:54:43] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-23 05:54:43] ChannelRepository.INFO: Input Data : {"channelname":"Did","channelimg":"","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687498942,"exp":1687585342}}  
+[2023-06-23 05:54:43] ChannelRepository.INFO: Insert Status : {"msg":"Channel image Required","status":"FAILURE"}  
+[2023-06-23 05:54:43] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-23 05:55:18] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-23 05:55:18] ChannelRepository.INFO: Input Data : {"channelname":"Did","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687498942,"exp":1687585342}}  
+[2023-06-23 05:55:18] ChannelRepository.INFO: Insert Status : {"msg":"Channel Updated SuccessFully","status":"Success"}  
+[2023-06-23 05:55:18] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-23 05:55:34] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-23 05:55:34] ChannelRepository.INFO: Input Data : {"channelname":"Did","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687498942,"exp":1687585342}}  
+[2023-06-23 05:55:34] ChannelRepository.INFO: Insert Status : {"msg":"Channel Updated SuccessFully","status":"Success"}  
+[2023-06-23 05:55:34] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-23 05:55:51] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-23 05:55:51] ChannelRepository.INFO: Input Data : {"channelname":"Did","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687498942,"exp":1687585342}}  
+[2023-06-23 05:55:51] ChannelRepository.INFO: Insert Status : {"msg":"Channel Updated SuccessFully","status":"Success"}  
+[2023-06-23 05:55:51] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-23 06:01:12] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-23 06:01:12] ChannelRepository.INFO: Input Data : {"channelname":"Did","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687498942,"exp":1687585342}}  
+[2023-06-23 06:01:12] ChannelRepository.INFO: Insert Status : {"msg":"Channel Updated SuccessFully","status":"Success"}  
+[2023-06-23 06:01:12] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-23 06:01:35] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-23 06:01:35] ChannelRepository.INFO: Input Data : {"channelname":"Did","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687498942,"exp":1687585342}}  
+[2023-06-23 06:01:35] ChannelRepository.INFO: Insert Status : {"msg":"Channel Updated SuccessFully","status":"Success"}  
+[2023-06-23 06:01:35] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-23 06:02:58] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-23 06:02:58] ChannelRepository.INFO: Input Data : {"channelname":"Did","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687498942,"exp":1687585342}}  
+[2023-06-23 06:02:58] ChannelRepository.INFO: Insert Status : {"msg":"Channel Updated SuccessFully","status":"Success"}  
+[2023-06-23 06:02:58] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-23 06:03:11] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-23 06:03:11] ChannelRepository.INFO: Input Data : {"channelname":"Did","channelimg":"","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687498942,"exp":1687585342}}  
+[2023-06-23 06:03:11] ChannelRepository.INFO: Insert Status : {"msg":"Channel image Required","status":"FAILURE"}  
+[2023-06-23 06:03:11] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-23 06:03:16] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-23 06:03:16] ChannelRepository.INFO: Input Data : {"channelname":"Did","channelimg":"","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687498942,"exp":1687585342}}  
+[2023-06-23 06:03:16] ChannelRepository.INFO: Insert Status : {"msg":"Channel image Required","status":"FAILURE"}  
+[2023-06-23 06:03:16] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-23 06:05:57] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-23 06:05:57] ChannelRepository.INFO: Input Data : {"channelname":"Did","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687498942,"exp":1687585342}}  
+[2023-06-23 06:05:57] ChannelRepository.INFO: Insert Status : {"msg":"Channel Updated SuccessFully","status":"Success"}  
+[2023-06-23 06:05:57] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-23 06:06:51] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-23 06:06:51] ChannelRepository.INFO: Input Data : {"channelname":"test10","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687500395,"exp":1687586795}}  
+[2023-06-23 06:06:51] ChannelRepository.INFO: Insert Status : {"msg":"Channel Updated SuccessFully","status":"Success"}  
+[2023-06-23 06:06:51] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-23 06:07:06] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-23 06:07:06] ChannelRepository.INFO: Input Data : {"channelname":"test10","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687498942,"exp":1687585342}}  
+[2023-06-23 06:07:06] ChannelRepository.INFO: Insert Status : {"msg":"Channel Updated SuccessFully","status":"Success"}  
+[2023-06-23 06:07:06] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-23 06:07:18] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-23 06:07:18] ChannelRepository.INFO: Input Data : {"channelname":"fdas","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687498942,"exp":1687585342}}  
+[2023-06-23 06:07:18] ChannelRepository.INFO: Insert Status : {"msg":"Channel Updated SuccessFully","status":"Success"}  
+[2023-06-23 06:07:18] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-23 06:07:33] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-23 06:07:33] ChannelRepository.INFO: Input Data : {"channelname":"Did","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687498942,"exp":1687585342}}  
+[2023-06-23 06:07:33] ChannelRepository.INFO: Insert Status : {"msg":"Channel Updated SuccessFully","status":"Success"}  
+[2023-06-23 06:07:33] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-23 06:38:56] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-23 06:38:56] ChannelRepository.INFO: Input Data : {"channelname":"test10","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687498942,"exp":1687585342}}  
+[2023-06-23 06:38:56] ChannelRepository.INFO: Insert Status : {"msg":"Channel Updated SuccessFully","status":"Success"}  
+[2023-06-23 06:38:56] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-23 06:39:12] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-23 06:39:12] ChannelRepository.INFO: Input Data : {"channelname":"test10","channelimg":"","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687498942,"exp":1687585342}}  
+[2023-06-23 06:39:12] ChannelRepository.ERROR: Error Code : 301Error Message : Channel image required  
+[2023-06-23 06:39:12] ChannelRepository.ERROR: Error File : /var/www/projects/ottproduct/api/v1/src/Domain/Repository/Channel/ChannelRepository.phpError Line : 164  
+[2023-06-23 06:39:12] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-23 06:39:28] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-23 06:39:28] ChannelRepository.INFO: Input Data : {"channelname":"test10","channelimg":"","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687498942,"exp":1687585342}}  
+[2023-06-23 06:39:28] ChannelRepository.ERROR: Error Code : 301Error Message : Channel image required  
+[2023-06-23 06:39:28] ChannelRepository.ERROR: Error File : /var/www/projects/ottproduct/api/v1/src/Domain/Repository/Channel/ChannelRepository.phpError Line : 164  
+[2023-06-23 06:39:28] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-23 07:01:39] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-23 07:01:39] ChannelRepository.INFO: Input Data : {"channelname":"test10","channelimg":"","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687498942,"exp":1687585342}}  
+[2023-06-23 07:01:39] ChannelRepository.ERROR: Error Code : 301Error Message : Channel image required  
+[2023-06-23 07:01:39] ChannelRepository.ERROR: Error File : /var/www/projects/ottproduct/api/v1/src/Domain/Repository/Channel/ChannelRepository.phpError Line : 164  
+[2023-06-23 07:01:39] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-23 07:01:41] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-23 07:01:41] ChannelRepository.INFO: Input Data : {"channelname":"test10","channelimg":"","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687498942,"exp":1687585342}}  
+[2023-06-23 07:01:41] ChannelRepository.ERROR: Error Code : 301Error Message : Channel image required  
+[2023-06-23 07:01:41] ChannelRepository.ERROR: Error File : /var/www/projects/ottproduct/api/v1/src/Domain/Repository/Channel/ChannelRepository.phpError Line : 164  
+[2023-06-23 07:01:41] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-23 07:01:46] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-23 07:01:46] ChannelRepository.INFO: Input Data : {"channelname":"test10","channelimg":"","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687495440,"exp":1687581840}}  
+[2023-06-23 07:01:46] ChannelRepository.ERROR: Error Code : 301Error Message : Channel image required  
+[2023-06-23 07:01:46] ChannelRepository.ERROR: Error File : /var/www/projects/ottproduct/api/v1/src/Domain/Repository/Channel/ChannelRepository.phpError Line : 164  
+[2023-06-23 07:01:46] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-23 07:05:46] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-23 07:05:46] ChannelRepository.INFO: Input Data : {"channelname":"fdas","channelimg":"","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687503933,"exp":1687590333}}  
+[2023-06-23 07:05:46] ChannelRepository.ERROR: Error Code : 301Error Message : Channel image required  
+[2023-06-23 07:05:46] ChannelRepository.ERROR: Error File : /var/www/projects/ottproduct/api/v1/src/Domain/Repository/Channel/ChannelRepository.phpError Line : 164  
+[2023-06-23 07:05:46] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-23 07:06:42] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-23 07:06:42] ChannelRepository.INFO: Input Data : {"channelname":"fdas","channelimg":"","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687503933,"exp":1687590333}}  
+[2023-06-23 07:06:42] ChannelRepository.ERROR: Error Code : 301Error Message : Channel image required  
+[2023-06-23 07:06:42] ChannelRepository.ERROR: Error File : /var/www/projects/ottproduct/api/v1/src/Domain/Repository/Channel/ChannelRepository.phpError Line : 164  
+[2023-06-23 07:06:42] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-23 07:08:22] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-23 07:08:22] ChannelRepository.INFO: Input Data : {"channelname":"Did","channelimg":"","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687503933,"exp":1687590333}}  
+[2023-06-23 07:08:22] ChannelRepository.ERROR: Error Code : 301Error Message : Channel image required  
+[2023-06-23 07:08:22] ChannelRepository.ERROR: Error File : /var/www/projects/ottproduct/api/v1/src/Domain/Repository/Channel/ChannelRepository.phpError Line : 164  
+[2023-06-23 07:08:22] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-23 07:09:13] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-23 07:09:13] ChannelRepository.INFO: Input Data : {"channelname":"test","channelimg":"","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687503933,"exp":1687590333}}  
+[2023-06-23 07:09:13] ChannelRepository.ERROR: Error Code : 301Error Message : Channel image required  
+[2023-06-23 07:09:13] ChannelRepository.ERROR: Error File : /var/www/projects/ottproduct/api/v1/src/Domain/Repository/Channel/ChannelRepository.phpError Line : 164  
+[2023-06-23 07:09:13] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-23 07:09:57] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-23 07:09:57] ChannelRepository.INFO: Input Data : {"channelname":"fdas","channelimg":"","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687503933,"exp":1687590333}}  
+[2023-06-23 07:09:57] ChannelRepository.ERROR: Error Code : 301Error Message : Channel image required  
+[2023-06-23 07:09:57] ChannelRepository.ERROR: Error File : /var/www/projects/ottproduct/api/v1/src/Domain/Repository/Channel/ChannelRepository.phpError Line : 164  
+[2023-06-23 07:09:57] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-23 07:10:29] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-23 07:10:29] ChannelRepository.INFO: Input Data : {"channelname":"Did","channelimg":"","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687503933,"exp":1687590333}}  
+[2023-06-23 07:10:29] ChannelRepository.ERROR: Error Code : 301Error Message : Channel image required  
+[2023-06-23 07:10:29] ChannelRepository.ERROR: Error File : /var/www/projects/ottproduct/api/v1/src/Domain/Repository/Channel/ChannelRepository.phpError Line : 164  
+[2023-06-23 07:10:29] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-23 07:11:05] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-23 07:11:05] ChannelRepository.INFO: Input Data : {"channelname":"fdas","channelimg":"","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687503933,"exp":1687590333}}  
+[2023-06-23 07:11:05] ChannelRepository.ERROR: Error Code : 301Error Message : Channel image required  
+[2023-06-23 07:11:05] ChannelRepository.ERROR: Error File : /var/www/projects/ottproduct/api/v1/src/Domain/Repository/Channel/ChannelRepository.phpError Line : 164  
+[2023-06-23 07:11:05] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-23 07:11:12] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-23 07:11:12] ChannelRepository.INFO: Input Data : {"channelname":"fdassdfds","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687503933,"exp":1687590333}}  
+[2023-06-23 07:11:12] ChannelRepository.INFO: Insert Status : {"msg":"Channel Updated SuccessFully","status":"Success"}  
+[2023-06-23 07:11:12] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-23 07:13:04] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-23 07:13:04] ChannelRepository.INFO: Input Data : {"channelname":"test10","channelimg":"","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687503933,"exp":1687590333}}  
+[2023-06-23 07:13:04] ChannelRepository.ERROR: Error Code : 301Error Message : Channel image required  
+[2023-06-23 07:13:04] ChannelRepository.ERROR: Error File : /var/www/projects/ottproduct/api/v1/src/Domain/Repository/Channel/ChannelRepository.phpError Line : 164  
+[2023-06-23 07:13:04] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-23 09:52:03] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-23 09:52:03] ChannelRepository.INFO: Input Data : {"channelname":"test10","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687513173,"exp":1687599573}}  
+[2023-06-23 09:52:03] ChannelRepository.INFO: Insert Status : {"msg":"Channel Updated SuccessFully","status":"Success"}  
+[2023-06-23 09:52:03] ChannelRepository.INFO: ======= End Channel Repository ================  

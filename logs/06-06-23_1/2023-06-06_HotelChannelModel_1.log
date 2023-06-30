@@ -1,0 +1,12 @@
+[2023-06-06 08:53:26] HotelChannelRepository.INFO: ======= Start HotelChannel Repository ================  
+[2023-06-06 08:53:26] HotelChannelRepository.INFO: Input Data : {"hotelid":1,"channelid":"1,2,3,4,5","channelcategory":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685955936,"exp":1686042336}}  
+[2023-06-06 08:53:26] HotelChannelRepository.INFO: Insert Status : SUCCESS  
+[2023-06-06 08:53:26] HotelChannelRepository.INFO: ======= End HotelChannel Repository ================  
+[2023-06-06 08:53:28] HotelChannelRepository.INFO: ======= Start HotelChannel Repository ================  
+[2023-06-06 08:53:28] HotelChannelRepository.INFO: Input Data : {"hotelid":1,"channelid":"1,2,3,4,5","channelcategory":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685955936,"exp":1686042336}}  
+[2023-06-06 08:53:28] HotelChannelRepository.INFO: Insert Status : SUCCESS  
+[2023-06-06 08:53:28] HotelChannelRepository.INFO: ======= End HotelChannel Repository ================  
+[2023-06-06 08:53:32] HotelChannelRepository.INFO: ======= Start HotelChannel Repository ================  
+[2023-06-06 08:53:32] HotelChannelRepository.INFO: Input Data : {"hotelid":1,"channelid":"1,2,3,4,5","channelcategory":2,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685955936,"exp":1686042336}}  
+[2023-06-06 08:53:32] HotelChannelRepository.INFO: Insert Status : SUCCESS  
+[2023-06-06 08:53:32] HotelChannelRepository.INFO: ======= End HotelChannel Repository ================  

@@ -1,0 +1,183 @@
+[2023-06-19 07:05:57] AdmnGrpsRepository.INFO: ======= Start AdmnGrps Repository ================  
+[2023-06-19 07:05:57] AdmnGrpsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687150936,"exp":1687237336}}  
+[2023-06-19 07:05:57] AdmnGrpModel.INFO: Query : CALL SP_GroupConfig('0', '0', 0, '', 
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-19 07:05:57] AdmnGrpModel.INFO: Group List Avaliable Group list count : 30  
+[2023-06-19 07:05:57] AdmnGrpsRepository.INFO: ======= End AdmnGrps Repository ================  
+[2023-06-19 07:06:39] AdmnGrpsRepository.INFO: ======= Start AdmnGrps Repository ================  
+[2023-06-19 07:06:39] AdmnGrpsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687150936,"exp":1687237336}}  
+[2023-06-19 07:06:39] AdmnGrpModel.INFO: Query : CALL SP_GroupConfig('0', '0', 0, '', 
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-19 07:06:39] AdmnGrpModel.INFO: Group List Avaliable Group list count : 30  
+[2023-06-19 07:06:39] AdmnGrpsRepository.INFO: ======= End AdmnGrps Repository ================  
+[2023-06-19 07:07:26] AdmnGrpsRepository.INFO: ======= Start AdmnGrps Repository ================  
+[2023-06-19 07:07:26] AdmnGrpsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687150936,"exp":1687237336}}  
+[2023-06-19 07:07:26] AdmnGrpModel.INFO: Query : CALL SP_GroupConfig('0', '0', 0, '', 
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-19 07:07:26] AdmnGrpModel.INFO: Group List Avaliable Group list count : 30  
+[2023-06-19 07:07:26] AdmnGrpsRepository.INFO: ======= End AdmnGrps Repository ================  
+[2023-06-19 07:07:28] AdmnGrpsRepository.INFO: ======= Start AdmnGrps Repository ================  
+[2023-06-19 07:07:28] AdmnGrpModel.INFO: Query : CALL SP_GroupConfig('0', '0', 30, '', 
+            1, '', 0, '', 0, '', '', 'GETONE')  
+[2023-06-19 07:07:28] AdmnGrpsRepository.INFO: ======= End AdmnGrps Repository ================  
+[2023-06-19 07:07:50] AdmnGrpsRepository.INFO: ======= Start AdmnGrps Repository ================  
+[2023-06-19 07:07:50] AdmnGrpsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687150936,"exp":1687237336}}  
+[2023-06-19 07:07:50] AdmnGrpModel.INFO: Query : CALL SP_GroupConfig('0', '0', 0, '', 
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-19 07:07:50] AdmnGrpModel.INFO: Group List Avaliable Group list count : 30  
+[2023-06-19 07:07:50] AdmnGrpsRepository.INFO: ======= End AdmnGrps Repository ================  
+[2023-06-19 07:08:12] AdmnGrpsRepository.INFO: ======= Start AdmnGrps Repository ================  
+[2023-06-19 07:08:12] AdmnGrpModel.INFO: Query : CALL SP_GroupConfig('0', '0', 30, '', 
+            1, '', 0, '', 0, '', '', 'GETONE')  
+[2023-06-19 07:08:12] AdmnGrpsRepository.INFO: ======= End AdmnGrps Repository ================  
+[2023-06-19 07:09:36] AdmnGrpsRepository.INFO: ======= Start AdmnGrps Repository ================  
+[2023-06-19 07:09:36] AdmnGrpsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687150936,"exp":1687237336}}  
+[2023-06-19 07:09:36] AdmnGrpModel.INFO: Query : CALL SP_GroupConfig('0', '0', 0, '', 
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-19 07:09:36] AdmnGrpModel.INFO: Group List Avaliable Group list count : 30  
+[2023-06-19 07:09:36] AdmnGrpsRepository.INFO: ======= End AdmnGrps Repository ================  
+[2023-06-19 07:09:38] AdmnGrpsRepository.INFO: ======= Start AdmnGrps Repository ================  
+[2023-06-19 07:09:38] AdmnGrpsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687150936,"exp":1687237336}}  
+[2023-06-19 07:09:38] AdmnGrpModel.INFO: Query : CALL SP_GroupConfig('0', '0', 0, '', 
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-19 07:09:38] AdmnGrpModel.INFO: Group List Avaliable Group list count : 30  
+[2023-06-19 07:09:38] AdmnGrpsRepository.INFO: ======= End AdmnGrps Repository ================  
+[2023-06-19 08:35:26] AdmnGrpsRepository.INFO: ======= Start AdmnGrps Repository ================  
+[2023-06-19 08:35:26] AdmnGrpsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687150936,"exp":1687237336}}  
+[2023-06-19 08:35:26] AdmnGrpModel.INFO: Query : CALL SP_GroupConfig('0', '0', 0, '', 
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-19 08:35:26] AdmnGrpModel.INFO: Group List Avaliable Group list count : 30  
+[2023-06-19 08:35:26] AdmnGrpsRepository.INFO: ======= End AdmnGrps Repository ================  
+[2023-06-19 08:46:43] AdmnGrpsRepository.INFO: ======= Start AdmnGrps Repository ================  
+[2023-06-19 08:46:43] AdmnGrpsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687150936,"exp":1687237336}}  
+[2023-06-19 08:46:43] AdmnGrpModel.INFO: Query : CALL SP_GroupConfig('0', '0', 0, '', 
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-19 08:46:43] AdmnGrpModel.INFO: Group List Avaliable Group list count : 30  
+[2023-06-19 08:46:43] AdmnGrpsRepository.INFO: ======= End AdmnGrps Repository ================  
+[2023-06-19 08:46:55] AdmnGrpsRepository.INFO: ======= Start AdmnGrps Repository ================  
+[2023-06-19 08:46:55] AdmnGrpsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687150936,"exp":1687237336}}  
+[2023-06-19 08:46:55] AdmnGrpModel.INFO: Query : CALL SP_GroupConfig('0', '0', 0, '', 
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-19 08:46:55] AdmnGrpModel.INFO: Group List Avaliable Group list count : 30  
+[2023-06-19 08:46:55] AdmnGrpsRepository.INFO: ======= End AdmnGrps Repository ================  
+[2023-06-19 08:47:13] AdmnGrpsRepository.INFO: ======= Start AdmnGrps Repository ================  
+[2023-06-19 08:47:13] AdmnGrpsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687150936,"exp":1687237336}}  
+[2023-06-19 08:47:13] AdmnGrpModel.INFO: Query : CALL SP_GroupConfig('0', '0', 0, '', 
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-19 08:47:13] AdmnGrpModel.INFO: Group List Avaliable Group list count : 30  
+[2023-06-19 08:47:13] AdmnGrpsRepository.INFO: ======= End AdmnGrps Repository ================  
+[2023-06-19 08:47:17] AdmnGrpsRepository.INFO: ======= Start AdmnGrps Repository ================  
+[2023-06-19 08:47:17] AdmnGrpsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687150936,"exp":1687237336}}  
+[2023-06-19 08:47:17] AdmnGrpModel.INFO: Query : CALL SP_GroupConfig('0', '0', 0, '', 
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-19 08:47:17] AdmnGrpModel.INFO: Group List Avaliable Group list count : 30  
+[2023-06-19 08:47:17] AdmnGrpsRepository.INFO: ======= End AdmnGrps Repository ================  
+[2023-06-19 08:49:48] AdmnGrpsRepository.INFO: ======= Start AdmnGrps Repository ================  
+[2023-06-19 08:49:48] AdmnGrpsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687150936,"exp":1687237336}}  
+[2023-06-19 08:49:48] AdmnGrpModel.INFO: Query : CALL SP_GroupConfig('0', '0', 0, '', 
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-19 08:49:48] AdmnGrpModel.INFO: Group List Avaliable Group list count : 30  
+[2023-06-19 08:49:48] AdmnGrpsRepository.INFO: ======= End AdmnGrps Repository ================  
+[2023-06-19 08:49:50] AdmnGrpsRepository.INFO: ======= Start AdmnGrps Repository ================  
+[2023-06-19 08:49:50] AdmnGrpsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687150936,"exp":1687237336}}  
+[2023-06-19 08:49:50] AdmnGrpModel.INFO: Query : CALL SP_GroupConfig('0', '0', 0, '', 
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-19 08:49:50] AdmnGrpModel.INFO: Group List Avaliable Group list count : 30  
+[2023-06-19 08:49:50] AdmnGrpsRepository.INFO: ======= End AdmnGrps Repository ================  
+[2023-06-19 09:06:52] AdmnGrpsRepository.INFO: ======= Start AdmnGrps Repository ================  
+[2023-06-19 09:06:52] AdmnGrpsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687150936,"exp":1687237336}}  
+[2023-06-19 09:06:52] AdmnGrpModel.INFO: Query : CALL SP_GroupConfig('0', '0', 0, '', 
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-19 09:06:52] AdmnGrpModel.INFO: Group List Avaliable Group list count : 30  
+[2023-06-19 09:06:52] AdmnGrpsRepository.INFO: ======= End AdmnGrps Repository ================  
+[2023-06-19 09:07:19] AdmnGrpsRepository.INFO: ======= Start AdmnGrps Repository ================  
+[2023-06-19 09:07:19] AdmnGrpsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687150936,"exp":1687237336}}  
+[2023-06-19 09:07:19] AdmnGrpModel.INFO: Query : CALL SP_GroupConfig('0', '0', 0, '', 
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-19 09:07:19] AdmnGrpModel.INFO: Group List Avaliable Group list count : 30  
+[2023-06-19 09:07:19] AdmnGrpsRepository.INFO: ======= End AdmnGrps Repository ================  
+[2023-06-19 09:08:09] AdmnGrpsRepository.INFO: ======= Start AdmnGrps Repository ================  
+[2023-06-19 09:08:09] AdmnGrpsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687150936,"exp":1687237336}}  
+[2023-06-19 09:08:09] AdmnGrpModel.INFO: Query : CALL SP_GroupConfig('0', '0', 0, '', 
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-19 09:08:09] AdmnGrpModel.INFO: Group List Avaliable Group list count : 30  
+[2023-06-19 09:08:09] AdmnGrpsRepository.INFO: ======= End AdmnGrps Repository ================  
+[2023-06-19 09:08:21] AdmnGrpsRepository.INFO: ======= Start AdmnGrps Repository ================  
+[2023-06-19 09:08:21] AdmnGrpsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687150936,"exp":1687237336}}  
+[2023-06-19 09:08:21] AdmnGrpModel.INFO: Query : CALL SP_GroupConfig('0', '0', 0, '', 
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-19 09:08:21] AdmnGrpModel.INFO: Group List Avaliable Group list count : 30  
+[2023-06-19 09:08:21] AdmnGrpsRepository.INFO: ======= End AdmnGrps Repository ================  
+[2023-06-19 09:08:22] AdmnGrpsRepository.INFO: ======= Start AdmnGrps Repository ================  
+[2023-06-19 09:08:22] AdmnGrpsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687150936,"exp":1687237336}}  
+[2023-06-19 09:08:22] AdmnGrpModel.INFO: Query : CALL SP_GroupConfig('0', '0', 0, '', 
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-19 09:08:22] AdmnGrpModel.INFO: Group List Avaliable Group list count : 30  
+[2023-06-19 09:08:22] AdmnGrpsRepository.INFO: ======= End AdmnGrps Repository ================  
+[2023-06-19 09:08:24] AdmnGrpsRepository.INFO: ======= Start AdmnGrps Repository ================  
+[2023-06-19 09:08:24] AdmnGrpsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687150936,"exp":1687237336}}  
+[2023-06-19 09:08:24] AdmnGrpModel.INFO: Query : CALL SP_GroupConfig('0', '0', 0, '', 
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-19 09:08:24] AdmnGrpModel.INFO: Group List Avaliable Group list count : 30  
+[2023-06-19 09:08:24] AdmnGrpsRepository.INFO: ======= End AdmnGrps Repository ================  
+[2023-06-19 09:08:29] AdmnGrpsRepository.INFO: ======= Start AdmnGrps Repository ================  
+[2023-06-19 09:08:29] AdmnGrpsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687150936,"exp":1687237336}}  
+[2023-06-19 09:08:29] AdmnGrpModel.INFO: Query : CALL SP_GroupConfig('0', '0', 0, '', 
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-19 09:08:29] AdmnGrpModel.INFO: Group List Avaliable Group list count : 30  
+[2023-06-19 09:08:29] AdmnGrpsRepository.INFO: ======= End AdmnGrps Repository ================  
+[2023-06-19 09:08:47] AdmnGrpsRepository.INFO: ======= Start AdmnGrps Repository ================  
+[2023-06-19 09:08:47] AdmnGrpsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687150936,"exp":1687237336}}  
+[2023-06-19 09:08:47] AdmnGrpModel.INFO: Query : CALL SP_GroupConfig('0', '0', 0, '', 
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-19 09:08:47] AdmnGrpModel.INFO: Group List Avaliable Group list count : 30  
+[2023-06-19 09:08:47] AdmnGrpsRepository.INFO: ======= End AdmnGrps Repository ================  
+[2023-06-19 09:35:49] AdmnGrpsRepository.INFO: ======= Start AdmnGrps Repository ================  
+[2023-06-19 09:35:49] AdmnGrpsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687150936,"exp":1687237336}}  
+[2023-06-19 09:35:49] AdmnGrpModel.INFO: Query : CALL SP_GroupConfig('0', '0', 0, '', 
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-19 09:35:49] AdmnGrpModel.INFO: Group List Avaliable Group list count : 30  
+[2023-06-19 09:35:49] AdmnGrpsRepository.INFO: ======= End AdmnGrps Repository ================  
+[2023-06-19 09:35:51] AdmnGrpsRepository.INFO: ======= Start AdmnGrps Repository ================  
+[2023-06-19 09:35:51] AdmnGrpsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687150936,"exp":1687237336}}  
+[2023-06-19 09:35:51] AdmnGrpModel.INFO: Query : CALL SP_GroupConfig('0', '0', 0, '', 
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-19 09:35:51] AdmnGrpModel.INFO: Group List Avaliable Group list count : 30  
+[2023-06-19 09:35:51] AdmnGrpsRepository.INFO: ======= End AdmnGrps Repository ================  
+[2023-06-19 11:36:29] AdmnGrpsRepository.INFO: ======= Start AdmnGrps Repository ================  
+[2023-06-19 11:36:29] AdmnGrpsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687150936,"exp":1687237336}}  
+[2023-06-19 11:36:29] AdmnGrpModel.INFO: Query : CALL SP_GroupConfig('0', '0', 0, '', 
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-19 11:36:29] AdmnGrpModel.INFO: Group List Avaliable Group list count : 30  
+[2023-06-19 11:36:29] AdmnGrpsRepository.INFO: ======= End AdmnGrps Repository ================  
+[2023-06-19 11:36:34] AdmnGrpsRepository.INFO: ======= Start AdmnGrps Repository ================  
+[2023-06-19 11:36:34] AdmnGrpsRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687150936,"exp":1687237336}}  
+[2023-06-19 11:36:34] AdmnGrpModel.INFO: Query : CALL SP_GroupConfig('0', '0', 0, '', 
+            1, '', 10, '0', 
+            0, '', 'DESC', 'GETALL')  
+[2023-06-19 11:36:34] AdmnGrpModel.INFO: Group List Avaliable Group list count : 30  
+[2023-06-19 11:36:34] AdmnGrpsRepository.INFO: ======= End AdmnGrps Repository ================  

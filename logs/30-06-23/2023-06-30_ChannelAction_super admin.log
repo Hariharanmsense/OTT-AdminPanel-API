@@ -1,0 +1,18 @@
+[2023-06-30 05:22:51] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-30 05:22:51] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-30 05:22:54] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-30 05:22:54] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-30 05:22:56] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-30 05:22:56] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-30 05:23:16] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-30 05:23:16] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-30 05:23:20] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-30 05:23:20] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-30 05:24:25] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-30 05:24:25] ChannelRepository.INFO: Input Data : {"channelname":"Text","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688102542,"exp":1688188942}}  
+[2023-06-30 05:24:25] ChannelRepository.INFO: Update Status : {"msg":"Channel Updated SuccessFully","status":"Success"}  
+[2023-06-30 05:24:25] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-30 05:24:42] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-30 05:24:42] ChannelRepository.INFO: Input Data : {"channelname":"Text","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1688102542,"exp":1688188942}}  
+[2023-06-30 05:24:43] ChannelRepository.INFO: Update Status : {"msg":"Channel Updated SuccessFully","status":"Success"}  
+[2023-06-30 05:24:43] ChannelRepository.INFO: ======= End Channel Repository ================  

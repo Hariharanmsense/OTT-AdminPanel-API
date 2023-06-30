@@ -1,0 +1,9 @@
+{
+    "HomePageDetails": {
+        "logo": "public/uploads/Template/4/6/Logo.png",
+        "bg_img": "public/uploads/Template/4/6/Background.jpeg",
+        "welcome": "",
+        "welcome_txt": "welcome message",
+        "menu": []
+    }
+}

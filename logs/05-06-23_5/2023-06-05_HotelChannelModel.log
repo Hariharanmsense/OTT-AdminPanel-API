@@ -1,0 +1,24 @@
+[2023-06-05 13:12:49] HotelChannelAction.INFO: ======= Start HotelChannel Action (ASSIGN MENUS) ================  
+[2023-06-05 13:12:49] HotelChannelAction.INFO: method : POST  
+[2023-06-05 13:12:49] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-05 13:12:49] HotelChannelAction.INFO: Input Data : {"hotelid":1,"channelid":"1,2,3,4,5","channelcategory":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685955936,"exp":1686042336}}  
+[2023-06-05 13:12:49] HotelChannelAction.INFO: Insert Status : SUCCESS  
+[2023-06-05 13:12:49] HotelChannelAction.INFO: ======= END HotelChannel Action (ASSING MENUS) ================  
+[2023-06-05 13:14:15] HotelChannelAction.INFO: ======= Start HotelChannel Action (ASSIGN MENUS) ================  
+[2023-06-05 13:14:15] HotelChannelAction.INFO: method : POST  
+[2023-06-05 13:14:15] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-05 13:14:15] HotelChannelAction.INFO: Input Data : {"hotelid":1,"channelid":"1,2,3,4,5","channelcategory":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685955936,"exp":1686042336}}  
+[2023-06-05 13:14:15] HotelChannelAction.INFO: Insert Status : SUCCESS  
+[2023-06-05 13:14:15] HotelChannelAction.INFO: ======= END HotelChannel Action (ASSING MENUS) ================  
+[2023-06-05 13:14:40] HotelChannelAction.INFO: ======= Start HotelChannel Action (ASSIGN MENUS) ================  
+[2023-06-05 13:14:40] HotelChannelAction.INFO: method : POST  
+[2023-06-05 13:14:40] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-05 13:14:40] HotelChannelAction.INFO: Input Data : {"hotelid":1,"channelid":"1,2,3,4,5","channelcategory":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685955936,"exp":1686042336}}  
+[2023-06-05 13:14:40] HotelChannelAction.INFO: Insert Status : SUCCESS  
+[2023-06-05 13:14:40] HotelChannelAction.INFO: ======= END HotelChannel Action (ASSING MENUS) ================  
+[2023-06-05 13:30:50] HotelChannelAction.INFO: ======= Start HotelChannel Action (ASSIGN MENUS) ================  
+[2023-06-05 13:30:50] HotelChannelAction.INFO: method : POST  
+[2023-06-05 13:30:50] HotelChannelAction.INFO: contentType : application/json  
+[2023-06-05 13:30:50] HotelChannelAction.INFO: Input Data : {"hotelid":1,"channelid":"1,2,3,4,5","channelcategory":1,"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1685955936,"exp":1686042336}}  
+[2023-06-05 13:30:50] HotelChannelAction.INFO: Insert Status : SUCCESS  
+[2023-06-05 13:30:50] HotelChannelAction.INFO: ======= END HotelChannel Action (ASSING MENUS) ================  

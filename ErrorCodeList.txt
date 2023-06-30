@@ -1,0 +1,4 @@
+401 - Unauthorized Error 
+201 - Required 
+200 - success
+500 - internal error

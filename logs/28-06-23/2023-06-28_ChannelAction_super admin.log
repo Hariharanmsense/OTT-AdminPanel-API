@@ -1,0 +1,32 @@
+[2023-06-28 10:56:15] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-28 10:56:15] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-28 10:56:21] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-28 10:56:21] ChannelRepository.INFO: Input Data : {"channelname":"test23","channelimg":"","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687930001,"exp":1688016401}}  
+[2023-06-28 10:56:21] ChannelRepository.INFO: Update Status : {"msg":"Channel Updated SuccessFully","status":"Success"}  
+[2023-06-28 10:56:21] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-28 10:57:43] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-28 10:57:43] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-28 10:57:51] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-28 10:57:51] ChannelRepository.INFO: Input Data : {"channelname":"Didit","channelimg":"","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687930001,"exp":1688016401}}  
+[2023-06-28 10:57:51] ChannelRepository.INFO: Update Status : {"msg":"Channel Updated SuccessFully","status":"Success"}  
+[2023-06-28 10:57:51] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-28 10:58:11] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-28 10:58:11] ChannelRepository.INFO: Input Data : {"channelname":"1234543","channelimg":"","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687949549,"exp":1688035949}}  
+[2023-06-28 10:58:11] ChannelRepository.INFO: Update Status : {"msg":"Channel Updated SuccessFully","status":"Success"}  
+[2023-06-28 10:58:11] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-28 11:07:43] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-28 11:07:43] ChannelRepository.INFO: Input Data : {"channelname":"Check channel","channelimg":"","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687949549,"exp":1688035949}}  
+[2023-06-28 11:07:43] ChannelRepository.INFO: Update Status : {"msg":"Channel Updated SuccessFully","status":"Success"}  
+[2023-06-28 11:07:43] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-28 13:17:07] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-28 13:17:07] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-28 13:46:41] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-28 13:46:41] ChannelRepository.INFO: Input Data : {"channelname":"21312211","channelimg":"","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687955952,"exp":1688042352}}  
+[2023-06-28 13:46:41] ChannelRepository.INFO: Update Status : {"msg":"Channel Updated SuccessFully","status":"Success"}  
+[2023-06-28 13:46:41] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-28 13:46:46] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-28 13:46:46] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-28 13:46:49] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-28 13:46:49] ChannelRepository.INFO: ======= End Channel Repository ================  
+[2023-06-28 13:46:52] ChannelRepository.INFO: ======= Start Channel Repository ================  
+[2023-06-28 13:46:52] ChannelRepository.INFO: ======= End Channel Repository ================  

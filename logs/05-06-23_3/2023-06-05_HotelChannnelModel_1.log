@@ -1,0 +1,54 @@
+[2023-06-05 13:11:58] HotelChannelModel.INFO: temp channelgroup deleted successfully  
+[2023-06-05 13:11:58] HotelChannelModel.INFO: Insert Query :  INSERT INTO tempchannelgroup(channelid,categoryid, hotelid) 
+							  VALUES('1', '1', '1')   
+[2023-06-05 13:11:58] HotelChannelModel.INFO: inserted successfully  
+[2023-06-05 13:11:58] HotelChannelModel.INFO: Insert Query :  INSERT INTO tempchannelgroup(channelid,categoryid, hotelid) 
+							  VALUES('2', '1', '1')   
+[2023-06-05 13:11:58] HotelChannelModel.INFO: inserted successfully  
+[2023-06-05 13:11:58] HotelChannelModel.INFO: Insert Query :  INSERT INTO tempchannelgroup(channelid,categoryid, hotelid) 
+							  VALUES('3', '1', '1')   
+[2023-06-05 13:11:58] HotelChannelModel.INFO: inserted successfully  
+[2023-06-05 13:11:58] HotelChannelModel.INFO: Insert Query :  INSERT INTO tempchannelgroup(channelid,categoryid, hotelid) 
+							  VALUES('4', '1', '1')   
+[2023-06-05 13:11:58] HotelChannelModel.INFO: inserted successfully  
+[2023-06-05 13:11:58] HotelChannelModel.INFO: Insert Query :  INSERT INTO tempchannelgroup(channelid,categoryid, hotelid) 
+							  VALUES('5', '1', '1')   
+[2023-06-05 13:11:58] HotelChannelModel.INFO: inserted successfully  
+[2023-06-05 13:11:58] HotelChannelModel.INFO: Query : CALL SP_Assignchannels( 1, 1, 'ADD')   
+[2023-06-05 13:11:58] HotelChannelModel.INFO: Insert Return : {"ErrorCode":"00","Result":"SUCCESS"}  
+[2023-06-05 13:12:02] HotelChannelModel.INFO: temp channelgroup deleted successfully  
+[2023-06-05 13:12:02] HotelChannelModel.INFO: Insert Query :  INSERT INTO tempchannelgroup(channelid,categoryid, hotelid) 
+							  VALUES('1', '1', '1')   
+[2023-06-05 13:12:02] HotelChannelModel.INFO: inserted successfully  
+[2023-06-05 13:12:02] HotelChannelModel.INFO: Insert Query :  INSERT INTO tempchannelgroup(channelid,categoryid, hotelid) 
+							  VALUES('2', '1', '1')   
+[2023-06-05 13:12:02] HotelChannelModel.INFO: inserted successfully  
+[2023-06-05 13:12:02] HotelChannelModel.INFO: Insert Query :  INSERT INTO tempchannelgroup(channelid,categoryid, hotelid) 
+							  VALUES('3', '1', '1')   
+[2023-06-05 13:12:02] HotelChannelModel.INFO: inserted successfully  
+[2023-06-05 13:12:02] HotelChannelModel.INFO: Insert Query :  INSERT INTO tempchannelgroup(channelid,categoryid, hotelid) 
+							  VALUES('4', '1', '1')   
+[2023-06-05 13:12:02] HotelChannelModel.INFO: inserted successfully  
+[2023-06-05 13:12:02] HotelChannelModel.INFO: Insert Query :  INSERT INTO tempchannelgroup(channelid,categoryid, hotelid) 
+							  VALUES('5', '1', '1')   
+[2023-06-05 13:12:02] HotelChannelModel.INFO: inserted successfully  
+[2023-06-05 13:12:02] HotelChannelModel.INFO: Query : CALL SP_Assignchannels( 1, 1, 'ADD')   
+[2023-06-05 13:12:02] HotelChannelModel.INFO: Insert Return : {"ErrorCode":"00","Result":"SUCCESS"}  
+[2023-06-05 13:12:03] HotelChannelModel.INFO: temp channelgroup deleted successfully  
+[2023-06-05 13:12:03] HotelChannelModel.INFO: Insert Query :  INSERT INTO tempchannelgroup(channelid,categoryid, hotelid) 
+							  VALUES('1', '1', '1')   
+[2023-06-05 13:12:03] HotelChannelModel.INFO: inserted successfully  
+[2023-06-05 13:12:03] HotelChannelModel.INFO: Insert Query :  INSERT INTO tempchannelgroup(channelid,categoryid, hotelid) 
+							  VALUES('2', '1', '1')   
+[2023-06-05 13:12:03] HotelChannelModel.INFO: inserted successfully  
+[2023-06-05 13:12:03] HotelChannelModel.INFO: Insert Query :  INSERT INTO tempchannelgroup(channelid,categoryid, hotelid) 
+							  VALUES('3', '1', '1')   
+[2023-06-05 13:12:03] HotelChannelModel.INFO: inserted successfully  
+[2023-06-05 13:12:03] HotelChannelModel.INFO: Insert Query :  INSERT INTO tempchannelgroup(channelid,categoryid, hotelid) 
+							  VALUES('4', '1', '1')   
+[2023-06-05 13:12:03] HotelChannelModel.INFO: inserted successfully  
+[2023-06-05 13:12:03] HotelChannelModel.INFO: Insert Query :  INSERT INTO tempchannelgroup(channelid,categoryid, hotelid) 
+							  VALUES('5', '1', '1')   
+[2023-06-05 13:12:03] HotelChannelModel.INFO: inserted successfully  
+[2023-06-05 13:12:03] HotelChannelModel.INFO: Query : CALL SP_Assignchannels( 1, 1, 'ADD')   
+[2023-06-05 13:12:03] HotelChannelModel.INFO: Insert Return : {"ErrorCode":"00","Result":"SUCCESS"}  
