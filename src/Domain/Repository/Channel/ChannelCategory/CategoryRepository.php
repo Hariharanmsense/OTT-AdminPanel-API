@@ -29,11 +29,13 @@ class CategoryRepository extends BaseRepository implements CategoryService
 
     public function ViewCategorylist($inputdata){
         $userName = isset($inputdata['decoded']->userName)?$inputdata['decoded']->userName:"";
-        $objLogger = $this->loggerFactory->addFileHandler('CategoryModel_'.$userName.'.log')->createInstance('CategoryRepository');
+        $objLogger = $this->loggerFactory->getFileObject('CategoryRepository_'.$userName.'.log', 'ViewCategorylist');
+        $objLogger->info("======= Start Channel Category Repository (ViewCategorylist) ================");     
         try{
             //$brandData = new \stdClass();
             
             $userid = isset($inputdata['decoded']->id)?$inputdata['decoded']->id:"";
+            $hotelid = isset($inputdata['hotelid'])?$inputdata['hotelid']:"0";
 
             if(empty($userid)){
                 throw new ChannelException('User id required', 201);
@@ -42,7 +44,9 @@ class CategoryRepository extends BaseRepository implements CategoryService
             
             $ChannelCategoryModel = new ChannelCategoryModel($this->loggerFactory, $this->dBConFactory);
 			
-            $viewChannel = $ChannelCategoryModel->viewCategoryllist($userid,$userName);
+            $viewChannel = $ChannelCategoryModel->viewCategoryllist($hotelid,$userid,$userName);
+
+            $objLogger->info("======= END Channel Category Repository (ViewCategorylist) ================");
 			
 
             return $viewChannel;
@@ -50,9 +54,9 @@ class CategoryRepository extends BaseRepository implements CategoryService
 
             $objLogger->error("Error Code : ".$ex->getCode()."Error Message : ".$ex->getMessage());
             $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
-            $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+            $objLogger->info("======= END Channel Category Repository (ViewCategorylist) ================");
             if(!empty($ex->getMessage())){
-                throw new ChannelException($ex->getMessage(), 401);
+                throw new ChannelException($ex->getMessage(), 201);
             }
             else {
                 throw new ChannelException('Channel credentials invalid', 201);
@@ -61,7 +65,8 @@ class CategoryRepository extends BaseRepository implements CategoryService
     }
     public function create($inputdata){
         $userName = isset($inputdata['decoded']->userName)?$inputdata['decoded']->userName:"";
-        $objLogger = $this->loggerFactory->addFileHandler('CategoryModel_'.$userName.'.log')->createInstance('CategoryRepository');
+        $objLogger = $this->loggerFactory->getFileObject('CategoryRepository_'.$userName.'.log', 'create');
+        $objLogger->info("======= Start Channel Category Repository (create) ================");  
         try{
             //$addBrandData = new \stdClass();
 
@@ -82,14 +87,15 @@ class CategoryRepository extends BaseRepository implements CategoryService
  
             $AddChannelCategoryModel = new ChannelCategoryModel($this->loggerFactory, $this->dBConFactory);
             $user = $AddChannelCategoryModel->create($hotelid,$categoryname,$userid,$userName);
+            $objLogger->info("======= End Channel Category Repository (create) ================");
             return $user;
         } catch (ChannelException $ex) {
 
             $objLogger->error("Error Code : ".$ex->getCode()."Error Message : ".$ex->getMessage());
             $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
-            $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+            $objLogger->info("======= End Channel Category Repository (create) ================");
             if(!empty($ex->getMessage())){
-                throw new ChannelException($ex->getMessage(), 401);
+                throw new ChannelException($ex->getMessage(), 201);
             }
             else {
                 throw new ChannelException('Channel credentials invalid', 201);
@@ -100,21 +106,23 @@ class CategoryRepository extends BaseRepository implements CategoryService
 
     public function getOneCategory($categoryid,$userid,$userName){
 
-        $objLogger = $this->loggerFactory->addFileHandler('CategoryModel_'.$userName.'.log')->createInstance('CategoryRepository');
+        $objLogger = $this->loggerFactory->getFileObject('CategoryRepository_'.$userName.'.log', 'getOneCategory');
+        $objLogger->info("======= Start Channel Category Repository (getOneCategory) ================");  
     
         try{    
 
         $editModel = new ChannelCategoryModel($this->loggerFactory, $this->dBConFactory);
         $edituser = $editModel->getoneModel($categoryid,$userid,$userName);
+        $objLogger->info("======= END Channel Category Repository (getOneCategory) ================");
         return $edituser;
 
     } catch (ChannelException $ex) {
 
         $objLogger->error("Error Code : ".$ex->getCode()."Error Message : ".$ex->getMessage());
         $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
-        $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+        $objLogger->info("======= END Channel Category Repository (getOneCategory) ================");
         if(!empty($ex->getMessage())){
-            throw new ChannelException($ex->getMessage(), 401);
+            throw new ChannelException($ex->getMessage(), 201);
         }
         else {
             throw new ChannelException('Channel credentials invalid', 201);
@@ -125,7 +133,8 @@ class CategoryRepository extends BaseRepository implements CategoryService
 
     public function update($inputdata,$categoryid,$userid){
             $userName = isset($inputdata['decoded']->userName)?$inputdata['decoded']->userName:"";
-            $objLogger = $this->loggerFactory->addFileHandler('CategoryModel_'.$userName.'.log')->createInstance('CategoryRepository');
+            $objLogger = $this->loggerFactory->getFileObject('CategoryRepository_'.$userName.'.log', 'update');
+            $objLogger->info("======= Start Channel Category Repository (update) ================");  
         
             try{
             
@@ -145,15 +154,15 @@ class CategoryRepository extends BaseRepository implements CategoryService
             
             $ChannelCategoryModel = new ChannelCategoryModel($this->loggerFactory, $this->dBConFactory);
             $updateuser = $ChannelCategoryModel->update($categoryid,$hotelid,$categoryname,$userid,$userName);
-            //$UpdataData->userData = $updateuser;
+            $objLogger->info("======= END Channel Category Repository (update) ================");
             return $updateuser;
         } catch (ChannelException $ex) {
 
             $objLogger->error("Error Code : ".$ex->getCode()."Error Message : ".$ex->getMessage());
             $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
-            $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+            $objLogger->info("======= END Channel Category Repository (update) ================");
             if(!empty($ex->getMessage())){
-                throw new ChannelException($ex->getMessage(), 401);
+                throw new ChannelException($ex->getMessage(), 201);
             }
             else {
                 throw new ChannelException('Channel credentials invalid', 201);
@@ -163,7 +172,8 @@ class CategoryRepository extends BaseRepository implements CategoryService
 
     public function delete($categoryid,$userid,$userName){
         
-        $objLogger = $this->loggerFactory->addFileHandler('CategoryModel_'.$userName.'.log')->createInstance('CategoryRepository');
+        $objLogger = $this->loggerFactory->getFileObject('CategoryRepository_'.$userName.'.log', 'delete');
+        $objLogger->info("======= Start Channel Category Repository (delete) ================");  
     
         try{
 
@@ -173,15 +183,16 @@ class CategoryRepository extends BaseRepository implements CategoryService
 
             $ChannelCategoryModel = new ChannelCategoryModel($this->loggerFactory, $this->dBConFactory);
             $deleteDetails = $ChannelCategoryModel->delete($categoryid,$userid,$userName);
+            $objLogger->info("======= END Channel Category Repository (delete) ================");
             //$delteData->userData = $deleteDetails;
             return $deleteDetails;
         } catch (ChannelException $ex) {
 
             $objLogger->error("Error Code : ".$ex->getCode()."Error Message : ".$ex->getMessage());
             $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
-            $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+            $objLogger->info("======= END Channel Category Repository (delete) ================");
             if(!empty($ex->getMessage())){
-                throw new ChannelException($ex->getMessage(), 401);
+                throw new ChannelException($ex->getMessage(), 201);
             }
             else {
                 throw new ChannelException('Channel credentials invalid', 201);

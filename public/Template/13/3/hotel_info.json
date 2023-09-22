@@ -1,0 +1,21 @@
+{
+    "hotelInformation": {
+        "hotelid": "13",
+        "templateid": "3",
+        "logo": "",
+        "home_bgimg": "",
+        "bgimg": "public/uploads/template/13/3/Hotel_info/Hotel_Info_Background.png",
+        "welcome": "heading",
+        "welcome_txt": "message",
+        "menu": [
+            {
+                "title": "head",
+                "img": "public/uploads/template/13/3/Hotel_info/head.png"
+            },
+            {
+                "title": "head2",
+                "img": ""
+            }
+        ]
+    }
+}

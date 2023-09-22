@@ -1,0 +1,23 @@
+{
+    "guestServices": {
+        "hotelid": "13",
+        "templateid": "3",
+        "logo": "",
+        "home_bgimg": "",
+        "bgimg": "public/uploads/template/13/3/Guest_service/Guest_Service_Background.png",
+        "title": "welcome",
+        "subtext": "welcome me",
+        "menu": [
+            {
+                "title": "head",
+                "img": "public/uploads/template/13/3/Guest_service/head.png",
+                "content": "content"
+            },
+            {
+                "title": "head1",
+                "img": "",
+                "content": "content2"
+            }
+        ]
+    }
+}

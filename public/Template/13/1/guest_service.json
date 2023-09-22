@@ -1,0 +1,33 @@
+{
+    "guestServices": {
+        "hotelid": "13",
+        "templateid": "1",
+        "logo": "public/uploads/template/13/1/Logo.jpg",
+        "home_bgimg": "public/uploads/template/13/1/Background.jpg",
+        "bgimg": "",
+        "title": "dgrtgrtrtyrrr1212",
+        "subtext": "rtrtrtr343",
+        "menu": [
+            {
+                "title": "hj2334",
+                "img": "public/uploads/template/13/1/Channels.png",
+                "content": "jhjhjhjhj"
+            },
+            {
+                "title": "ghghg",
+                "img": "public/uploads/template/13/1/Guest_service/ghghg.png",
+                "content": "ghghgh"
+            },
+            {
+                "title": "hh",
+                "img": "public/uploads/template/13/1/Screen_casting.png",
+                "content": "78"
+            },
+            {
+                "title": "htgh",
+                "img": "public/uploads/template/13/1/Guest_Services.png",
+                "content": "tgfh"
+            }
+        ]
+    }
+}

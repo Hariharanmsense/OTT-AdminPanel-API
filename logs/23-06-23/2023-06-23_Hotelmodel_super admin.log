@@ -1,8 +1,0 @@
-[2023-06-23 11:38:58] Hotelmodel.INFO: Query : call SP_AddandEditCustomer('VIEW','','','','','','',7,0,0)  
-[2023-06-23 11:50:14] Hotelmodel.INFO: Query : call SP_AddandEditCustomer('VIEW','','','','','','',7,0,0)  
-[2023-06-23 12:17:18] Hotelmodel.INFO: Query : call SP_AddandEditCustomer('VIEW','','','','','','',7,0,0)  
-[2023-06-23 13:06:14] Hotelmodel.INFO: Query : call SP_AddandEditCustomer('VIEW','','','','','','',7,0,0)  
-[2023-06-23 13:10:23] Hotelmodel.INFO: Query : call SP_AddandEditCustomer('VIEW','','','','','','',7,0,0)  
-[2023-06-23 13:11:32] Hotelmodel.INFO: Query : call SP_AddandEditCustomer('VIEW','','','','','','',7,0,0)  
-[2023-06-23 13:17:29] Hotelmodel.INFO: Query : call SP_AddandEditCustomer('VIEW','','','','','','',7,0,0)  
-[2023-06-23 13:45:10] Hotelmodel.INFO: Query : call SP_AddandEditCustomer('VIEW','','','','','','',7,0,0)  

@@ -1,0 +1,47 @@
+{
+    "HomePageDetails": {
+        "hotelid": "29",
+        "templateid": "2",
+        "logo": "public/uploads/template/29/2/Logo.png",
+        "bg_img": "public/uploads/template/29/2/Background.png",
+        "welcome": "",
+        "welcome_txt": "undefined",
+        "menu": [
+            {
+                "menuid": "2",
+                "title": "Bill View",
+                "img": "",
+                "pagelink": "",
+                "subtitle": ""
+            },
+            {
+                "menuid": "3",
+                "title": "Guest Messaging",
+                "img": "",
+                "pagelink": "",
+                "subtitle": ""
+            },
+            {
+                "menuid": "4",
+                "title": "Screen casting",
+                "img": "",
+                "pagelink": "",
+                "subtitle": ""
+            },
+            {
+                "menuid": "5",
+                "title": "Guest Services",
+                "img": "",
+                "pagelink": "",
+                "subtitle": ""
+            },
+            {
+                "menuid": "6",
+                "title": "Hotel Information",
+                "img": "",
+                "pagelink": "",
+                "subtitle": ""
+            }
+        ]
+    }
+}

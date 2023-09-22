@@ -1,8 +1,0 @@
-[2023-06-06 10:42:12] AdmnUsrModel.INFO: Query : CALL SP_AdmnUsrConfig('', '', 0, '', '', 'ramkarthi12@gmail.com', 0, 0, '','','','',
-            0, '', 0, '', 0, '', '', 'RESETUSEDETAIL')  
-[2023-06-06 11:09:29] AdmnUsrModel.INFO: Query : CALL SP_AdmnUsrConfig('', '', 0, '', '', 'ramkarthi12@gmail.com', 0, 0, '','','','',
-            0, '', 0, '', 0, '', '', 'RESETUSEDETAIL')  
-[2023-06-06 11:09:46] AdmnUsrModel.INFO: Query : CALL SP_AdmnUsrConfig('', '', 0, '', '', 'ramkarthi12@gmail.com', 0, 0, '','','','',
-            0, '', 0, '', 0, '', '', 'RESETUSEDETAIL')  
-[2023-06-06 11:10:26] AdmnUsrModel.INFO: Query : CALL SP_AdmnUsrConfig('', '', 0, '', '', 'ramkarthi12@gmail.com', 0, 0, '','','','',
-            0, '', 0, '', 0, '', '', 'RESETUSEDETAIL')  

@@ -1,0 +1,26 @@
+{
+    "HomePageDetails": {
+        "hotelid": "20",
+        "templateid": "6",
+        "logo": "",
+        "bg_img": "",
+        "welcome": "",
+        "welcome_txt": "undefined",
+        "menu": [
+            {
+                "menuid": "3",
+                "title": "Guest Messaging",
+                "img": "",
+                "pagelink": "",
+                "subtitle": ""
+            },
+            {
+                "menuid": "4",
+                "title": "Screen casting",
+                "img": "",
+                "pagelink": "",
+                "subtitle": ""
+            }
+        ]
+    }
+}

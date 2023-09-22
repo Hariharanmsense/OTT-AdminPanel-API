@@ -1,5 +1,0 @@
-[2023-06-06 10:57:48] CategoryAction.INFO: ======= Start Category Action (Single One) ================  
-[2023-06-06 10:57:48] CategoryAction.INFO: method : POST  
-[2023-06-06 10:57:48] CategoryAction.INFO: contentType : application/json  
-[2023-06-06 10:57:48] CategoryAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","iat":1686026828,"exp":1686113228}}  
-[2023-06-06 10:57:48] CategoryAction.INFO: ======= END Channel Action (CREATE) ================  

@@ -57,7 +57,7 @@ class AdmnMenuRepository extends BaseRepository implements AdmnMenuService
                 throw new AdmnMenuException($ex->getMessage(), $ex->getCode());
             }
             else {
-                throw new AdmnMenuException('Invalid Access', 401);
+                throw new AdmnMenuException('Invalid Access', 201);
             }
         }
     }

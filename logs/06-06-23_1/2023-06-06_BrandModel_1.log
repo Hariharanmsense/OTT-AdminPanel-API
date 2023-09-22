@@ -1,4 +1,0 @@
-[2023-06-06 10:07:05] BrandRepository.INFO: ======= Start Brand Repository  (EXCEL)================  
-[2023-06-06 10:07:05] BrandRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686045582,"exp":1686131982}}  
-[2023-06-06 10:07:07] BrandRepository.INFO: ======= Start Brand Repository  (EXCEL)================  
-[2023-06-06 10:07:07] BrandRepository.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686045582,"exp":1686131982}}  

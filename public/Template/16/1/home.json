@@ -1,0 +1,58 @@
+{
+    "HomePageDetails": {
+        "hotelid": "16",
+        "templateid": "1",
+        "logo": "public/uploads/template/16/1/Logo.png",
+        "bg_img": "public/uploads/template/16/1/Background.jpeg",
+        "welcome": "",
+        "welcome_txt": "Hai Everyo",
+        "featursemenu": [
+            {
+                "menuid": "1",
+                "title": "Channels"
+            },
+            {
+                "menuid": "2",
+                "title": "Bill View"
+            },
+            {
+                "menuid": "3",
+                "title": "Guest Messaging"
+            },
+            {
+                "menuid": "7",
+                "title": "Help"
+            }
+        ],
+        "menu": [
+            {
+                "menuid": "1",
+                "title": "Channels",
+                "img": "",
+                "subtitle": "Channel",
+                "orderby": "1"
+            },
+            {
+                "menuid": "2",
+                "title": "Bill View",
+                "img": "public/uploads/template/16/1/Channels.jpg",
+                "subtitle": "",
+                "orderby": "2"
+            },
+            {
+                "menuid": "7",
+                "title": "Help",
+                "img": "",
+                "subtitle": "",
+                "orderby": "3"
+            },
+            {
+                "menuid": "3",
+                "title": "Guest Messaging",
+                "img": "",
+                "subtitle": "",
+                "orderby": "4"
+            }
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "guestServices": {
+        "hotelid": "10",
+        "templateid": "6",
+        "logo": "",
+        "home_bgimg": "",
+        "bgimg": "",
+        "welcome": "undefined",
+        "welcome_txt": "undefined",
+        "menu": [
+            {
+                "title": "dsfd",
+                "img": "public/uploads/template/10/6/Hotel_info/dsfd.png",
+                "content": "undefined"
+            },
+            {
+                "title": "dfd",
+                "img": "public/uploads/template/10/6/Hotel_info/dfd.png",
+                "content": "undefined"
+            }
+        ]
+    }
+}

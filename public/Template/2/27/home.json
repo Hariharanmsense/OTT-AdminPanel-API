@@ -1,0 +1,37 @@
+{
+    "HomePageDetails": {
+        "hotelid": 2,
+        "templateid": 27,
+        "welcome": "",
+        "menu": [
+            {
+                "menuid": "1",
+                "title": "channel",
+                "img": "",
+                "pagelink": "",
+                "subtitle": ""
+            },
+            {
+                "menuid": "2",
+                "title": "hotel",
+                "img": "",
+                "pagelink": "",
+                "subtitle": ""
+            },
+            {
+                "menuid": "3",
+                "title": "Guest",
+                "img": "",
+                "pagelink": "",
+                "subtitle": ""
+            },
+            {
+                "menuid": "4",
+                "title": "Internet",
+                "img": "",
+                "pagelink": "",
+                "subtitle": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "HomePageDetails": {
+        "hotelid": "32",
+        "templateid": "2",
+        "logo": "public/uploads/template/32/2/Logo.png",
+        "bg_img": "",
+        "welcome": "",
+        "welcome_txt": "",
+        "menu": [
+            {
+                "menuid": "4",
+                "title": "Screen casting",
+                "img": "",
+                "pagelink": "",
+                "subtitle": ""
+            },
+            {
+                "menuid": "5",
+                "title": "Guest Services",
+                "img": "",
+                "pagelink": "",
+                "subtitle": ""
+            },
+            {
+                "menuid": "6",
+                "title": "Hotel Information",
+                "img": "",
+                "pagelink": "",
+                "subtitle": ""
+            }
+        ]
+    }
+}

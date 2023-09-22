@@ -1,0 +1,26 @@
+{
+    "HomePageDetails": {
+        "hotelid": "27",
+        "templateid": "2",
+        "logo": "",
+        "bg_img": "",
+        "welcome": "",
+        "welcome_txt": "",
+        "menu": [
+            {
+                "menuid": "1",
+                "title": "Home",
+                "img": "",
+                "pagelink": "",
+                "subtitle": ""
+            },
+            {
+                "menuid": "2",
+                "title": "Internet",
+                "img": "",
+                "pagelink": "",
+                "subtitle": ""
+            }
+        ]
+    }
+}

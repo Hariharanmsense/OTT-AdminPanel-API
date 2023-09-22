@@ -1,0 +1,33 @@
+{
+    "HomePageDetails": {
+        "hotelid": "35",
+        "templateid": "2",
+        "logo": "",
+        "bg_img": "",
+        "welcome": "",
+        "welcome_txt": "",
+        "menu": [
+            {
+                "menuid": "1",
+                "title": "Channels",
+                "img": "",
+                "pagelink": "",
+                "subtitle": ""
+            },
+            {
+                "menuid": "3",
+                "title": "Guest Messaging",
+                "img": "",
+                "pagelink": "",
+                "subtitle": ""
+            },
+            {
+                "menuid": "6",
+                "title": "Hotel Information",
+                "img": "",
+                "pagelink": "",
+                "subtitle": ""
+            }
+        ]
+    }
+}

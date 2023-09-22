@@ -16,7 +16,8 @@ class ChannelModel extends BaseModel
         $this->loggerFactory = $loggerFactory;
         $this->dBConFactory = $dBConFactory;
     }
-    
+	
+
     public function viewchannellist($userid,$username){
         $objLogger = $this->loggerFactory->addFileHandler($username.'_ChannelModel.log')->createInstance('ChannelModel');
         try 
@@ -70,7 +71,7 @@ class ChannelModel extends BaseModel
                     $imagename = $chnlnme.'.'.$ext;
 					
 					//$filepath = $parentUrl.'/'.$imagename;
-                    $parentUrl = "../public/uploads/Channels";
+                    $parentUrl = "../public/uploads/channels";
 					
 					$sqlQuery = "call SP_AddandEditChannelInfo('$action','$chnlnme','' ,0 ,$userid)";
 					$objLogger->info('Query : '.$sqlQuery);
@@ -84,7 +85,7 @@ class ChannelModel extends BaseModel
                         $imagename = $lastinsertid.'.'.$ext;
 					
 					
-					    $baseurl = "public/uploads/Channels/".$imagename;
+					    $baseurl = "public/uploads/channels/".$imagename;
                         $updateStatus = $this->updateImagepath($lastinsertid,$baseurl,$userName);
                         if($updateStatus){
                             $objLogger->info("Updated image Path : ".$updateStatus);
@@ -221,9 +222,9 @@ class ChannelModel extends BaseModel
 					$ext = pathinfo($channelimg->getClientFilename(), PATHINFO_EXTENSION);
 				//print_R($ext);die();
 				$imagename = $channelid.'.'.$ext;
-				$parentUrl = "../public/uploads/Channels";
+				$parentUrl = "../public/uploads/channels";
 				
-				$baseurl = "public/uploads/Channels/".$imagename;
+				$baseurl = "public/uploads/channels/".$imagename;
                 //$filepath = $parentUrl.'/'.$imagename;
 	
 				if ($channelimg->getError() === UPLOAD_ERR_OK) {

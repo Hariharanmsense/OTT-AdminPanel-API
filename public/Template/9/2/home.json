@@ -1,0 +1,28 @@
+{
+    "HomePageDetails": {
+        "hotelid": "9",
+        "templateid": "2",
+        "featursemenu": [
+            {
+                "menuid": "1",
+                "title": "Channels"
+            },
+            {
+                "menuid": "3",
+                "title": "Guest Messaging"
+            },
+            {
+                "menuid": "6",
+                "title": "Hotel Information"
+            },
+            {
+                "menuid": "7",
+                "title": "Help"
+            },
+            {
+                "menuid": "4",
+                "title": "Screen casting"
+            }
+        ]
+    }
+}

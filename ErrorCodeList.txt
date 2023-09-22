@@ -2,3 +2,4 @@
 201 - Required 
 200 - success
 500 - internal error
+205 - Mail Errors

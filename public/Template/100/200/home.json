@@ -1,0 +1,23 @@
+{
+    "HomePageDetails": {
+        "hotelid": "",
+        "templateid": "",
+        "logo": "",
+        "bg_img": "",
+        "welcome_txt": "",
+        "menu": [
+            {
+                "menuid": "1",
+                "title": "Bill View",
+                "img": "public/uploads/template/100/200/Bill_View",
+                "subtitle": "View Bill"
+            },
+            {
+                "menuid": "2",
+                "title": "Guest Message",
+                "img": "public/uploads/template/100/200/Guest_Message",
+                "subtitle": "Premium Guest View"
+            }
+        ]
+    }
+}

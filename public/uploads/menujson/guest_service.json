@@ -1,0 +1,49 @@
+{
+    "guestServices": {
+        "logo": "",
+        "home_bgimg": "",
+        "bgimg": "",
+        "title": "Guest Services",
+        "subtext": "Enjoy the best of Taj\u2019s hospitality at Taj Resort & Convention Centre, Goa & experience true grandeur when you stay at the luxurious suites & rooms in Goa at our luxury vertical resort near Dona Paula in Goa.",
+        "Services": [
+            {
+                "servicename": "Rooms",
+                "servicelogo": "images/guest-service/rooms.png",
+                "servicelink": "room.html",
+                "serviceInfo": "Enjoy the best of Taj\u2019s hospitality at Taj Resort & Convention Centre, Goa & experience true grandeur when you stay at the luxurio...."
+            },
+            {
+                "servicename": "Dining",
+                "servicelogo": "images/guest-service/dining.png",
+                "servicelink": "dining.html",
+                "serviceInfo": "Dining is a new high. The experience carries over from swanky restaurants to sun kissed terraces and imaginative menu. Look around and Di..."
+            },
+            {
+                "servicename": "Bill View",
+                "servicelogo": "images/guest-service/bill-view.png",
+                "servicelink": "bill-view.html",
+                "serviceInfo": "An itemized statement of fees incurred for room rental, room service, rented movies, wifi usage, and use of pay portion of the facility..."
+            },
+            {
+                "servicename": "Wellness",
+                "servicelogo": "images/guest-service/wellness.png",
+                "servicelink": "wellness.html",
+                "serviceInfo": "Elevate your senses with the J Wellness Circle, and holistic rejuvenation inspired by ancient Indian healing wisdom. Wrap yourself in soothing luxur..."
+            },
+            {
+                "servicename": "Event Space",
+                "servicelogo": "images/guest-service/banquets.png",
+                "servicelink": "banquet.html",
+                "serviceInfo": "Enter a cocktail of enviable spaces and modern design. After being greeted on arrival by vertical gardens and an elegant fo..."
+            },
+            {
+                "servicename": "Fitness",
+                "servicelogo": "images/guest-service/fitness.png",
+                "servicelink": "fitness.html",
+                "serviceInfo": "Before hitting the sauna or the enviable J Wellness Circle get your heart-pumping on top-of-the-line cardio and resistance-training equi..."
+            }
+        ],
+        "Footer": "images/footer.png",
+        "Remote": "images/navigate-home.png"
+    }
+}

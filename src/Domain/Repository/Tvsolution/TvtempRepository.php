@@ -76,10 +76,12 @@ class TvtempRepository extends BaseRepository implements TvtempService
         $objLogger = $this->loggerFactory->getFileObject('TvAction_'.$auditBy, 'TvtempRepository');
         $objLogger->info("======= Start TV Repository (Get All Feature List)================");
         try{
+			$featurelist = new \stdClass();
             $templatemodel = new TvtempModel($this->loggerFactory, $this->dBConFactory);
             $action = 'FEATURE';
             $templist = $templatemodel->getallfeaturesModel($auditBy, $action);
             $objLogger->info("======= End TV Repository (Get All Feature List)================");
+			$featurelist->chkstat = false;
             return $templist;
         }
         catch(TvtempException $ex){

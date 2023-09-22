@@ -1,0 +1,15 @@
+{
+    "HomePageDetails": {
+        "hotelid": "20",
+        "templateid": "5",
+        "menu": [
+            {
+                "menuid": "7",
+                "title": "Help",
+                "img": "",
+                "pagelink": "",
+                "subtitle": ""
+            }
+        ]
+    }
+}

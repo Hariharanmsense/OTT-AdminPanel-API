@@ -1,2 +1,0 @@
-[2023-06-07 09:32:32] ChannelModel.INFO: Query : call SP_AddandEditChannelInfo('ADD','w','public/uploads/Channels/w.jpg' ,0 ,1)  
-[2023-06-07 09:37:06] ChannelModel.INFO: Query : call SP_AddandEditChannelInfo('ADD','gh','public/uploads/Channels/gh.jpg' ,0 ,1)  

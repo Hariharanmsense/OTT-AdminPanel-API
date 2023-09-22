@@ -1,0 +1,63 @@
+{
+    "HomePageDetails": {
+        "hotelid": "13",
+        "templateid": "2",
+        "logo": "",
+        "bg_img": "",
+        "welcome_txt": "",
+        "featursemenu": [
+            {
+                "menuid": "1",
+                "title": "Channels"
+            },
+            {
+                "menuid": "3",
+                "title": "Guest Messaging"
+            },
+            {
+                "menuid": "4",
+                "title": "Screen casting"
+            },
+            {
+                "menuid": "5",
+                "title": "Guest Services"
+            },
+            {
+                "menuid": "6",
+                "title": "Hotel Information"
+            }
+        ],
+        "menu": [
+            {
+                "menuid": "1",
+                "title": "Channels",
+                "img": "",
+                "subtitle": "undefined"
+            },
+            {
+                "menuid": "4",
+                "title": "Screen casting",
+                "img": "public/uploads/template/13/2/Guest_Messaging.png",
+                "subtitle": "undefined"
+            },
+            {
+                "menuid": "3",
+                "title": "Guest Messaging",
+                "img": "public/uploads/template/13/2/Guest_Messaging.png",
+                "subtitle": "test"
+            },
+            {
+                "menuid": "5",
+                "title": "Guest Services",
+                "img": "",
+                "subtitle": "undefined"
+            },
+            {
+                "menuid": "6",
+                "title": "Hotel Information",
+                "img": "",
+                "subtitle": "undefined"
+            }
+        ]
+    }
+}

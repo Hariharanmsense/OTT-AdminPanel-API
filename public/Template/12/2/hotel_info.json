@@ -1,0 +1,21 @@
+{
+    "hotelInformation": {
+        "hotelid": "12",
+        "templateid": "2",
+        "logo": "public/uploads/template/12/2/Logo.jpg",
+        "home_bgimg": "public/uploads/template/12/2/Background.jpg",
+        "bgimg": "public/uploads/template/12/2/Hotel_info/Hotel_Info_Background.png",
+        "welcome": "",
+        "welcome_txt": "hj",
+        "menu": [
+            {
+                "title": "dfdf",
+                "img": "public/uploads/template/12/2/Hotel_info/dfdf.png"
+            },
+            {
+                "title": "fdfdf",
+                "img": "public/uploads/template/12/2/Hotel_info/fdfdf.png"
+            }
+        ]
+    }
+}

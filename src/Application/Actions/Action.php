@@ -35,18 +35,9 @@ abstract class Action
         return $JWTdata;
     }
 
-    
-
     protected function jsonResponse($response, $message, $resultData, $code): Response 
     {
-
-        if(empty($resultData)){
-            $result = [
-                'code' => $code,
-                'status' => true,
-                'message' => $message,
-            ];
-        }else{
+        if(!empty($resultData)){
             $result = [
                 'code' => $code,
                 'status' => true,
@@ -54,7 +45,13 @@ abstract class Action
                 'result' => $resultData,
             ];
         }
-        
+       else {
+            $result = [
+                'code' => $code,
+                'status' => true,
+                'message' => $message,
+            ];
+       }
 
         $json = json_encode($result, JSON_PRETTY_PRINT);
         $response->getBody()->write($json);

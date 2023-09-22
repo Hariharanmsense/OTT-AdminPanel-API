@@ -1,0 +1,23 @@
+{
+    "guestServices": {
+        "hotelid": "",
+        "templateid": "21",
+        "logo": "",
+        "home_bgimg": "",
+        "bgimg": "public/uploads/template//21/Hotel_info/Hotel_Info_Background.jpg",
+        "welcome": "Guest Service",
+        "welcome_txt": "Hai Everyone Welcome to the Show",
+        "menu": [
+            {
+                "title": "Hello Boy",
+                "img": "public/uploads/template//21/Hotel_info/Hello_Boy.png",
+                "content": "Hello its working"
+            },
+            {
+                "title": "SPA",
+                "img": "public/uploads/template//21/Hotel_info/SPA.png",
+                "content": "S t o p"
+            }
+        ]
+    }
+}

@@ -31,5 +31,35 @@ interface HotelService
     * Delete  repository function
     */
      public function delete($inputdata,$hotelid,$input2);
+	
+	
+	 /* 
+    * Activate / Deactivate repository function
+    */
+     public function activeOrDeactive($hotelId, $auditBy);
 
+    /* 
+    * ICMP Activate / Deactivate repository function
+    */
+    public function icmpStatus($hotelId, $auditBy);
+
+    /* 
+    * ALERT EMAIL Activate / Deactivate repository function
+    */
+    public function alertEmailStatus($hotelId, $auditBy);
+
+    /* 
+    * BW Activate / Deactivate repository function
+    */
+    public function bwStatus($hotelId, $auditBy);
+
+    /* 
+    * Export to Excel repository function
+    */
+    public function excel($response, $input, $auditBy);
+
+     /* 
+    * Generate Hotel Code Suggestion
+    */
+    public function gnrteHtlCde($input, $brandid, $hotelname, $auditBy);
 }

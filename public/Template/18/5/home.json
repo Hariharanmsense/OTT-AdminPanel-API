@@ -1,0 +1,33 @@
+{
+    "HomePageDetails": {
+        "hotelid": "18",
+        "templateid": "5",
+        "logo": "",
+        "bg_img": "public/uploads/template/18/5/Background.png",
+        "welcome": "",
+        "welcome_txt": "undefined",
+        "menu": [
+            {
+                "menuid": "2",
+                "title": "Bill View",
+                "img": "",
+                "pagelink": "",
+                "subtitle": ""
+            },
+            {
+                "menuid": "3",
+                "title": "Guest Messaging",
+                "img": "",
+                "pagelink": "",
+                "subtitle": ""
+            },
+            {
+                "menuid": "4",
+                "title": "Screen casting",
+                "img": "",
+                "pagelink": "",
+                "subtitle": ""
+            }
+        ]
+    }
+}

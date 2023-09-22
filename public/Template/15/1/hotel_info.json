@@ -1,0 +1,17 @@
+{
+    "hotelInformation": {
+        "hotelid": "15",
+        "templateid": "1",
+        "logo": "public/uploads/template/15/1/Logo.png",
+        "home_bgimg": "public/uploads/template/15/1/Background.png",
+        "bgimg": "public/uploads/template/15/1/Hotel_info/Hotel_Info_Background.png",
+        "welcome": "th",
+        "welcome_txt": "tht",
+        "menu": [
+            {
+                "title": "hthth",
+                "img": "public/uploads/template/15/1/Hotel_info/hthth.png"
+            }
+        ]
+    }
+}

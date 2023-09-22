@@ -2,13 +2,43 @@
     "HomePageDetails": {
         "logo": "public/uploads/Template/4/4/Logo.png",
         "bg_img": "public/uploads/Template/4/4/Background.png",
-        "welcome": "afds",
-        "welcome_txt": "fasdf",
+        "welcome": "",
+        "welcome_txt": "fdsafs",
         "menu": [
             {
-                "title": "fasd",
-                "img": "public/uploads/Template/4/4/fasd.jpeg",
-                "pagelink": "fsadfd"
+                "title": "Channels",
+                "img": "",
+                "pagelink": ""
+            },
+            {
+                "title": "Bill View",
+                "img": "",
+                "pagelink": ""
+            },
+            {
+                "title": "Guest Messaging",
+                "img": "",
+                "pagelink": ""
+            },
+            {
+                "title": "Screen casting",
+                "img": "",
+                "pagelink": ""
+            },
+            {
+                "title": "Guest Services",
+                "img": "",
+                "pagelink": ""
+            },
+            {
+                "title": "Hotel Information",
+                "img": "",
+                "pagelink": ""
+            },
+            {
+                "title": "Help",
+                "img": "",
+                "pagelink": ""
             }
         ]
     }

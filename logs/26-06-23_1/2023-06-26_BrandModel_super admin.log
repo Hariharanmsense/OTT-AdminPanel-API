@@ -1,6 +1,0 @@
-[2023-06-26 04:29:42] BrandAction.INFO: ======= Start Brand Action (VIEW)================  
-[2023-06-26 04:29:42] BrandAction.INFO: method : POST  
-[2023-06-26 04:29:42] BrandAction.INFO: contentType : application/json  
-[2023-06-26 04:29:42] BrandAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687753779,"exp":1687840179}}  
-[2023-06-26 04:29:42] BrandModel.INFO: Query : call SP_AddandEditBrand('VIEW','','',0,0)  
-[2023-06-26 04:29:42] BrandAction.INFO: ======= END Brand Action (VIEW)================  

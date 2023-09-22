@@ -1,0 +1,19 @@
+{
+    "HomePageDetails": {
+        "hotelid": "31",
+        "templateid": "4",
+        "logo": "public/uploads/template/31/4/Logo.png",
+        "bg_img": "public/uploads/template/31/4/Background.png",
+        "welcome": "",
+        "welcome_txt": "Test",
+        "menu": [
+            {
+                "menuid": "1",
+                "title": "Channels",
+                "img": "",
+                "pagelink": "",
+                "subtitle": ""
+            }
+        ]
+    }
+}

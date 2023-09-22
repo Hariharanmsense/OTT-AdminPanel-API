@@ -1,0 +1,17 @@
+{
+    "guestServices": {
+        "hotelid": "3",
+        "templateid": "6",
+        "logo": "",
+        "home_bgimg": "",
+        "bgimg": "",
+        "title": "",
+        "subtext": "",
+        "menu": [
+            {
+                "title": "",
+                "img": ""
+            }
+        ]
+    }
+}

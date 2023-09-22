@@ -1,0 +1,43 @@
+{
+    "HomePageDetails": {
+        "hotelid": "12",
+        "templateid": "5",
+        "logo": "",
+        "bg_img": "",
+        "welcome_txt": "",
+        "featursemenu": [
+            {
+                "menuid": "1",
+                "title": "Channels"
+            },
+            {
+                "menuid": "2",
+                "title": "Bill View"
+            },
+            {
+                "menuid": "3",
+                "title": "Guest Messaging"
+            }
+        ],
+        "menu": [
+            {
+                "menuid": "1",
+                "title": "Channels",
+                "img": "",
+                "subtitle": "undefined"
+            },
+            {
+                "menuid": "2",
+                "title": "Bill View",
+                "img": "",
+                "subtitle": "undefined"
+            },
+            {
+                "menuid": "3",
+                "title": "Guest Messaging",
+                "img": "",
+                "subtitle": "undefined"
+            }
+        ]
+    }
+}

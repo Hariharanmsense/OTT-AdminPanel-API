@@ -19,9 +19,152 @@ class WizardSetupRepository extends BaseRepository implements WizardSetupService
         $this->loggerFactory = $loggerFactory;
         $this->dBConFactory = $dBConFactory;
     }
+    public function createhtlinfo($JWTdata,$logo,$bgimg,$menuicon,$userId,$userName){
+        $objLogger = $this->loggerFactory->getFileObject('WizardSetupModel_' . $userName, 'createhtlinfo');
+            try{
+    
+        
+                $tempid = isset($JWTdata->tempid)?$JWTdata->tempid:"0";
+                $menuName = isset($JWTdata->menutitle)?$JWTdata->menutitle:'';
+                //$menuUrl = isset($JWTdata->menulink)?$JWTdata->menulink:'';
+                $hotelid = isset($JWTdata->hotelid)?$JWTdata->hotelid:'0';
+                $welcome_head = isset($JWTdata->title)?addslashes($JWTdata->title):'';
+                $welcome_body = isset($JWTdata->content)?addslashes($JWTdata->content):'';
+                $menucontent = isset($JWTdata->menucontent)?($JWTdata->menucontent):'';
+                $menuid = isset($JWTdata->menuid)?($JWTdata->menuid):'';
+
+                
+                
+                // $featurelist = isset($JWTdata->featureid)?$JWTdata->featureid:"0";
+                // if($featurelist == 0){
+                //     throw new WizardSetupException('Feature Id required', 401);
+                // }
+                
+                if($hotelid == 0){
+                    throw new WizardSetupException('Hotel Id required', 201);
+                }
+                if($tempid == 0){
+                    throw new WizardSetupException('Template Id required', 201);
+                }
+                $createGuestmodel = new WizardSetupModel($this->loggerFactory, $this->dBConFactory);
+                
+                $createJsonlist = $createGuestmodel->createhtlinfoModel($hotelid, $tempid, $welcome_body, $welcome_head, $bgimg, $menuid,$menuName, $menuicon,$menucontent,$userId,$userName);
+                
+                //$createJsonlist = $createJsonFile->createJson($hotelid,$tempid, $welcome_body,$logo,$bgimg,$userId,$userName);
+                
+                
+                return $createJsonlist;
+    
+            }catch (WizardSetupException $ex) {
+    
+                $objLogger->error("Error Code : ".$ex->getCode()."Error Message : ".$ex->getMessage());
+                $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
+                $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+                if(!empty($ex->getMessage())){
+                    throw new WizardSetupException($ex->getMessage(), 401);
+                }
+                else {
+                    throw new WizardSetupException('Hotel credentials invalid', 401);
+                }
+            }
+    }
+    
+
+    public function createGuest($JWTdata,$logo,$bgimg,$menuicon,$userId,$userName){
+        
+
+            $objLogger = $this->loggerFactory->getFileObject('WizardSetupModel_' . $userName, 'createGuest');
+            try{
+    
+        
+                $tempid = isset($JWTdata->tempid)?$JWTdata->tempid:"0";
+                $menuName = isset($JWTdata->menutitle)?$JWTdata->menutitle:'';
+                //$menuUrl = isset($JWTdata->menulink)?$JWTdata->menulink:'';
+                $hotelid = isset($JWTdata->hotelid)?$JWTdata->hotelid:'0';
+                $welcome_head = isset($JWTdata->title)?addslashes($JWTdata->title):'';
+                $welcome_body = isset($JWTdata->content)?addslashes($JWTdata->content):'';
+                $menucontent = isset($JWTdata->menucontent)?($JWTdata->menucontent):'';
+                $menuid = isset($JWTdata->menuid)?($JWTdata->menuid):'';
+                // $featurelist = isset($JWTdata->featureid)?$JWTdata->featureid:"0";
+                // if($featurelist == 0){
+                //     throw new WizardSetupException('Feature Id required', 401);
+                // }
+                
+                if($hotelid == 0){
+                    throw new WizardSetupException('Hotel Id required', 201);
+                }
+                if($tempid == 0){
+                    throw new WizardSetupException('Template Id required', 201);
+                }
+                $createGuestmodel = new WizardSetupModel($this->loggerFactory, $this->dBConFactory);
+                
+                $createJsonlist = $createGuestmodel->createGuestModel($hotelid, $tempid, $welcome_body, $welcome_head, $bgimg, $menuid,$menuName, $menuicon,$menucontent,$userId,$userName);
+                
+                //$createJsonlist = $createJsonFile->createJson($hotelid,$tempid, $welcome_body,$logo,$bgimg,$userId,$userName);
+                
+                
+                return $createJsonlist;
+    
+            }catch (WizardSetupException $ex) {
+    
+                $objLogger->error("Error Code : ".$ex->getCode()."Error Message : ".$ex->getMessage());
+                $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
+                $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+                if(!empty($ex->getMessage())){
+                    throw new WizardSetupException($ex->getMessage(), 401);
+                }
+                else {
+                    throw new WizardSetupException('Hotel credentials invalid', 401);
+                }
+            }
+        }
+    public function  Rewrite_menu($input,$menuicon,$userid,$userName){
+
+
+        $objLogger = $this->loggerFactory->getFileObject('WizardSetupModel_' . $userName, 'Rewrite_menu');
+
+        try{    
+            
+            //$data = 
+            $hotelid = isset($input->hotelid)?$input->hotelid:'0';
+            $tempid = isset($input->tempid)?$input->tempid:'0';
+            $menuid = isset($input->menuid)?$input->menuid:'';
+            $menuname = isset($input->menuname)?$input->menuname:'';
+            $menuicon = isset($menuicon)?$menuicon:'';
+            $subtext = isset($input->subtext)?$input->subtext:'';
+            $rowOrder = isset($input->rowOrder)?($input->rowOrder):'';
+
+            
+            if($hotelid == 0){
+                throw new WizardSetupException('Hotel Id required', 201);
+            }
+            if($tempid == 0){
+                throw new WizardSetupException('Template Id required', 201);
+            }
+
+        $List = new WizardSetupModel($this->loggerFactory, $this->dBConFactory);
+        $overallview = $List->Rewrite_menusetupmodel($hotelid,$tempid,$menuid,$menuname,$menuicon,$subtext,$rowOrder,$userid,$userName);
+        
+        
+        
+        return $overallview;
+        } catch (WizardSetupException $ex) {
+
+            $objLogger->error("Error Code : ".$ex->getCode()."Error Message : ".$ex->getMessage());
+            $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
+            $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+            if(!empty($ex->getMessage())){
+                throw new WizardSetupException($ex->getMessage(), 401);
+            }
+            else {
+                throw new WizardSetupException('Channel credentials invalid', 401);
+            }
+        }
+    }
 
     public function getAlltemplate($JWTdata,$userid,$userName){
-        $objLogger = $this->loggerFactory->addFileHandler('WizardSetupModel_'.$userName.'.log')->createInstance('WizardSetupRepository');
+        $objLogger = $this->loggerFactory->getFileObject('WizardSetupModel_' . $userName, 'getAlltemplate');
+        
         try{
 
             $templateid = isset($JWTdata->templateid)?$JWTdata->templateid:"0";
@@ -52,8 +195,55 @@ class WizardSetupRepository extends BaseRepository implements WizardSetupService
         }
     }
 
+    public function createJsonFile($JWTdata,$logo,$bgimg,$menuicon,$userId,$userName){
+        //public function createJsonFile($JWTdata,$logo,$bgimg,$userId,$userName){
+            $objLogger = $this->loggerFactory->getFileObject('WizardSetupModel_' . $userName, 'createJsonFile');
+            try{
+    
+        
+                $tempid = isset($JWTdata->tempid)?$JWTdata->tempid:"0";
+                $menuName = isset($JWTdata->menutitle)?$JWTdata->menutitle:'';
+                $menuUrl = isset($JWTdata->menulink)?$JWTdata->menulink:'';
+                $hotelid = isset($JWTdata->hotelid)?$JWTdata->hotelid:'';
+                $welcome_head = isset($JWTdata->welcome_head)?addslashes($JWTdata->welcome_head):'';
+                $welcome_body = isset($JWTdata->welcome_body)?addslashes($JWTdata->welcome_body):'';
+                $sub_title = isset($JWTdata->sub_title)?addslashes($JWTdata->sub_title):'';
+                $menuid = isset($JWTdata->menuid)?($JWTdata->menuid):'';
+                // $featurelist = isset($JWTdata->featureid)?$JWTdata->featureid:"0";
+                // if($featurelist == 0){
+                //     throw new WizardSetupException('Feature Id required', 401);
+                // }
+                
+                if($hotelid == 0){
+                    throw new WizardSetupException('Hotel Id required', 201);
+                }
+                $createJsonFile = new WizardSetupModel($this->loggerFactory, $this->dBConFactory);
+                
+                $createJsonlist = $createJsonFile->createJson($hotelid,$tempid,$welcome_head, $welcome_body,$menuName,$menuUrl,$logo,$bgimg,$menuicon,$sub_title,$menuid,$userId,$userName);
+                
+                //$createJsonlist = $createJsonFile->createJson($hotelid,$tempid, $welcome_body,$logo,$bgimg,$userId,$userName);
+                
+                
+                return $createJsonlist;
+    
+            }catch (WizardSetupException $ex) {
+    
+                $objLogger->error("Error Code : ".$ex->getCode()."Error Message : ".$ex->getMessage());
+                $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
+                $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+                if(!empty($ex->getMessage())){
+                    throw new WizardSetupException($ex->getMessage(), 401);
+                }
+                else {
+                    throw new WizardSetupException('Hotel credentials invalid', 401);
+                }
+            }
+        }
+    
+
     public function AddFeatures($JWTdata,$userid,$userName){
-        $objLogger = $this->loggerFactory->addFileHandler('WizardSetupModel_'.$userName.'.log')->createInstance('WizardSetupRepository');
+        $objLogger = $this->loggerFactory->getFileObject('WizardSetupModel_' . $userName, 'AddFeatures');
+        
         try{
 
     
@@ -85,52 +275,9 @@ class WizardSetupRepository extends BaseRepository implements WizardSetupService
         }
     }
 
-	public function createJsonFile($JWTdata,$logo,$bgimg,$menuicon,$userId,$userName){
-    //public function createJsonFile($JWTdata,$logo,$bgimg,$userId,$userName){
-        $objLogger = $this->loggerFactory->addFileHandler('WizardSetupModel_'.$userName.'.log')->createInstance('WizardSetupRepository');
-        try{
-
-    
-            $tempid = isset($JWTdata->tempid)?$JWTdata->tempid:"0";
-            $menuName = isset($JWTdata->menutitle)?$JWTdata->menutitle:'';
-            $menuUrl = isset($JWTdata->menulink)?$JWTdata->menulink:'';
-            $hotelid = isset($JWTdata->hotelid)?$JWTdata->hotelid:'';
-            $welcome_head = isset($JWTdata->welcome_head)?addslashes($JWTdata->welcome_head):'';
-            $welcome_body = isset($JWTdata->welcome_body)?addslashes($JWTdata->welcome_body):'';
-            // $featurelist = isset($JWTdata->featureid)?$JWTdata->featureid:"0";
-            // if($featurelist == 0){
-            //     throw new WizardSetupException('Feature Id required', 401);
-            // }
-            
-            if($hotelid == 0){
-                throw new WizardSetupException('Hotel Id required', 201);
-            }
-            $createJsonFile = new WizardSetupModel($this->loggerFactory, $this->dBConFactory);
-			
-			$createJsonlist = $createJsonFile->createJson($hotelid,$tempid,$welcome_head, $welcome_body,$menuName,$menuUrl,$logo,$bgimg,$menuicon,$userId,$userName);
-            
-            //$createJsonlist = $createJsonFile->createJson($hotelid,$tempid, $welcome_body,$logo,$bgimg,$userId,$userName);
-            
-            
-            return $createJsonlist;
-
-        }catch (WizardSetupException $ex) {
-
-            $objLogger->error("Error Code : ".$ex->getCode()."Error Message : ".$ex->getMessage());
-            $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
-            $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
-            if(!empty($ex->getMessage())){
-                throw new WizardSetupException($ex->getMessage(), 401);
-            }
-            else {
-                throw new WizardSetupException('Hotel credentials invalid', 401);
-            }
-        }
-    }
-
+	
     public function gettemplateDetails($hotelid,$tempid,$userid,$userName){
-
-        $objLogger = $this->loggerFactory->addFileHandler('WizardSetupModel_'.$userName.'.log')->createInstance('HotelChannelRepository');
+        $objLogger = $this->loggerFactory->getFileObject('WizardSetupModel_' . $userName, 'gettemplateDetails');
 
         try{    
             $OverallList = new \stdClass();
@@ -142,8 +289,7 @@ class WizardSetupRepository extends BaseRepository implements WizardSetupService
         $List = new WizardSetupModel($this->loggerFactory, $this->dBConFactory);
         $overallview = $List->gettemplateDetailsModel($hotelid,$tempid,$userid,$userName);
         
-        
-         //print_r($overallview);die();
+        //print_r($overallview);die();
         /* ---------------START Customer List ------------------*/
         $OverallList->CustomerDetails=$DetailedView;
         if(!empty($overallview->template)){
@@ -180,10 +326,10 @@ class WizardSetupRepository extends BaseRepository implements WizardSetupService
 
         /*---------------- START Feature List -----------------*/
 
-        $featureObj  = $overallview->features;
-        if(!empty($featureObj)){
-            $OverallList->FeatureDetails = $featureObj; 
-        }
+        // $featureObj  = $overallview->features;
+        // if(!empty($featureObj)){
+        //     $OverallList->FeatureDetails = $featureObj; 
+        // }
         
 
         /*---------------- END Feature List -------------------*/
@@ -217,10 +363,11 @@ class WizardSetupRepository extends BaseRepository implements WizardSetupService
                 }
         }
         
-        
         $OverallList->ChannelDeatails = $listArray;
+        $OverallList->guestService = isset($overallview->guestService['guestServices']) ? $overallview->guestService['guestServices']:'';
+        $OverallList->hotelInformation = isset($overallview->hotelInformation['hotelInformation']) ? $overallview->hotelInformation['hotelInformation']:'';
         
-       // print_r($OverallList);die();
+    //print_r($OverallList);die();
         
         return $OverallList;
         } catch (WizardSetupException $ex) {
@@ -269,16 +416,176 @@ class WizardSetupRepository extends BaseRepository implements WizardSetupService
         }
     }
 
+    public function channeldataupload($JWTdata,$userid,$userName){
+        //public function createJsonFile($JWTdata,$logo,$bgimg,$userId,$userName){
+            $objLogger = $this->loggerFactory->addFileHandler('WizardSetupModel_'.$userName.'.log')->createInstance('WizardSetupRepository');
+            try{
+                
+                $data = json_decode(json_encode($JWTdata), false);
+                $hotelid =isset($data->hotelid)?$data->hotelid:'0';  
+                $feedtype =isset($data->channelfeedtye)?$data->channelfeedtye:'0';   
+                $channelno =isset($data->channelno)?$data->channelno:'0'; 
+                $channelid =isset($data->channelid)?$data->channelid:'0'; 
+                $channelcategoryid =isset($data->channelcategory)?$data->channelcategory:'0'; 
+                $multicastip =isset($data->multicastip)?$data->multicastip:'';
+                $portno =isset($data->portno)?$data->portno:'0'; 
+                $channelfrequency =isset($data->channelfrequency)?$data->channelfrequency:''; 
+
+
+                if($hotelid == 0){
+                    throw new WizardSetupException('Please select Hotel.', 201);
+                }
+
+                if($feedtype == 0){
+                    throw new WizardSetupException('Channel feed type required.', 201);
+                }
+
+                if($channelno == 0){
+                    throw new WizardSetupException('Channel No required.', 201);
+                }
+                
+                if($channelid == 0){
+                    throw new WizardSetupException('Channel Name required.', 201);
+                }
+
+                if($channelcategoryid == 0){
+                    throw new WizardSetupException('Channel Category required.', 201);
+                }
+
+                if($feedtype == 2){
+                    if(empty($multicastip)){
+                        throw new WizardSetupException('Channel IP Address required.', 201);
+                    }
+                    if($portno == 0){
+                        throw new WizardSetupException('Port No required.', 201);
+                    }
+                }
+                
+                if($feedtype == 3){
+                    if(empty($channelfrequency)){
+                        throw new WizardSetupException('Channel frequency required.', 201);
+                    }
+                   
+                }               
+                
+                    
+                    $wizardModel = new WizardSetupModel($this->loggerFactory, $this->dBConFactory);
+                    $blkdata = $wizardModel->saveDetails($JWTdata,$userid, $userName);
+                    //$objLogger->info("Bulk Data Response : ".count($blkdata));
+                    $objLogger->info("======= End Wizard Repository ================");
+                    return $blkdata;
+                    
+    
+                   
+    
+            }catch (WizardSetupException $ex) {
+    
+                $objLogger->error("Error Code : ".$ex->getCode()."Error Message : ".$ex->getMessage());
+                $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
+                $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+                if(!empty($ex->getMessage())){
+                    throw new WizardSetupException($ex->getMessage(), 401);
+                }
+                else {
+                    throw new WizardSetupException('Hotel credentials invalid', 401);
+                }
+            }
+        }
+
+
+        public function updatechanneldata($JWTdata,$tvchannelids,$userid,$userName){
+                $objLogger = $this->loggerFactory->addFileHandler('WizardSetupModel_'.$userName.'.log')->createInstance('WizardSetupRepository');
+                try{
+
+                    $data = json_decode(json_encode($JWTdata), false);
+                    //print_r($data);die();
+                    $hotelid =isset($data->hotelid)?$data->hotelid:'0';  
+                    $tvchannelid =isset($tvchannelids)?$tvchannelids:'0';  
+                    $feedtype =isset($data->channelfeedtye)?$data->channelfeedtye:'0';   
+                    $channelno =isset($data->channelno)?$data->channelno:'0'; 
+                    $channelid =isset($data->channelid)?$data->channelid:'0'; 
+                    $channelcategoryid =isset($data->channelcategory)?$data->channelcategory:'0'; 
+                    $multicastip =isset($data->multicastip)?$data->multicastip:'';
+                    $portno =isset($data->portno)?$data->portno:'0'; 
+                    $channelfrequency =isset($data->channelfrequency)?$data->channelfrequency:'';    
+                    //$status =isset($data->status)?$data->status:'1'; 
+    
+                    if($hotelid == 0){
+                        throw new WizardSetupException('Please select Hotel.', 201);
+                    }
+                    if($tvchannelid == 0){
+                        throw new WizardSetupException('Channel required.', 201);
+                    }
+                    if($feedtype == 0){
+                        throw new WizardSetupException('Channel feed type required.', 201);
+                    }
+    
+                    if($channelno == 0){
+                        throw new WizardSetupException('Channel No required.', 201);
+                    }
+                    
+                    if($channelid == 0){
+                        throw new WizardSetupException('Channel Name required.', 201);
+                    }
+    
+                    if($channelcategoryid == 0){
+                        throw new WizardSetupException('Channel Category required.', 201);
+                    }
+    
+                    if($feedtype == 2){
+                        if(empty($multicastip)){
+                            throw new WizardSetupException('Channel IP Address required.', 201);
+                        }
+                        if($portno == 0){
+                            throw new WizardSetupException('Port No required.', 201);
+                        }
+                    }
+                    
+                    if($feedtype == 3){
+                        if(empty($channelfrequency)){
+                            throw new WizardSetupException('Channel frequency required.', 201);
+                        }
+                       
+                    }               
+                    
+                        
+                        $wizardModel = new WizardSetupModel($this->loggerFactory, $this->dBConFactory);
+                        $blkdata = $wizardModel->updateChannelWizard($JWTdata,$tvchannelid,$userid, $userName);
+                        //$objLogger->info("Bulk Data Response : ".count($blkdata));
+                        $objLogger->info("======= End Wizard Repository ================");
+                        return $blkdata;
+                        
+        
+                       
+        
+                }catch (WizardSetupException $ex) {
+        
+                    $objLogger->error("Error Code : ".$ex->getCode()."Error Message : ".$ex->getMessage());
+                    $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
+                    $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+                    if(!empty($ex->getMessage())){
+                        throw new WizardSetupException($ex->getMessage(), 401);
+                    }
+                    else {
+                        throw new WizardSetupException('Hotel credentials invalid', 401);
+                    }
+                }
+            }
+
     public function bulkUploadrepository($JWTdata,$bulkuploadfile,$userid,$userName){
         //public function createJsonFile($JWTdata,$logo,$bgimg,$userId,$userName){
             $objLogger = $this->loggerFactory->addFileHandler('WizardSetupModel_'.$userName.'.log')->createInstance('WizardSetupRepository');
             try{
                 
                 $data = json_decode(json_encode($JWTdata), false);
-                $hotelid =isset($data->hotelid)?$data->hotelid:'';   
+                $hotelid =isset($data->hotelid)?$data->hotelid:'';  
+                $feedtype =isset($data->channelfeedtye)?$data->channelfeedtye:'';   
                
                 if(empty($hotelid)){
                     throw new WizardSetupException('Please select Hotel.', 201);
+                }
+                if(empty($feedtype)){
+                    throw new WizardSetupException('Channel feed type required.', 201);
                 }
                 
                 if(empty($bulkuploadfile)){
@@ -299,7 +606,7 @@ class WizardSetupRepository extends BaseRepository implements WizardSetupService
                     $bulkuploadfile->moveTo($filePath."/".$fileName);
                     
                     $wizardModel = new WizardSetupModel($this->loggerFactory, $this->dBConFactory);
-                    $blkdata = $wizardModel->getinstemptblDetails($filePath."/".$fileName, $hotelid,$userid, $userName);
+                    $blkdata = $wizardModel->getinstemptblDetails($filePath."/".$fileName, $hotelid,$feedtype,$userid, $userName);
                     //$objLogger->info("Bulk Data Response : ".count($blkdata));
                     $objLogger->info("======= End Wizard Repository ================");
                     return $blkdata;
@@ -320,6 +627,66 @@ class WizardSetupRepository extends BaseRepository implements WizardSetupService
                 }
                 else {
                     throw new WizardSetupException('Hotel credentials invalid', 401);
+                }
+            }
+        }
+
+       
+
+        public function  getguestJson($hotelid,$tempid,$userid,$userName){
+
+            $objLogger = $this->loggerFactory->addFileHandler('WizardSetupModel_'.$userName.'.log')->createInstance('WizardSetupRepository');
+    
+            try{    
+           
+               /* if($hotelid == 0){
+                    throw new WizardSetupException('Hotel Id Required', 201);
+                }*/
+            $List = new WizardSetupModel($this->loggerFactory, $this->dBConFactory);
+            $overallview = $List->getGuestobject($hotelid,$tempid,$userid,$userName);
+            
+            
+            
+            return $overallview;
+            } catch (WizardSetupException $ex) {
+    
+                $objLogger->error("Error Code : ".$ex->getCode()."Error Message : ".$ex->getMessage());
+                $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
+                $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+                if(!empty($ex->getMessage())){
+                    throw new WizardSetupException($ex->getMessage(), 401);
+                }
+                else {
+                    throw new WizardSetupException('Channel credentials invalid', 401);
+                }
+            }
+        }
+
+        public function  getHomescreenJson($hotelid,$tempid,$userid,$userName){
+
+            $objLogger = $this->loggerFactory->addFileHandler('WizardSetupModel_'.$userName.'.log')->createInstance('WizardSetupRepository');
+    
+            try{    
+           
+               /* if($hotelid == 0){
+                    throw new WizardSetupException('Hotel Id Required', 201);
+                }*/
+            $List = new WizardSetupModel($this->loggerFactory, $this->dBConFactory);
+            $overallview = $List->gethomescreenObject($hotelid,$tempid,$userid,$userName);
+            
+            
+            
+            return $overallview;
+            } catch (WizardSetupException $ex) {
+    
+                $objLogger->error("Error Code : ".$ex->getCode()."Error Message : ".$ex->getMessage());
+                $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
+                $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+                if(!empty($ex->getMessage())){
+                    throw new WizardSetupException($ex->getMessage(), 401);
+                }
+                else {
+                    throw new WizardSetupException('Channel credentials invalid', 401);
                 }
             }
         }

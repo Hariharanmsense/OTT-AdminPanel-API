@@ -1,0 +1,22 @@
+{
+    "HomePageDetails": {
+        "hotelid": "19",
+        "templateid": "1",
+        "menu": [
+            {
+                "menuid": "7",
+                "title": "Help",
+                "img": "",
+                "pagelink": "",
+                "subtitle": ""
+            },
+            {
+                "menuid": "5",
+                "title": "Guest Services",
+                "img": "",
+                "pagelink": "",
+                "subtitle": ""
+            }
+        ]
+    }
+}

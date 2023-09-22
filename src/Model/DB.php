@@ -31,10 +31,10 @@ class DB {
             $objLogger->info("======= END DBError ================");
             if(!empty($ex->getMessage())){
                 //throw new DBException($ex->getMessage(), $ex->getCode());
-                throw new DBException('Database Error', 401);
+                throw new DBException('Database Error', 201);
             }
             else {
-                throw new DBException('Database Error', 401);
+                throw new DBException('Database Error', 201);
             }
        }
     }
@@ -62,9 +62,9 @@ class DB {
             }
             else {
                 if(!empty($errorMsg))
-                    throw new DBException($errorMsg, 401);
+                    throw new DBException($errorMsg, 201);
                 else 
-                    throw new DBException("Empty Result Returned", 401);
+                    throw new DBException("Empty Result Returned", 201);
             }
             
             return $multiData;
@@ -80,7 +80,7 @@ class DB {
                 
             }
             else {
-                throw new DBException('Database Error', 401);
+                throw new DBException('Database Error', 201);
             }
        }
     }
@@ -93,6 +93,13 @@ class DB {
             $result = mysqli_query($objtCon, $sqlQuery);
             $errorMsg = mysqli_error($objtCon);
             $this->dBConFactory->close($objtCon);
+
+            if(!empty($errorMsg)){
+                $objLogger->info("======= START DBError ================");
+                $objLogger->error("Error Message : ".$errorMsg);
+                $objLogger->info("======= END DBError ================");
+                throw new DBException('Database Error', 201);
+            }
     
             if($result){
                 $flg = 0;
@@ -103,16 +110,16 @@ class DB {
                 if($flg == 0){
 
                     if(!empty($errorMsg))
-                        throw new DBException($errorMsg, 401);
-                    else
+                        throw new DBException($errorMsg, 201);
+                    else 
                         throw new DBException("No Records Found", 201);
                 }
             }
             else {
                 if(!empty($errorMsg))
-                    throw new DBException($errorMsg, 401);
+                    throw new DBException($errorMsg, 201);
                 else 
-                    throw new DBException("Empty Result Returned", 401);
+                    throw new DBException("Empty Result Returned", 201);
             }
             
             return $multiData;
@@ -128,12 +135,13 @@ class DB {
                 
             }
             else {
-                throw new DBException('Database Error', 401);
+                throw new DBException('Database Error', 201);
             }
        }
     }
-    
-    public function getSingleDatasByObjects($sqlQuery){
+
+
+    public function getSingleDatasByObjects($sqlQuery, $RecCond="NO"){
         $singleData = NULL;
         $objLogger = $this->loggerFactory->getFileObject('DBError', 'DBModel');
         try{
@@ -148,19 +156,26 @@ class DB {
                     $flg = 1;
                     $singleData = $row;
                 }
-                if($flg == 0){
 
-                    if(!empty($errorMsg))
-                        throw new DBException($errorMsg, 401);
-                    else 
-                        throw new DBException("No Records Found", 201);
+                if($RecCond == 'YES'){
+                    return $singleData;
                 }
+                else {
+                    if($flg == 0){
+
+                        if(!empty($errorMsg))
+                            throw new DBException($errorMsg, 201);
+                        else 
+                            throw new DBException("No Records Found", 201);
+                    }
+                }
+                
             }
             else {
                 if(!empty($errorMsg))
-                    throw new DBException($errorMsg, 401);
+                    throw new DBException($errorMsg, 201);
                 else 
-                    throw new DBException("Empty Result Returned", 401);
+                    throw new DBException("Empty Result Returned", 201);
             }
             return $singleData;
         }
@@ -176,64 +191,14 @@ class DB {
                 
             }
             else {
-                throw new DBException('Database Error', 401);
+                throw new DBException('Database Error', 201);
             }
        }
     }
 
-    public function getMultiDatasByObjectsList($sqlQuery){
-        //$multiData = array();
-        $objLogger = $this->loggerFactory->getFileObject('DBError', 'DBModel');      
-        try{
-            $objtCon = $this->dBConFactory->getConnection();
-            $result = mysqli_query($objtCon, $sqlQuery);
-            $errorMsg = mysqli_error($objtCon);
-            $this->dBConFactory->close($objtCon);
-    
-            if($result){
-                $row = '';
-                $flg = 0;
-                if($row = mysqli_fetch_object($result)){
-                    $flg = 1;
-                   
-                }
-                if($flg == 0){
-
-                    if(!empty($errorMsg)):
-                        throw new DBException($errorMsg, 401);
-                    else:
-                        throw new DBException("No Records Found", 201);
-                    endif;
-                }
-            }
-            else {
-                if(!empty($errorMsg))
-                    throw new DBException($errorMsg, 401);
-                else 
-                    throw new DBException("Empty Result Returned", 401);
-            }
-            
-            return $row;
-        }
-       catch(DBException $ex){
-            $objLogger->info("======= START DBError ================");
-            $objLogger->error("Error Code : ".$ex->getCode()."Error Message : ".$ex->getMessage());
-            $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
-            $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
-            $objLogger->info("======= END DBError ================");
-            if(!empty($ex->getMessage())){
-                throw new DBException($ex->getMessage(), $ex->getCode());
-                
-            }
-            else {
-                throw new DBException('Database Error', 401);
-            }
-       }
-    }
-
-    public function getMultiDatasByObjectsNullReturns($sqlQuery){
-        $multiData = array();
-        $objLogger = $this->loggerFactory->getFileObject('DBError', 'DBModel');      
+    public function getSingleDatasByArray($sqlQuery, $RecCond="NO"){
+        $singleData = array();
+        $objLogger = $this->loggerFactory->getFileObject('DBError', 'DBModel');
         try{
             $objtCon = $this->dBConFactory->getConnection();
             $result = mysqli_query($objtCon, $sqlQuery);
@@ -242,43 +207,48 @@ class DB {
     
             if($result){
                 $flg = 0;
-                While($row = mysqli_fetch_object($result)){
+                While($row = mysqli_fetch_assoc($result)){
                     $flg = 1;
-                    $multiData[] = $row;
+                    $singleData = $row;
                 }
-                if($flg == 0){
 
-                    if(!empty($errorMsg)):
-                        throw new DBException($errorMsg, 401);
-                    else:
-                        //throw new DBException("No Records Found", 201);
-                    endif;
+                if($RecCond == 'YES'){
+                    return $singleData;
                 }
+                else {
+                    if($flg == 0){
+
+                        if(!empty($errorMsg))
+                            throw new DBException($errorMsg, 201);
+                        else 
+                            throw new DBException("No Records Found", 201);
+                    }
+                }
+                
             }
             else {
                 if(!empty($errorMsg))
-                    throw new DBException($errorMsg, 401);
+                    throw new DBException($errorMsg, 201);
                 else 
-                    throw new DBException("Empty Result Returned", 401);
+                    throw new DBException("Empty Result Returned", 201);
             }
-            
-            return $multiData;
+            return $singleData;
         }
        catch(DBException $ex){
+
             $objLogger->info("======= START DBError ================");
             $objLogger->error("Error Code : ".$ex->getCode()."Error Message : ".$ex->getMessage());
             $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
-            $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+            //$objLogger->error("Error Trace String : ".$ex->getTraceAsString());
             $objLogger->info("======= END DBError ================");
             if(!empty($ex->getMessage())){
                 throw new DBException($ex->getMessage(), $ex->getCode());
                 
             }
             else {
-                throw new DBException('Database Error', 401);
+                throw new DBException('Database Error', 201);
             }
        }
     }
-
 }
 ?>

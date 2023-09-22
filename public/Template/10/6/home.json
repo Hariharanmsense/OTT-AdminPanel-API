@@ -1,0 +1,64 @@
+{
+    "HomePageDetails": {
+        "hotelid": "10",
+        "templateid": "6",
+        "logo": "public/uploads/template/10/6/Logo.png",
+        "bg_img": "public/uploads/template/10/6/Background.png",
+        "welcome": "",
+        "welcome_txt": "welcome",
+        "menu": [
+            {
+                "menuid": "1",
+                "title": "Channels",
+                "img": "public/uploads/template/10/6/Channels.jpg",
+                "subtitle": "undefined"
+            },
+            {
+                "menuid": "3",
+                "title": "Guest Messaging",
+                "img": "Hai",
+                "subtitle": "Bye"
+            },
+            {
+                "menuid": "5",
+                "title": "Guest Services",
+                "img": "",
+                "subtitle": ""
+            },
+            {
+                "menuid": "6",
+                "title": "Hotel Information",
+                "img": "",
+                "subtitle": ""
+            },
+            {
+                "menuid": "7",
+                "title": "Help",
+                "img": "Hai",
+                "subtitle": "Bye"
+            }
+        ],
+        "featursemenu": [
+            {
+                "menuid": "1",
+                "title": "Channels"
+            },
+            {
+                "menuid": "3",
+                "title": "Guest Messaging"
+            },
+            {
+                "menuid": "5",
+                "title": "Guest Services"
+            },
+            {
+                "menuid": "6",
+                "title": "Hotel Information"
+            },
+            {
+                "menuid": "7",
+                "title": "Help"
+            }
+        ]
+    }
+}

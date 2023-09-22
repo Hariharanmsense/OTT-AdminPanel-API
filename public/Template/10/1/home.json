@@ -1,0 +1,36 @@
+{
+    "HomePageDetails": {
+        "hotelid": "10",
+        "templateid": "1",
+        "featursemenu": [
+            {
+                "menuid": "1",
+                "title": "Channels"
+            },
+            {
+                "menuid": "2",
+                "title": "Bill View"
+            },
+            {
+                "menuid": "3",
+                "title": "Guest Messaging"
+            },
+            {
+                "menuid": "4",
+                "title": "Screen casting"
+            },
+            {
+                "menuid": "5",
+                "title": "Guest Services"
+            },
+            {
+                "menuid": "6",
+                "title": "Hotel Information"
+            },
+            {
+                "menuid": "7",
+                "title": "Help"
+            }
+        ]
+    }
+}

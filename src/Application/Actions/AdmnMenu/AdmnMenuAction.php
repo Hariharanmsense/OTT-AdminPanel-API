@@ -39,13 +39,13 @@ final class AdmnMenuAction extends Action
           $method = $request->getMethod();
           $objLogger->info("method : ".$method);
           if(strtoupper($method) != 'POST'){
-            throw new AdmnMenuException('Invalid Method', 500);
+            throw new AdmnGrpsException('Invalid Method', 500);
           }
 
           $contentType = $request->getHeaderLine('content-type');
           $objLogger->info("contentType : ".$contentType);
           if(strtoupper($contentType) != 'APPLICATION/JSON'){
-            throw new AdmnMenuException('Invalid ContentType', 500);
+            throw new AdmnGrpsException('Invalid ContentType', 500);
           }
 
           $jsndata = $this->getParsedBodyData($request);
@@ -55,27 +55,26 @@ final class AdmnMenuAction extends Action
           $JWTdata = $this->getJsonFromParsedBodyData($request);
           if(!isset($JWTdata->decoded) || !isset($JWTdata->decoded->id))
           {
-              throw new AdmnMenuException('JWT Token invalid or Expired.', 401);
+              throw new AdmnGrpsException('JWT Token invalid or Expired.', 401);
           }
           $userid = $JWTdata->decoded->id;
 
           /*
           if(!isset($JWTdata->menuid)){
-             throw new AdmnMenuException('Invalid Parameter Missing.', 401);
+             throw new AdmnGrpsException('Invalid Parameter Missing.', 201);
           }
           $menuid = $JWTdata->menuid;
           $readStatus = $this->admnGrpsRepository->getMenuRightStatus($userid, $menuid);
           $objLogger->info("readStatus : ".$readStatus);
           if(empty($readStatus)){
-            throw new AdmnMenuException('Invalid Access.', 401);
+            throw new AdmnGrpsException('Invalid Access.', 201);
           }
           */
 
           //$hotelid		 = $JWTdata->decoded->hotel_id;
           //$brandid		 = $JWTdata->decoded->brand_id;
           $hotelid = 0;
-          $brandid = 0;
-        
+          $brandid = 0;        
           $insStatus = $this->admnMenuRepository->assginMenu($JWTdata, $userid);
           $objLogger->info("Insert Status : ".$insStatus);
           $objLogger->info("======= END AdmnMenu Action (CREATE) ================");
@@ -85,17 +84,17 @@ final class AdmnMenuAction extends Action
           else {
             return $this->jsonResponse($response, 'Not Added.', '', 200);
           }
-        } catch (AdmnMenuException $ex) {
+        } catch (AdmnGrpsException $ex) {
             
             $objLogger->error("Error Code : ".$ex->getCode()."Error Message : ".$ex->getMessage());
             $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
             //$objLogger->error("Error Trace String : ".$ex->getTraceAsString());
             $objLogger->info("======= END AdmnMenu Action (CREATE) ================");
             if(!empty($ex->getMessage())){
-                throw new AdmnMenuException($ex->getMessage(), $ex->getCode());
+                throw new AdmnGrpsException($ex->getMessage(), $ex->getCode());
             }
             else {
-                throw new AdmnMenuException(' Token invalid or Expired', 401);
+                throw new AdmnGrpsException(' Token invalid or Expired', 401);
             }
         }  
     }

@@ -1,0 +1,53 @@
+{
+    "HomePageDetails": {
+        "hotelid": "9",
+        "templateid": "1",
+        "logo": "public/uploads/template/12/1/Logo.png",
+        "bg_img": "public/uploads/template/12/1/Background.png",
+        "welcome_txt": "welcome",
+        "featursemenu": [
+            {
+                "menuid": "1",
+                "title": "Channels"
+            },
+            {
+                "menuid": "2",
+                "title": "Bill View"
+            },
+            {
+                "menuid": "5",
+                "title": "Guest Services"
+            },
+            {
+                "menuid": "6",
+                "title": "Hotel Information"
+            }
+        ],
+        "menu": [
+            {
+                "menuid": "1",
+                "title": "Channels",
+                "img": "",
+                "subtitle": "undefined"
+            },
+            {
+                "menuid": "2",
+                "title": "Bill View",
+                "img": "",
+                "subtitle": "cc"
+            },
+            {
+                "menuid": "5",
+                "title": "Guest Services",
+                "img": "",
+                "subtitle": "undefined"
+            },
+            {
+                "menuid": "6",
+                "title": "Hotel Information",
+                "img": "",
+                "subtitle": "undefined"
+            }
+        ]
+    }
+}

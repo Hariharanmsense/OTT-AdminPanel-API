@@ -1,8 +1,0 @@
-[2023-06-14 10:23:38] Hotelmodel.INFO: Query : call SP_AddandEditCustomer('GETONE','','','','','','','0',,)  
-[2023-06-14 10:24:57] Hotelmodel.INFO: Query : call SP_AddandEditCustomer('GETONE','','','','','','','0',4,)  
-[2023-06-14 10:25:31] Hotelmodel.INFO: Query : call SP_AddandEditCustomer('GETONE','','','','','','','0',4,1)  
-[2023-06-14 10:37:11] Hotelmodel.INFO: Query : call SP_AddandEditCustomer('GETONE','','','','','','','0',4,1)  
-[2023-06-14 11:07:29] Hotelmodel.INFO: Query : call SP_AddandEditCustomer('GETONE','','','','','','','0',4,1)  
-[2023-06-14 11:49:05] Hotelmodel.INFO: Query : call SP_AddandEditCustomer('VIEW','','','','','','',0,0,0)  
-[2023-06-14 11:49:31] Hotelmodel.INFO: Query : call SP_AddandEditCustomer('VIEW','','','','','','',0,0,0)  
-[2023-06-14 12:54:14] Hotelmodel.INFO: Query : call SP_AddandEditCustomer('VIEW','','','','','','',0,0,0)  

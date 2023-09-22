@@ -1,0 +1,12 @@
+{
+    "HomePageDetails": {
+        "hotelid": "11",
+        "templateid": "3",
+        "featursemenu": [
+            {
+                "menuid": "1",
+                "title": "Channels"
+            }
+        ]
+    }
+}

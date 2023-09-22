@@ -16,6 +16,8 @@ use Slim\Exception\HttpNotImplementedException;
 use Slim\Exception\HttpUnauthorizedException;
 use Slim\Handlers\ErrorHandler as SlimErrorHandler;
 use Throwable;
+//use mysqli_sql_exception;
+use Exception;
 
 class HttpErrorHandler extends SlimErrorHandler
 {
@@ -25,6 +27,7 @@ class HttpErrorHandler extends SlimErrorHandler
     protected function respond(): Response
     {
         $exception = $this->exception;
+		
         $statusCode = 500;
         $error = new ActionError(
             ActionError::SERVER_ERROR,
@@ -49,6 +52,9 @@ class HttpErrorHandler extends SlimErrorHandler
                 $error->setType(ActionError::NOT_IMPLEMENTED);
             }
         }
+		//print_r($exception);die();
+		
+		
 
         if (
             !($exception instanceof HttpException)
@@ -60,6 +66,37 @@ class HttpErrorHandler extends SlimErrorHandler
             }
             $error->setDescription($exception->getMessage());
         }
+		
+		/*
+		if($exception instanceof mysqli_sql_exception) {
+			print_r("database hello");
+			$statusCode = 500;
+			if(!empty($exception->getCode())){
+                $statusCode = $exception->getCode();
+            }
+			
+			$error->setDescription($exception->getMessage());
+		}
+		*/
+		
+		if($exception instanceof Exception) {
+			//print_r("other unknown error");die();
+			$statusCode = 500;
+			if(!empty($exception->getCode())){
+                $statusCode = $exception->getCode();
+            }
+			
+			$error->setDescription($exception->getMessage());
+		}
+		
+		if($statusCode >= 500){
+			$statusCode = 500;
+		}
+		
+		//print_r($statusCode);
+		//print_r($error);
+		//die();
+		//print_r($exception);die();
 
         $payload = new ActionPayload($statusCode, null, $error);
         $encodedPayload = json_encode($payload, JSON_PRETTY_PRINT);

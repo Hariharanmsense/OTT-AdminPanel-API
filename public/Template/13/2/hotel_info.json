@@ -1,0 +1,17 @@
+{
+    "hotelInformation": {
+        "hotelid": "13",
+        "templateid": "2",
+        "logo": "",
+        "home_bgimg": "",
+        "bgimg": "",
+        "welcome": "undefined",
+        "welcome_txt": "undefined",
+        "menu": [
+            {
+                "title": "",
+                "img": ""
+            }
+        ]
+    }
+}

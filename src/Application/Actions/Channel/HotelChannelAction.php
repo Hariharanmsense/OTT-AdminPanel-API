@@ -66,7 +66,7 @@ final class HotelChannelAction extends Action
           return $this->jsonResponse($response, 'Success',$viewbranddata, 200);
 
         } catch (ChannelException $e) {
-            throw new ChannelException($e->getMessage(), 401);
+            throw new ChannelException($e->getMessage(), 201);
         }
     }
 
@@ -100,10 +100,16 @@ final class HotelChannelAction extends Action
           $addHotelChannel = $this->channelRepository->create($jsndata);   
           $objLogger->info("======= END Channel Action (Create) ================");
           $returnmsg = $addHotelChannel->msg;
-          return $this->jsonResponse($response, $returnmsg,'', 200);
+          $returncode = isset($addHotelChannel->status)?$addHotelChannel->status:'';
+
+          if($returncode == 'Success' ):
+            return $this->jsonResponse($response, $returnmsg,'', 200);
+          else:
+            return $this->jsonResponse($response, $returnmsg,'', 201);
+          endif;
 
         } catch (ChannelException $e) {
-            throw new ChannelException($e->getMessage(), 401);
+            throw new ChannelException($e->getMessage(), 201);
         }
     }
 
@@ -143,7 +149,7 @@ final class HotelChannelAction extends Action
           return $this->jsonResponse($response, 'Success',$edtbranddata, 200);
 
         } catch (ChannelException $e) {
-            throw new ChannelException($e->getMessage(), 401);
+            throw new ChannelException($e->getMessage(), 201);
         }
     }
 
@@ -183,7 +189,7 @@ final class HotelChannelAction extends Action
           return $this->jsonResponse($response, $updateMsg,'', 200);
 
         } catch (ChannelException $e) {
-            throw new ChannelException($e->getMessage(), 401);
+            throw new ChannelException($e->getMessage(), 201);
         }
     }
   
@@ -225,7 +231,7 @@ final class HotelChannelAction extends Action
           return $this->jsonResponse($response, $deletemsg,'', 200);
 
         } catch (ChannelException $e) {
-            throw new ChannelException($e->getMessage(), 401);
+            throw new ChannelException($e->getMessage(), 201);
         }
     }
 
@@ -324,19 +330,19 @@ final class HotelChannelAction extends Action
           $jsndata = $this->getParsedBodyData($request);
           $userid = $JWTdata->decoded->id;  
           $objLogger->info("Input Data : ".json_encode($jsndata));		  
-		  $HotelChannelid = isset($JWTdata->hotelid)?$JWTdata->hotelid:'0';	   
+		      $hotelid = isset($JWTdata->hotelid)?$JWTdata->hotelid:'0';	   
 		               
           if(!isset($JWTdata->decoded) || !isset($JWTdata->decoded->id))
           {
               throw new ChannelException('JWT Token invalid or Expired.', 401);
           }
 		  
-          $edtbranddata = $this->channelRepository->getOverallchannellist($HotelChannelid,$userid,$userName); 
+          $edtbranddata = $this->channelRepository->getOverallchannellist($hotelid,$userid,$userName); 
           $objLogger->info("======= END HotelChannel Action (Single One) ================");
           return $this->jsonResponse($response, 'Success',$edtbranddata, 200);
 
         } catch (ChannelException $e) {
-            throw new ChannelException($e->getMessage(), 401);
+            throw new ChannelException($e->getMessage(), 201);
         }
     }
 

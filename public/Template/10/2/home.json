@@ -1,0 +1,25 @@
+{
+    "HomePageDetails": {
+        "hotelid": "10",
+        "templateid": "2",
+        "logo": "",
+        "bg_img": "",
+        "welcome": "",
+        "welcome_txt": "",
+        "featursemenu": [
+            {
+                "menuid": "1",
+                "title": "Channels"
+            },
+            {
+                "menuid": "2",
+                "title": "Bill View"
+            },
+            {
+                "menuid": "3",
+                "title": "Guest Messaging"
+            }
+        ],
+        "menu": []
+    }
+}

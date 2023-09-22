@@ -1,0 +1,33 @@
+{
+    "HomePageDetails": {
+        "hotelid": "13",
+        "templateid": "5",
+        "logo": "",
+        "bg_img": "",
+        "welcome": "",
+        "welcome_txt": "",
+        "featursemenu": [
+            {
+                "menuid": "1",
+                "title": "Channels"
+            },
+            {
+                "menuid": "3",
+                "title": "Guest Messaging"
+            },
+            {
+                "menuid": "4",
+                "title": "Screen casting"
+            },
+            {
+                "menuid": "5",
+                "title": "Guest Services"
+            },
+            {
+                "menuid": "6",
+                "title": "Hotel Information"
+            }
+        ],
+        "menu": []
+    }
+}

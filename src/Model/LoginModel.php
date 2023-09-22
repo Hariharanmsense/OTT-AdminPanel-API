@@ -16,59 +16,65 @@ class LoginModel extends BaseModel
         $this->loggerFactory = $loggerFactory;
         $this->dBConFactory = $dBConFactory;
     }
-    
-    public function validateLogin($uid, $pwd){
-        $objLogger = $this->loggerFactory->addFileHandler('LoginModel.log')->createInstance('LoginModel');
-            
+
+    public function logOut($userId, $auditBy){
+        $objLogger = $this->loggerFactory->getFileObject('LoginAction_'.$auditBy, 'LoginModel');  
         try 
         {
-            $action = "login";
-            $sqlQuery = "call SP_Doauth('$uid','$pwd')";
+            $action = 'SIGNOUT';
+            $sqlQuery = "call SP_LogSignInDetails(".$userId.",'', '', '', '', '".$action."')";
             $objLogger->info('Query : '.$sqlQuery);
             $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
-			
-            $user = $dbObjt->getSingleDatasByObjects($sqlQuery);
-			
-            // if($user->msg=='invalidUser'){
-			//     throw new LoginException('User ID Invalid', 200);
-			// }
-			// elseif($user->msg=='invalidPassword'){
-			// 	throw new LoginException('Password Invalid', 200);
-			// }
-            if(!empty($user->msg)){
-			    throw new LoginException($user->msg, 401);
-			}
-			else{
-				$objLogger->info('User Data : '.json_encode($user));
-				//print_R($user);die;
-				if (empty($user)) {
-					throw new LoginException('Login credentials invalid. ', 401);
-				}
-				else{
-					// if($user->designation!='Super Admin'){
-					// 	if($user->hotelDelete=='1'){
-					// 	throw new LoginException("You don't have permission to access this feature. Please contact your admin", 200);
-					// 	}
-					// }
-				} 
-				// $user->created_date = $this->dateFormatchange($user->created_date);
-				// $user->edited_date  = $this->dateFormatchange($user->edited_date);
-				// $user->deleted_date = $this->dateFormatchange($user->deleted_date);
-                // $user->access_rights = json_encode(json_decode($user->access_rights, false));
-			}
+            $userStatus = $dbObjt->getSingleDatasByObjects($sqlQuery);
+            $objLogger->info('User Data : '.json_encode($userStatus));
+            if($userStatus->ErrorCode == '00'){
+                return "SUCCESS";
+            }
+            else {
+                return "FAILUARE";
+            }
 
+        }
+        catch (LoginException $ex) {
+
+            $objLogger->error("Error Code : ".$ex->getCode()."Error Message : ".$ex->getMessage());
+            $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
+            //$objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+            if(!empty($ex->getMessage())){
+                throw new LoginException($ex->getMessage(), $ex->getCode());
+            }
+            else {
+                throw new LoginException('Login User Id Invalid', 201);
+            }
+        }
+    }
+    
+    public function validateLogin($email, $pwd){
+        $objLogger = $this->loggerFactory->getFileObject('LoginAction', 'LoginModel');    
+        try 
+        {
+            $sqlQuery = "call SP_Doauth('".$email."','".$pwd."')";
+            $objLogger->info('Query : '.$sqlQuery);
+            $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
+            $user = $dbObjt->getSingleDatasByObjects($sqlQuery);
+            $objLogger->info('User Data : '.json_encode($user));
+            //print_r($user);die();     
+            if(property_exists($user, 'msg') && !empty($user->msg)){
+                
+			    throw new LoginException('Login credentials invalid. ', 201);
+			}
             return $user;
         }
         catch (LoginException $ex) {
 
             $objLogger->error("Error Code : ".$ex->getCode()."Error Message : ".$ex->getMessage());
             $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
-            $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+            //$objLogger->error("Error Trace String : ".$ex->getTraceAsString());
             if(!empty($ex->getMessage())){
-                throw new LoginException($ex->getMessage(), 401);
+                throw new LoginException($ex->getMessage(), $ex->getCode());
             }
             else {
-                throw new LoginException('Database Error', 401);
+                throw new LoginException('Login credentials invalid', 201);
             }
         }
     }
@@ -78,23 +84,28 @@ class LoginModel extends BaseModel
         $objLogger = $this->loggerFactory->addFileHandler('LoginModel.log')->createInstance('LoginModel');
         try 
         {
-            $action = "logUser";
-            $sqlQuery = "call login('$action','null','null','$userId','null','0','$ipAddress','$userAgent','$physicalAddress','$userInfo')";
+            $action = "SIGNIN";
+            $sqlQuery = "call SP_LogSignInDetails(".$userId.",'".$ipAddress."','".$userAgent."','".$physicalAddress."','".$userInfo."', '".$action."')";
             $objLogger->info('Query : '.$sqlQuery);
             $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
             $user = $dbObjt->getSingleDatasByObjects($sqlQuery);
-            return $user;
+            $objLogger->info('user : '.json_encode($user));
+            $lastLoginId = 0;
+            if($user->ErrorCode = '00'){
+                $lastLoginId = $user->lastLoginId;
+            }
+            return $lastLoginId;
         }
         catch (LoginException $ex) {
 
             $objLogger->error("Error Code : ".$ex->getCode()."Error Message : ".$ex->getMessage());
             $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
-            $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+            //$objLogger->error("Error Trace String : ".$ex->getTraceAsString());
             if(!empty($ex->getMessage())){
-                throw new LoginException($ex->getMessage(), 401);
+                throw new LoginException($ex->getMessage(), $ex->getCode());
             }
             else {
-                throw new LoginException('Database Error', 401);
+                throw new LoginException('Login credentials invalid', 201);
             }
         }
     }

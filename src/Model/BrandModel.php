@@ -58,7 +58,7 @@ class BrandModel extends BaseModel
         try 
         {
             $action = "ADD";
-            $sqlQuery = "call SP_AddandEditBrand('$action','$brndnme','$shortnme','$userid','')";
+            $sqlQuery = "call SP_AddandEditBrand('$action','$brndnme','$shortnme',$userid,0)";
                 $objLogger->info('Query : '.$sqlQuery);
                 $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
                 $user = $dbObjt->getSingleDatasByObjects($sqlQuery);
@@ -92,7 +92,7 @@ class BrandModel extends BaseModel
         try 
         {
             $action = "UPDATE";
-            $sqlQuery = "call SP_AddandEditBrand('$action','$brndnme','$shortnme','$userid','$brndid')";
+            $sqlQuery = "call SP_AddandEditBrand('$action','$brndnme','$shortnme',$userid,$brndid)";
                 $objLogger->info('Query : '.$sqlQuery);
                 $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
                 $user = $dbObjt->getSingleDatasByObjects($sqlQuery);
@@ -125,8 +125,8 @@ class BrandModel extends BaseModel
         $objLogger = $this->loggerFactory->addFileHandler('BrandModel_'.$username.'.log')->createInstance('BrandModel');
         try 
         {
-            $action = "EDIT";
-            $sqlQuery = "call SP_AddandEditBrand('$action','','','0','$brandid')";
+            $action = "GETONE";
+            $sqlQuery = "call SP_AddandEditBrand('$action','','',0,$brandid)";
                 $objLogger->info('Query : '.$sqlQuery);
                 $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
                 $user = $dbObjt->getSingleDatasByObjects($sqlQuery);
@@ -159,7 +159,7 @@ class BrandModel extends BaseModel
         try 
         {
             $action = "DELETE";
-            $sqlQuery = "call SP_AddandEditBrand('$action','','','0','$brandid')";
+            $sqlQuery = "call SP_AddandEditBrand('$action','','',0,$brandid)";
                 $objLogger->info('Query : '.$sqlQuery);
                 $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
                 $user = $dbObjt->getSingleDatasByObjects($sqlQuery);

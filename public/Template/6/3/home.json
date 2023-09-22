@@ -1,0 +1,40 @@
+{
+    "HomePageDetails": {
+        "hotelid": "6",
+        "templateid": "3",
+        "logo": "public/uploads/template/6/3/Logo.png",
+        "bg_img": "public/uploads/template/6/3/Background.png",
+        "welcome": "",
+        "welcome_txt": "   hyattadd nnnnn",
+        "menu": [
+            {
+                "menuid": "1",
+                "title": "Channels",
+                "img": "",
+                "pagelink": "",
+                "subtitle": ""
+            },
+            {
+                "menuid": "7",
+                "title": "Help",
+                "img": "",
+                "pagelink": "",
+                "subtitle": ""
+            },
+            {
+                "menuid": "1",
+                "title": "Channels",
+                "img": "",
+                "pagelink": "",
+                "subtitle": ""
+            },
+            {
+                "menuid": "7",
+                "title": "Help",
+                "img": "",
+                "pagelink": "",
+                "subtitle": ""
+            }
+        ]
+    }
+}

@@ -29,11 +29,12 @@ class HotelChannelRepository extends BaseRepository implements HotelChannelServi
 
     public function ViewChannellist($inputdata){
         $userName = isset($inputdata['decoded']->userName)?$inputdata['decoded']->userName:"";
-        $objLogger = $this->loggerFactory->addFileHandler('HotelChannelModel_'.$userName.'.log')->createInstance('HotelChannelRepository');
+        $objLogger = $this->loggerFactory->getFileObject('HotelChannelRepository_' . $userName, 'ViewChannellist');
         try{
             //$brandData = new \stdClass();
             
             $userid = isset($inputdata['decoded']->id)?$inputdata['decoded']->id:"";
+            $hotelid = isset($inputdata['hotelid'])?$inputdata['hotelid']:"0";
 
             if(empty($userid)){
                 throw new ChannelException('User id required', 201);
@@ -42,7 +43,7 @@ class HotelChannelRepository extends BaseRepository implements HotelChannelServi
             
             $Hotelchannel = new HotelChannelModel($this->loggerFactory, $this->dBConFactory);
 			
-            $viewChannel = $Hotelchannel->ViewChannellist($userid,$userName);
+            $viewChannel = $Hotelchannel->ViewChannellist($hotelid,$userid,$userName);
 			
 
             return $viewChannel;
@@ -61,7 +62,7 @@ class HotelChannelRepository extends BaseRepository implements HotelChannelServi
     }
     public function create($inputdata){
         $userName = isset($inputdata['decoded']->userName)?$inputdata['decoded']->userName:"";
-        $objLogger = $this->loggerFactory->addFileHandler('HotelChannelModel_'.$userName.'.log')->createInstance('HotelChannelRepository');
+        $objLogger = $this->loggerFactory->getFileObject('HotelChannelRepository_' . $userName, 'create');
         try{
             //$addBrandData = new \stdClass();
             $hotelid = isset($inputdata['hotelid'])?($inputdata['hotelid']):"0";
@@ -70,6 +71,7 @@ class HotelChannelRepository extends BaseRepository implements HotelChannelServi
             $channelport = isset($inputdata['channelport'])?($inputdata['channelport']):"0";
             $channelcategory = isset($inputdata['channelcategory'])?($inputdata['channelcategory']):"0";
             $channelid = isset($inputdata['channelid'])?($inputdata['channelid']):"0";
+            $chnlfrequency = isset($inputdata['frequency'])?($inputdata['frequency']):"0";
             $userid = isset($inputdata['decoded']->id)?$inputdata['decoded']->id:"";
             
             if(empty($userid)){
@@ -85,28 +87,28 @@ class HotelChannelRepository extends BaseRepository implements HotelChannelServi
             if($channelno == 0){
                 throw new ChannelException('Channel No required', 201);
             }
-            if(empty($channelip)){
-                throw new ChannelException('Channel Ip Address required', 201);
-            }
-            if($channelport == 0){
-                throw new ChannelException('Channel Port required', 201);
-            }
-            if($channelcategory == 0){
-                throw new ChannelException('Channel Category required', 201);
-            }
+            // if(empty($channelip)){
+            //     throw new ChannelException('Channel Ip Address required', 201);
+            // }
+            // if($channelport == 0){
+            //     throw new ChannelException('Channel Port required', 201);
+            // }
+            // if($channelcategory == 0){
+            //     throw new ChannelException('Channel Category required', 201);
+            // }
            
             
  
             $AddHotelchannel = new HotelChannelModel($this->loggerFactory, $this->dBConFactory);
-            $user = $AddHotelchannel->create($channelno,$channelip,$channelport,$channelcategory, $hotelid, $channelid,$userid,$userName);
+            $user = $AddHotelchannel->create($channelno,$channelip,$channelport,$channelcategory, $hotelid, $channelid,$chnlfrequency,$userid,$userName);
             return $user;
         } catch (ChannelException $ex) {
 
             $objLogger->error("Error Code : ".$ex->getCode()."Error Message : ".$ex->getMessage());
-            $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
-            $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+            //$objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
+            //$objLogger->error("Error Trace String : ".$ex->getTraceAsString());
             if(!empty($ex->getMessage())){
-                throw new ChannelException($ex->getMessage(), 401);
+                throw new ChannelException($ex->getMessage(), 201);
             }
             else {
                 throw new ChannelException('Channel credentials invalid', 201);
@@ -131,7 +133,7 @@ class HotelChannelRepository extends BaseRepository implements HotelChannelServi
         $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
         $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
         if(!empty($ex->getMessage())){
-            throw new ChannelException($ex->getMessage(), 401);
+            throw new ChannelException($ex->getMessage(), 201);
         }
         else {
             throw new ChannelException('Channel credentials invalid', 201);
@@ -142,7 +144,7 @@ class HotelChannelRepository extends BaseRepository implements HotelChannelServi
 
     public function update($inputdata,$HotelChannelid,$userid){
             $userName = isset($inputdata['decoded']->userName)?$inputdata['decoded']->userName:"";
-            $objLogger = $this->loggerFactory->addFileHandler('HotelChannelModel_'.$userName.'.log')->createInstance('HotelChannelRepository');
+            $objLogger = $this->loggerFactory->getFileObject('HotelChannelRepository_' . $userName, 'update');
         
             try{
             
@@ -153,7 +155,8 @@ class HotelChannelRepository extends BaseRepository implements HotelChannelServi
             $channelip = isset($inputdata['channelip'])?($inputdata['channelip']):"";
             $channelport = isset($inputdata['channelport'])?($inputdata['channelport']):"0";
             $channelcategory = isset($inputdata['channelcategory'])?($inputdata['channelcategory']):"0";
-            $channelid = isset($HotelChannelid)?($HotelChannelid):"0";
+            $chnlfrequency = isset($inputdata['frequency'])?($inputdata['frequency']):"0";
+            $channelid = isset($inputdata['channelid'])?($inputdata['channelid']):"0";
             $actstat = isset($inputdata['isactive'])?($inputdata['isactive']):"0";
             $userid = isset($inputdata['decoded']->id)?$inputdata['decoded']->id:"";
             
@@ -170,22 +173,22 @@ class HotelChannelRepository extends BaseRepository implements HotelChannelServi
             if($channelno == 0){
                 throw new ChannelException('Channel No required', 201);
             }
-            if(empty($channelip)){
-                throw new ChannelException('Channel Ip Address required', 201);
-            }
-            if($channelport == 0){
-                throw new ChannelException('Channel Port required', 201);
-            }
-            if($channelcategory == 0){
-                throw new ChannelException('Channel Category required', 201);
-            }
-            if($actstat == 0){
-                throw new ChannelException('Channel Status required', 201);
-            }
+            // if(empty($channelip)){
+            //     throw new ChannelException('Channel Ip Address required', 201);
+            // }
+            // if($channelport == 0){
+            //     throw new ChannelException('Channel Port required', 201);
+            // }
+            // if($channelcategory == 0){
+            //     throw new ChannelException('Channel Category required', 201);
+            // }
+            // if($actstat == 0){
+            //     throw new ChannelException('Channel Status required', 201);
+            // }
             
             
             $Hotelchannel = new HotelChannelModel($this->loggerFactory, $this->dBConFactory);
-            $updateuser = $Hotelchannel->update($channelno,$channelip,$channelport,$channelcategory, $hotelid,$actstat, $channelid,$userid,$userName);
+            $updateuser = $Hotelchannel->update($channelno,$channelip,$channelport,$channelcategory, $hotelid,$actstat, $channelid,$HotelChannelid,$chnlfrequency,$userid,$userName);
             //$UpdataData->userData = $updateuser;
             return $updateuser;
         } catch (ChannelException $ex) {
@@ -194,7 +197,7 @@ class HotelChannelRepository extends BaseRepository implements HotelChannelServi
             $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
             $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
             if(!empty($ex->getMessage())){
-                throw new ChannelException($ex->getMessage(), 401);
+                throw new ChannelException($ex->getMessage(), 201);
             }
             else {
                 throw new ChannelException('Channel credentials invalid', 201);
@@ -203,9 +206,7 @@ class HotelChannelRepository extends BaseRepository implements HotelChannelServi
     }
 
     public function delete($channelid,$userid,$userName){
-        
-        $objLogger = $this->loggerFactory->addFileHandler('HotelChannelModel_'.$userName.'.log')->createInstance('HotelChannelRepository');
-    
+        $objLogger = $this->loggerFactory->getFileObject('HotelChannelModel_' . $userName, 'delete');
         try{
 
             if($channelid == 0){
@@ -231,7 +232,8 @@ class HotelChannelRepository extends BaseRepository implements HotelChannelServi
     }
 
     public function assginMenu($input, $auditBy){
-        $objLogger = $this->loggerFactory->getFileObject('HotelChannelModel_'.$auditBy, 'HotelChannelRepository');
+        $userName = isset($input['decoded']->userName)?$input['decoded']->userName:"";
+        $objLogger = $this->loggerFactory->getFileObject('HotelChannelModel_' . $userName, 'assginMenu');
         $objLogger->info("======= Start HotelChannel Repository ================");
         $objLogger->info("Input Data : ".json_encode($input));
         try{
@@ -259,7 +261,7 @@ class HotelChannelRepository extends BaseRepository implements HotelChannelServi
                 throw new ChannelException('groupId Empty', 201);
             }
             $assignhotel = new HotelChannelModel($this->loggerFactory, $this->dBConFactory);
-            $insStatus = $assignhotel->assginMenu($channelcategory, $hotelId, $addlist, $removelist, $auditBy);
+            $insStatus = $assignhotel->assginMenu($channelcategory, $hotelId, $addlist, $removelist, $auditBy,$userName);
             $objLogger->info("Insert Status : ".$insStatus);
             $objLogger->info("======= End HotelChannel Repository ================");
             return $insStatus;
@@ -271,17 +273,16 @@ class HotelChannelRepository extends BaseRepository implements HotelChannelServi
             //$objLogger->error("Error Trace String : ".$ex->getTraceAsString());
             $objLogger->info("======= End HotelChannel Repository ================");
             if(!empty($ex->getMessage())){
-                throw new ChannelException($ex->getMessage(), $ex->getCode());
+                throw new ChannelException($ex->getMessage(), 201);
             }
             else {
-                throw new ChannelException('Invalid Access', 401);
+                throw new ChannelException('Invalid Access', 201);
             }
         }
     }
 		
 	    public function getOverallchannellist($hotelid,$userid,$userName){
-
-			$objLogger = $this->loggerFactory->addFileHandler('HotelChannelModel_'.$userName.'.log')->createInstance('HotelChannelRepository');
+            $objLogger = $this->loggerFactory->getFileObject('HotelChannelModel_' . $userName, 'assginMenu');
     
 			try{    
 				//$logDetails = new \stdClass();
@@ -321,7 +322,7 @@ class HotelChannelRepository extends BaseRepository implements HotelChannelServi
 				$objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
 				$objLogger->error("Error Trace String : ".$ex->getTraceAsString());
 				if(!empty($ex->getMessage())){
-					throw new ChannelException($ex->getMessage(), 401);
+					throw new ChannelException($ex->getMessage(), 201);
 				}
 				else {
 					throw new ChannelException('Channel credentials invalid', 201);

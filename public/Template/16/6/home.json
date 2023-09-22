@@ -1,0 +1,23 @@
+{
+    "HomePageDetails": {
+        "hotelid": "16",
+        "templateid": "6",
+        "logo": "",
+        "bg_img": "",
+        "welcome_txt": "undefined",
+        "featursemenu": [
+            {
+                "menuid": "1",
+                "title": "Channels"
+            }
+        ],
+        "menu": [
+            {
+                "menuid": "1",
+                "title": "Channels",
+                "img": "",
+                "subtitle": ""
+            }
+        ]
+    }
+}

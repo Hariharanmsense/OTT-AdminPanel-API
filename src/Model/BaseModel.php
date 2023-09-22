@@ -38,5 +38,30 @@ class BaseModel
 
 	} 
 
+	protected function moveUploadedFile($directory, $orginalName, $filename)
+    {
+        // print_r(($orginalName->getClientFilename()));die();
+        $ImageName = $orginalName->getClientFilename();
+
+
+        $ext = pathinfo($ImageName, PATHINFO_EXTENSION);
+
+        $newName = $filename . '.' . $ext;
+
+        if ($orginalName->getError() === UPLOAD_ERR_OK) {
+
+            if (!file_exists($directory)) {
+                mkdir($directory, 0777, true);
+            }
+
+            $orginalName->moveTo($directory . DIRECTORY_SEPARATOR . $newName);
+
+        }
+        //echo $newName;die();
+        //$orginalName->moveTo($directory . DIRECTORY_SEPARATOR . $filename);
+
+        return $newName;
+    }
+
 }
 ?>

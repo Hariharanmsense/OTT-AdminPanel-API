@@ -1,4 +1,0 @@
-[2023-06-06 10:10:41] BrandAction.INFO: ======= Start Brand Action (EXCEL) ================  
-[2023-06-06 10:10:41] BrandAction.INFO: method : POST  
-[2023-06-06 10:10:41] BrandAction.INFO: contentType : application/json  
-[2023-06-06 10:10:41] BrandAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686045582,"exp":1686131982}}  

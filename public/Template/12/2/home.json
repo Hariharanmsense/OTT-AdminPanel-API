@@ -1,0 +1,69 @@
+{
+    "HomePageDetails": {
+        "hotelid": "12",
+        "templateid": "2",
+        "logo": "public/uploads/template/12/2/Logo.jpg",
+        "bg_img": "public/uploads/template/12/2/Background.jpg",
+        "welcome": "",
+        "welcome_txt": "Test",
+        "featursemenu": [
+            {
+                "menuid": "1",
+                "title": "Channels"
+            },
+            {
+                "menuid": "2",
+                "title": "Bill View"
+            },
+            {
+                "menuid": "4",
+                "title": "Screen casting"
+            },
+            {
+                "menuid": "5",
+                "title": "Guest Services"
+            },
+            {
+                "menuid": "7",
+                "title": "Help"
+            }
+        ],
+        "menu": [
+            {
+                "menuid": "1",
+                "title": "Channels",
+                "img": "",
+                "subtitle": "undefined",
+                "orderby": "1"
+            },
+            {
+                "menuid": "7",
+                "title": "Help",
+                "img": "",
+                "subtitle": "",
+                "orderby": "2"
+            },
+            {
+                "menuid": "2",
+                "title": "Bill View",
+                "img": "",
+                "subtitle": "",
+                "orderby": "3"
+            },
+            {
+                "menuid": "4",
+                "title": "Screen casting",
+                "img": "",
+                "subtitle": "",
+                "orderby": "4"
+            },
+            {
+                "menuid": "5",
+                "title": "Guest Services",
+                "img": "",
+                "subtitle": "",
+                "orderby": "5"
+            }
+        ]
+    }
+}

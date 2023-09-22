@@ -1,6 +1,0 @@
-[2023-06-27 04:27:14] BrandModel.INFO: Query : call SP_AddandEditBrand('EDIT','','','0','undefined')  
-[2023-06-27 04:28:43] BrandModel.INFO: Query : call SP_AddandEditBrand('EDIT','','','0','undefined')  
-[2023-06-27 04:33:01] BrandModel.INFO: Query : call SP_AddandEditBrand('EDIT','','','0','undefined')  
-[2023-06-27 04:33:30] BrandModel.INFO: Query : call SP_AddandEditBrand('EDIT','','','0','undefined')  
-[2023-06-27 04:34:57] BrandModel.INFO: Query : call SP_AddandEditBrand('EDIT','','','0','1')  
-[2023-06-27 04:52:15] BrandModel.INFO: Query : call SP_AddandEditBrand('EDIT','','','0','2')  

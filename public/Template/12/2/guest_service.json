@@ -1,0 +1,28 @@
+{
+    "guestServices": {
+        "hotelid": "12",
+        "templateid": "2",
+        "logo": "public/uploads/template/12/2/Logo.jpg",
+        "home_bgimg": "public/uploads/template/12/2/Background.jpg",
+        "bgimg": "",
+        "title": "",
+        "subtext": "undefined",
+        "menu": [
+            {
+                "title": "Test",
+                "img": "public/uploads/template/12/2/Channels.jpg",
+                "content": "Test"
+            },
+            {
+                "title": "",
+                "img": "public/uploads/template/12/2/Guest_service/.png",
+                "content": "undefined"
+            },
+            {
+                "title": "",
+                "img": "public/uploads/template/12/2/Guest_service/.png",
+                "content": "2324"
+            }
+        ]
+    }
+}

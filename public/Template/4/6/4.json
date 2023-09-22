@@ -1,9 +1,45 @@
 {
     "HomePageDetails": {
         "logo": "public/uploads/Template/4/6/Logo.png",
-        "bg_img": "public/uploads/Template/4/6/Background.jpeg",
+        "bg_img": "public/uploads/Template/4/6/Background.png",
         "welcome": "",
-        "welcome_txt": "welcome message",
-        "menu": []
+        "welcome_txt": "Welcome Msg",
+        "menu": [
+            {
+                "title": "Channels",
+                "img": "public/uploads/Template/4/6/Channels.png",
+                "pagelink": ""
+            },
+            {
+                "title": "Bill View",
+                "img": "public/uploads/Template/4/6/Bill View.png",
+                "pagelink": ""
+            },
+            {
+                "title": "Guest Messaging",
+                "img": "",
+                "pagelink": ""
+            },
+            {
+                "title": "Screen casting",
+                "img": "",
+                "pagelink": ""
+            },
+            {
+                "title": "Guest Services",
+                "img": "",
+                "pagelink": ""
+            },
+            {
+                "title": "Hotel Information",
+                "img": "",
+                "pagelink": ""
+            },
+            {
+                "title": "Help",
+                "img": "",
+                "pagelink": ""
+            }
+        ]
     }
 }

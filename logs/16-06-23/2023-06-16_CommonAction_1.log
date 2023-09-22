@@ -1,4 +1,0 @@
-[2023-06-16 04:25:32] CommonRepository.INFO: ======= Start Common Repository ================  
-[2023-06-16 04:25:32] CommonModel.INFO: Query : CALL SP_OttLookUp(0, 1, 'TIMEZONEALL')  
-[2023-06-16 04:25:32] CommonModel.INFO: get All Assign Menu (count) : 1796  
-[2023-06-16 04:25:32] CommonRepository.INFO: ======= End Common Repository ================  

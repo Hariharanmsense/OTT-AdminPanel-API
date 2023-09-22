@@ -1,0 +1,18 @@
+{
+    "guestServices": {
+        "hotelid": "4",
+        "templateid": "21",
+        "logo": "",
+        "home_bgimg": "",
+        "bgimg": "",
+        "title": "Guest Service",
+        "subtext": "Hai Everyone Welcome to the Show",
+        "menu": [
+            {
+                "title": "Hello User",
+                "img": "",
+                "content": "Hello_user"
+            }
+        ]
+    }
+}

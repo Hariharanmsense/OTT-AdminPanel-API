@@ -26,6 +26,7 @@ class HotelRepository extends BaseRepository implements HotelService
         $this->dBConFactory = $dBConFactory;
         $this->jwtTokenObjt = $jwtTokenObjt;
     }
+	
 
     public function Viewhotellist($inputData){
 

@@ -1,0 +1,19 @@
+{
+    "HomePageDetails": {
+        "hotelid": "16",
+        "templateid": "4",
+        "logo": "",
+        "bg_img": "public/uploads/template/16/4/Background.png",
+        "welcome": "",
+        "welcome_txt": "",
+        "menu": [
+            {
+                "menuid": "",
+                "title": "",
+                "img": "",
+                "pagelink": "",
+                "subtitle": ""
+            }
+        ]
+    }
+}

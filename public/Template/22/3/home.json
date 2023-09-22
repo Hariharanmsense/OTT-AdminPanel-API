@@ -1,0 +1,22 @@
+{
+    "HomePageDetails": {
+        "hotelid": "22",
+        "templateid": "3",
+        "menu": [
+            {
+                "menuid": "3",
+                "title": "Guest Messaging",
+                "img": "",
+                "pagelink": "",
+                "subtitle": ""
+            },
+            {
+                "menuid": "4",
+                "title": "Screen casting",
+                "img": "",
+                "pagelink": "",
+                "subtitle": ""
+            }
+        ]
+    }
+}

@@ -1,6 +1,0 @@
-[2023-06-07 09:16:32] BrandAction.INFO: ======= Start Brand Action (VIEW)================  
-[2023-06-07 09:16:32] BrandAction.INFO: method : POST  
-[2023-06-07 09:16:32] BrandAction.INFO: contentType : application/json  
-[2023-06-07 09:16:32] BrandAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@example.com","hotelId":"1","brandId":null,"iat":1686120629,"exp":1686207029}}  
-[2023-06-07 09:16:32] BrandModel.INFO: Query : call SP_AddandEditBrand('VIEW','','',0,0)  
-[2023-06-07 09:16:32] BrandAction.INFO: ======= END Brand Action (VIEW)================  

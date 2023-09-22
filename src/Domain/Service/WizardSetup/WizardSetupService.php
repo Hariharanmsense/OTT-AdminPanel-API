@@ -11,5 +11,9 @@ interface WizardSetupService
     public function gettemplateDetails($hotelid,$tempid,$userid,$userName);
     public function updatefeed($JWTdata,$userid,$userName);
     public function bulkUploadrepository($JWTdata,$bulkuploadfile,$userId,$userName);
-	
+    public function  getHomescreenJson($hotelid,$tempid,$userid,$userName);
+    public function updatechanneldata($JWTdata,$tvchannelids,$userid,$userName);
+	public function  getguestJson($hotelid,$tempid,$userid,$userName);
+    public function createGuest($JWTdata,$logo,$bgimg,$menuicon,$userId,$userName);
+    public function createhtlinfo($JWTdata,$logo,$bgimg,$menuicon,$userId,$userName);
 }

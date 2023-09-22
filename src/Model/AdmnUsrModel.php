@@ -17,6 +17,175 @@ class AdmnUsrModel extends BaseModel
         $this->dBConFactory = $dBConFactory;
     }
 
+    public function profileUpdate($userId, $userName, $mobile, $email, $auditBy){
+        $objLogger = $this->loggerFactory->getFileObject('AdmnUsrsAction_'.$auditBy, 'AdmnUsrModel');
+        try{
+            
+            $action = 'PROFILEUPDATE';
+            $sqlQuery = "CALL SP_AdmnUsrConfig('', '', ".$userId.", '".$userName."', 
+            '', '".$email."', 0,0,'','".$mobile."', '', '', ".$auditBy.", '', 0, '', 0, '', '', '".$action."')";
+            
+            $objLogger->info('Query : '.$sqlQuery); 
+            $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
+            $insResult = $dbObjt->getSingleDatasByObjects($sqlQuery);
+            $objLogger->info('Insert Return : '.json_encode($insResult));
+            if($insResult->ErrorCode == '00'){
+                
+                return 'SUCCESS';
+            }
+            else {
+                throw new AdmnUsrsException($insResult->Result, 201);
+            }
+        }
+        catch (AdmnUsrsException $ex) {
+
+            $objLogger->error("Error Code : ".$ex->getCode()."Error Message : ".$ex->getMessage());
+            $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
+            //$objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+            if(!empty($ex->getMessage())){
+                throw new AdmnUsrsException($ex->getMessage(), $ex->getCode());
+            }
+            else {
+                throw new AdmnUsrsException('Invalid Access', 201);
+            }
+        }
+    }
+
+    public function getLastLogin($userId, $auditBy){
+        $objLogger = $this->loggerFactory->getFileObject('AdmnUsrsAction_'.$auditBy, 'AdmnUsrsModel');
+        try{
+
+            $action = 'LASTLOGIN';
+            $sqlQuery = "CALL SP_AdmnUsrConfig('', '', ".$userId.", '', '', '', 0, 0, '','','','',
+            ".$auditBy.", '', 0, '', 0, '', '', '".$action."')";
+            
+            $objLogger->info('Query : '.$sqlQuery); 
+            $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
+            $users = $dbObjt->getMultiDatasByObjects($sqlQuery);
+
+            if(count((array)$users) <= 0){
+                throw new AdmnUsrsException('Invalid User Id', 201);
+            }
+            return $users;
+
+        }
+        catch(AdmnUsrsException $ex) {
+
+            $objLogger->error("Error Code : ".$ex->getCode()."Error Message : ".$ex->getMessage());
+            $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
+            //$objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+            if(!empty($ex->getMessage())){
+                throw new AdmnUsrsException($ex->getMessage(), $ex->getCode());
+            }
+            else {
+                throw new AdmnUsrsException('Invalid Access', 201);
+            }
+        }
+
+    }
+
+    public function checkOldPassword($userId, $encrptpassword, $auditBy){
+        $objLogger = $this->loggerFactory->getFileObject('AdmnUsrsAction_'.$auditBy, 'AdmnUsrsModel');
+        try{
+            $action = "ALREADYEXISTPWD";
+            $sqlQuery = "CALL SP_AdmnUsrConfig('', '', ".$userId.", '', '".$encrptpassword."', '', 0, 0, '','','','',
+            ".$auditBy.", '', 0, '', 0, '', '', '".$action."')";
+            
+            $objLogger->info('Query : '.$sqlQuery); 
+            $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
+            $user = $dbObjt->getSingleDatasByObjects($sqlQuery);
+            $userDetId = isset($user->id)?$user->id:'';
+
+            if(!empty($userDetId))
+                return 'Old password same.';
+            else 
+                throw new UserException('Old password is mismatch', 200);
+
+        }
+        catch(AdmnUsrsException $ex) {
+
+            $objLogger->error("Error Code : ".$ex->getCode()."Error Message : ".$ex->getMessage());
+            $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
+            //$objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+            if(!empty($ex->getMessage())){
+                throw new UserException('Old password is mismatch', 200);
+            }
+            else {
+                throw new UserException('Cannot connect to the server. Please try again later.', 400);
+            }
+        }
+
+    }
+
+    public function resetPasswordGet($resetCode){
+        $objLogger = $this->loggerFactory->getFileObject('AdmnUsrsAction', 'AdmnUsrsModel');
+        try{
+
+            $action = 'RESETCODEVALID';
+            $sqlQuery = "CALL SP_AdmnUsrConfig('', '', 0, '', '', '', 0, 0, '','','','".$resetCode."',
+            0, '', 0, '', 0, '', '', '".$action."')";
+            
+            $objLogger->info('Query : '.$sqlQuery); 
+            $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
+            $users = $dbObjt->getSingleDatasByObjects($sqlQuery, 'YES');
+			if(empty($users)){
+				throw new AdmnUsrsException('Invalid Access', 201);
+			}
+            return $users;
+        }
+        catch(AdmnUsrsException $ex) {
+
+            $objLogger->error("Error Code : ".$ex->getCode()."Error Message : ".$ex->getMessage());
+            $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
+            //$objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+            if(!empty($ex->getMessage())){
+                throw new AdmnUsrsException($ex->getMessage(), $ex->getCode());
+            }
+            else {
+                throw new AdmnUsrsException('Invalid Access', 201);
+            }
+        }
+    }
+
+
+    public function delete($userid,$auditBy){
+        $objLogger = $this->loggerFactory->getFileObject('AdmnUsrsAction_'.$auditBy, 'AdmnUsrsModel');
+        try{
+
+            $action = 'DELETE';
+            $sqlQuery = "CALL SP_AdmnUsrConfig('', '', ".$userid.", '', '', '', 0, 0, '','','','',
+            ".$auditBy.", '', 0, '', 0, '', '', '".$action."')";
+            
+            $objLogger->info('Query : '.$sqlQuery); 
+            $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
+            $insResult = $dbObjt->getSingleDatasByObjects($sqlQuery);
+            $objLogger->info('delete Return : '.json_encode($insResult));
+            if($insResult->ErrorCode == '00'){
+
+                return 'SUCCESS';
+            }
+            else if($insResult->ErrorCode == '01'){
+                throw new AdmnUsrsException($insResult->Result, 201);
+            }
+            else {
+                throw new AdmnUsrsException('Cannot connect to the server. Please try again later.', 201);
+            }
+
+        }
+        catch(AdmnUsrsException $ex) {
+
+            $objLogger->error("Error Code : ".$ex->getCode()."Error Message : ".$ex->getMessage());
+            $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
+            //$objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+            if(!empty($ex->getMessage())){
+                throw new AdmnUsrsException($ex->getMessage(), $ex->getCode());
+            }
+            else {
+                throw new AdmnUsrsException('Invalid Access', 201);
+            }
+        }
+    }
+
     public function activeOrDeactiveUser($userId, $auditBy){
         $objLogger = $this->loggerFactory->getFileObject('AdmnUsrsAction_'.$auditBy, 'AdmnUsrModel');
         try{
@@ -34,7 +203,7 @@ class AdmnUsrModel extends BaseModel
                 return $insResult->Result;
             }
             else {
-                throw new AdmnUsrsException($insResult->Result, 401);
+                throw new AdmnUsrsException($insResult->Result, 201);
             }
 
         }
@@ -47,7 +216,7 @@ class AdmnUsrModel extends BaseModel
                 throw new AdmnUsrsException($ex->getMessage(), $ex->getCode());
             }
             else {
-                throw new AdmnUsrsException('Invalid Access', 401);
+                throw new AdmnUsrsException('Invalid Access', 201);
             }
         }
     }
@@ -62,7 +231,10 @@ class AdmnUsrModel extends BaseModel
             
             $objLogger->info('Query : '.$sqlQuery); 
             $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
-            $users = $dbObjt->getSingleDatasByObjects($sqlQuery);
+            $users = $dbObjt->getSingleDatasByObjects($sqlQuery, "YES");
+            if(count((array)$users) <= 0){
+                throw new AdmnUsrsException('Please Enter Your Valid Email Address', 201);
+            }
             return $users;
         }
         catch (AdmnUsrsException $ex) {
@@ -74,7 +246,7 @@ class AdmnUsrModel extends BaseModel
                 throw new AdmnUsrsException($ex->getMessage(), $ex->getCode());
             }
             else {
-                throw new AdmnUsrsException('Invalid Access', 401);
+                throw new AdmnUsrsException('Invalid Access', 201);
             }
         }
             
@@ -96,7 +268,7 @@ class AdmnUsrModel extends BaseModel
                 return 'SUCCESS';
             }
             else {
-                throw new AdmnUsrsException($insResult->Result, 401);
+                throw new AdmnUsrsException($insResult->Result, 201);
             }
 
         }
@@ -109,7 +281,7 @@ class AdmnUsrModel extends BaseModel
                 throw new AdmnUsrsException($ex->getMessage(), $ex->getCode());
             }
             else {
-                throw new AdmnUsrsException('Invalid Access', 401);
+                throw new AdmnUsrsException('Invalid Access', 201);
             }
         }
     }
@@ -137,7 +309,7 @@ class AdmnUsrModel extends BaseModel
                 throw new AdmnUsrsException($ex->getMessage(), $ex->getCode());
             }
             else {
-                throw new AdmnUsrsException('Invalid Access', 401);
+                throw new AdmnUsrsException('Invalid Access', 201);
             }
         }
     }
@@ -159,7 +331,7 @@ class AdmnUsrModel extends BaseModel
                 return 'SUCCESS';
             }
             else {
-                throw new AdmnUsrsException($insResult->Result, 401);
+                throw new AdmnUsrsException($insResult->Result, 201);
             }
         }
         catch (AdmnUsrsException $ex) {
@@ -171,7 +343,7 @@ class AdmnUsrModel extends BaseModel
                 throw new AdmnUsrsException($ex->getMessage(), $ex->getCode());
             }
             else {
-                throw new AdmnUsrsException('Invalid Access', 401);
+                throw new AdmnUsrsException('Invalid Access', 201);
             }
         }
     }
@@ -194,7 +366,7 @@ class AdmnUsrModel extends BaseModel
                 return 'SUCCESS';
             }
             else {
-                throw new AdmnUsrsException($insResult->Result, 401);
+                throw new AdmnUsrsException($insResult->Result, 201);
             }
             
         }
@@ -207,7 +379,7 @@ class AdmnUsrModel extends BaseModel
                 throw new AdmnUsrsException($ex->getMessage(), $ex->getCode());
             }
             else {
-                throw new AdmnUsrsException('Invalid Access', 401);
+                throw new AdmnUsrsException('Invalid Access', 201);
             }
         }
     }
@@ -235,7 +407,7 @@ class AdmnUsrModel extends BaseModel
                 throw new AdmnUsrsException($ex->getMessage(), $ex->getCode());
             }
             else {
-                throw new AdmnUsrsException('Invalid Access', 401);
+                throw new AdmnUsrsException('Invalid Access', 201);
             }
         }
     }
@@ -244,7 +416,7 @@ class AdmnUsrModel extends BaseModel
     {
         $objLogger = $this->loggerFactory->getFileObject('AdmnUsrsAction_'.$auditBy, 'AdmnUsrModel');       
         try{
-            //print_r("HAI");die();
+            
             $action = 'GETALL';
             $sqlQuery = "CALL SP_AdmnUsrConfig('".$hotelid."', '".$brandid."', 0, '', '', '', 0, 0, '','','', '', 
             ".$auditBy.", '".$searchValue."', ".$itemperPage.", '".$currentPage."', 
@@ -268,7 +440,7 @@ class AdmnUsrModel extends BaseModel
                 throw new AdmnUsrsException($ex->getMessage(), $ex->getCode());
             }
             else {
-                throw new AdmnUsrsException('Invalid Access', 401);
+                throw new AdmnUsrsException('Invalid Access', 201);
             }
         }
     }
@@ -287,7 +459,7 @@ class AdmnUsrModel extends BaseModel
             $user = $dbObjt->getSingleDatasByObjects($sqlQuery);
 
             if(empty($user->ReadWriteAccess)){
-                throw new AdmnUsrsException('Invalid Access', 401);
+                throw new AdmnUsrsException('Invalid Access', 201);
             }
 
             return $user->ReadWriteAccess;
@@ -301,7 +473,7 @@ class AdmnUsrModel extends BaseModel
                 throw new AdmnUsrsException($ex->getMessage(), $ex->getCode());
             }
             else {
-                throw new AdmnUsrsException('Invalid Access', 401);
+                throw new AdmnUsrsException('Invalid Access', 201);
             }
         }
     }

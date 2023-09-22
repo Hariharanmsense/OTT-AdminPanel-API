@@ -1,5 +1,0 @@
-[2023-06-07 08:52:57] HotelChannelModel.INFO: Query : call SP_AddandEdithotelChannelInfo('ADD',1,'128.122.12.12' ,23 ,1,1,1,1,1)  
-[2023-06-07 08:53:21] HotelChannelModel.INFO: Query : call SP_AddandEdithotelChannelInfo('ADD',2,'128.122.12.12' ,23 ,1,1,2,1,1)  
-[2023-06-07 08:53:28] HotelChannelModel.INFO: Query : call SP_AddandEdithotelChannelInfo('ADD',2,'128.123.12.12' ,23 ,1,1,2,1,1)  
-[2023-06-07 08:53:45] HotelChannelModel.INFO: Query : call SP_AddandEdithotelChannelInfo('ADD',3,'128.123.121.12' ,234 ,1,1,3,1,1)  
-[2023-06-07 08:54:01] HotelChannelModel.INFO: Query : call SP_AddandEdithotelChannelInfo('ADD',4,'128.123.121.123' ,2031 ,1,1,4,1,1)  

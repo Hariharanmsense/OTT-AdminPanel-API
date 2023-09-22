@@ -1,0 +1,17 @@
+{
+    "HomePageDetails": {
+        "hotelid": "4",
+        "templateid": "12",
+        "featursemenu": [
+            {
+                "menuid": "2",
+                "title": "Bill View"
+            },
+            {
+                "menuid": "3",
+                "title": "Guest Service"
+            }
+        ],
+        "menu": ""
+    }
+}

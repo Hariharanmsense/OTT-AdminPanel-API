@@ -9,7 +9,7 @@ use App\Model\DB;
 use App\Model\CommonModel;
 
 
-class AdmnMenuModel extends BaseModel
+class AdmnMenuModel
 {
     
     protected DBConFactory $dBConFactory;
@@ -21,7 +21,120 @@ class AdmnMenuModel extends BaseModel
         $this->dBConFactory = $dBConFactory;
     }
 
-   
+    public function assginMenuWithGroup($groupId, $hotelId, $readMenus, $writeMenus, $auditBy){
+        $objLogger = $this->loggerFactory->getFileObject('AdmnMenuAction_'.$auditBy, 'AdmnMenuModel');
+        try{
+
+            $sqlDelete = "DELETE FROM tempadminmenugrp";
+            $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
+            $deleteResult = $dbObjt->insOrUpdteOrDetQuery($sqlDelete);
+
+            if($deleteResult){
+                $objLogger->info('temp adminmeugroup deleted successfully'); 
+            }
+            else {
+                $objLogger->info('temp adminmeugroup not deleted'); 
+            }
+
+            $toRedOnlyMenuIds = array();
+            if(!empty($readMenus)){
+                //$toRedOnlyMenuIds = explode(",",$readMenus);
+                $toRedOnlyMenuIds = array_unique($readMenus);
+            }
+
+            $toRedWriteMenuIds = array();
+            if(!empty($writeMenus)){
+                //$toRedWriteMenuIds = explode(",",$writeMenus);
+                $toRedWriteMenuIds = array_unique($writeMenus);
+            }
+
+            $toMenuIds = array();
+		    $toMenuIds = array_merge($toRedOnlyMenuIds, $toRedWriteMenuIds);
+            if(is_array($toMenuIds) && count($toMenuIds) >=1){
+                foreach($toMenuIds as $MenuId){
+                    if(in_array($MenuId, $toRedOnlyMenuIds)){
+                        $menuRight = 1;
+                    }
+                    else {
+                        $menuRight = 2;
+                    }
+
+                    $sqlQuery = " INSERT INTO tempadminmenugrp(GroupId, MenuId, ReadWriteAccess, HotelId) 
+							  VALUES('".$groupId."', '".$MenuId."', '".$menuRight."', '".$hotelId."') ";
+                    
+                    $objLogger->info('Insert Query : '.$sqlQuery);
+                    $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
+                    $result = $dbObjt->insOrUpdteOrDetQuery($sqlQuery);
+                    if($result){
+                        $objLogger->info('inserted successfully'); 
+                    }
+                    else {
+                        $objLogger->info('not inserted'); 
+                    }
+                }
+                $action = 'ADD';
+                $sqlPrco = "CALL SP_AssignMenuConfig(".$groupId.", ".$hotelId.", ".$auditBy.", '".$action."') ";
+                $objLogger->info('Query : '.$sqlPrco); 
+                $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
+                $insResult = $dbObjt->getSingleDatasByObjects($sqlPrco);
+                //print_r($insResult); die();
+                $objLogger->info('Insert Return : '.json_encode($insResult));
+
+                if($insResult->ErrorCode == '00'){
+
+                    return $insResult;
+                }
+                else {
+
+                    $sqlQuery = "DELETE FROM admingroups WHERE GroupID = ".$groupId;
+                    $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
+                    $delResult = $dbObjt->getSingleDatasByObjects($sqlQuery);
+                    $objLogger->info("Insert Status : ".$delResult);
+                    
+                    throw new AdmnMenuException($insResult->Result, 201);
+                }
+            }
+            else {
+
+                $action = 'DELETE';
+                $sqlPrco = "CALL SP_AssignMenuConfig(".$groupId.", ".$hotelId.", ".$auditBy.", '".$action."') ";
+                $objLogger->info('Query : '.$sqlPrco); 
+                $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
+                $insResult = $dbObjt->getSingleDatasByObjects($sqlPrco);
+                $objLogger->info('DELETE Return : '.json_encode($insResult));
+                if($insResult->ErrorCode == '00'){
+
+                    return $insResult;
+                }
+                else {
+
+                    $sqlQuery = "DELETE FROM admingroups WHERE GroupID = ".$groupId;
+                    $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
+                    $delResult = $dbObjt->getSingleDatasByObjects($sqlQuery);
+                    $objLogger->info("Insert Status : ".$delResult);
+
+                    throw new AdmnMenuException($insResult->Result, 201);
+                }
+            }
+        }
+        catch (AdmnMenuException $ex) {
+
+            $sqlQuery = "DELETE FROM admingroups WHERE GroupID = ".$groupId;
+            $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
+            $delResult = $dbObjt->getSingleDatasByObjects($sqlQuery);
+            $objLogger->info("Insert Status : ".$delResult);
+
+            $objLogger->error("Error Code : ".$ex->getCode()."Error Message : ".$ex->getMessage());
+            $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
+            //$objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+            if(!empty($ex->getMessage())){
+                throw new AdmnMenuException($ex->getMessage(), $ex->getCode());
+            }
+            else {
+                throw new AdmnMenuException('Invalid Access', 201);
+            }
+        }
+    }
 
     public function assginMenu($groupId, $hotelId, $readMenus, $writeMenus, $auditBy){
         $objLogger = $this->loggerFactory->getFileObject('AdmnMenuAction_'.$auditBy, 'AdmnMenuModel');
@@ -40,12 +153,14 @@ class AdmnMenuModel extends BaseModel
 
             $toRedOnlyMenuIds = array();
             if(!empty($readMenus)){
-                $toRedOnlyMenuIds = explode(",",$readMenus);
+                //$toRedOnlyMenuIds = explode(",",$readMenus);
+                $toRedOnlyMenuIds = array_unique($readMenus);
             }
 
             $toRedWriteMenuIds = array();
             if(!empty($writeMenus)){
-                $toRedWriteMenuIds = explode(",",$writeMenus);
+                //$toRedWriteMenuIds = explode(",",$writeMenus);
+                $toRedWriteMenuIds = array_unique($writeMenus);
             }
 
             $toMenuIds = array();
@@ -84,7 +199,7 @@ class AdmnMenuModel extends BaseModel
                 }
                 else {
 
-                    throw new AdmnUsrsException($insResult->Result, 401);
+                    throw new AdmnUsrsException($insResult->Result, 201);
                 }
             }
             else {
@@ -101,7 +216,7 @@ class AdmnMenuModel extends BaseModel
                 }
                 else {
 
-                    throw new AdmnUsrsException($insResult->Result, 401);
+                    throw new AdmnUsrsException($insResult->Result, 201);
                 }
             }
         }
@@ -114,7 +229,7 @@ class AdmnMenuModel extends BaseModel
                 throw new AdmnMenuException($ex->getMessage(), $ex->getCode());
             }
             else {
-                throw new AdmnMenuException('Invalid Access', 401);
+                throw new AdmnMenuException('Invalid Access', 201);
             }
         }
     }

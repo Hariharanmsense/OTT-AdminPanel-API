@@ -1,0 +1,53 @@
+{
+    "HomePageDetails": {
+        "hotelid": "15",
+        "templateid": "1",
+        "logo": "public/uploads/template/15/1/Logo.png",
+        "bg_img": "public/uploads/template/15/1/Background.png",
+        "welcome_txt": "tyhty",
+        "featursemenu": [
+            {
+                "menuid": "1",
+                "title": "Channels"
+            },
+            {
+                "menuid": "2",
+                "title": "Bill View"
+            },
+            {
+                "menuid": "4",
+                "title": "Screen casting"
+            },
+            {
+                "menuid": "7",
+                "title": "Help"
+            }
+        ],
+        "menu": [
+            {
+                "menuid": "1",
+                "title": "Channels",
+                "img": "public/uploads/template/15/1/Channels.png",
+                "subtitle": "tyty"
+            },
+            {
+                "menuid": "7",
+                "title": "Help",
+                "img": "",
+                "subtitle": "ththth"
+            },
+            {
+                "menuid": "2",
+                "title": "Bill View",
+                "img": "public/uploads/template/15/1/Screen_casting.png",
+                "subtitle": "ththh"
+            },
+            {
+                "menuid": "4",
+                "title": "Screen casting",
+                "img": "",
+                "subtitle": "tyttbhthth"
+            }
+        ]
+    }
+}

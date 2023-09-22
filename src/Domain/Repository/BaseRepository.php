@@ -3,9 +3,75 @@ declare(strict_types=1);
 namespace App\Domain\Repository;
 use Respect\Validation\Validator as v;
 use App\Exception\AdmnUsrs\AdmnUsrsException;
+use App\Model\DB;
+use App\Exception\BaseException;
+
 class BaseRepository
 {
-    protected function validatePassword(string $password): string
+    
+	protected function getUserName($auditBy)
+	{
+		$sqlQuery = "SELECT userName FROM adminusers WHERE id = '".$auditBy."' ";
+		$dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
+		$deviceData = $dbObjt->getSingleDatasByObjects($sqlQuery);
+		return $deviceData;
+
+	}
+
+	public function getSmtpSettingsFromDb($hotelId, $auditBy){
+
+		$objLogger = $this->loggerFactory->getFileObject('SMTPMailSetting_'.$auditBy, 'BaseRepository');
+		$sqlQuery = "CALL SP_GetSmtpSetting(".$hotelId.")";
+		$objLogger->info('Query : '.$sqlQuery); 
+		$dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
+		$smtpSetting = $dbObjt->getSingleDatasByArray($sqlQuery, 'YES');
+		$objLogger->info('smtpSetting : '.json_encode($smtpSetting)); 
+		return $smtpSetting;
+	}
+	
+	public function getMenuRightStatus($auditBy, $menuid, $hotelid){
+
+		$objLogger = $this->loggerFactory->getFileObject('MenuRightAccess_'.$auditBy, 'BaseRepository');
+        $objLogger->info("======= Start AdmnUsrs Repository ================");
+        try{
+            
+			$sqlQuery = "SELECT grp.ReadWriteAccess FROM adminmenugroup AS grp 
+                         INNER JOIN adminusers as usr ON usr.userGroup = grp.groupID
+                         INNER JOIN adminmenus as mnu ON mnu.MenuID = grp.MenuID
+                         WHERE usr.id = '$auditBy' and grp.MenuID = '".$menuid."' and grp.hotelID = '".$hotelid."' ";
+
+            $objLogger->info('Query : '.$sqlQuery); 
+            $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
+            $readaccess = $dbObjt->getSingleDatasByObjects($sqlQuery, 'YES');
+			if(empty($readaccess)){
+				throw new AdmnUsrsException('this operation has been cancelled due to access restrictions', 201);
+			}
+
+			$rdAccess = isset($readaccess->ReadWriteAccess)?$readaccess->ReadWriteAccess:'';
+			if(empty($rdAccess)){
+				throw new AdmnUsrsException('this operation has been cancelled due to access restrictions', 201);
+			}
+
+			return  $rdAccess;
+            
+        }
+        catch (AdmnUsrsException $ex) {
+
+            $objLogger->error("Error Code : ".$ex->getCode()."Error Message : ".$ex->getMessage());
+            $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
+            //$objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+            $objLogger->info("======= End AdmnUsrs Repository ================");
+            if(!empty($ex->getMessage())){
+                throw new AdmnUsrsException($ex->getMessage(), $ex->getCode());
+            }
+            else {
+                throw new AdmnUsrsException('Invalid Access', 201);
+            }
+        }
+	}
+
+	
+	protected function validatePassword(string $password): string
     {
 		//echo $password;die;
      
@@ -64,6 +130,7 @@ class BaseRepository
 		} 
 		return $output;
 	}
+	
 	
 	protected function get_client_ip() {
 		$ipaddress = '';

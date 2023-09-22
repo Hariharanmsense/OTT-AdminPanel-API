@@ -17,23 +17,26 @@ class ChannelCategoryModel extends BaseModel
         $this->dBConFactory = $dBConFactory;
     }
     
-    public function viewCategoryllist($userid,$username){
-        $objLogger = $this->loggerFactory->addFileHandler($username.'_ChannelModel.log')->createInstance('ChannelModel');
+    public function viewCategoryllist($hotelid,$userid,$userName){
+        $objLogger = $this->loggerFactory->getFileObject('ChannelCategoryModel_' . $userName, 'viewCategoryllist');
+        $objLogger->info("======= START Channel Category Model (viewCategoryllist) ================");
         try 
         {
 
             $action = "VIEW";
-            $sqlQuery = "call SP_AddandEditChannelcategory('$action',0,'', 0, 0)";
+            $sqlQuery = "call SP_AddandEditChannelcategory('$action',$hotelid,'', 0, 0)";
                 $objLogger->info('Query : '.$sqlQuery);
                 $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
                 $ListChannel = $dbObjt->getMultiDatasByObjects($sqlQuery);
+                $objLogger->info('List Return : ' . json_encode($ListChannel));
+                $objLogger->info("======= END Channel Category Model (viewCategoryllist) ================");
                
                 if(!empty($ListChannel)){
                     return $ListChannel;
                 }
                 else{
                     if (empty($ListChannel)) {
-                        throw new ChannelException('Channel credentials invalid. ', 200);
+                        throw new ChannelException('Channel credentials invalid. ', 201);
                     }
                 }
 
@@ -41,19 +44,20 @@ class ChannelCategoryModel extends BaseModel
 
             $objLogger->error("Error Code : ".$ex->getCode()." Error Message : ".$ex->getMessage());
             $objLogger->error("Error File : ".$ex->getFile()." Error Line : ".$ex->getLine());
-            $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+            $objLogger->info("======= END Channel Category Model (viewCategoryllist) ================");
             if(!empty($ex->getMessage())){
-                throw new ChannelException($ex->getMessage(), 401);
+                throw new ChannelException($ex->getMessage(), 201);
             }
             else {
-                throw new ChannelException('Database Error', 401);
+                throw new ChannelException('Database Error', 201);
             }
         }
 
     }
 
    public function create($hotelid,  $categoryname,$userid,$userName){
-        $objLogger = $this->loggerFactory->addFileHandler('CategoryModel_'.$userName.'.log')->createInstance('ChannelModel');
+    $objLogger = $this->loggerFactory->getFileObject('ChannelCategoryModel_' . $userName, 'create');
+    $objLogger->info("======= START Channel Category Model (create) ================");
         try 
         {
             $action = "ADD";
@@ -62,14 +66,15 @@ class ChannelCategoryModel extends BaseModel
                 $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
                 $user = $dbObjt->getSingleDatasByObjects($sqlQuery);
                 
-               
+                $objLogger->info('List Return : ' . json_encode($user));
+                $objLogger->info("======= END Channel Category Model (create) ================");
                 if(!empty($user->msg)){
                 
                     return $user;
                 }
                 else{
                     if (empty($user)) {
-                        throw new ChannelException('Channel credentials invalid. ', 200);
+                        throw new ChannelException('Channel credentials invalid. ', 201);
                     }
                 }
                 
@@ -77,19 +82,20 @@ class ChannelCategoryModel extends BaseModel
 
             $objLogger->error("Error Code : ".$ex->getCode()." Error Message : ".$ex->getMessage());
             $objLogger->error("Error File : ".$ex->getFile()." Error Line : ".$ex->getLine());
-            $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+            $objLogger->info("======= END Channel Category Model (create) ================");
             if(!empty($ex->getMessage())){
-                throw new ChannelException($ex->getMessage(), 401);
+                throw new ChannelException($ex->getMessage(), 201);
             }
             else {
-                throw new ChannelException('Database Error', 401);
+                throw new ChannelException('Database Error', 201);
             }
         }
     }
 
     public function getoneModel($categoryid,$userid,$userName){
 
-        $objLogger = $this->loggerFactory->addFileHandler('CategoryModel_'.$userName.'.log')->createInstance('ChannelModel');
+        $objLogger = $this->loggerFactory->getFileObject('ChannelCategoryModel_' . $userName, 'getoneModel');
+        $objLogger->info("======= START Channel Category Model (getoneModel) ================");
         try 
         {
             $action = "GETONE";
@@ -98,6 +104,8 @@ class ChannelCategoryModel extends BaseModel
                 $objLogger->info('Query : '.$sqlQuery);
                 $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
                 $user = $dbObjt->getSingleDatasByObjects($sqlQuery);
+                $objLogger->info('List Return : ' . json_encode($user));
+                $objLogger->info("======= END Channel Category Model (getoneModel) ================");
                
                 if(!empty($user)){
                     return $user;
@@ -113,12 +121,12 @@ class ChannelCategoryModel extends BaseModel
 
             $objLogger->error("Error Code : ".$ex->getCode()." 12Error Message : ".$ex->getMessage());
             $objLogger->error("Error File : ".$ex->getFile()." 1Error Line : ".$ex->getLine());
-            $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+            $objLogger->info("======= END Channel Category Model (getoneModel) ================");
             if(!empty($ex->getMessage())){
-                throw new ChannelException($ex->getMessage(), 401);
+                throw new ChannelException($ex->getMessage(), 201);
             }
             else {
-                throw new ChannelException('Database Error', 401);
+                throw new ChannelException('Database Error', 201);
             }
         }
     }
@@ -126,7 +134,9 @@ class ChannelCategoryModel extends BaseModel
 
     public function update($categoryid,$hotelid,$categoryname,$userid,$userName){
 
-        $objLogger = $this->loggerFactory->addFileHandler('CategoryModel_'.$userName.'.log')->createInstance('ChannelModel');
+        
+        $objLogger = $this->loggerFactory->getFileObject('ChannelCategoryModel_' . $userName, 'update');
+        $objLogger->info("======= START Channel Category Model (update) ================");
         try 
         {
             $action = "UPDATE";
@@ -135,7 +145,8 @@ class ChannelCategoryModel extends BaseModel
                 $objLogger->info('Query : '.$sqlQuery);
                 $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
                 $user = $dbObjt->getSingleDatasByObjects($sqlQuery);
-               
+                $objLogger->info('List Return : ' . json_encode($user));
+                $objLogger->info("======= END Channel Category Model (update) ================");
                 if(!empty($user)){
                     return $user;
                 }
@@ -150,19 +161,21 @@ class ChannelCategoryModel extends BaseModel
 
             $objLogger->error("Error Code : ".$ex->getCode()." 12Error Message : ".$ex->getMessage());
             $objLogger->error("Error File : ".$ex->getFile()." 1Error Line : ".$ex->getLine());
-            $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+            $objLogger->info("======= END Channel Category Model (update) ================");
             if(!empty($ex->getMessage())){
-                throw new ChannelException($ex->getMessage(), 401);
+                throw new ChannelException($ex->getMessage(), 201);
             }
             else {
-                throw new ChannelException('Database Error', 401);
+                throw new ChannelException('Database Error', 201);
             }
         }
     }
 
     public function delete($categoryid,$userid,$userName){
 
-        $objLogger = $this->loggerFactory->addFileHandler('CategoryModel_'.$userName.'.log')->createInstance('ChannelModel');
+        
+        $objLogger = $this->loggerFactory->getFileObject('ChannelCategoryModel_' . $userName, 'delete');
+        $objLogger->info("======= START Channel Category Model (delete) ================");
         try 
         {
             $action = "DELETE";
@@ -172,7 +185,8 @@ class ChannelCategoryModel extends BaseModel
                 $objLogger->info('Query : '.$sqlQuery);
                 $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
                 $user = $dbObjt->getSingleDatasByObjects($sqlQuery);
-               
+                $objLogger->info('List Return : ' . json_encode($user));
+                $objLogger->info("======= END Channel Category Model (delete) ================");
                 if(!empty($user)){
                     return $user;
                 }
@@ -187,12 +201,12 @@ class ChannelCategoryModel extends BaseModel
 
             $objLogger->error("Error Code : ".$ex->getCode()." 12Error Message : ".$ex->getMessage());
             $objLogger->error("Error File : ".$ex->getFile()." 1Error Line : ".$ex->getLine());
-            $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+            $objLogger->info("======= END Channel Category Model (delete) ================");
             if(!empty($ex->getMessage())){
-                throw new ChannelException($ex->getMessage(), 401);
+                throw new ChannelException($ex->getMessage(), 201);
             }
             else {
-                throw new ChannelException('Database Error', 401);
+                throw new ChannelException('Database Error', 201);
             }
         }
     }

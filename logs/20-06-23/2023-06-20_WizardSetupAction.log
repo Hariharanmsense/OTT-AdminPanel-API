@@ -1,4 +1,0 @@
-[2023-06-20 04:29:53] WizardSetupAction.INFO: ======= Start WizardSetup Action (Get Template Details for hotel) ================  
-[2023-06-20 04:29:53] WizardSetupAction.INFO: method : POST  
-[2023-06-20 04:29:53] WizardSetupAction.INFO: Input Data : {"hotelid":"4","tempid":"4","decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687235351,"exp":1687321751}}  
-[2023-06-20 04:29:53] WizardSetupAction.INFO: ======= END WizardSetup Action (Get Template Details for hotel) ================  

@@ -1,5 +1,0 @@
-[2023-06-26 04:29:42] HotelAction.INFO: ======= Start Hotel Action (List) ================  
-[2023-06-26 04:29:42] HotelAction.INFO: method : POST  
-[2023-06-26 04:29:42] HotelAction.INFO: contentType : application/json  
-[2023-06-26 04:29:42] HotelAction.INFO: Input Data : {"decoded":{"sub":"1","id":"1","userName":"super admin","userGroup":"1","email":"superadmin@msense.in","hotelId":"4","brandId":"7","iat":1687753779,"exp":1687840179}}  
-[2023-06-26 04:29:42] HotelAction.INFO: ======= END Hotel Action (List) ================  
