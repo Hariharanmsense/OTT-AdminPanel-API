@@ -17,13 +17,13 @@ class HotelChannelModel extends BaseModel
         $this->dBConFactory = $dBConFactory;
     }
     
-    public function ViewChannellist($hotelid,$userid,$userName){
+    public function ViewChannellist($hotelid,$channelfeedtype,$userid,$userName){
         $objLogger = $this->loggerFactory->getFileObject('HotelChannelModel_' . $userName, 'ViewChannellist');
        
         try 
         {
             $action = "VIEW";
-            $sqlQuery = "call SP_AddandEdithotelChannelInfo('$action',0,'', 0, 0,0,0,0,0,0,$hotelid,0)";
+            $sqlQuery = "call SP_AddandEdithotelChannelInfo('$action',0,'', 0, 0,0,0,$channelfeedtype,0,0,$hotelid,0)";
                 $objLogger->info('Query : '.$sqlQuery);
                 $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
                 $ListChannel = $dbObjt->getMultiDatasByObjects($sqlQuery);
@@ -53,12 +53,12 @@ class HotelChannelModel extends BaseModel
     }
 
 
-   public function create($channelno,$channelip,$channelport,$channelcategory, $hotelid, $channelid,$chnlfrequency,$userid,$userName){
+   public function create($channelno,$channelip,$channelport,$channelcategory, $hotelid, $channelid,$chnlfrequency,$channelfeedtype,$userid,$userName){
     $objLogger = $this->loggerFactory->getFileObject('HotelChannelModel_' . $userName, 'create');
         try 
         {
             $action = "ADD";
-            $sqlQuery = "call SP_AddandEdithotelChannelInfo('$action',$channelno,'$channelip' ,$channelport ,$channelcategory,1,0,0,$chnlfrequency,$channelid,$hotelid,$userid)";
+            $sqlQuery = "call SP_AddandEdithotelChannelInfo('$action',$channelno,'$channelip' ,$channelport ,$channelcategory,1,0,$channelfeedtype,$chnlfrequency,$channelid,$hotelid,$userid)";
                 $objLogger->info('Query : '.$sqlQuery);
                 $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
                 $user = $dbObjt->getSingleDatasByObjects($sqlQuery);
@@ -130,14 +130,14 @@ class HotelChannelModel extends BaseModel
     }
 
 
-    public function update($channelno,$channelip,$channelport,$channelcategory, $hotelid, $actstat,$channelid,$HotelChannelid,$chnlfrequency,$userid,$userName){
+    public function update($channelno,$channelip,$channelport,$channelcategory, $hotelid, $actstat,$channelid,$HotelChannelid,$chnlfrequency,$channelfeedtype,$userid,$userName){
 
         $objLogger = $this->loggerFactory->getFileObject('HotelChannelModel_' . $userName, 'update');
         try 
         {
             $action = "UPDATE";
             
-            $sqlQuery = "call SP_AddandEdithotelChannelInfo('$action',$channelno,'$channelip' ,$channelport ,$channelcategory,$actstat,$channelid,0,$chnlfrequency,$HotelChannelid,$hotelid,$userid)";
+            $sqlQuery = "call SP_AddandEdithotelChannelInfo('$action',$channelno,'$channelip' ,$channelport ,$channelcategory,$actstat,$channelid,$channelfeedtype,$chnlfrequency,$HotelChannelid,$hotelid,$userid)";
                 $objLogger->info('Query : '.$sqlQuery);
                 $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
                 $user = $dbObjt->getSingleDatasByObjects($sqlQuery);
@@ -230,31 +230,33 @@ class HotelChannelModel extends BaseModel
                 $objLogger->info('temp channelgroup not deleted'); 
             }
 
-            $toRedOnlyMenuIds = array();
-            if(!empty($removelist)){
-                $toRedOnlyMenuIds = explode(",",$removelist);
-            }
+            // $toRedOnlyMenuIds = array();
+            // if(!empty($removelist)){
+            //     $toRedOnlyMenuIds = explode(",",$removelist);
+            // }
 
-
+           
             $toRedWriteMenuIds = array();
             if(!empty($addlist)){
-                $toRedWriteMenuIds = explode(",",$addlist);
+                //$toRedWriteMenuIds = explode(",",$addlist);
+                $toRedWriteMenuIds =$addlist;
             }
-
-            $toMenuIds = array();
-		    $toMenuIds = array_merge($toRedOnlyMenuIds, $toRedWriteMenuIds);
+           
+           // $toMenuIds = array();
+		    //$toMenuIds = array_merge($toRedOnlyMenuIds, $toRedWriteMenuIds);
             if(is_array($toRedWriteMenuIds) && count($toRedWriteMenuIds) >=1){
+                //print_R($toRedWriteMenuIds);die();
                 foreach($toRedWriteMenuIds as $channelid){
-                    if(in_array($channelid, $toRedWriteMenuIds)){
-                        $menuRight = 1;
-                    }
-                    else {
-                        $menuRight = 2;
-                    }
-                    $chncategory = explode(',',$channelcategory);
-                    for ($i=0; $i < count( $chncategory); $i++) { 
+                    // if(in_array($channelid, $toRedWriteMenuIds)){
+                    //     $menuRight = 1;
+                    // }
+                    // else {
+                    //     $menuRight = 2;
+                    // }
+                    //$chncategory = explode(',',$channelcategory);
+                   // for ($i=0; $i < count( $chncategory); $i++) { 
                         $sqlQuery = " INSERT INTO tempchannelgroup(channelid,categoryid, hotelid) 
-							  VALUES(".$channelid.", ".$chncategory[$i].", '".$hotelId."') ";
+							  VALUES(".$channelid.", ".$channelcategory.", '".$hotelId."') ";
 
                             $objLogger->info('Insert Query : '.$sqlQuery);
                             $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
@@ -265,7 +267,7 @@ class HotelChannelModel extends BaseModel
                             else {
                                 $objLogger->info('not inserted'); 
                             }
-                    }
+                   // }
                     // $sqlQuery = " INSERT INTO tempchannelgroup(channelid,categoryid, hotelid) 
 					// 		  VALUES(".$channelid.", ".$channelcategory.", '".$hotelId."') ";
                     
@@ -298,7 +300,7 @@ class HotelChannelModel extends BaseModel
             else {
 
                 $action = 'DELETE';
-                $sqlPrco = "CALL SP_Assignchannels(".$hotelId.", ".$auditBy.", '".$action."') ";
+                $sqlPrco = "CALL SP_Assignchannels(".$hotelId.",'".$channelcategory."', ".$auditBy.", '".$action."') ";
                 $objLogger->info('Query : '.$sqlPrco); 
                 $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
                 $insResult = $dbObjt->getSingleDatasByObjects($sqlPrco);

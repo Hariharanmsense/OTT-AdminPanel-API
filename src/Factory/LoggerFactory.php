@@ -91,7 +91,7 @@ final class LoggerFactory
             0,
             $level ?? $this->level,
             true,
-            0777
+            0644
         );
         $rotatingFileHandler->setFilenameFormat('{date}_{filename}', RotatingFileHandler::FILE_PER_DAY); // date format - format must be one of RotatingFileHandler::FILE_PER_DAY / ("Y-m-d"), RotatingFileHandler::FILE_PER_MONTH / ("Y-m") or RotatingFileHandler::FILE_PER_YEAR / ("Y")
         // The last "true" here tells monolog to remove empty []'s

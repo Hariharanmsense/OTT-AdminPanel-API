@@ -35,6 +35,8 @@ class WizardSetupModel extends BaseModel
         return ($menus1['orderby'] - $data['orderby']);
     }
     public function createhtlinfoModel($hotelid, $tempid, $body, $head, $bgimg, $menuid,$menuName, $menuicon,$sub_text,$userId, $userName){
+        $objLogger = $this->loggerFactory->getFileObject('HotelChannelModel_' . $userName, 'createhtlinfoModel');
+        $objLogger->info("======= START Wizard  Model (createhtlinfoModel) ================");
         $htlinfojson = "../public/template/".$hotelid."/".$tempid."/hotel_info.json";
         $JsonfileName = 'hotel_info.json';
         $basetemplateUrl = "../public/template/" . $hotelid . "/" . $tempid;
@@ -50,7 +52,7 @@ class WizardSetupModel extends BaseModel
         $logoUrl = $this->GethomescreenDetails($hotelid, $tempid, 'logo');
         $backgruondimg = $this->GethomescreenDetails($hotelid, $tempid, 'bg_img');
         $guestbgimg = $this->ReadJsonFile($hotelid, $tempid, 'bgimg',$JsonfileName,'hotelInformation');
-        $guestmenu = $this->ReadJsonFile($hotelid, $tempid, 'menu',$JsonfileName,'hotelInformation');
+        $hotelmenu = $this->ReadJsonFile($hotelid, $tempid, 'menu',$JsonfileName,'hotelInformation');
 
         $imgurl = '';
         if (!empty($bgimg) && $bgimg !='undefined') {
@@ -72,7 +74,7 @@ class WizardSetupModel extends BaseModel
         $menu_details = array();
         
         if(!empty($menuName)){
-            $menupos = 0;
+           
             for ($m=0; $m < count($menuName); $m++) { 
                $menu_obj =  new stdClass();
                $menu_obj->title = $menuName[$m];
@@ -84,9 +86,18 @@ class WizardSetupModel extends BaseModel
                 $menuimgurl = $relatedpath . $menuiconresult;
                 $menu_obj->img = $menuimgurl;
                }else{
+
+                if(!empty($hotelmenu)){
+                            
+                    $htlmenupath = $this->getfilename($menuName[$m],$hotelmenu);
+                  
+                }else{
+                    $htlmenupath = '';
+                }
+
                 
-                $menu_obj->img = isset($guestmenu[$menupos]->img)?$guestmenu[$menupos]->img:'';
-                $menupos++;
+                $menu_obj->img = $htlmenupath;
+
                }
                if(!empty($sub_text[$m])){
                 $menu_obj->content = $sub_text[$m];
@@ -95,6 +106,8 @@ class WizardSetupModel extends BaseModel
             }
         }
         $json_new->menu = $menu_details;
+
+        $objLogger->info("Hotel Data Info:".json_encode($json_new));
         $jsonobject->hotelInformation = $json_new;
 
         if (!file_exists($htlinfojson)) {
@@ -108,6 +121,9 @@ class WizardSetupModel extends BaseModel
         $jsonData = json_encode($jsonobject, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
 
         file_put_contents($htlinfojson, $jsonData);
+        $objLogger->info("Json Data :".$jsonData);
+
+        $objLogger->info("======= END Wizard  Model (createhtlinfoModel) ================");
 
         return $jsonobject;
     }
@@ -115,6 +131,8 @@ class WizardSetupModel extends BaseModel
 
     public function createGuestModel($hotelid, $tempid, $body, $head, $bgimg, $menuid,$menuName, $menuicon,$sub_text,$userId, $userName)
     {
+        $objLogger = $this->loggerFactory->getFileObject('HotelChannelModel_' . $userName, 'createhtlinfoModel');
+        $objLogger->info("======= START WizardSetup  Model (getoneModel) ================");
         $GuestJsonFile = "../public/template/".$hotelid."/".$tempid."/guest_service.json";
         $Jsonfilename ='guest_service.json';
         $basetemplateUrl = "../public/template/" . $hotelid . "/" . $tempid;
@@ -151,7 +169,10 @@ class WizardSetupModel extends BaseModel
         $json_new->subtext = $body;
         $jsonobject->guestServices = $json_new;
         $menu_details = array();
-      
+        // $val = '';
+        // $menu = [1,'',3];
+        // $menuemptycheck = (empty($menuName))?'Hai':'Hello';
+        // print_R($menuemptycheck);die();
         if(!empty($menuName)){
             $guestimginc = 0;
             for ($m=0; $m < count($menuName); $m++) { 
@@ -165,10 +186,16 @@ class WizardSetupModel extends BaseModel
                 $menuimgurl = $relatedpath . $menuiconresult;
                 $menu_obj->img = $menuimgurl;
                }else{
-                $menu_obj->img = isset($guestmenu[$m]->img)?$guestmenu[$m]->img:'';
 
-               // print_R($guestmenu[$m]);die();
-                //$guestimginc++;
+                if(!empty($guestmenu)){
+                            
+                    $guestmenupath = $this->getfilename($menuName[$m],$guestmenu);
+                  
+                }else{
+                    $guestmenupath = '';
+                }
+
+                $menu_obj->img = $guestmenupath;
                }
                if(!empty($sub_text[$m])){
                 $menu_obj->content = $sub_text[$m];
@@ -178,6 +205,9 @@ class WizardSetupModel extends BaseModel
         }
         $json_new->menu = $menu_details;
         $jsonobject->guestServices = $json_new;
+
+        $objLogger->info("Guest Service Data: ".json_encode($json_new));
+        
 
         if (!file_exists($GuestJsonFile)) {
 
@@ -191,13 +221,17 @@ class WizardSetupModel extends BaseModel
 
         file_put_contents($GuestJsonFile, $jsonData);
 
+        $objLogger->info("======= END Wizard  Model (createGuestModel) ================");
+        
+
         return $jsonobject;
     }
 
     public function Rewrite_menusetupmodel($hotelid, $tempid, $menuid, $menuname, $menuimg, $subtext,$rowOrder, $userid, $userName)
     {
-        $objLogger = $this->loggerFactory->getFileObject('WizardSetupModel_' . $userName, 'WizardSetupModel');
+        $objLogger = $this->loggerFactory->getFileObject('WizardSetupModel_' . $userName, 'Rewrite_menusetupmodel');
         try {
+            $objLogger->info("======= START WizardSetup  Model (Rewrite_menusetupmodel) ================");
             $template = new stdClass();
             // $tempDetails = new stdClass();
             $subclass = new stdClass();
@@ -222,6 +256,8 @@ class WizardSetupModel extends BaseModel
                 $welcome_txt = isset($data->welcome_txt) ? $data->welcome_txt : '';
                 $featursemenu = isset($data->featursemenu) ? $data->featursemenu : '';
                 $menulist = isset($data->menu) ? $data->menu : '';
+                $primary = isset($data->primarycolor) ? $data->primarycolor : '';
+                $secondary = isset($data->secondarycolor) ? $data->secondarycolor : '';
                 
 
                 $subclass->hotelid = $hotelid;
@@ -229,6 +265,8 @@ class WizardSetupModel extends BaseModel
                 $subclass->logo = $logo;
                 $subclass->bg_img = $bg_img;
                 $subclass->welcome_txt = $welcome_txt;
+                $subclass->primarycolor = $primary;
+                $subclass->secondarycolor = $secondary;
                 $subclass->featursemenu = $featursemenu;
                 
             } else {
@@ -237,19 +275,39 @@ class WizardSetupModel extends BaseModel
                 $subclass->logo = '';
                 $subclass->bg_img = '';
                 $subclass->welcome_txt = '';
+                $subclass->primarycolor = '';
+                $subclass->secondarycolor = '';
             }
             if(!empty($menuname)){
                 for ($i = 0; $i < count($menuname); $i++) {
                     $menuDetails = new stdClass();
                     $img_name = str_replace(" ", "_", $menuname[$i]);
                     $menuiconrslt = '';
+                    $mnupicurl = '';
                     if (!empty($menuimg[$i])) {
                         $menuiconrslt = $this->moveUploadedFile($parentUrl, $menuimg[$i], $img_name);
                     }else{
-                       $menupath = isset($menulist[$i]->img)?$menulist[$i]->img:'';
+                        
+                        
+                        if(!empty($menulist)){
+                            
+                            $menupath = $this->getfilename($menuname[$i],$menulist);
+                            if(empty($menupath)){
+                                $replacemnunme = str_replace(' ','-',$menuname[$i]);
+                                    $getstaticimg = $this->GetStaticImages($replacemnunme,$tempid);
+                                $mnupicurl = $getstaticimg;
+                            }else{
+                                $mnupicurl =$menupath;
+                            }
+                          
+                        }else{
+                            $mnupicurl = '';
+                        }
+
+                         
                     }
     
-                    $menuicon = (!empty($menuimg[$i])) ? $imgpath . $menuiconrslt : $menupath;
+                    $menuicon = (!empty($menuimg[$i])) ? $imgpath . $menuiconrslt : $mnupicurl;
                     $menuDetails->menuid = $menuid[$i];
                     $menuDetails->title = $menuname[$i];
                     $menuDetails->img = $menuicon;
@@ -271,13 +329,15 @@ class WizardSetupModel extends BaseModel
                 // Create the file and write the content
                 // $result = file_put_contents($JsonUrl, $jsonData);
             }
+            $objLogger->info("Rewrited Menu Data: ".$jsonData);
+            $objLogger->info("======= END WizardSetup  Model (Rewrite_menusetupmodel) ================");
             file_put_contents($JsonUrl, $jsonData);
 
             return $template;
         } catch (WizardSetupException $ex) {
 
             $objLogger->error("Error Code : " . $ex->getCode() . "Error Message : " . $ex->getMessage());
-            $objLogger->error("Error File : " . $ex->getFile() . "Error Line : " . $ex->getLine());
+            $objLogger->info("======= END WizardSetup  Model (Rewrite_menusetupmodel) ================");
             if (!empty($ex->getMessage())) {
                 throw new WizardSetupException($ex->getMessage(), $ex->getCode());
             } else {
@@ -286,24 +346,27 @@ class WizardSetupModel extends BaseModel
         }
     }
 
+    
     public function updateTemplate($templateid, $hotelid, $userid, $userName)
     {
-        $objLogger = $this->loggerFactory->getFileObject('WizardSetupModel_' . $userName, 'WizardSetupModel');
+        $objLogger = $this->loggerFactory->getFileObject('WizardSetupModel_' . $userName, 'updateTemplate');
+        
         try {
             // $template = new stdClass();
             // $tempDetails = new stdClass();
+            $objLogger->info("======= START WizardSetup  Model (updateTemplate) ================");
             $action = 'UPDATE';
             $sqlQuery = "CALL SP_WizardSetup('" . $action . "',$templateid,$hotelid,0,$userid)";
 
             $objLogger->info('Query : ' . $sqlQuery);
             $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
             $updateTemp = $dbObjt->getSingleDatasByObjects($sqlQuery);
-
+            $objLogger->info("======= END WizardSetup  Model (updateTemplate) ================");
             return $updateTemp;
         } catch (WizardSetupException $ex) {
 
             $objLogger->error("Error Code : " . $ex->getCode() . "Error Message : " . $ex->getMessage());
-            $objLogger->error("Error File : " . $ex->getFile() . "Error Line : " . $ex->getLine());
+            $objLogger->info("======= END WizardSetup  Model (updateTemplate) ================");
             if (!empty($ex->getMessage())) {
                 throw new WizardSetupException($ex->getMessage(), $ex->getCode());
             } else {
@@ -315,9 +378,10 @@ class WizardSetupModel extends BaseModel
 
     public function AddFeatures($featurelist, $hotelid, $userid, $userName)
     {
-        $objLogger = $this->loggerFactory->getFileObject('WizardSetupModel_' . $userName, 'WizardSetupModel');
+        $objLogger = $this->loggerFactory->getFileObject('WizardSetupModel_' . $userName, 'AddFeatures');
         try {
 
+            $objLogger->info("======= START WizardSetup  Model (AddFeatures) ================");
             //$list = explode(',',$featurelist);
             $list = $featurelist;
             $result = '';
@@ -334,12 +398,13 @@ class WizardSetupModel extends BaseModel
                 $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
                 $result = $dbObjt->getSingleDatasByObjects($sqlQuery);
             }
+            $objLogger->info("======= END WizardSetup  Model (AddFeatures) ================");
 
             return $result;
         } catch (WizardSetupException $ex) {
 
             $objLogger->error("Error Code : " . $ex->getCode() . "Error Message : " . $ex->getMessage());
-            $objLogger->error("Error File : " . $ex->getFile() . "Error Line : " . $ex->getLine());
+            $objLogger->info("======= END WizardSetup  Model (AddFeatures) ================");
             if (!empty($ex->getMessage())) {
                 throw new WizardSetupException($ex->getMessage(), $ex->getCode());
             } else {
@@ -348,10 +413,11 @@ class WizardSetupModel extends BaseModel
         }
     }
 
-    public function createJson($hotelid, $tempid, $welcome_head, $welcome_body, $menuName, $menuUrl, $logo, $bgimg, $menuicon, $sub_title, $menuid, $userid, $userName)
+    public function createJson($hotelid, $tempid, $welcome_head, $welcome_body, $menuName, $menuUrl, $logo, $bgimg, $menuicon, $sub_title, $menuid,$primary,$secondary, $userid, $userName)
     {
         $objLogger = $this->loggerFactory->getFileObject('WizardSetupModel_' . $userName, 'createJson');
         try {
+             $objLogger->info("======= START WizardSetup  Model (createJson) ================");
             $homeSreen = new stdClass();
             $subscreen = new stdClass();
 
@@ -360,8 +426,6 @@ class WizardSetupModel extends BaseModel
             $homeSreen->HomePageDetails = $subscreen;
             $subscreen->hotelid = $hotelid;
             $subscreen->templateid = $tempid;
-
-
 
             $JsonUrl = "../public/template/" . $hotelid . "/" . $tempid . "/home.json";
             $basejsonurl = "../public/template/" . $hotelid . "/" . $tempid;
@@ -384,11 +448,10 @@ class WizardSetupModel extends BaseModel
             $imgurl = '';
 
             $menuList = array();
-            //print_R($menuName);die();
-
             if (!empty($menuName)) {
                 $i = 0;
                 $premenu= array();
+                
                 if (file_exists($JsonUrl)) {
                     
                     $json_file = file_get_contents($JsonUrl);
@@ -398,13 +461,25 @@ class WizardSetupModel extends BaseModel
                     $PreviousbgUrl = isset($json_data['HomePageDetails']['bg_img']) ? $json_data['HomePageDetails']['bg_img'] : '';
                     $Previouswlcomtxt = isset($json_data['HomePageDetails']['welcome_txt']) ? $json_data['HomePageDetails']['welcome_txt'] : '';
                     $premenu = isset($json_data['HomePageDetails']['menu']) ? $json_data['HomePageDetails']['menu'] : '';
+                    $previousprimary = isset($json_data['HomePageDetails']['primarycolor']) ? $json_data['HomePageDetails']['primarycolor'] : '';
+                    $previoussecondary = isset($json_data['HomePageDetails']['secondarycolor']) ? $json_data['HomePageDetails']['secondarycolor'] : '';
                     //$prevfeaturelst = isset($json_data['HomePageDetails']['featursemenu']) ? $json_data['HomePageDetails']['featursemenu'] : '';
+                    $subscreen->primarycolor = $previousprimary;
+                    $subscreen->secondarycolor = $previoussecondary;
                     if (!empty($PreviousLogoUrl)) {
                         $subscreen->logo = $PreviousLogoUrl;
+                    }else{
+                        $menulogo ="Logo";
+                        $imglogopath = $this->GetStaticImages($menulogo,$tempid);
+                        $subscreen->logo = $imglogopath;
                     }
 
                     if (!empty($PreviousbgUrl)) {
                         $subscreen->bg_img = $PreviousbgUrl;
+                    }else{
+                        $menubgimg ="Background";
+                        $imgbgimgpath = $this->GetStaticImages($menubgimg,$tempid);
+                        $subscreen->bg_img = $imgbgimgpath;
                     }
 
 
@@ -422,14 +497,17 @@ class WizardSetupModel extends BaseModel
                             
                             $flag = 0;
                                
-                            foreach ($premenu as $key => $mnu) { 
-                                
+                            foreach ($premenu as $key => $mnu) {                                 
                               
                                 if($current_menuid[$cm] == $mnu['menuid']){
+                                    $replacemnunme = str_replace(' ','-',$mnu['title']);
+                                    //print_R($replacemnunme);
+                                    $imgpath = $this->GetStaticImages($replacemnunme,$tempid);
+                                   
                                     $pre_menu_obj = new stdClass();
                                     $pre_menu_obj->menuid  =$mnu['menuid'];
                                     $pre_menu_obj->title  = $mnu['title'];
-                                    $pre_menu_obj->img  = $mnu['img'];
+                                    $pre_menu_obj->img  = (!empty($mnu['img'])) ?$mnu['img'] :$imgpath;
                                     $pre_menu_obj->subtitle  = $mnu['subtitle'];
                                     $pre_menu_obj->orderby = isset($mnu['orderby'])?$mnu['orderby']:'';
                                     array_push($previousmenuarray,$pre_menu_obj);
@@ -444,10 +522,12 @@ class WizardSetupModel extends BaseModel
                             }
 
                             if($flag == 0):
+                                $replacecurrmenu = str_replace(" ","-",$currentMenuNames[$cm]);
+                                $imgpath = $this->GetStaticImages($replacecurrmenu,$tempid);
                                 $curr_menu_obj = new stdClass();
                                 $curr_menu_obj->menuid  = $current_menuid[$cm];
                                 $curr_menu_obj->title  = $currentMenuNames[$cm];
-                                $curr_menu_obj->img  = '';
+                                $curr_menu_obj->img  =  $imgpath;
                                 $curr_menu_obj->subtitle  = '';
                                 $curr_menu_obj->orderby = '';
                                 array_push($previousmenuarray,$curr_menu_obj);
@@ -456,11 +536,7 @@ class WizardSetupModel extends BaseModel
 
                         }
                     }
-                   //print_r($previousmenuarray);die();
-                    //$preuniquemenus  = $this->unique_key($previousmenuarray,'menuid');
-                   // usort ($previousmenuarray ,[WizardSetupModel::class, "comparison"]);
 
-                    //print_r($previousmenuarray);die();
                     $property = 'orderby';
                     $menusorderby_asc  = array_column($previousmenuarray, $property); // created new array
                     array_multisort($menusorderby_asc, $previousmenuarray); // variable (order by) assending order 
@@ -468,9 +544,18 @@ class WizardSetupModel extends BaseModel
                     
                     $subscreen->menu = $previousmenuarray;
 
+                }else{
+                        $menulogimg ="Logo";                        
+                        $logomgpath = $this->GetStaticImages($menulogimg,$tempid);
+                        $subscreen->logo = $logomgpath;
+                        $menubgimg ="Background";
+                        $imgbgimgpath = $this->GetStaticImages($menubgimg,$tempid);                        
+                        $subscreen->bg_img = $imgbgimgpath;
                 }
-
+                $mnuflag = 0;
+                $newmwnuarray  = array();
                 $arraymenuName = explode(',', $menuName);
+               
                 foreach ($arraymenuName as $mnu) {
                     $submenu = new stdClass();
                     $arrayMenu_id = explode(',', $menuid);
@@ -481,13 +566,35 @@ class WizardSetupModel extends BaseModel
                         $submenu->menuid = '';
                     }
                     $submenu->title = $mnu;
+                   
+                    
+                    if(!isset($subscreen->menu)){
+                        if(empty($subscreen->menu)){
+                            $replacemnu = str_replace(" ","-",$mnu);
+                            $menuimg = $this->GetStaticImages($replacemnu,$tempid);
+                        
+                            $newmenu = new stdClass();
+                            $newmenu->menuid  = $arrayMenu_id[$i];
+                            $newmenu->title  = $mnu;
+                            $newmenu->img  =  $menuimg;
+                            $newmenu->subtitle  = '';
+                            $newmenu->orderby = '';
+                            $mnuflag = 1;
+                            array_push($newmwnuarray,$newmenu);
+                        }
+                       
+                    }
                     array_push($menuList, $submenu);
                     $i++;
                 }
+                
 
                 //print_R($menuList);die();
                 $subscreen->featursemenu = $menuList;
 
+                if( $mnuflag == 1){
+                    $subscreen->menu = $newmwnuarray;
+                }
 
                
                 // $subscreen->menu= $menu_List;
@@ -503,26 +610,54 @@ class WizardSetupModel extends BaseModel
                     $json_data = json_decode($json_file, true);
                     $PreviousLogoUrl = isset($json_data['HomePageDetails']['logo']) ? $json_data['HomePageDetails']['logo'] : '';
                     $PreviousbgUrl = isset($json_data['HomePageDetails']['bg_img']) ? $json_data['HomePageDetails']['bg_img'] : '';
+                    $previousprimary = isset($json_data['HomePageDetails']['primarycolor']) ? $json_data['HomePageDetails']['primarycolor'] : '';
+                    $previoussecondary = isset($json_data['HomePageDetails']['secondarycolor']) ? $json_data['HomePageDetails']['secondarycolor'] : '';
                     $Previouswlcomtxt = isset($json_data['HomePageDetails']['welcome_txt']) ? $json_data['HomePageDetails']['welcome_txt'] : '';
                     $previousfeature = isset($json_data['HomePageDetails']['featursemenu']) ? $json_data['HomePageDetails']['featursemenu'] : '';
                     
+                    if($primary){
+                        $subscreen->primarycolor = $primary;
+                    }else{
+                        $subscreen->primarycolor = $previousprimary;
+                    }
+
+                    
+                    if($secondary){
+                        $subscreen->secondarycolor = $secondary;
+                    }else{
+                        $subscreen->secondarycolor = $previoussecondary;
+                    }
+                   
                     
                     if (!empty($logo) /*&& empty($PreviousLogoUrl)*/) {
                         $imgname = 'Logo';
                         $logoresult = $this->moveUploadedFile($parentUrl, $logo, $imgname);
                         $logoUrl = $baseurl . $logoresult;
                         $subscreen->logo = $logoUrl;
-                    } else {
+                    } elseif(!empty($PreviousLogoUrl)) {
                         $subscreen->logo = $PreviousLogoUrl;
+                    }else{
+                        $menusticlogo ="Logo";
+                        $staticlogopath = $this->GetStaticImages($menusticlogo,$tempid);
+                        $subscreen->logo = $staticlogopath;
                     }
                     if (!empty($bgimg) /*&& empty($PreviousbgUrl)*/) {
                         $imgname = 'Background';
                         $bgersult = $this->moveUploadedFile($parentUrl, $bgimg, $imgname);
                         $backgruondimg = $baseurl . $bgersult;
                         $subscreen->bg_img = $backgruondimg;
-                    } else {
+                    } elseif(!empty($PreviousbgUrl)){
+                       
                         $subscreen->bg_img = $PreviousbgUrl;
+                    }else{
+                        $menusticbgimg ="Background";
+                        $staticbgimgpath = $this->GetStaticImages($menusticbgimg,$tempid);
+                        $subscreen->bg_img = $staticbgimgpath;
                     }
+                    // elseif(!empty($PreviousbgUrl)) {
+                    //     $url = "public/uploads/menu-icons/".$hotelid."/".$tempid."/";
+                    //     $subscreen->bg_img = $PreviousbgUrl;
+                    // }
                     if (!empty($welcome_body) /*&& empty($Previouswlcomtxt)*/) {
                         $subscreen->welcome = $welcome_head;
                         $subscreen->welcome_txt = $welcome_body;
@@ -540,7 +675,8 @@ class WizardSetupModel extends BaseModel
                     $subscreen->menu = $menudata;
 
                 } else {
-
+                    $subscreen->primarycolor = $primary;
+                    $subscreen->secondarycolor = $secondary;
                     if (!empty($logo)) {
                         $imgname = 'Logo';
                         $logoresult = $this->moveUploadedFile($parentUrl, $logo, $imgname);
@@ -558,8 +694,10 @@ class WizardSetupModel extends BaseModel
                         $subscreen->welcome_txt = $welcome_body;
                         $subscreen->welcome = $welcome_head;
                     }
-
-                    $rewriteJson = $this->rewriteGuestJsonobject($logoUrl, $backgruondimg, $hotelid, $tempid);
+                    
+        
+                    //$rewriteJson =
+                     $this->rewriteGuestJsonobject($logoUrl, $backgruondimg, $hotelid, $tempid);
                 }
 
                 // if ($return == 1) {
@@ -583,11 +721,13 @@ class WizardSetupModel extends BaseModel
                          
                      }*/
             file_put_contents($JsonUrl, $jsonData);
+            $objLogger->info("Home Screen Data:".$jsonData);
+            $objLogger->info("======= END WizardSetup  Model (createJson) ================");
             return $homeSreen;
         } catch (WizardSetupException $ex) {
 
             $objLogger->error("Error Code : " . $ex->getCode() . "Error Message : " . $ex->getMessage());
-            $objLogger->error("Error File : " . $ex->getFile() . "Error Line : " . $ex->getLine());
+            $objLogger->info("======= END WizardSetup  Model (createJson) ================");
             if (!empty($ex->getMessage())) {
                 throw new WizardSetupException($ex->getMessage(), $ex->getCode());
             } else {
@@ -603,9 +743,11 @@ class WizardSetupModel extends BaseModel
         $objLogger = $this->loggerFactory->getFileObject('WizardSetupModel_' . $userName, 'gettemplateDetailsModel');
 
         try {
+
+        $objLogger->info("======= START WizardSetup  Model (gettemplateDetailsModel) ================");
             $templateDetails = new stdClass();
             if ($hotelid == 0) {
-                throw new WizardSetupException('Hotel Id Required', 401);
+                throw new WizardSetupException('Hotel Id Required', 201);
             }
 
             $templateQry = "select lc.brandid,(select bd.brandname from brand_details as bd where bd.id=lc.brandid) as brandname,lc.hotelname,lc.custmail,
@@ -625,17 +767,19 @@ class WizardSetupModel extends BaseModel
             left join channelcategory as cgc on cgc.id = cg.categoryid
             where tvc.hotelid=" . $hotelid;
 
-            $objLogger->info('Query : ' . $templateQry);
-            $objLogger->info('Query : ' . $featureQury);
-            $objLogger->info('Query : ' . $channelQry);
+            $objLogger->info('Get Temlate Deatails Query  : ' . $templateQry);
+            $objLogger->info('Feature Details Query : ' . $featureQury);
+            $objLogger->info('Channel Details Query : ' . $channelQry);
 
             $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
             $templatelist = $dbObjt->getSingleDatasByObjects($templateQry, 'YES');
             $featurelist = $dbObjt->getSingleDatasByObjects($featureQury, 'YES');
-            $channelList = $dbObjt->getSingleDatasByObjects($channelQry, 'YES');
+            $channelList = $dbObjt->getMultiDatasByObjects($channelQry,'YES');
             $HomeScreen = $this->getJsonDataModel($hotelid, $tempid, $userName,'home.json');
             $guestService = $this->getJsonDataModel($hotelid, $tempid, $userName,'guest_service.json');
             $hotelinfo = $this->getJsonDataModel($hotelid, $tempid, $userName,'hotel_info.json');
+
+            //print_r($channelList);die();
             
 
             if (!empty($templatelist)) {
@@ -672,12 +816,10 @@ class WizardSetupModel extends BaseModel
         } catch (WizardSetupException $ex) {
 
             $objLogger->error("Error Code : " . $ex->getCode() . "Error Message : " . $ex->getMessage());
-            $objLogger->error("Error File : " . $ex->getFile() . "Error Line : " . $ex->getLine());
-            $objLogger->error("Error Trace String : " . $ex->getTraceAsString());
             if (!empty($ex->getMessage())) {
-                throw new WizardSetupException($ex->getMessage(), 401);
+                throw new WizardSetupException($ex->getMessage(), 201);
             } else {
-                throw new WizardSetupException('Channel credentials invalid', 401);
+                throw new WizardSetupException('Channel credentials invalid', 201);
             }
         }
     }
@@ -1043,15 +1185,29 @@ class WizardSetupModel extends BaseModel
 
 
         $ext = pathinfo($ImageName, PATHINFO_EXTENSION);
+        $min = 1;
+        $max = 100;
+        $randomNumber = random_int($min, $max);
 
-        $newName = $filename . '.' . $ext;
+        $newName = $filename."_". $randomNumber. '.' . $ext;
+        $replacename = str_replace(' ','-',$filename);
 
         if ($orginalName->getError() === UPLOAD_ERR_OK) {
 
             if (!file_exists($directory)) {
                 mkdir($directory, 0777, true);
             }
-
+             if(is_dir($directory)){
+                        $scandirimg = scandir($directory);
+                        for($sndr = 0 ;$sndr<count($scandirimg);$sndr++){
+                            if(str_contains(strtolower($scandirimg[$sndr]), strtolower($replacename))) {
+                                $unlinkimg = $directory.'/'.$scandirimg[$sndr];
+                                unlink($unlinkimg);
+                                break;
+                            }
+                        }
+                        
+                    }
             $orginalName->moveTo($directory . DIRECTORY_SEPARATOR . $newName);
 
         }
@@ -1278,12 +1434,8 @@ class WizardSetupModel extends BaseModel
     public function ReadJsonFile($hotelid, $templateid, $varname,$filename,$objectName)
     {
         $home = "../public/template/" . $hotelid . "/" . $templateid . "/".$filename;
-        //$testPage = "../public/uploads/menujson";
-       
 
         $json_data = '';
-        // $files = glob($testPage.'/*json');
-        // print_r($files);die();
         $jsonobject = '';
         if (file_exists($home)) {
             $jsonobject = new stdClass();
@@ -1311,18 +1463,67 @@ class WizardSetupModel extends BaseModel
 
     }
 
-    public function unique_key($array,$keyname){
-
-        $new_array = array();
-        foreach($array as $key=>$value){
-     
-            if(!isset($new_array[$value->$keyname])){
-                $new_array[$value->$keyname] = $value;
-               }  
-       
+    public function getfilename($menuname,$menulist){
+        if(!empty($menulist)){
+            
+            for ($mnulst=0; $mnulst < count($menulist) ; $mnulst++) { 
+                if(!empty($menulist[$mnulst]->img)){
+                    $findname = pathinfo($menulist[$mnulst]->img, PATHINFO_FILENAME);
+                    $filename  = str_replace("_"," ",$findname);
+                    if(strtoupper($menuname) == strtoupper($filename)){
+                        $validmenupath = $menulist[$mnulst]->img;
+                        return  $validmenupath;                       
+                    }
+                } else{
+                    echo '';
+                    
+                }
+               
+            }
+        }else{
+            echo '';
         }
-        $new_array = array_values($new_array);
-        return $new_array;
-       }
+    } 
 
+    public function GetStaticImages($menuname,$templateid){
+        //print_R($menuname);die();
+        if(!empty($menuname)){
+            $path ="../public/uploads/menu-icons/".$templateid;
+            $realpath = "public/uploads/menu-icons/".$templateid."/";
+            if(is_dir($path)){
+               
+                $getimages = scandir($path);
+                
+                for ($stimg=0; $stimg < count($getimages) ; $stimg++) { 
+                    $menu1 = strtolower($menuname);
+                    $menu2 = strtolower($getimages[$stimg]);
+                   
+                    if($getimages[$stimg] !='.' && $getimages[$stimg] !='..'){
+                        //echo "Scandir_img_",$stimg." ".$menu2." Menu-Name".$menu1."\r\n"; 
+                        $mnucheck = strpos($menu2, $menu1);
+                        if($mnucheck !== false){                        
+                        
+                            return $realpath.$getimages[$stimg];
+                        }
+                    }
+                }
+            }
+            // for ($mnulst=0; $mnulst < count($menuname) ; $mnulst++) { 
+            //     if(!empty($menulist[$mnulst]->img)){
+            //         $findname = pathinfo($menulist[$mnulst]->img, PATHINFO_FILENAME);
+            //         $filename  = str_replace("_"," ",$findname);
+            //         if(strtoupper($menuname) == strtoupper($filename)){
+            //             $validmenupath = $menulist[$mnulst]->img;
+            //             return  $validmenupath;                       
+            //         }
+            //     } else{
+            //         echo '';
+                    
+            //     }
+               
+            // }
+        }else{
+            echo '';
+        }
+    } 
 }

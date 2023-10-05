@@ -2,8 +2,8 @@
     "hotelInformation": {
         "hotelid": "1",
         "templateid": "1",
-        "logo": "",
-        "home_bgimg": "",
+        "logo": "public/uploads/template/1/1/Logo.png",
+        "home_bgimg": "public/uploads/template/1/1/Background.png",
         "bgimg": "",
         "welcome": "",
         "welcome_txt": "",
