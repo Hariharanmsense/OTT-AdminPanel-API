@@ -22,13 +22,44 @@ class GuestMessageRepository extends BaseRepository implements GuestMessageServi
         $this->dBConFactory = $dBConFactory;
     }
 
+    public function guestmsgdelete($input,$msg_id,$userId,$userName){
+        $objLogger = $this->loggerFactory->getFileObject('GuestMessageRepository_'.$userName.'.log', 'guestmsgdelete');
+        $objLogger->info("======= Start Guest Message Repository (guestmsgdelete) ================");      
+        try{    
+        
+                
+                $hotelid = isset($input->hotel_id)?$input->hotel_id :'0';
+                
+                $getguestmsglist = $this->guestmodel;
+                
+                $getMsgList = $getguestmsglist->guestmsgdelete($hotelid,$msg_id, $userId,$userName);
+                
+                //$getMsgList = $createJsonFile->createJson($hotelid,$tempid, $welcome_body,$logo,$bgimg,$userId,$userName);
+                $objLogger->info("======= END Guest Message Repository (guestmsgdelete) ================");
+                
+                return $getMsgList;
+    
+            }catch (GuestMessageException $ex) {
+    
+                $objLogger->error("Error Code : ".$ex->getCode()."Error Message : ".$ex->getMessage());
+                $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
+                $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+                $objLogger->info("======= END Guest Message Repository (guestmsgdelete) ================");
+                if(!empty($ex->getMessage())){
+                    throw new GuestMessageException($ex->getMessage(), 201);
+                }
+                else {
+                    throw new GuestMessageException('Hotel credentials invalid', 201);
+                }
+            }
+    }
     public function getoneRoomRepository($input,$msg_id,$userId,$userName){
         $objLogger = $this->loggerFactory->getFileObject('GuestMessageRepository_'.$userName.'.log', 'getguestmsglist');
         $objLogger->info("======= Start Guest Message Repository (getoneRoomRepository) ================");      
         try{    
         
                 
-                $hotelid = isset($input->hotelid)?$input->hotelid :'0';
+                $hotelid = isset($input->hotel_id)?$input->hotel_id :'0';
                 
                 $getguestmsglist = $this->guestmodel;
                 
@@ -46,10 +77,10 @@ class GuestMessageRepository extends BaseRepository implements GuestMessageServi
                 $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
                 $objLogger->info("======= END Guest Message Repository (getoneRoomRepository) ================");
                 if(!empty($ex->getMessage())){
-                    throw new GuestMessageException($ex->getMessage(), 401);
+                    throw new GuestMessageException($ex->getMessage(), 201);
                 }
                 else {
-                    throw new GuestMessageException('Hotel credentials invalid', 401);
+                    throw new GuestMessageException('Hotel credentials invalid', 201);
                 }
             }
     }
@@ -82,22 +113,25 @@ class GuestMessageRepository extends BaseRepository implements GuestMessageServi
                 //     throw new GuestMessageException("Message Tittle Required", 201);
                 //     exit();
                 // }
-                    if(!empty($roomlist)){
-                        $roomlist = implode(',',$roomlist);
-                    }
+                    // if(!empty($roomlist)){
+                    //     $roomlist = implode(',',$roomlist);
+                    // }
                     
                 // $welcome_body = isset($input->content)?addslashes($input->content):'';
                 // $menucontent = isset($input->menucontent)?($input->menucontent):'';
                 // $menuid = isset($input->menuid)?($input->menuid):'';
-                $hotelid = isset($input->hotelid)?$input->hotelid :'0';
+                $hotelid = isset($input->hotel_id)?$input->hotel_id :'';
+                if(empty($hotelid)){
+                        throw new GuestMessageException("Hotel Id Required", 201);
 
+                    }
                 
                 $getguestmsglist = $this->guestmodel;
                 
                 $getMsgList = $getguestmsglist->sendguestmsgmodel($hotelid,$msgtitle,$msgbody,$msg_img,$validupto,$expirydate,$roomlist, $userId,$userName);
                 
                 //$getMsgList = $createJsonFile->createJson($hotelid,$tempid, $welcome_body,$logo,$bgimg,$userId,$userName);
-                $objLogger->info("======= END Guest Message Repository (sendmessage) ================");
+                 
                 
                 return $getMsgList;
     
@@ -108,10 +142,10 @@ class GuestMessageRepository extends BaseRepository implements GuestMessageServi
                 $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
                 $objLogger->info("======= END Guest Message Repository (sendmessage) ================");
                 if(!empty($ex->getMessage())){
-                    throw new GuestMessageException($ex->getMessage(), 401);
+                    throw new GuestMessageException($ex->getMessage(), 201);
                 }
                 else {
-                    throw new GuestMessageException('Hotel credentials invalid', 401);
+                    throw new GuestMessageException('Hotel credentials invalid', 201);
                 }
             }
     }
@@ -120,7 +154,12 @@ class GuestMessageRepository extends BaseRepository implements GuestMessageServi
         $objLogger->info("======= Start Guest Message Repository (getguestmsglist) ================");  
         try{    
 
-                $hotelid = isset($input->hotelid)?$input->hotelid :'0';
+                $hotelid = isset($input->hotel_id)?$input->hotel_id :'';
+
+                if($hotelid == ''){
+                    throw new GuestMessageException("Hotel Id  Required", 201);
+                    
+                }
                 
                 $getguestmsglist = $this->guestmodel;
                 
@@ -138,10 +177,10 @@ class GuestMessageRepository extends BaseRepository implements GuestMessageServi
 
                 $objLogger->info("======= END Guest Message Repository (sendmessage) ================");
                 if(!empty($ex->getMessage())){
-                    throw new GuestMessageException($ex->getMessage(), 401);
+                    throw new GuestMessageException($ex->getMessage(), 201);
                 }
                 else {
-                    throw new GuestMessageException('Hotel credentials invalid', 401);
+                    throw new GuestMessageException('Hotel credentials invalid', 201);
                 }
             }
     }

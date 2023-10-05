@@ -18,17 +18,17 @@ class ChannelModel extends BaseModel
     }
 	
 
-    public function viewchannellist($userid,$username){
-        $objLogger = $this->loggerFactory->addFileHandler($username.'_ChannelModel.log')->createInstance('ChannelModel');
+    public function viewchannellist($search_value,$userid,$userName){
+        $objLogger = $this->loggerFactory->getFileObject('ChannelModel_'.$userName, 'viewchannellist');  
         try 
         {
-
+            $objLogger->info("======= START Channel  Model (viewchannellist) ================");
             $action = "VIEW";
-            $sqlQuery = "call SP_AddandEditChannelInfo('$action','','', 0, 0)";
+            $sqlQuery = "call SP_AddandEditChannelInfo('$action','','', 0, 0,'".$search_value."',0)";
                 $objLogger->info('Query : '.$sqlQuery);
                 $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
                 $ListChannel = $dbObjt->getMultiDatasByObjects($sqlQuery);
-               
+                $objLogger->info("======= END Channel  Model (viewchannellist) ================");
                 if(!empty($ListChannel)){
                     return $ListChannel;
                 }
@@ -41,8 +41,7 @@ class ChannelModel extends BaseModel
         }catch (ChannelException $ex) {
 
             $objLogger->error("Error Code : ".$ex->getCode()." Error Message : ".$ex->getMessage());
-            $objLogger->error("Error File : ".$ex->getFile()." Error Line : ".$ex->getLine());
-            $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+            $objLogger->info("======= END Channel  Model (viewchannellist) ================");
             if(!empty($ex->getMessage())){
                 throw new ChannelException($ex->getMessage(), 401);
             }
@@ -54,26 +53,25 @@ class ChannelModel extends BaseModel
     }
 
     public function createchannel($channelname,  $channelimg,$userid,$userName){
-        $objLogger = $this->loggerFactory->addFileHandler('ChannelModel_'.$userName.'.log')->createInstance('ChannelModel');
+        $objLogger = $this->loggerFactory->getFileObject('ChannelModel_'.$userName, 'createchannel'); 
         try 
         {
+            $objLogger->info("======= START Channel Model (createchannel) ================");
             $action = "ADD";
 			$baseurl='';
 			
 			if(!empty($channelname)){
-				
-				//$filename = $channelimg[0]->getClientOriginalName();
-				
-				//print_r($channelimg);die();
-				$j = 0;
-				foreach($channelname as $chnlnme){
-					$ext = pathinfo($channelimg[$j]->getClientFilename(), PATHINFO_EXTENSION);
-                    $imagename = $chnlnme.'.'.$ext;
+				$replacenme = str_replace("_"," ",$channelname);
+				//$j = 0;
+				//foreach($channelname as $chnlnme){
+                    //$ext = pathinfo($channelimg[$j]->getClientFilename(), PATHINFO_EXTENSION);
+					$ext = pathinfo($channelimg->getClientFilename(), PATHINFO_EXTENSION);
+                    //$imagename = $replacenme.'.'.$ext;
 					
 					//$filepath = $parentUrl.'/'.$imagename;
                     $parentUrl = "../public/uploads/channels";
 					
-					$sqlQuery = "call SP_AddandEditChannelInfo('$action','$chnlnme','' ,0 ,$userid)";
+					$sqlQuery = "call SP_AddandEditChannelInfo('$action','$channelname','' ,0,0,'' ,$userid)";
 					$objLogger->info('Query : '.$sqlQuery);
 					$dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
 					$user = $dbObjt->getSingleDatasByObjects($sqlQuery);
@@ -81,8 +79,8 @@ class ChannelModel extends BaseModel
                     //print_R($user);die()
                     if(strtoupper($user->status) != 'FAILURE'){
                         $lastinsertid = $user->lastinsertId;
-
-                        $imagename = $lastinsertid.'.'.$ext;
+                        $extention = strtolower($ext);
+                        $imagename = $lastinsertid.'.'.$extention;
 					
 					
 					    $baseurl = "public/uploads/channels/".$imagename;
@@ -95,21 +93,23 @@ class ChannelModel extends BaseModel
 
                         
 
-                        if ($channelimg[$j]->getError() === UPLOAD_ERR_OK) {
+                        if ($channelimg->getError() === UPLOAD_ERR_OK) {
 
                             //print_R($channelimg[$j]->getError());die();
                             //echo $parentUrl . DIRECTORY_SEPARATOR . $imagename;
                             if(!file_exists($parentUrl)){
                                 mkdir($parentUrl,0777,true);
                             }
-                            $channelimg[$j]->moveTo($parentUrl . DIRECTORY_SEPARATOR . $imagename);
+                           // $channelimg[$j]->moveTo($parentUrl . DIRECTORY_SEPARATOR . $imagename);
+                            $channelimg->moveTo($parentUrl . DIRECTORY_SEPARATOR . $imagename);
+
                         }
 
                     }               
 		
 				
-					$j++;
-				}
+					//$j++;
+				//}
 
             }
             /*if(!empty($channelimg)){
@@ -144,64 +144,67 @@ class ChannelModel extends BaseModel
                 $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
                 $user = $dbObjt->getSingleDatasByObjects($sqlQuery);*/
                 
-               
+                $objLogger->info("======= START Channel Model (createchannel) ================");
                 if(!empty($user->msg)){
-                
-                    return $user;
+                    if($user->status == "FAILURE" ){
+                        throw new ChannelException($user->msg, 201);
+                    }else{
+                        return $user;
+                    }
+                    
                 }
                 else{
                     if (empty($user)) {
-                        throw new ChannelException('Channel credentials invalid. ', 200);
+                        throw new ChannelException('Channel credentials invalid. ', 201);
                     }
                 }
                 
         } catch (ChannelException $ex) {
 
             $objLogger->error("Error Code : ".$ex->getCode()." Error Message : ".$ex->getMessage());
-            $objLogger->error("Error File : ".$ex->getFile()." Error Line : ".$ex->getLine());
-            $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+            $objLogger->info("======= START Channel Model (createchannel) ================");
             if(!empty($ex->getMessage())){
-                throw new ChannelException($ex->getMessage(), 401);
+                throw new ChannelException($ex->getMessage(), 201);
             }
             else {
-                throw new ChannelException('Database Error', 401);
+                throw new ChannelException('Database Error', 201);
             }
         }
     }
 
     public function getoneModel($channelid,$userid,$userName){
 
-        $objLogger = $this->loggerFactory->addFileHandler('ChannelModel_'.$userName.'.log')->createInstance('ChannelModel');
+        $objLogger = $this->loggerFactory->getFileObject('ChannelModel_'.$userName, 'getoneModel'); 
         try 
         {
+            $objLogger->info("======= START Channel  Model (getoneModel) ================");
             $action = "GETONE";
                         
            
-            $sqlQuery = "call SP_AddandEditChannelInfo('$action','', '', $channelid,$userid)";
+            $sqlQuery = "call SP_AddandEditChannelInfo('$action','', '', $channelid,0,'',$userid)";
                 $objLogger->info('Query : '.$sqlQuery);
                 $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
                 $user = $dbObjt->getSingleDatasByObjects($sqlQuery);
-               
+                $objLogger->info("======= START Channel  Model (getoneModel) ================");
                 if(!empty($user)){
                     return $user;
                 }
                 else{
                    // $objLogger->info('User Data : '.json_encode($user));
                     if (empty($user)) {
-                        throw new ChannelException('Channel credentials invalid. ', 200);
+                        throw new ChannelException('Channel credentials invalid. ', 201);
                     }
                 }
                 
         } catch (ChannelException $ex) {
 
             $objLogger->error("Error Code : ".$ex->getCode()." 12Error Message : ".$ex->getMessage());
-            $objLogger->error("Error File : ".$ex->getFile()." 1Error Line : ".$ex->getLine());
-            $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+            $objLogger->info("======= END Channel  Model (getoneModel) ================");
             if(!empty($ex->getMessage())){
-                throw new ChannelException($ex->getMessage(), 401);
+                throw new ChannelException($ex->getMessage(), 201);
             }
             else {
-                throw new ChannelException('Database Error', 401);
+                throw new ChannelException('Database Error', 201);
             }
         }
     }
@@ -209,9 +212,10 @@ class ChannelModel extends BaseModel
 
     public function update($channelname, $channelimg,$channelid,$userid,$userName){
 
-        $objLogger = $this->loggerFactory->addFileHandler('ChannelModel_'.$userName.'.log')->createInstance('ChannelModel');
+        $objLogger = $this->loggerFactory->getFileObject('ChannelModel_'.$userName, 'update'); 
         try 
         {
+            $objLogger->info("======= START Channel  Model (update) ================");
             $action = "UPDATE";
             $filepath ='';
 			$baseurl = '0';
@@ -220,8 +224,13 @@ class ChannelModel extends BaseModel
 				//if(!empty($channelimg)){
 					
 					$ext = pathinfo($channelimg->getClientFilename(), PATHINFO_EXTENSION);
+                    $extcasechage = strtolower($ext);
+                    $min = 1;
+                    $max = 100;
+                    $randomNumber = random_int($min, $max); // Generate a cryptographically secure random integer between $min and $max
+
 				//print_R($ext);die();
-				$imagename = $channelid.'.'.$ext;
+				$imagename = $channelid."_".$randomNumber.'.'.$extcasechage;
 				$parentUrl = "../public/uploads/channels";
 				
 				$baseurl = "public/uploads/channels/".$imagename;
@@ -232,6 +241,18 @@ class ChannelModel extends BaseModel
 					if(!file_exists($parentUrl)){
 						mkdir($parentUrl,0777,true);
 					}
+
+                    if(is_dir($parentUrl)){
+                        $scandirimg = scandir($parentUrl);
+                        for($sndr = 0 ;$sndr<count($scandirimg);$sndr++){
+                            if(str_contains($scandirimg[$sndr], $channelid)) {
+                                $unlinkimg = $parentUrl.'/'.$scandirimg[$sndr];
+                                unlink($unlinkimg);
+                                break;
+                            }
+                        }
+                        
+                    }
 					$channelimg->moveTo($parentUrl . DIRECTORY_SEPARATOR . $imagename);
 				}
 				//}
@@ -262,31 +283,30 @@ class ChannelModel extends BaseModel
                 //}
                 //file_put_contents($filepath, $decoded_string);
             //}*/
-            $sqlQuery = "call SP_AddandEditChannelInfo('$action','$channelname', '$baseurl', $channelid,$userid)";
+            $sqlQuery = "call SP_AddandEditChannelInfo('$action','$channelname', '$baseurl', $channelid,0,'',$userid)";
                 $objLogger->info('Query : '.$sqlQuery);
                 $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
                 $user = $dbObjt->getSingleDatasByObjects($sqlQuery);
-               
+                $objLogger->info("======= END Channel  Model (update) ================");
                 if(!empty($user)){
                     return $user;
                 }
                 else{
                    // $objLogger->info('User Data : '.json_encode($user));
                     if (empty($user)) {
-                        throw new ChannelException('Channel  credentials invalid. ', 200);
+                        throw new ChannelException('Channel  credentials invalid. ', 201);
                     }
                 }
                 
         } catch (ChannelException $ex) {
 
             $objLogger->error("Error Code : ".$ex->getCode()." 12Error Message : ".$ex->getMessage());
-            $objLogger->error("Error File : ".$ex->getFile()." 1Error Line : ".$ex->getLine());
-            $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+            $objLogger->info("======= START Channel  Model (update) ================");
             if(!empty($ex->getMessage())){
-                throw new ChannelException($ex->getMessage(), 401);
+                throw new ChannelException($ex->getMessage(), 201);
             }
             else {
-                throw new ChannelException('Database Error', 401);
+                throw new ChannelException('Database Error', 201);
             }
         }
     }
@@ -296,14 +316,14 @@ class ChannelModel extends BaseModel
         $objLogger = $this->loggerFactory->addFileHandler('ChannelModel_'.$userName.'.log')->createInstance('ChannelModel');
         try 
         {
-            $action = "DELETE";
-                        
+            $objLogger->info("======= START Channel  Model (deleteModel) ================");
+            $action = "DELETE";                       
            
-            $sqlQuery = "call SP_AddandEditChannelInfo('$action','', '', $channelid,$userid)";
+            $sqlQuery = "call SP_AddandEditChannelInfo('$action','', '', $channelid,0,'',$userid)";
                 $objLogger->info('Query : '.$sqlQuery);
                 $dbObjt = new DB($this->loggerFactory, $this->dBConFactory);
                 $user = $dbObjt->getSingleDatasByObjects($sqlQuery);
-               
+                $objLogger->info("======= END Channel  Model (deleteModel) ================");
                 if(!empty($user)){
                     $imgpath = isset($user->imgpath)?$user->imgpath :'';
                         if(file_exists($imgpath)):
@@ -314,20 +334,19 @@ class ChannelModel extends BaseModel
                 else{
                    // $objLogger->info('User Data : '.json_encode($user));
                     if (empty($user)) {
-                        throw new ChannelException('Channel credentials invalid. ', 200);
+                        throw new ChannelException('Channel credentials invalid. ', 201);
                     }
                 }
                 
         } catch (ChannelException $ex) {
 
             $objLogger->error("Error Code : ".$ex->getCode()." 12Error Message : ".$ex->getMessage());
-            $objLogger->error("Error File : ".$ex->getFile()." 1Error Line : ".$ex->getLine());
-            $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+            $objLogger->info("======= END Channel  Model (deleteModel) ================");
             if(!empty($ex->getMessage())){
-                throw new ChannelException($ex->getMessage(), 401);
+                throw new ChannelException($ex->getMessage(), 201);
             }
             else {
-                throw new ChannelException('Database Error', 401);
+                throw new ChannelException('Database Error', 201);
             }
         }
     }

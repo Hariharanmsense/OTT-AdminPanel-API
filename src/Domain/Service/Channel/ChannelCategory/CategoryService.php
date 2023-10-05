@@ -7,14 +7,30 @@ namespace App\Domain\Service\Channel\ChannelCategory;
 interface CategoryService
 {
 
+    /**
+     * Summary of avilablechannel
+     * @param mixed $inputdata
+     * @param mixed $userid
+     * @param mixed $userName
+     * @return void
+     */
+    public function avilablechannel($inputdata,$userid,$userName);
+    /**
+     * Summary of assignedchannellist
+     * @param mixed $inputdata
+     * @param mixed $userid
+     * @param mixed $userName
+     * @return void
+     */
+    public function assignedchannellist($inputdata,$userid,$userName);
      /*
     * View  repository function
     */
-    public function ViewCategorylist($inputdata);
+    public function ViewCategorylist($inputdata,$userName,$action);
     /*
     * Add brand repository function
     */
-    public function create($inputdata);
+    public function create($inputdata,$userName);
     
     /*
     * Editable view repository function

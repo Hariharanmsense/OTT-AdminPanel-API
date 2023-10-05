@@ -32,6 +32,51 @@ final class GuestMessageAction extends Action
         $this->jwtToken = $jwtToken;
     }
 
+    public function delete(Request $request, Response $response, array $args) : Response
+    {
+        $objLogger = $this->loggerFactory->getFileObject('GuestMessageAction', 'delete');
+        $objLogger->info("======= Start Guest Message Action (delete) ================");  
+        try {
+            $method = $request->getMethod();
+            $objLogger->info("method : ".$method);
+            if(strtoupper($method) != 'DELETE'){
+              throw new GuestMessageException('Invalid Method', 500);
+            }
+
+         
+
+            $jsndata = $this->getParsedBodyData($request);
+            $objLogger->info("Input Data : ".json_encode($jsndata));
+
+            $JWTdata = $this->getJsonFromParsedBodyData($request);
+            if(!isset($JWTdata->decoded) || !isset($JWTdata->decoded->id))
+            {
+                throw new GuestMessageException('JWT Token invalid or Expired.', 401);
+
+            }
+
+            $msg_id = isset($args['id'])? $args['id']:'';
+            if(empty($msg_id)){
+                throw new GuestMessageException("Message Id Required",201);
+            }
+            $userId = isset($JWTdata->decoded->id)? $JWTdata->decoded->id:'';
+            $userName = isset($JWTdata->decoded->userName)? $JWTdata->decoded->userName:'';
+            $guestMsginfo = $this->repository->guestmsgdelete($JWTdata,$msg_id,$userId,$userName);
+            $objLogger->info("======= END Guest Message Action (delete) ================");
+           return $this->jsonResponse($response, 'Success', $guestMsginfo, 200);
+
+        }catch (GuestMessageException $ex) {
+            $objLogger->error("Error Code : ".$ex->getCode()."Error Message : ".$ex->getMessage());
+            $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
+            $objLogger->info("======= END Guest Message Action (delete) ================");
+            if(!empty($ex->getMessage())){
+                throw new GuestMessageException($ex->getMessage(), $ex->getCode());
+            }
+            else {
+                throw new GuestMessageException(' Token invalid or Expired', 401);
+            }
+        }
+   }
     public function getoneRoom(Request $request, Response $response, array $args) : Response
     {
         $objLogger = $this->loggerFactory->getFileObject('GuestMessageAction', 'getoneRoom');
@@ -130,6 +175,7 @@ final class GuestMessageAction extends Action
             }
         }
    }
+
 
     /**
      * Summary of getguestmsgList

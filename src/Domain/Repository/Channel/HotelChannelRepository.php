@@ -34,16 +34,25 @@ class HotelChannelRepository extends BaseRepository implements HotelChannelServi
             //$brandData = new \stdClass();
             
             $userid = isset($inputdata['decoded']->id)?$inputdata['decoded']->id:"";
-            $hotelid = isset($inputdata['hotelid'])?$inputdata['hotelid']:"0";
+            $hotelid = isset($inputdata['hotel_id'])?$inputdata['hotel_id']:"0";
+            $channelfeedtype = isset($inputdata['channelFeed'])?$inputdata['channelFeed']:"0";
 
             if(empty($userid)){
                 throw new ChannelException('User id required', 201);
+            }
+
+            if($hotelid == 0){
+                throw new ChannelException('Hotel id required', 201);
+            }
+
+            if($channelfeedtype == 0){
+                throw new ChannelException('Channel Feed Type required', 201);
             }
            
             
             $Hotelchannel = new HotelChannelModel($this->loggerFactory, $this->dBConFactory);
 			
-            $viewChannel = $Hotelchannel->ViewChannellist($hotelid,$userid,$userName);
+            $viewChannel = $Hotelchannel->ViewChannellist($hotelid,$channelfeedtype,$userid,$userName);
 			
 
             return $viewChannel;
@@ -65,13 +74,14 @@ class HotelChannelRepository extends BaseRepository implements HotelChannelServi
         $objLogger = $this->loggerFactory->getFileObject('HotelChannelRepository_' . $userName, 'create');
         try{
             //$addBrandData = new \stdClass();
-            $hotelid = isset($inputdata['hotelid'])?($inputdata['hotelid']):"0";
+            $hotelid = isset($inputdata['hotel_id'])?($inputdata['hotel_id']):"0";
             $channelno = isset($inputdata['channelno'])?($inputdata['channelno']):"0";
             $channelip = isset($inputdata['channelip'])?($inputdata['channelip']):"";
             $channelport = isset($inputdata['channelport'])?($inputdata['channelport']):"0";
             $channelcategory = isset($inputdata['channelcategory'])?($inputdata['channelcategory']):"0";
             $channelid = isset($inputdata['channelid'])?($inputdata['channelid']):"0";
             $chnlfrequency = isset($inputdata['frequency'])?($inputdata['frequency']):"0";
+            $channelfeedtype = isset($inputdata['channelFeed'])?$inputdata['channelFeed']:"0";
             $userid = isset($inputdata['decoded']->id)?$inputdata['decoded']->id:"";
             
             if(empty($userid)){
@@ -100,7 +110,7 @@ class HotelChannelRepository extends BaseRepository implements HotelChannelServi
             
  
             $AddHotelchannel = new HotelChannelModel($this->loggerFactory, $this->dBConFactory);
-            $user = $AddHotelchannel->create($channelno,$channelip,$channelport,$channelcategory, $hotelid, $channelid,$chnlfrequency,$userid,$userName);
+            $user = $AddHotelchannel->create($channelno,$channelip,$channelport,$channelcategory, $hotelid, $channelid,$chnlfrequency,$channelfeedtype,$userid,$userName);
             return $user;
         } catch (ChannelException $ex) {
 
@@ -150,7 +160,7 @@ class HotelChannelRepository extends BaseRepository implements HotelChannelServi
             
             //$UpdataData = new \stdClass();
             
-            $hotelid = isset($inputdata['hotelid'])?($inputdata['hotelid']):"0";
+            $hotelid = isset($inputdata['hotel_id'])?($inputdata['hotel_id']):"0";
             $channelno = isset($inputdata['channelno'])?($inputdata['channelno']):"0";
             $channelip = isset($inputdata['channelip'])?($inputdata['channelip']):"";
             $channelport = isset($inputdata['channelport'])?($inputdata['channelport']):"0";
@@ -158,6 +168,7 @@ class HotelChannelRepository extends BaseRepository implements HotelChannelServi
             $chnlfrequency = isset($inputdata['frequency'])?($inputdata['frequency']):"0";
             $channelid = isset($inputdata['channelid'])?($inputdata['channelid']):"0";
             $actstat = isset($inputdata['isactive'])?($inputdata['isactive']):"0";
+            $channelfeedtype = isset($inputdata['channelFeed'])?$inputdata['channelFeed']:"0";
             $userid = isset($inputdata['decoded']->id)?$inputdata['decoded']->id:"";
             
             if(empty($userid)){
@@ -188,7 +199,7 @@ class HotelChannelRepository extends BaseRepository implements HotelChannelServi
             
             
             $Hotelchannel = new HotelChannelModel($this->loggerFactory, $this->dBConFactory);
-            $updateuser = $Hotelchannel->update($channelno,$channelip,$channelport,$channelcategory, $hotelid,$actstat, $channelid,$HotelChannelid,$chnlfrequency,$userid,$userName);
+            $updateuser = $Hotelchannel->update($channelno,$channelip,$channelport,$channelcategory, $hotelid,$actstat, $channelid,$HotelChannelid,$chnlfrequency,$channelfeedtype,$userid,$userName);
             //$UpdataData->userData = $updateuser;
             return $updateuser;
         } catch (ChannelException $ex) {
@@ -231,20 +242,21 @@ class HotelChannelRepository extends BaseRepository implements HotelChannelServi
         }
     }
 
-    public function assginMenu($input, $auditBy){
-        $userName = isset($input['decoded']->userName)?$input['decoded']->userName:"";
+    public function assginMenu($input,$userName, $auditBy){
+        
         $objLogger = $this->loggerFactory->getFileObject('HotelChannelModel_' . $userName, 'assginMenu');
         $objLogger->info("======= Start HotelChannel Repository ================");
         $objLogger->info("Input Data : ".json_encode($input));
         try{
-			
             $data = json_decode(json_encode($input), false);
             //$groupId = isset($data->channelid)?trim($data->groupId):'';
-            $hotelId = isset($data->hotelid)?($data->hotelid):'0';
+            $hotelId = isset($data->hotel_id)?($data->hotel_id):'0';
             //$readMenus = isset($data->readMenus)?trim($data->readMenus):'';
-            $addlist = isset($data->addlist)?($data->addlist):'0';
+            $addlist = isset($data->assignList)?($data->assignList):'0';
 			$removelist = isset($data->removelist)?($data->removelist):'0';
 			$channelcategory = isset($data->channelcategory)?$data->channelcategory :'0';
+
+            //print_R("HAI");die();
         
 	
             /*if(empty($groupId)){
@@ -255,10 +267,10 @@ class HotelChannelRepository extends BaseRepository implements HotelChannelServi
                 throw new ChannelException('hotelId Empty', 201);
             }
 			if(($addlist == 0)){
-                throw new ChannelException('groupId Empty', 201);
+                throw new ChannelException('Channel List Empty', 201);
             }
 			if(($channelcategory == 0)){
-                throw new ChannelException('groupId Empty', 201);
+                throw new ChannelException('Channel Category Empty', 201);
             }
             $assignhotel = new HotelChannelModel($this->loggerFactory, $this->dBConFactory);
             $insStatus = $assignhotel->assginMenu($channelcategory, $hotelId, $addlist, $removelist, $auditBy,$userName);

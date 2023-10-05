@@ -20,10 +20,10 @@ class WizardSetupRepository extends BaseRepository implements WizardSetupService
         $this->dBConFactory = $dBConFactory;
     }
     public function createhtlinfo($JWTdata,$logo,$bgimg,$menuicon,$userId,$userName){
-        $objLogger = $this->loggerFactory->getFileObject('WizardSetupModel_' . $userName, 'createhtlinfo');
+        $objLogger = $this->loggerFactory->getFileObject('WizardSetupRepository_' . $userName, 'createhtlinfo');
             try{
     
-        
+                $objLogger->info("======= START WizardSetup Repository (createhtlinfo) ================");
                 $tempid = isset($JWTdata->tempid)?$JWTdata->tempid:"0";
                 $menuName = isset($JWTdata->menutitle)?$JWTdata->menutitle:'';
                 //$menuUrl = isset($JWTdata->menulink)?$JWTdata->menulink:'';
@@ -33,6 +33,7 @@ class WizardSetupRepository extends BaseRepository implements WizardSetupService
                 $menucontent = isset($JWTdata->menucontent)?($JWTdata->menucontent):'';
                 $menuid = isset($JWTdata->menuid)?($JWTdata->menuid):'';
 
+                $objLogger->info("Input Data:".json_encode($JWTdata));
                 
                 
                 // $featurelist = isset($JWTdata->featureid)?$JWTdata->featureid:"0";
@@ -51,14 +52,15 @@ class WizardSetupRepository extends BaseRepository implements WizardSetupService
                 $createJsonlist = $createGuestmodel->createhtlinfoModel($hotelid, $tempid, $welcome_body, $welcome_head, $bgimg, $menuid,$menuName, $menuicon,$menucontent,$userId,$userName);
                 
                 //$createJsonlist = $createJsonFile->createJson($hotelid,$tempid, $welcome_body,$logo,$bgimg,$userId,$userName);
-                
+                $objLogger->info("Returned Result:".json_encode($createJsonlist));
+                $objLogger->info("======= END WizardSetup Repository (createhtlinfo) ================");
                 
                 return $createJsonlist;
     
             }catch (WizardSetupException $ex) {
     
                 $objLogger->error("Error Code : ".$ex->getCode()."Error Message : ".$ex->getMessage());
-                $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
+                $objLogger->info("======= END WizardSetup Repository (createhtlinfo) ================");
                 $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
                 if(!empty($ex->getMessage())){
                     throw new WizardSetupException($ex->getMessage(), 401);
@@ -73,10 +75,10 @@ class WizardSetupRepository extends BaseRepository implements WizardSetupService
     public function createGuest($JWTdata,$logo,$bgimg,$menuicon,$userId,$userName){
         
 
-            $objLogger = $this->loggerFactory->getFileObject('WizardSetupModel_' . $userName, 'createGuest');
+            $objLogger = $this->loggerFactory->getFileObject('WizardSetupRepository_' . $userName, 'createGuest');
             try{
     
-        
+                $objLogger->info("======= START WizardSetup Repository (createGuest) ================");
                 $tempid = isset($JWTdata->tempid)?$JWTdata->tempid:"0";
                 $menuName = isset($JWTdata->menutitle)?$JWTdata->menutitle:'';
                 //$menuUrl = isset($JWTdata->menulink)?$JWTdata->menulink:'';
@@ -89,7 +91,7 @@ class WizardSetupRepository extends BaseRepository implements WizardSetupService
                 // if($featurelist == 0){
                 //     throw new WizardSetupException('Feature Id required', 401);
                 // }
-                
+                $objLogger->info("Input Data :".json_encode($JWTdata));
                 if($hotelid == 0){
                     throw new WizardSetupException('Hotel Id required', 201);
                 }
@@ -101,15 +103,14 @@ class WizardSetupRepository extends BaseRepository implements WizardSetupService
                 $createJsonlist = $createGuestmodel->createGuestModel($hotelid, $tempid, $welcome_body, $welcome_head, $bgimg, $menuid,$menuName, $menuicon,$menucontent,$userId,$userName);
                 
                 //$createJsonlist = $createJsonFile->createJson($hotelid,$tempid, $welcome_body,$logo,$bgimg,$userId,$userName);
-                
-                
+                $objLogger->info("Returned Result: ".json_encode($createJsonlist));
+                $objLogger->info("======= END WizardSetup Repository (createGuest) ================");
                 return $createJsonlist;
     
             }catch (WizardSetupException $ex) {
     
                 $objLogger->error("Error Code : ".$ex->getCode()."Error Message : ".$ex->getMessage());
-                $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
-                $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+                $objLogger->info("======= END WizardSetup Repository (createGuest) ================");
                 if(!empty($ex->getMessage())){
                     throw new WizardSetupException($ex->getMessage(), 401);
                 }
@@ -121,10 +122,10 @@ class WizardSetupRepository extends BaseRepository implements WizardSetupService
     public function  Rewrite_menu($input,$menuicon,$userid,$userName){
 
 
-        $objLogger = $this->loggerFactory->getFileObject('WizardSetupModel_' . $userName, 'Rewrite_menu');
+        $objLogger = $this->loggerFactory->getFileObject('WizardSetupRepository_' . $userName, 'Rewrite_menu');
 
         try{    
-            
+            $objLogger->info("======= START WizardSetup Repository (Rewrite_menu) ================");
             //$data = 
             $hotelid = isset($input->hotelid)?$input->hotelid:'0';
             $tempid = isset($input->tempid)?$input->tempid:'0';
@@ -134,7 +135,7 @@ class WizardSetupRepository extends BaseRepository implements WizardSetupService
             $subtext = isset($input->subtext)?$input->subtext:'';
             $rowOrder = isset($input->rowOrder)?($input->rowOrder):'';
 
-            
+            $objLogger->info("Input Data: ".json_encode($input));
             if($hotelid == 0){
                 throw new WizardSetupException('Hotel Id required', 201);
             }
@@ -144,15 +145,14 @@ class WizardSetupRepository extends BaseRepository implements WizardSetupService
 
         $List = new WizardSetupModel($this->loggerFactory, $this->dBConFactory);
         $overallview = $List->Rewrite_menusetupmodel($hotelid,$tempid,$menuid,$menuname,$menuicon,$subtext,$rowOrder,$userid,$userName);
-        
-        
+        $objLogger->info("Returned Result: ".json_encode($overallview));
+        $objLogger->info("======= END WizardSetup Repository (Rewrite_menu) ================");
         
         return $overallview;
         } catch (WizardSetupException $ex) {
 
             $objLogger->error("Error Code : ".$ex->getCode()."Error Message : ".$ex->getMessage());
-            $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
-            $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+            $objLogger->info("======= END WizardSetup Repository (Rewrite_menu) ================");
             if(!empty($ex->getMessage())){
                 throw new WizardSetupException($ex->getMessage(), 401);
             }
@@ -163,12 +163,13 @@ class WizardSetupRepository extends BaseRepository implements WizardSetupService
     }
 
     public function getAlltemplate($JWTdata,$userid,$userName){
-        $objLogger = $this->loggerFactory->getFileObject('WizardSetupModel_' . $userName, 'getAlltemplate');
+        $objLogger = $this->loggerFactory->getFileObject('WizardSetupRepository_' . $userName, 'getAlltemplate');
         
         try{
-
+            $objLogger->info("======= START WizardSetup Repository (getAlltemplate) ================"."\r\n");
             $templateid = isset($JWTdata->templateid)?$JWTdata->templateid:"0";
             $hotelid = isset($JWTdata->hotelid)?$JWTdata->hotelid:"0";
+            $objLogger->info("Input Data: ".json_encode($JWTdata));
             if($templateid == 0){
                 throw new WizardSetupException('Template Id required', 201);
             }
@@ -178,14 +179,14 @@ class WizardSetupRepository extends BaseRepository implements WizardSetupService
             $updatetemplate = new WizardSetupModel($this->loggerFactory, $this->dBConFactory);
             
             $update = $updatetemplate->updateTemplate($templateid,$hotelid,$userid,$userName);
-            
+            $objLogger->info("Returned Result: ".json_encode($update)."\r\n");
+            $objLogger->info("======= END WizardSetup Repository (getAlltemplate) ================");
             return $update;
 
         }catch (WizardSetupException $ex) {
 
             $objLogger->error("Error Code : ".$ex->getCode()."Error Message : ".$ex->getMessage());
-            $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
-            $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+            $objLogger->info("======= END WizardSetup Repository (getAlltemplate) ================");
             if(!empty($ex->getMessage())){
                 throw new WizardSetupException($ex->getMessage(), 401);
             }
@@ -197,9 +198,10 @@ class WizardSetupRepository extends BaseRepository implements WizardSetupService
 
     public function createJsonFile($JWTdata,$logo,$bgimg,$menuicon,$userId,$userName){
         //public function createJsonFile($JWTdata,$logo,$bgimg,$userId,$userName){
-            $objLogger = $this->loggerFactory->getFileObject('WizardSetupModel_' . $userName, 'createJsonFile');
+            $objLogger = $this->loggerFactory->getFileObject('WizardSetupRepository_' . $userName, 'createJsonFile');
             try{
-    
+                
+                $objLogger->info("======= START WizardSetup Repository (createJsonFile) ================");
         
                 $tempid = isset($JWTdata->tempid)?$JWTdata->tempid:"0";
                 $menuName = isset($JWTdata->menutitle)?$JWTdata->menutitle:'';
@@ -209,6 +211,10 @@ class WizardSetupRepository extends BaseRepository implements WizardSetupService
                 $welcome_body = isset($JWTdata->welcome_body)?addslashes($JWTdata->welcome_body):'';
                 $sub_title = isset($JWTdata->sub_title)?addslashes($JWTdata->sub_title):'';
                 $menuid = isset($JWTdata->menuid)?($JWTdata->menuid):'';
+                $primary = isset($JWTdata->primaryColor)?($JWTdata->primaryColor):'';
+                $secondary = isset($JWTdata->secondaryColor)?($JWTdata->secondaryColor):'';
+                
+                $objLogger->info("Input Data: ".json_encode($JWTdata));
                 // $featurelist = isset($JWTdata->featureid)?$JWTdata->featureid:"0";
                 // if($featurelist == 0){
                 //     throw new WizardSetupException('Feature Id required', 401);
@@ -219,8 +225,10 @@ class WizardSetupRepository extends BaseRepository implements WizardSetupService
                 }
                 $createJsonFile = new WizardSetupModel($this->loggerFactory, $this->dBConFactory);
                 
-                $createJsonlist = $createJsonFile->createJson($hotelid,$tempid,$welcome_head, $welcome_body,$menuName,$menuUrl,$logo,$bgimg,$menuicon,$sub_title,$menuid,$userId,$userName);
+                $createJsonlist = $createJsonFile->createJson($hotelid,$tempid,$welcome_head, $welcome_body,$menuName,$menuUrl,$logo,$bgimg,$menuicon,$sub_title,$menuid,$primary,$secondary,$userId,$userName);
                 
+                $objLogger->info("Returned Result".json_encode($createJsonlist));
+                $objLogger->info("======= END WizardSetup Repository (createJsonFile) ================");
                 //$createJsonlist = $createJsonFile->createJson($hotelid,$tempid, $welcome_body,$logo,$bgimg,$userId,$userName);
                 
                 
@@ -229,8 +237,7 @@ class WizardSetupRepository extends BaseRepository implements WizardSetupService
             }catch (WizardSetupException $ex) {
     
                 $objLogger->error("Error Code : ".$ex->getCode()."Error Message : ".$ex->getMessage());
-                $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
-                $objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+                $objLogger->info("======= END WizardSetup Repository (createJsonFile) ================");
                 if(!empty($ex->getMessage())){
                     throw new WizardSetupException($ex->getMessage(), 401);
                 }
@@ -242,7 +249,7 @@ class WizardSetupRepository extends BaseRepository implements WizardSetupService
     
 
     public function AddFeatures($JWTdata,$userid,$userName){
-        $objLogger = $this->loggerFactory->getFileObject('WizardSetupModel_' . $userName, 'AddFeatures');
+        $objLogger = $this->loggerFactory->getFileObject('WizardSetupRepository_' . $userName, 'AddFeatures');
         
         try{
 
@@ -277,7 +284,7 @@ class WizardSetupRepository extends BaseRepository implements WizardSetupService
 
 	
     public function gettemplateDetails($hotelid,$tempid,$userid,$userName){
-        $objLogger = $this->loggerFactory->getFileObject('WizardSetupModel_' . $userName, 'gettemplateDetails');
+        $objLogger = $this->loggerFactory->getFileObject('WizardSetupRepository_' . $userName, 'gettemplateDetails');
 
         try{    
             $OverallList = new \stdClass();
@@ -287,6 +294,8 @@ class WizardSetupRepository extends BaseRepository implements WizardSetupService
                 throw new WizardSetupException('Hotel Id Required', 201);
             }
         $List = new WizardSetupModel($this->loggerFactory, $this->dBConFactory);
+
+        $objLogger->info("input Data:"."Hotel id :".$hotelid."\r\n"."Template ID :".$tempid."\r\n");
         $overallview = $List->gettemplateDetailsModel($hotelid,$tempid,$userid,$userName);
         
         //print_r($overallview);die();
@@ -335,13 +344,12 @@ class WizardSetupRepository extends BaseRepository implements WizardSetupService
         /*---------------- END Feature List -------------------*/
 
         //$OverallList->HomeScreen = $overallview->Homescreen; 
-
-      
+        
         $categoriesList =array();
         $listArray = array();
         
-        if(!empty($overallview->channeldetail)){
-            $GetoverAllList=$overallview->channeldetails;
+        if(!empty($overallview->channels)){
+            $GetoverAllList=$overallview->channels;
             $i = 0 ;
                 foreach($GetoverAllList as $list){
                     $logDetails = new \stdClass();
@@ -385,7 +393,7 @@ class WizardSetupRepository extends BaseRepository implements WizardSetupService
     }
 
     public function updatefeed($JWTdata,$userid,$userName){
-        $objLogger = $this->loggerFactory->addFileHandler('WizardSetupModel_'.$userName.'.log')->createInstance('WizardSetupRepository');
+        $objLogger = $this->loggerFactory->getFileObject('WizardSetupRepository_' . $userName, 'updatefeed');
         try{
 
             $feedtype = isset($JWTdata->channelfeedtype)?$JWTdata->channelfeedtype:"0";
@@ -418,7 +426,7 @@ class WizardSetupRepository extends BaseRepository implements WizardSetupService
 
     public function channeldataupload($JWTdata,$userid,$userName){
         //public function createJsonFile($JWTdata,$logo,$bgimg,$userId,$userName){
-            $objLogger = $this->loggerFactory->addFileHandler('WizardSetupModel_'.$userName.'.log')->createInstance('WizardSetupRepository');
+            $objLogger = $this->loggerFactory->getFileObject('WizardSetupRepository_' . $userName, 'channeldataupload');
             try{
                 
                 $data = json_decode(json_encode($JWTdata), false);
@@ -494,7 +502,7 @@ class WizardSetupRepository extends BaseRepository implements WizardSetupService
 
 
         public function updatechanneldata($JWTdata,$tvchannelids,$userid,$userName){
-                $objLogger = $this->loggerFactory->addFileHandler('WizardSetupModel_'.$userName.'.log')->createInstance('WizardSetupRepository');
+            $objLogger = $this->loggerFactory->getFileObject('WizardSetupRepository_' . $userName, 'updatechanneldata');
                 try{
 
                     $data = json_decode(json_encode($JWTdata), false);
@@ -574,7 +582,8 @@ class WizardSetupRepository extends BaseRepository implements WizardSetupService
 
     public function bulkUploadrepository($JWTdata,$bulkuploadfile,$userid,$userName){
         //public function createJsonFile($JWTdata,$logo,$bgimg,$userId,$userName){
-            $objLogger = $this->loggerFactory->addFileHandler('WizardSetupModel_'.$userName.'.log')->createInstance('WizardSetupRepository');
+            $objLogger = $this->loggerFactory->getFileObject('WizardSetupRepository_' . $userName, 'bulkUploadrepository');
+
             try{
                 
                 $data = json_decode(json_encode($JWTdata), false);
@@ -635,7 +644,8 @@ class WizardSetupRepository extends BaseRepository implements WizardSetupService
 
         public function  getguestJson($hotelid,$tempid,$userid,$userName){
 
-            $objLogger = $this->loggerFactory->addFileHandler('WizardSetupModel_'.$userName.'.log')->createInstance('WizardSetupRepository');
+            $objLogger = $this->loggerFactory->getFileObject('WizardSetupRepository_' . $userName, 'getguestJson');
+
     
             try{    
            
@@ -664,7 +674,8 @@ class WizardSetupRepository extends BaseRepository implements WizardSetupService
 
         public function  getHomescreenJson($hotelid,$tempid,$userid,$userName){
 
-            $objLogger = $this->loggerFactory->addFileHandler('WizardSetupModel_'.$userName.'.log')->createInstance('WizardSetupRepository');
+            $objLogger = $this->loggerFactory->getFileObject('WizardSetupRepository_' . $userName, 'getHomescreenJson');
+
     
             try{    
            

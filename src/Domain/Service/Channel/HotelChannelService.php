@@ -35,7 +35,7 @@ interface HotelChannelService
     /*
     * Assign Channel repository function
     */
-    public function assginMenu($input, $auditBy);
+    public function assginMenu($input, $username,$auditBy);
 	
 	
 	/*

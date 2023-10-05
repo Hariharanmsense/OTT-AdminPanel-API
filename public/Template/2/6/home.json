@@ -2,16 +2,24 @@
     "HomePageDetails": {
         "hotelid": "2",
         "templateid": "6",
-        "logo": "",
-        "bg_img": "",
-        "welcome": "",
-        "welcome_txt": "",
+        "primarycolor": "",
+        "secondarycolor": "",
+        "logo": "public/uploads/menu-icons/6/Logo.png",
+        "bg_img": "public/uploads/menu-icons/6/Background.jpeg",
+        "menu": [],
         "featursemenu": [
             {
-                "menuid": "1",
-                "title": "Channels"
+                "menuid": "2",
+                "title": "Bill View"
+            },
+            {
+                "menuid": "3",
+                "title": "Guest Service"
+            },
+            {
+                "menuid": "5",
+                "title": "Hotel Information"
             }
-        ],
-        "menu": []
+        ]
     }
 }

@@ -2,15 +2,16 @@
     "guestServices": {
         "hotelid": "1",
         "templateid": "1",
-        "logo": "",
-        "home_bgimg": "",
+        "logo": "public/uploads/template/1/1/Logo.png",
+        "home_bgimg": "public/uploads/template/1/1/Background.png",
         "bgimg": "",
-        "title": "",
-        "subtext": "",
+        "title": "PgHead",
+        "subtext": "ASDasd",
         "menu": [
             {
-                "title": "",
-                "img": ""
+                "title": "first head",
+                "img": "public/uploads/template/1/1/Guest_service/first_head.png",
+                "content": "1st menu content"
             }
         ]
     }

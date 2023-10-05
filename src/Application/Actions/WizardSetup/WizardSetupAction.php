@@ -405,7 +405,8 @@ final class WizardSetupAction extends Action
 			if(!empty($logo)){
 				 $ext = pathinfo($logo->getClientFilename(), PATHINFO_EXTENSION);
             //print_R($logoValidation);die();
-				if (!in_array($ext, $allowed)) {
+                    $logoext = strtolower($ext);
+				if (!in_array($logoext, $allowed)) {
 					throw new WizardSetupException('Please upload a valid logo image', 201);
             }
 			}
@@ -426,7 +427,8 @@ final class WizardSetupAction extends Action
              }
 			 if(!empty($bgimg)){
 				 $bgext = pathinfo($bgimg->getClientFilename(), PATHINFO_EXTENSION);
-				 if (!in_array($bgext, $allowed)) {
+                 $backgroundext = strtolower($bgext);
+				 if (!in_array($backgroundext, $allowed)) {
 					 throw new WizardSetupException('Please upload a valid file', 201);
 				 }
 			 }

@@ -280,8 +280,9 @@ final class HotelChannelAction extends Action
           //$brandid		 = $JWTdata->decoded->brand_id;
           $hotelid = 0;
           $brandid = 0;
+          $userName = $JWTdata->decoded->userName;
         
-          $insStatus = $this->channelRepository->assginMenu($JWTdata, $userid);
+          $insStatus = $this->channelRepository->assginMenu($JWTdata,$userName, $userid);
           $objLogger->info("Insert Status : ".$insStatus);
           $objLogger->info("======= END HotelChannel Action (ASSING MENUS) ================");
           if($insStatus == 'SUCCESS'){

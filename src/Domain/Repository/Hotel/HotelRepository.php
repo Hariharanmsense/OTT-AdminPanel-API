@@ -11,6 +11,9 @@ use App\Factory\DBConFactory;
 use App\Factory\LoggerFactory; 
 use App\Domain\Repository\BaseRepository;
 use App\Application\Auth\JwtToken;
+use PhpOffice\PhpSpreadsheet\Shared\File;
+use PhpOffice\PhpSpreadsheet\Spreadsheet;
+use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 use PhpParser\Node\Stmt\Catch_;
 
 class HotelRepository extends BaseRepository implements HotelService
@@ -28,7 +31,7 @@ class HotelRepository extends BaseRepository implements HotelService
     }
 	
 	 public function gnrteHtlCde($input, $brandid, $hotelname, $auditBy){
-        $objLogger = $this->loggerFactory->getFileObject('HotelAction_'.$auditBy, 'HotelRepository');
+        $objLogger = $this->loggerFactory->getFileObject('HotelRepository_'.$auditBy, 'HotelRepository');
         $objLogger->info("======= Start Hotel Repository (Excel) ================");
         $objLogger->info("Input Data : ".json_encode($input));
         try{
@@ -54,7 +57,7 @@ class HotelRepository extends BaseRepository implements HotelService
 
     public function excel($response, $input, $auditBy){
 
-        $objLogger = $this->loggerFactory->getFileObject('HotelAction_'.$auditBy, 'HotelRepository');
+        $objLogger = $this->loggerFactory->getFileObject('HotelRepository_'.$auditBy, 'excel');
         $objLogger->info("======= Start Hotel Repository (Excel) ================");
         $objLogger->info("Input Data : ".json_encode($input));
         try{
@@ -65,6 +68,7 @@ class HotelRepository extends BaseRepository implements HotelService
                 throw new HotelException('Invalid Access', 201);
             }
             $whoModified = $auditData->userName;
+
             $htllst = $this->Viewhotellist($input);                              
             if(empty($htllst)){
                 throw new HotelException('No Records Found', 201);
@@ -73,7 +77,7 @@ class HotelRepository extends BaseRepository implements HotelService
             $recordCount =  count($htllst); 
 
             $columnHeaders = array("A"=>"SNo", "B"=>"Brand Name", "C"=>"Hotel Name", 'D' =>'SPOC Name', "E"=>"Email", "F"=>"Mobile No", 'G' =>'Address',
-            "H"=>"Status", "I"=>"Created On","J"=>"Hotel Code");
+            "H"=>"Status", "I"=>"Created On");
             $excel = new Spreadsheet();
             $activeFirstSheet = $excel->getActiveSheet();
             $activeFirstSheet->setTitle("Hotel Details");
@@ -81,20 +85,20 @@ class HotelRepository extends BaseRepository implements HotelService
             $activeFirstSheet->setCellValue('A1', "Report Name:");
             $activeFirstSheet->setCellValue('C1', "Hotel_Details_Report");
             $activeFirstSheet->mergeCells('A1:B1');
-            $activeFirstSheet->mergeCells('C1:J1');
+            $activeFirstSheet->mergeCells('C1:I1');
             $activeFirstSheet->setCellValue('A2', "Who Downloaded:");
             $activeFirstSheet->setCellValue('C2', $whoModified);
             $activeFirstSheet->mergeCells('A2:B2');
-            $activeFirstSheet->mergeCells('C2:J2');
+            $activeFirstSheet->mergeCells('C2:I2');
             $activeFirstSheet->setCellValue('A3', "Total Records: ");
             $activeFirstSheet->getStyle('C3')->getAlignment()->setHorizontal(\PhpOffice\PhpSpreadsheet\Style\Alignment::HORIZONTAL_LEFT);
             $activeFirstSheet->setCellValue('C3', $recordCount);
             $activeFirstSheet->mergeCells('A3:B3');
-            $activeFirstSheet->mergeCells('C3:J3');
+            $activeFirstSheet->mergeCells('C3:I3');
             $activeFirstSheet->setCellValue('A4', "Date: ");
             $activeFirstSheet->setCellValue('C4', date("d-M-Y"));
             $activeFirstSheet->mergeCells('A4:B4');
-            $activeFirstSheet->mergeCells('C4:J4');
+            $activeFirstSheet->mergeCells('C4:I4');
             //$activeFirstSheet->setCellValue('A5', "Date Filters: From: ".$dteFltrStDte." To: ".$dteFltrEdDte);
             //$activeFirstSheet->mergeCells('A5:E5');
 
@@ -103,12 +107,12 @@ class HotelRepository extends BaseRepository implements HotelService
                 $activeFirstSheet->setCellValue( "{$columnHeader}5", $headerValue );
             }
 
-            $activeFirstSheet->getStyle('A5:J5')->getFill()
+            $activeFirstSheet->getStyle('A5:I5')->getFill()
             ->setFillType(\PhpOffice\PhpSpreadsheet\Style\Fill::FILL_SOLID)
             ->getStartColor()->setARGB('000000');
 			
-		    $activeFirstSheet->getStyle('A5:J5')->getFont()->getColor()->setRGB ('EEEEEE');
-			$activeFirstSheet->getStyle("A5:J5")->getFont()->setBold( true );		
+		    $activeFirstSheet->getStyle('A5:I5')->getFont()->getColor()->setRGB ('EEEEEE');
+			$activeFirstSheet->getStyle("A5:I5")->getFont()->setBold( true );		
 			$excel->getSheetByName("Hotel Details");
 
             $sno = 6;
@@ -124,7 +128,7 @@ class HotelRepository extends BaseRepository implements HotelService
                 $activeFirstSheet->setCellValue('G'.$sno, $grp->address);
                 $activeFirstSheet->setCellValue('H'.$sno, $grp->statusDetail);
                 $activeFirstSheet->setCellValue('I'.$sno, $grp->createdOn);
-                $activeFirstSheet->setCellValue('J'.$sno, $grp->hotelcode);
+                //$activeFirstSheet->setCellValue('J'.$sno, $grp->hotelcode);
                 
                 $sno++;
             }
@@ -138,7 +142,7 @@ class HotelRepository extends BaseRepository implements HotelService
                 ),
             );
 
-            $activeFirstSheet->getStyle('A1:J'.($sno-1))->applyFromArray($styleArray);
+            $activeFirstSheet->getStyle('A1:I'.($sno-1))->applyFromArray($styleArray);
 
             $excelWriter = new Xlsx($excel);
             $tempFile = tempnam(File::sysGetTempDir(), 'phpxltmp');
@@ -288,6 +292,8 @@ class HotelRepository extends BaseRepository implements HotelService
             $userid = isset($inputData->decoded->id)?$inputData->decoded->id:"";
             $brandid = isset($inputData->decoded->brandId)?$inputData->decoded->brandId:"0";
             $hotelid = isset($inputData->hotel_id)?$inputData->hotel_id:"0";
+            $menuId = isset($inputData->menuId)?$inputData->menuId:"2";
+
             // $hotelname = isset($inputData['hotelname'])?$inputData['hotelname']:"";
            
             // if($hotelid == '')
@@ -296,10 +302,15 @@ class HotelRepository extends BaseRepository implements HotelService
             if(empty($userid)){
                 throw new HotelException('User id required', 201);
             }
+
+
+            if(empty($menuId)){
+                throw new HotelException('Menu id required', 201);
+            }
            
             
             $Hotelmodel = new HotelModel($this->loggerFactory, $this->dBConFactory);
-            $viewHotels = $Hotelmodel->ViewhotelList($hotelid,$userid,$userName,$brandid);
+            $viewHotels = $Hotelmodel->ViewhotelList($hotelid,$brandid,$menuId,$userid,$userName);
             return $viewHotels;
         } catch (HotelException $ex) {
 
@@ -329,6 +340,7 @@ class HotelRepository extends BaseRepository implements HotelService
             $mobileno = isset($inputdata->mobileno)?$inputdata->mobileno:"";
             $address = isset($inputdata->address) ? addslashes($inputdata->address):"";
             $spocname = isset($inputdata->spocname)?addslashes($inputdata->spocname):"";
+            $menuId = isset($inputdata->menuId)?$inputdata->menuId:"0";
             
           
 
@@ -355,11 +367,13 @@ class HotelRepository extends BaseRepository implements HotelService
             if(empty($address)){
                 throw new HotelException('Address required', 201);
             }
-            
+            if(empty($menuId)){
+                throw new HotelException('Menu id required', 201);
+            }
             
             $AddHotelmodel = new HotelModel($this->loggerFactory, $this->dBConFactory);
             
-            $user = $AddHotelmodel->createhotel($brandid,$hotelname,$location,$mail,$spocname,$mobileno,$address,$userid,$userName);
+            $user = $AddHotelmodel->createhotel($brandid,$hotelname,$location,$mail,$spocname,$mobileno,$address,$menuId,$userid,$userName);
             
             //$addHoteldata->userData = $user;
 
@@ -381,7 +395,7 @@ class HotelRepository extends BaseRepository implements HotelService
 
 
     public function getsinglehotel($custid, $userid,$userName){
-        $objLogger = $this->loggerFactory->getFileObject('HotelAction_'.$userName, 'HotelRepository');
+        $objLogger = $this->loggerFactory->getFileObject('HotelRepository_'.$userName, 'HotelRepository');
         $objLogger->info("======= Start Hotel Repository ================");
         try{
   
@@ -408,7 +422,7 @@ class HotelRepository extends BaseRepository implements HotelService
 
     public function update($inputdata,$hotelid){
         $userName = isset($inputdata->decoded->userName)?$inputdata->decoded->userName:"";
-        $objLogger = $this->loggerFactory->getFileObject('HotelAction_'.$userName, 'HotelRepository');
+        $objLogger = $this->loggerFactory->getFileObject('HotelRepository_'.$userName, 'HotelRepository');
         $objLogger->info("======= Start Hotel Repository ================");
         $objLogger->info("Input Data : ".json_encode($inputdata));
         try{
@@ -426,11 +440,14 @@ class HotelRepository extends BaseRepository implements HotelService
             $mobileno = isset($inputdata->mobileno)?$inputdata->mobileno:"";
             $address = isset($inputdata->address) ? addslashes($inputdata->address):"";
             $spocname = isset($inputdata->spocname)?addslashes($inputdata->spocname):"";
+            $menuId = isset($inputdata->menuId)?$inputdata->menuId:"0";
 
             //print_r($inputdata);die();
             
           
-
+            if(empty($menuId)){
+                throw new HotelException('Menu id required', 201);
+            }
 
             if(empty($userid)){
                 throw new HotelException('User id required', 201);
@@ -456,7 +473,7 @@ class HotelRepository extends BaseRepository implements HotelService
             }
 
             $updateHotel = new HotelModel($this->loggerFactory, $this->dBConFactory);
-            $insStatus = $updateHotel->update($hotelid,$brandid,$hotelname,$location,$mail,$spocname,$mobileno,$address,$userid,$userName);
+            $insStatus = $updateHotel->update($hotelid,$brandid,$hotelname,$location,$mail,$spocname,$mobileno,$address,$menuId,$userid,$userName);
             
             $objLogger->info("Insert Status : ".json_encode($insStatus));
             $objLogger->info("======= End Hotel Repository ================");
@@ -478,7 +495,7 @@ class HotelRepository extends BaseRepository implements HotelService
     }
 
     public function delete($hotelid, $userid,$userName){
-        $objLogger = $this->loggerFactory->getFileObject('HotelAction_'.$userName, 'HotelRepository');
+        $objLogger = $this->loggerFactory->getFileObject('HotelRepository_'.$userName, 'HotelRepository');
         $objLogger->info("======= Start Hotel Repository ================");
         try{
   

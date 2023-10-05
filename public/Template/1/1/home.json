@@ -2,52 +2,44 @@
     "HomePageDetails": {
         "hotelid": "1",
         "templateid": "1",
-        "menu": [
-            {
-                "menuid": "1",
-                "title": "Channels",
-                "img": "",
-                "subtitle": "",
-                "orderby": ""
-            },
-            {
-                "menuid": "4",
-                "title": "Screen casting",
-                "img": "",
-                "subtitle": "",
-                "orderby": ""
-            },
-            {
-                "menuid": "5",
-                "title": "Guest Services",
-                "img": "",
-                "subtitle": "",
-                "orderby": ""
-            },
-            {
-                "menuid": "6",
-                "title": "Hotel Information",
-                "img": "",
-                "subtitle": "",
-                "orderby": ""
-            }
-        ],
+        "primarycolor": "#23232",
+        "secondarycolor": "#erw34",
+        "logo": "public/uploads/template/1/1/Logo.png",
+        "bg_img": "public/uploads/template/1/1/Background.png",
+        "welcome": "",
+        "welcome_txt": "Hello Guest Here Enjoy your Staying.",
         "featursemenu": [
             {
                 "menuid": "1",
                 "title": "Channels"
             },
             {
+                "menuid": "3",
+                "title": "Guest Messaging"
+            },
+            {
                 "menuid": "4",
                 "title": "Screen casting"
             },
             {
-                "menuid": "5",
-                "title": "Guest Services"
-            },
-            {
                 "menuid": "6",
                 "title": "Hotel Information"
+            }
+        ],
+        "menu": [
+            {
+                "menuid": "1",
+                "title": "Channels",
+                "img": "public/uploads/template/1/1/Channels.jpg",
+                "subtitle": "Channels",
+                "orderby": "2"
+            },
+            {
+                "menuid": "2",
+                "title": "Screen casting",
+                "img": "public/uploads/template/1/1/Screen_casting.jpg",
+                "subtitle": "Premium Guest View",
+                "orderby": "1"
             }
         ]
     }

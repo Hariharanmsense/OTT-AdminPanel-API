@@ -33,6 +33,36 @@ class GuestMessageModel extends BaseModel
 
     }
 
+    public function guestmsgdelete($hotelid, $msg_id, $userId, $userName)
+    {
+        $objLogger = $this->loggerFactory->getFileObject('GuestMessageModel_' . $userName, 'guestmsgdelete');
+        $objLogger->info("======= START Guest Message Model (guestmsgdelete) ================");
+        try {
+
+            $action = 'DELETE';
+            $sqlQuery = "CALL SP_AddandEditGuestMessage('" . $action . "', $hotelid,$msg_id, '', '', 
+            '', 0, '','',$userId)";
+
+            $objLogger->info('Query : ' . $sqlQuery);
+            $dbObjt = $this->Dbobj;
+            $insResult = $dbObjt->getMultiDatasByObjects($sqlQuery);
+            $objLogger->info('List Return : ' . json_encode($insResult));
+            $objLogger->info("======= END Guest Message Model (guestmsgdelete) ================");
+
+            return $insResult;
+        } catch (WizardSetupException $ex) {
+
+            $objLogger->error("Error Code : " . $ex->getCode() . "Error Message : " . $ex->getMessage());
+            $objLogger->error("Error File : " . $ex->getFile() . "Error Line : " . $ex->getLine());
+            $objLogger->info("======= END Guest Message Model (guestmsgdelete) ================");
+            if (!empty($ex->getMessage())) {
+                throw new WizardSetupException($ex->getMessage(), $ex->getCode());
+            } else {
+                throw new WizardSetupException('Invalid Access', 201);
+            }
+        }
+    }
+
     public function getoneroommodel($hotelid, $msg_id, $userId, $userName)
     {
         $objLogger = $this->loggerFactory->getFileObject('GuestMessageModel_' . $userName, 'sendguestmsgmodel');
@@ -104,29 +134,29 @@ class GuestMessageModel extends BaseModel
             if ($insResult[0]->ErrorCode == '00') {
                 $imgcnt = 1;
                 if (!empty($msg_img)) {
-                    //$imgcnt = count($msg_img);
-                    //for($m = 0;$m < count($msg_img) ;$m++) :
+                    $imgcnt = count($msg_img);
+                    for($m = 0;$m < count($msg_img) ;$m++) :
 							
                         $guest_msgid = $insResult[0]->last_insertid;
                         $getimgCnt = 0;
                         //$ext = pathinfo($msg_img, PATHINFO_EXTENSION);
                         $imagename = $curryear . "_" . $guest_msgid . "_" . '0';
-                        $folder = "uploads/msgimg/" . $curryear . "/" . $currDate . "/";
-                        $path = $folder . $imagename;
-                        if (!file_exists($folder)) {
-                            mkdir($folder, 0777, true);
+                        //$folder = "uploads/msgimg/" . $curryear . "/" . $currDate . "/";
+                        $path = $txtmsgimgfldr . $imagename;
+                        if (!file_exists($txtmsgimgfldr)) {
+                            mkdir($txtmsgimgfldr, 0777, true);
                         }
 
-                        $bgersult = $this->moveUploadedFile($parentUrl, $msg_img, $imagename);
-
-                        $UpdateQry = "update guest_message set imgcnt=".$imgcnt." where id=".$guest_msgid;
-
-                        $update_result = $dbObjt->insOrUpdteOrDetQuery($UpdateQry);
+                        $bgersult = $this->moveUploadedFile($parentUrl, $msg_img[$m], $imagename);                       
                         $objLogger->info('Image Name : ' . $bgersult);
-                        $objLogger->info('Update Image count Query : ' . $UpdateQry);
-                        $objLogger->info('Query : ' . json_encode($update_result));
                         
-                //endfor;
+                        
+                endfor;
+                $UpdateQry = "update guest_message set imgcnt=".$imgcnt." where id=".$guest_msgid;
+
+                $update_result = $dbObjt->insOrUpdteOrDetQuery($UpdateQry);
+                $objLogger->info('Update Image count Query : ' . $UpdateQry);
+                $objLogger->info('Query : ' . json_encode($update_result));
 
                 }
                 //echo $imgcnt;
@@ -165,15 +195,27 @@ class GuestMessageModel extends BaseModel
         try {
 
             $action = 'VIEW';
-            $sqlQuery = "CALL SP_AddandEditGuestMessage('" . $action . "', $hotelid, 0,'', '', 
-            '', 0, NULL,0,$userId)";
+            $sqlQuery = "	SELECT t.id,t.msgtitle,t.msgbody,t.imgpath,t.imgcnt,t.totalcnt,t.Unreadcount,case 
+            when (round((t.Unreadcount/t.totalcnt)*100))>=85 &&  (round((t.Unreadcount/t.totalcnt)*100))<=100 then 'UnRead'
+            when (round((t.Unreadcount/t.totalcnt)*100))>=50 &&  (round((t.Unreadcount/t.totalcnt)*100))< 85   then 'Partially Read'
+            when (round((t.Unreadcount/t.totalcnt)*100))< 50    then 'Read' end as 'ReadStatus',
+            round((t.Unreadcount/t.totalcnt)*100) as 'Unreadpercent',
+           t.createdOn,t.filepath
+            FROM     (select gm.id,gm.msgtitle,gm.msgbody,gm.imgpath,gm.imgcnt,
+                DATE_FORMAT(DATE_ADD(gm.createdOn, INTERVAL 330 MINUTE), '%Y-%m-%d %H:%i:%s') as 'createdOn', '' as filepath,(select count(*) from sendmessages where msgid = gm.id ) as 'totalcnt',	
+                (select count(*) from sendmessages where msgid = gm.id and readOn is null) as 'Unreadcount' from guest_message as gm where gm.deletedOn is null order by gm.createdOn desc) t";
+
+
+            // $sqlQuery = "CALL SP_AddandEditGuestMessage('" . $action . "', $hotelid, 0,'', '', 
+            // '', 0, NULL,0,$userId)";
 
             $objLogger->info('Query : ' . $sqlQuery);
             $dbObjt = $this->Dbobj;
-            $insResult = $dbObjt->getMultiDatasByObjects($sqlQuery);
-            $objLogger->info('List Return : ' . json_encode($insResult));
+            $MessageResult = $dbObjt->getMultipleimageobjects($sqlQuery);
+            //print_R($MessageResult);die();
+            $objLogger->info('List Return : ' . json_encode($MessageResult));
             $objLogger->info("======= END Guest Message Model (Getguestmsglist) ================");
-            return $insResult;
+            return $MessageResult;
         } catch (WizardSetupException $ex) {
 
             $objLogger->error("Error Code : " . $ex->getCode() . "Error Message : " . $ex->getMessage());

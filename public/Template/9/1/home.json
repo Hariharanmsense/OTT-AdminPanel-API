@@ -26,27 +26,17 @@
         "menu": [
             {
                 "menuid": "1",
-                "title": "Channels",
-                "img": "public/uploads/template/9/1/Channels.jpg",
-                "subtitle": "undefined"
-            },
-            {
-                "menuid": "3",
-                "title": "Guest Messaging",
-                "img": "public/uploads/template/9/1/Guest_Messaging.png",
-                "subtitle": ""
-            },
-            {
-                "menuid": "6",
-                "title": "Hotel Information",
+                "title": "Bill View",
                 "img": "",
-                "subtitle": ""
+                "subtitle": "View Bill",
+                "orderby": "2"
             },
             {
-                "menuid": "7",
-                "title": "Help",
-                "img": "public/uploads/template/9/1/Help.jpg",
-                "subtitle": ""
+                "menuid": "2",
+                "title": "Guest Message",
+                "img": "",
+                "subtitle": "Premium Guest View",
+                "orderby": "1"
             }
         ]
     }

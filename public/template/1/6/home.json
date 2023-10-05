@@ -1,0 +1,47 @@
+{
+    "HomePageDetails": {
+        "hotelid": "1",
+        "templateid": "6",
+        "primarycolor": "",
+        "secondarycolor": "",
+        "logo": "public/uploads/menu-icons/6/Logo.png",
+        "bg_img": "public/uploads/menu-icons/6/Background.jpeg",
+        "menu": [
+            {
+                "menuid": "2",
+                "title": "Bill View",
+                "img": "public/uploads/menu-icons/6/Bill-view.jpg",
+                "subtitle": "",
+                "orderby": ""
+            },
+            {
+                "menuid": "3",
+                "title": "Guest Service",
+                "img": "public/uploads/menu-icons/6/guest-services.png",
+                "subtitle": "",
+                "orderby": ""
+            },
+            {
+                "menuid": "5",
+                "title": "Hotel Information",
+                "img": "public/uploads/menu-icons/6/hotel-information.png",
+                "subtitle": "",
+                "orderby": ""
+            }
+        ],
+        "featursemenu": [
+            {
+                "menuid": "2",
+                "title": "Bill View"
+            },
+            {
+                "menuid": "3",
+                "title": "Guest Service"
+            },
+            {
+                "menuid": "5",
+                "title": "Hotel Information"
+            }
+        ]
+    }
+}

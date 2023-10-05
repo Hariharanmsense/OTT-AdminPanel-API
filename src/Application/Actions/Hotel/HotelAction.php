@@ -563,6 +563,14 @@ final class HotelAction extends Action
           }  
             $custid = isset($args['id'])?$args['id']:'0';          
 
+            // $menuId = isset($JWTdata->menuId)?$JWTdata->menuId:"0";
+
+            // //print_r($inputdata);die();
+            
+          
+            // if(empty($menuId)){
+            //     throw new HotelException('Menu id required', 201);
+            // }
           $grpData = $this->hotelRepository->getsinglehotel($custid, $userid,$userName);
 
           $objLogger->info("======= END Hotel Action (Single One) ================");

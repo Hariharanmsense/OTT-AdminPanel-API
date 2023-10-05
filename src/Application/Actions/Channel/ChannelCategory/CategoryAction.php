@@ -30,18 +30,154 @@ final class CategoryAction extends Action
         $this->jwtToken = $jwtToken;
     }
 
+    public function excel(Request $request, Response $response, array $args): Response
+    {
+        $objLogger = $this->loggerFactory->getFileObject('CategoryAction', 'excel');
+        $objLogger->info("======= Start Channel Category Action (EXCEL) ================");
+        try {
+          $method = $request->getMethod();
+          $objLogger->info("method : ".$method);
+          if(strtoupper($method) != 'POST'){
+            throw new ChannelException('Invalid Method', 500);
+          }
+
+          $contentType = $request->getHeaderLine('content-type');
+          $objLogger->info("contentType : ".$contentType);
+          if(strtoupper($contentType) != 'APPLICATION/JSON'){
+            throw new ChannelException('Invalid ContentType', 500);
+          }
+
+          $jsndata = $this->getParsedBodyData($request);
+          $objLogger->info("Input Data : ".json_encode($jsndata));
+
+          $JWTdata = $this->getJsonFromParsedBodyData($request);
+          if(!isset($JWTdata->decoded) || !isset($JWTdata->decoded->id))
+          {
+              throw new ChannelException('JWT Token invalid or Expired.', 401);
+          }
+          $auditBy = $JWTdata->decoded->id;
+          $userName = $JWTdata->decoded->userName;
+
+          return $this->categoryRepository->excel($response, $JWTdata, $auditBy,$userName);
+
+
+        } catch (ChannelException $ex) {
+              
+          $objLogger->error("Error Code : ".$ex->getCode()."Error Message : ".$ex->getMessage());
+          $objLogger->error("Error File : ".$ex->getFile()."Error Line : ".$ex->getLine());
+          //$objLogger->error("Error Trace String : ".$ex->getTraceAsString());
+          $objLogger->info("======= END Channel Category Action (EXCEL) ================");
+          if(!empty($ex->getMessage())){
+              throw new ChannelException($ex->getMessage(), $ex->getCode());
+          }
+          else {
+              throw new ChannelException(' Token invalid or Expired', 401);
+          }
+        } 
+    }
+    /**
+     * Summary of availablechannel
+     * @param \Psr\Http\Message\ServerRequestInterface $request
+     * @param \Psr\Http\Message\ResponseInterface $response
+     * @param array $args
+     * @throws \App\Exception\Channel\ChannelException
+     * @return \Psr\Http\Message\ResponseInterface
+     */
+    public function availablechannel(Request $request, Response $response, array $args): Response
+    {
+          
+          
+          $objLogger = $this->loggerFactory->getFileObject('CategoryAction', 'assignedchannel');
+                 
+  
+        try {           
+          $objLogger->info("======= Start Channel Category Action (assignedchannel) ================");   
+          $method = $request->getMethod();
+          $objLogger->info("method : ".$method);
+          if(strtoupper($method) != 'POST'){
+            throw new ChannelException('Invalid Method', 500);
+          }
+
+          $contentType = $request->getHeaderLine('content-type');
+          $objLogger->info("contentType : ".$contentType);
+          if(strtoupper($contentType) != 'APPLICATION/JSON'){
+            throw new ChannelException('Invalid ContentType', 500);
+          }
+          $JWTdata = $this->getJsonFromParsedBodyData($request);
+          $jsndata = $this->getParsedBodyData($request);
+          $objLogger->info("Input Data : ".json_encode($jsndata));
+         
+          if(!isset($JWTdata->decoded) || !isset($JWTdata->decoded->id))
+          {
+              throw new ChannelException('JWT Token invalid or Expired.', 401);
+          }
+          $userid = $JWTdata->decoded->id;
+          $userName = $JWTdata->decoded->userName;
+          $avlchanl = $this->categoryRepository->avilablechannel($jsndata,$userid,$userName);       
+          $objLogger->info("======= END Channel Category Action (assignedchannel) ================");
+          return $this->jsonResponse($response, 'Success',$avlchanl, 200);
+
+        } catch (ChannelException $e) {
+           $objLogger->error("Error Code : ".$e->getCode()."Error Message : ".$e->getMessage());
+            $objLogger->error("Error File : ".$e->getFile()."Error Line : ".$e->getLine());
+            $objLogger->info("======= END Channel Category Action (assignedchannel) ================");
+            throw new ChannelException($e->getMessage(), $e->getCode());
+        }
+    }
+    public function assignedchannel(Request $request, Response $response, array $args): Response
+    {
+          
+          
+          $objLogger = $this->loggerFactory->getFileObject('CategoryAction', 'assignedchannel');
+                   
+  
+        try {           
+          $objLogger->info("======= Start Channel Category Action (assignedchannel) ================"); 
+          $method = $request->getMethod();
+          $objLogger->info("method : ".$method);
+          if(strtoupper($method) != 'POST'){
+            throw new ChannelException('Invalid Method', 500);
+          }
+
+          $contentType = $request->getHeaderLine('content-type');
+          $objLogger->info("contentType : ".$contentType);
+          if(strtoupper($contentType) != 'APPLICATION/JSON'){
+            throw new ChannelException('Invalid ContentType', 500);
+          }
+          $JWTdata = $this->getJsonFromParsedBodyData($request);
+          $jsndata = $this->getParsedBodyData($request);
+          $objLogger->info("Input Data : ".json_encode($jsndata));
+         
+          if(!isset($JWTdata->decoded) || !isset($JWTdata->decoded->id))
+          {
+              throw new ChannelException('JWT Token invalid or Expired.', 401);
+          }
+          $userid = $JWTdata->decoded->id;
+          $userName = $JWTdata->decoded->userName;
+          $viewAssignedlist = $this->categoryRepository->assignedchannellist($jsndata,$userid,$userName);       
+          $objLogger->info("======= END Channel Category Action (assignedchannel) ================");
+          return $this->jsonResponse($response, 'Success',$viewAssignedlist, 200);
+
+        } catch (ChannelException $e) {
+          $objLogger->error("Error Code : ".$e->getCode()."Error Message : ".$e->getMessage());
+            $objLogger->error("Error File : ".$e->getFile()."Error Line : ".$e->getLine());
+            $objLogger->info("======= END Channel Category Action (assignedchannel) ================");
+            throw new ChannelException($e->getMessage(), $e->getCode());
+        }
+    }
      /**
      * @throws ChannelException
      */
     public function categoryList(Request $request, Response $response, array $args): Response
-    {
-          $JWTdata = $this->getJsonFromParsedBodyData($request);
-          $userName = $JWTdata->decoded->userName;  
-          $objLogger = $this->loggerFactory->getFileObject('CategoryAction'.$userName.'.log', 'categoryList');
-          $objLogger->info("======= Start Channel Category Action (categoryList) ================");          
+    {         
+          
+          $objLogger = $this->loggerFactory->getFileObject('CategoryAction', 'categoryList');               
   
         try {           
+
+          $objLogger->info("======= Start Channel Category Action (categoryList) ================");        
          
+          $JWTdata = $this->getJsonFromParsedBodyData($request); 
           $method = $request->getMethod();
           $objLogger->info("method : ".$method);
           if(strtoupper($method) != 'POST'){
@@ -61,8 +197,9 @@ final class CategoryAction extends Action
           {
               throw new ChannelException('JWT Token invalid or Expired.', 401);
           }
-        
-          $viewbranddata = $this->categoryRepository->ViewCategorylist($jsndata);       
+          $userName = $JWTdata->decoded->userName;
+          $action = 'VIEW';
+          $viewbranddata = $this->categoryRepository->ViewCategorylist($jsndata,$userName, $action );       
           $objLogger->info("======= END Channel Category Action (categoryList) ================");
           return $this->jsonResponse($response, 'Success',$viewbranddata, 200);
 
@@ -76,12 +213,12 @@ final class CategoryAction extends Action
 
     public function delete(Request $request, Response $response, array $args): Response
     {
-       $JWTdata = $this->getJsonFromParsedBodyData($request);
-        $userName = $JWTdata->decoded->userName;      
-        $objLogger = $this->loggerFactory->getFileObject('CategoryAction'.$userName.'.log', 'delete');
-        $objLogger->info("======= Start Channel Category Action (Delete) ================");   
-        try {  
+      
+           
+        $objLogger = $this->loggerFactory->getFileObject('CategoryAction', 'delete');
           
+        try {  
+          $objLogger->info("======= Start Channel Category Action (Delete) ================"); 
           $method = $request->getMethod();
           $objLogger->info("method : ".$method);
           if(strtoupper($method) != 'DELETE'){
@@ -93,7 +230,7 @@ final class CategoryAction extends Action
           if(strtoupper($contentType) != 'APPLICATION/JSON'){
             throw new ChannelException('Invalid ContentType', 500);
           }
-
+          $JWTdata = $this->getJsonFromParsedBodyData($request);
           $jsndata = $this->getParsedBodyData($request);
           $objLogger->info("Input Data : ".json_encode($jsndata));
           $userid = $JWTdata->decoded->id;
@@ -104,6 +241,7 @@ final class CategoryAction extends Action
           {
               throw new ChannelException('JWT Token invalid or Expired.', 401);
           }
+          $userName = $JWTdata->decoded->userName;   
 
           $deletebrndData = $this->categoryRepository->delete($categoryid,$userid,$userName); 
           $objLogger->info("======= END Category  Action (Delete) ================");
@@ -121,12 +259,13 @@ final class CategoryAction extends Action
 
     public function update(Request $request, Response $response, array $args): Response
     {
-        $JWTdata = $this->getJsonFromParsedBodyData($request);
-        $userName = $JWTdata->decoded->userName;
-        $objLogger = $this->loggerFactory->getFileObject('CategoryAction'.$userName.'.log', 'update');
-        $objLogger->info("======= Start Channel Category Action (Update) ================"); 
+       
+        
+        $objLogger = $this->loggerFactory->getFileObject('CategoryAction', 'update');
+        
         try {  
-          
+          $objLogger->info("======= Start Channel Category Action (Update) ================"); 
+          $JWTdata = $this->getJsonFromParsedBodyData($request);
           $userid = $JWTdata->decoded->id;
         
           $method = $request->getMethod();
@@ -149,7 +288,8 @@ final class CategoryAction extends Action
               throw new ChannelException('JWT Token invalid or Expired.', 401);
           }
           $categoryid = isset($args['id'])?$args['id']:'';
-          $updatemodel = $this->categoryRepository->update($jsndata,$categoryid,$userid); 
+          $userName = $JWTdata->decoded->userName;
+          $updatemodel = $this->categoryRepository->update($jsndata,$categoryid,$userid,$userName); 
     
           $updateMsg = $updatemodel->msg;
           $objLogger->info("======= END Category Action (Update) ================");
@@ -165,12 +305,13 @@ final class CategoryAction extends Action
 
     public function getOneategorydetail(Request $request, Response $response, array $args): Response
     {
-      $JWTdata = $this->getJsonFromParsedBodyData($request);
-      $userName = $JWTdata->decoded->userName;     
-      $objLogger = $this->loggerFactory->getFileObject('CategoryAction'.$userName.'.log', 'getOneategorydetail');
-      $objLogger->info("======= Start Channel Category Action (Single Data) ================");  
+         
+      $objLogger = $this->loggerFactory->getFileObject('CategoryAction', 'getOneategorydetail');
+      
 
         try {  
+          $objLogger->info("======= Start Channel Category Action (Single Data) ================");  
+
           $method = $request->getMethod();
           $objLogger->info("method : ".$method);
           if(strtoupper($method) != 'GET'){
@@ -182,7 +323,8 @@ final class CategoryAction extends Action
           if(strtoupper($contentType) != 'APPLICATION/JSON'){
             throw new ChannelException('Invalid ContentType', 500);
           }
-
+          $JWTdata = $this->getJsonFromParsedBodyData($request);
+          $userName = $JWTdata->decoded->userName;  
           $jsndata = $this->getParsedBodyData($request);
           $userid = $JWTdata->decoded->id;  
           $objLogger->info("Input Data : ".json_encode($jsndata));
@@ -208,11 +350,11 @@ final class CategoryAction extends Action
 
 
     public function create(Request $request, Response $response, array $args): Response{
-      $JWTdata = $this->getJsonFromParsedBodyData($request);
-        $userName = $JWTdata->decoded->userName;
-        $objLogger = $this->loggerFactory->getFileObject('CategoryAction'.$userName.'.log', 'create');
-        $objLogger->info("======= Start Channel Category Action (Create) ================");  
+      
+        $objLogger = $this->loggerFactory->getFileObject('CategoryAction', 'create');
+         
       try {   
+        $objLogger->info("======= Start Channel Category Action (Create) ================"); 
         $method = $request->getMethod();
         $objLogger->info("method : ".$method);
         if(strtoupper($method) != 'POST'){
@@ -224,6 +366,8 @@ final class CategoryAction extends Action
         if(strtoupper($contentType) != 'APPLICATION/JSON'){
           throw new ChannelException('Invalid ContentType', 500);
         }
+        $JWTdata = $this->getJsonFromParsedBodyData($request);
+        $userName = $JWTdata->decoded->userName;
 
         $jsndata = $this->getParsedBodyData($request);
         $objLogger->info("Input Data : ".json_encode($jsndata));
@@ -233,7 +377,7 @@ final class CategoryAction extends Action
             throw new ChannelException('JWT Token invalid or Expired.', 401);
         }
       
-        $addCategory = $this->categoryRepository->create($jsndata);   
+        $addCategory = $this->categoryRepository->create($jsndata,$userName);   
         $objLogger->info("======= END Channel Action (Create) ================");
         $returnmsg = $addCategory->msg;
         return $this->jsonResponse($response, $returnmsg,'', 200);

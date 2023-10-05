@@ -119,18 +119,18 @@ return function (App $app) {
 		$group->post('/export-excel', BrandAction::class.':excel')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
     });
 
-    $app->group('/customer', function(Group $group){
-        $group->post('/list',HotelAction::class.':gethotelsList')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
-        $group->post('',HotelAction::class.':create')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
-        $group->get('/{id}', HotelAction::class.':gethotelOne')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
-        $group->put('/{id}', HotelAction::class.':update')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
-        $group->delete('/{id}', HotelAction::class.':delete')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
-		$group->put('/statusupdate/{id}', HotelAction::class.':activeOrDeactive')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
-        $group->put('/icmpstatus/{id}', HotelAction::class.':icmpStatus')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
-        $group->put('/alertemlstatus/{id}', HotelAction::class.':alertEmailStatus')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
-        $group->put('/bwstatus/{id}', HotelAction::class.':bwStatus')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
-        $group->post('/export-excel', HotelAction::class.':excel')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
-        $group->post('/gnrtehtlcde', HotelAction::class.':gnrteHtlCde')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
+    $app->group('/customer', function(Group $custGrp){
+        $custGrp->post('/list',HotelAction::class.':gethotelsList')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
+        $custGrp->post('',HotelAction::class.':create')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
+        $custGrp->get('/{id}', HotelAction::class.':gethotelOne')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
+        $custGrp->put('/{id}', HotelAction::class.':update')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
+        $custGrp->delete('/{id}', HotelAction::class.':delete')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
+		$custGrp->put('/statusupdate/{id}', HotelAction::class.':activeOrDeactive')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
+        $custGrp->put('/icmpstatus/{id}', HotelAction::class.':icmpStatus')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
+        $custGrp->put('/alertemlstatus/{id}', HotelAction::class.':alertEmailStatus')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
+        $custGrp->put('/bwstatus/{id}', HotelAction::class.':bwStatus')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
+        $custGrp->post('/export-excel', HotelAction::class.':excel')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
+        $custGrp->post('/gnrtehtlcde', HotelAction::class.':gnrteHtlCde')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
     });
 
     $app->group('/tv', function(Group $group){
@@ -141,20 +141,24 @@ return function (App $app) {
         $group->delete('/{id}', TvAction::class.':delete')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
     });
 
-    $app->group('/channel', function(Group $group){
-        $group->post('/list',ChannelAction::class.':getchannelsList')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
-        $group->post('',ChannelAction::class.':create')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
-        $group->get('/{id}', ChannelAction::class.':getOnechanneldetail')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
-        $group->post('/{id}', ChannelAction::class.':update')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
-        $group->delete('/{id}', ChannelAction::class.':delete')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
+    $app->group('/channel', function(Group $channelGrp){
+        $channelGrp->post('/list',ChannelAction::class.':getchannelsList')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
+        $channelGrp->post('',ChannelAction::class.':create')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
+        $channelGrp->get('/{id}', ChannelAction::class.':getOnechanneldetail')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
+        $channelGrp->post('/{id}', ChannelAction::class.':update')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
+        $channelGrp->delete('/{id}', ChannelAction::class.':delete')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
+        $channelGrp->post('/export/excel', ChannelAction::class.':channelExcel')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
     });
-
+  
     $app->group('/channelcategory', function(Group $group){
         $group->post('/list',CategoryAction::class.':categoryList')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
         $group->post('',CategoryAction::class.':create')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
         $group->get('/{id}', CategoryAction::class.':getOneategorydetail')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
         $group->put('/{id}', CategoryAction::class.':update')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
         $group->delete('/{id}', CategoryAction::class.':delete')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
+        $group->post('/asgnedchnls', CategoryAction::class.':assignedchannel')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
+        $group->post('/avlchnls', CategoryAction::class.':availablechannel')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
+        $group->post('/export/excel', CategoryAction::class.':excel')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
     });
 
     
@@ -214,6 +218,8 @@ return function (App $app) {
         $guestmsg->post('/list', GuestMessageAction::class.':getguestmsgList')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
         $guestmsg->post('', GuestMessageAction::class.':sendmessage')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
         $guestmsg->get('/{id}', GuestMessageAction::class.':getoneRoom')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
+        $guestmsg->delete('/{id}', GuestMessageAction::class.':delete')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
+        //$guestmsg->post('/export-excel', GuestMessageAction::class.':excel')->add(new AuthMiddleware($this->get(JwtToken::class), $this->get(DBConFactory::class)));
     });
 
     
